@@ -555,7 +555,14 @@ function parseBatchItems(value: string) {
     .filter(Boolean);
 }
 
-export default function FlashcardsApp() {
+export default function FlashcardsApp({
+  account,
+}: {
+  account?: {
+    email: string;
+    onSignOut: () => void | Promise<unknown>;
+  };
+} = {}) {
   const [tab, setTab] = useState<Tab>("study");
   const [cards, setCards] = useState<Card[]>(starterCards);
   const [speakingText, setSpeakingText] = useState("");
@@ -1108,6 +1115,14 @@ ${list.map((item, itemIndex) => `${itemIndex + 1}. ${item}`).join("\n")}
           <p className="eyebrow">IL MIO VIAGGIO ITALIANO</p>
           <h1>Le mie parole</h1>
         </div>
+        {account && (
+          <div className="accountBox">
+            <span title={account.email}>{account.email}</span>
+            <button type="button" onClick={() => void account.onSignOut()}>
+              Выйти
+            </button>
+          </div>
+        )}
         <div className="streak" aria-label="Изучено карточек">
           <span>✦</span>
           <b>{cards.filter((c) => progress[c.id] === "known").length}</b>
@@ -1129,18 +1144,6 @@ ${list.map((item, itemIndex) => `${itemIndex + 1}. ${item}`).join("\n")}
           badge={hardCount}
         />
         <NavButton name="sections" icon="map" label="Разделы" />
-        <button
-          className={`navAdd ${tab === "add" ? "active" : ""}`}
-          onClick={() => {
-            setEditingId(null);
-            setForm(emptyForm);
-            setAddMode("batch");
-            setTab("add");
-          }}
-          aria-label="Добавить"
-        >
-          <span>＋</span>
-        </button>
         <NavButton name="library" icon="book" label="Словарь" />
         <NavButton name="progress" icon="route" label="Прогресс" />
       </nav>
@@ -1570,22 +1573,6 @@ ${list.map((item, itemIndex) => `${itemIndex + 1}. ${item}`).join("\n")}
             <p className="sectionLabel">Свободный просмотр</p>
             <h2>Все карточки</h2>
           </div>
-          <button
-            onClick={() => {
-              setEditingId(null);
-              setForm({
-                ...emptyForm,
-                topic:
-                  libraryTopic === "Все разделы"
-                    ? emptyForm.topic
-                    : libraryTopic,
-              });
-              setAddMode("batch");
-              setTab("add");
-            }}
-          >
-            ＋ Добавить
-          </button>
         </div>
         <p className="libraryHint">
           Здесь можно спокойно просматривать, раскрывать и распределять карточки
