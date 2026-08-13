@@ -258,11 +258,14 @@ const semanticEmoji: Array<[RegExp, string]> = [
   [/città|via/i, "🏙️"],
   [/caffè/i, "☕"],
   [/musica/i, "🎵"],
-  [/macchina|moto|auto|bici/i, "🚗"],
+  [/bicicletta|\bbici\b/i, "🚲"],
+  [/\bmoto\b|motocicletta/i, "🏍️"],
+  [/macchina|automobile|\bauto\b/i, "🚗"],
   [/aiuto/i, "🤝"],
   [/indirizzo/i, "📍"],
   [/numero/i, "🔢"],
-  [/telefono|radio/i, "📱"],
+  [/radio/i, "📻"],
+  [/telefono/i, "📱"],
   [/euro|milione|miliardo/i, "💶"],
   [/persona|uomo/i, "🧍"],
   [/fame|mangiare|affamato/i, "🍝"],
@@ -975,6 +978,8 @@ ${list.map((item, itemIndex) => `${itemIndex + 1}. ${item}`).join("\n")}
 2. kind="word" ставь для отдельного слова, включая глагол в инфинитиве. kind="phrase" ставь для выражения или готового предложения из нескольких слов.
 2.1. В поле italian каждой карточки указывай только одно слово или одно цельное выражение. Не объединяй единственное и множественное число, варианты или формы стрелками (например, нельзя: la bugia → le bugie).
 3. Для КАЖДОГО word поля example и exampleTranslation обязательны и не могут быть пустыми. example — естественное итальянское предложение уровня A1–A2 длиной примерно 4–10 слов, показывающее значение слова в понятном контексте. Для глагола допустима естественная спрягаемая форма. exampleTranslation — точный русский перевод всего предложения. usage для word оставь пустым.
+3.1. Пример должен быть фразой, которую реально можно сказать в обычной жизни. Запрещены метаязыковые шаблоны вроде «Oggi uso la parola…», «Oggi studio il verbo…», «Questa parola è…», «Vedo…» без полезного контекста и «Il numero è…».
+3.2. Используй полную общеупотребительную словарную форму, если сокращение может быть непонятно начинающему: например, la bicicletta, а не la bici.
 4. Для КАЖДОГО phrase поля example и exampleTranslation оставь пустыми, а usage обязательно заполни кратким понятным пояснением по-русски: кто, кому и в какой ситуации говорит эту фразу.
 5. ipa обязательна для каждого элемента: только нормативная итальянская IPA в косых чертах, без русской транскрипции.
 6. translation обязательна: точный естественный русский перевод.
@@ -1035,6 +1040,17 @@ ${list.map((item, itemIndex) => `${itemIndex + 1}. ${item}`).join("\n")}
       if (incompleteWord)
         throw new Error(
           `У слова «${incompleteWord.italian || "без названия"}» нет предложения или его перевода. Попроси ChatGPT дополнить ответ.`,
+        );
+      const genericExample = parsed.find(
+        (card) =>
+          card?.kind === "word" &&
+          /(Oggi (uso la parola|studio il verbo)|Questa parola è|Il numero è)/i.test(
+            String(card.example || ""),
+          ),
+      );
+      if (genericExample)
+        throw new Error(
+          `У слова «${genericExample.italian || "без названия"}» шаблонный пример. Нужна естественная бытовая фраза с этим словом.`,
         );
       const incompletePhrase = parsed.find(
         (card) => card?.kind === "phrase" && !String(card.usage || "").trim(),
