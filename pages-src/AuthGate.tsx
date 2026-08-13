@@ -1,4 +1,4 @@
-import { FormEvent, ReactNode, useEffect, useState } from "react";
+import { cloneElement, FormEvent, isValidElement, ReactElement, ReactNode, useEffect, useState } from "react";
 import type { Session } from "@supabase/supabase-js";
 import { supabase } from "./supabase";
 
@@ -74,13 +74,21 @@ export default function AuthGate({ children }: { children: ReactNode }) {
   }
 
   if (session && allowed === true && mode !== "new-password") {
-    return (
-      <>
-        {children}
-        <button className="accountExit" onClick={() => supabase.auth.signOut()}>
-          Выйти · {session.user.email}
-        </button>
-      </>
+    if (!isValidElement(children)) return <>{children}</>;
+
+    return cloneElement(
+      children as ReactElement<{
+        account?: {
+          email: string;
+          onSignOut: () => Promise<unknown>;
+        };
+      }>,
+      {
+        account: {
+          email: session.user.email ?? "",
+          onSignOut: () => supabase.auth.signOut(),
+        },
+      },
     );
   }
 
