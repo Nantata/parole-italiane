@@ -561,6 +561,7 @@ function parseBatchItems(value: string) {
 export default function FlashcardsApp() {
   const [tab, setTab] = useState<Tab>("study");
   const [cards, setCards] = useState<Card[]>(starterCards);
+  const [speakingText, setSpeakingText] = useState("");
   const [savedTopics, setSavedTopics] = useState<string[]>([]);
   const [progress, setProgress] = useState<Record<number, Status>>({});
   const [topic, setTopic] = useState("Все разделы");
@@ -591,6 +592,30 @@ export default function FlashcardsApp() {
   const [expandedCardId, setExpandedCardId] = useState<number | null>(null);
   const [selectedIds, setSelectedIds] = useState<number[]>([]);
   const [libraryMessage, setLibraryMessage] = useState("");
+
+  function speakItalian(text: string) {
+    const phrase = text.trim();
+    if (!phrase || typeof window === "undefined" || !("speechSynthesis" in window)) return;
+
+    window.speechSynthesis.cancel();
+    const utterance = new SpeechSynthesisUtterance(phrase);
+    const italianVoices = window.speechSynthesis
+      .getVoices()
+      .filter((voice) => voice.lang.toLowerCase().startsWith("it"));
+    const preferredVoice =
+      italianVoices.find((voice) => voice.lang.toLowerCase() === "it-it" && voice.localService) ||
+      italianVoices.find((voice) => voice.lang.toLowerCase() === "it-it") ||
+      italianVoices[0];
+
+    utterance.lang = "it-IT";
+    utterance.rate = 0.92;
+    utterance.pitch = 1;
+    if (preferredVoice) utterance.voice = preferredVoice;
+    utterance.onstart = () => setSpeakingText(phrase);
+    utterance.onend = () => setSpeakingText("");
+    utterance.onerror = () => setSpeakingText("");
+    window.speechSynthesis.speak(utterance);
+  }
 
   useEffect(() => {
     async function loadCompletePack() {
@@ -1318,11 +1343,31 @@ ${list.map((item, itemIndex) => `${itemIndex + 1}. ${item}`).join("\n")}
           <div className="emptyCard">Загружаю твоё путешествие…</div>
         ) : current ? (
           <>
-            <button
+            <div
               className={`flashcard ${revealed ? "revealed" : ""}`}
               onClick={() => setRevealed(!revealed)}
+              onKeyDown={(event) => {
+                if (event.key === "Enter" || event.key === " ") {
+                  event.preventDefault();
+                  setRevealed(!revealed);
+                }
+              }}
+              role="button"
+              tabIndex={0}
               aria-label="Перевернуть карточку"
             >
+              <button
+                type="button"
+                className={`cardSound ${speakingText === current.italian.trim() ? "speaking" : ""}`}
+                onClick={(event) => {
+                  event.stopPropagation();
+                  speakItalian(current.italian);
+                }}
+                aria-label={`Прослушать: ${current.italian}`}
+                title="Прослушать слово по-итальянски"
+              >
+                <span aria-hidden="true">🔊</span>
+              </button>
               <span className="topicPill">
                 {current.kind === "word" ? "СЛОВО" : "ФРАЗА"} · {current.topic}
               </span>
@@ -1338,7 +1383,21 @@ ${list.map((item, itemIndex) => `${itemIndex + 1}. ${item}`).join("\n")}
                   <b>{current.translation}</b>
                   {current.kind === "word" && current.example ? (
                     <small>
-                      {current.example}
+                      <span className="exampleItalian">
+                        {current.example}
+                        <button
+                          type="button"
+                          className={`exampleSound ${speakingText === current.example.trim() ? "speaking" : ""}`}
+                          onClick={(event) => {
+                            event.stopPropagation();
+                            speakItalian(current.example);
+                          }}
+                          aria-label={`Прослушать пример: ${current.example}`}
+                          title="Прослушать пример по-итальянски"
+                        >
+                          <span aria-hidden="true">🔊</span>
+                        </button>
+                      </span>
                       <em>{current.exampleTranslation}</em>
                     </small>
                   ) : null}
@@ -1347,7 +1406,7 @@ ${list.map((item, itemIndex) => `${itemIndex + 1}. ${item}`).join("\n")}
                   ) : null}
                 </span>
               )}
-            </button>
+            </div>
             <div className="actions">
               <button className="repeat" onClick={() => mark("repeat")}>
                 <span>↺</span>Повторить
