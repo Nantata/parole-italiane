@@ -7,7 +7,10 @@ type Mode = "login" | "signup" | "recovery" | "new-password";
 export default function AuthGate({ children }: { children: ReactNode }) {
   const [session, setSession] = useState<Session | null>(null);
   const [allowed, setAllowed] = useState<boolean | null>(null);
-  const [mode, setMode] = useState<Mode>("login");
+  const [mode, setMode] = useState<Mode>(() => {
+    const recoveryType = new URLSearchParams(window.location.hash.slice(1)).get("type");
+    return recoveryType === "recovery" ? "new-password" : "login";
+  });
   const [email, setEmail] = useState("nantata8@gmail.com");
   const [password, setPassword] = useState("");
   const [message, setMessage] = useState("");
@@ -70,7 +73,7 @@ export default function AuthGate({ children }: { children: ReactNode }) {
     }
   }
 
-  if (session && allowed === true) {
+  if (session && allowed === true && mode !== "new-password") {
     return (
       <>
         {children}
@@ -81,10 +84,10 @@ export default function AuthGate({ children }: { children: ReactNode }) {
     );
   }
 
-  if (session && allowed === null)
+  if (session && allowed === null && mode !== "new-password")
     return <div className="authPage"><div className="authCard">Проверяю доступ…</div></div>;
 
-  if (session && allowed === false) {
+  if (session && allowed === false && mode !== "new-password") {
     return (
       <div className="authPage"><div className="authCard">
         <div className="authLogo">ciao</div>
