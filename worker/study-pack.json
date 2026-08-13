@@ -5,9 +5,9 @@
     "italian": "Ciao!",
     "ipa": "/tʃˈao/",
     "translation": "привет!",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «привет!».",
+    "example": "Ciao, Maria! Come stai?",
+    "exampleTranslation": "Привет, Мария! Как ты?",
+    "usage": "",
     "association": "hello"
   },
   {
@@ -16,9 +16,9 @@
     "italian": "Buongiorno!",
     "ipa": "/buondʒˈɔrno/",
     "translation": "доброе утро!; добрый день!",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «доброе утро!; добрый день!».",
+    "example": "Buongiorno, vorrei un caffè.",
+    "exampleTranslation": "Добрый день, я хотела бы кофе.",
+    "usage": "",
     "association": "morning"
   },
   {
@@ -27,9 +27,9 @@
     "italian": "Buondì!",
     "ipa": "/bwonˈdi/",
     "translation": "добрый день!",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «добрый день!».",
+    "example": "Buondì, come va?",
+    "exampleTranslation": "Добрый день, как дела?",
+    "usage": "",
     "association": "morning"
   },
   {
@@ -38,9 +38,9 @@
     "italian": "Buon pomeriggio!",
     "ipa": "/bwˌɔn pomerˈidʒːo/",
     "translation": "добрый день!",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «добрый день!».",
+    "example": "Buon pomeriggio, signora Rossi.",
+    "exampleTranslation": "Добрый день, синьора Росси.",
+    "usage": "",
     "association": "afternoon"
   },
   {
@@ -49,9 +49,9 @@
     "italian": "Buonasera!",
     "ipa": "/bwˌɔnasˈera/",
     "translation": "добрый вечер!",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «добрый вечер!».",
+    "example": "Buonasera, abbiamo una prenotazione.",
+    "exampleTranslation": "Добрый вечер, у нас есть бронь.",
+    "usage": "",
     "association": "evening"
   },
   {
@@ -60,9 +60,9 @@
     "italian": "Salve!",
     "ipa": "/sˈalve/",
     "translation": "здравствуйте!",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «здравствуйте!».",
+    "example": "Salve, posso aiutarLa?",
+    "exampleTranslation": "Здравствуйте, я могу Вам помочь?",
+    "usage": "",
     "association": "hello"
   },
   {
@@ -71,9 +71,9 @@
     "italian": "Buongiorno, signora!",
     "ipa": "/buondʒˈɔrno siɲˈora/",
     "translation": "добрый день, синьора!",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «добрый день, синьора!».",
+    "example": "Buongiorno, signora! Come sta?",
+    "exampleTranslation": "Добрый день, синьора! Как Вы?",
+    "usage": "",
     "association": "morning"
   },
   {
@@ -82,9 +82,9 @@
     "italian": "Ciao! Come va?",
     "ipa": "/tʃˈao kˌome vˈa/",
     "translation": "привет! Как дела?",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «привет! Как дела?».",
+    "example": "Ciao, Anna! Come va?",
+    "exampleTranslation": "Привет, Анна! Как дела?",
+    "usage": "",
     "association": "hello"
   },
   {
@@ -93,9 +93,9 @@
     "italian": "Salve, piacere!",
     "ipa": "/sˈalve pjatʃˈere/",
     "translation": "здравствуйте, приятно познакомиться!",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «здравствуйте, приятно познакомиться!».",
+    "example": "Salve, piacere! Mi chiamo Natalia.",
+    "exampleTranslation": "Здравствуйте, приятно познакомиться! Меня зовут Наталья.",
+    "usage": "",
     "association": "hello"
   },
   {
@@ -104,9 +104,9 @@
     "italian": "Ciao!",
     "ipa": "/tʃˈao/",
     "translation": "пока!",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «пока!».",
+    "example": "Ciao, a domani!",
+    "exampleTranslation": "Пока, до завтра!",
+    "usage": "",
     "association": "goodbye"
   },
   {
@@ -115,9 +115,9 @@
     "italian": "Arrivederci!",
     "ipa": "/arɾivedˈɛrtʃi/",
     "translation": "до свидания!",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «до свидания!».",
+    "example": "Grazie e arrivederci!",
+    "exampleTranslation": "Спасибо и до свидания!",
+    "usage": "",
     "association": "goodbye"
   },
   {
@@ -126,9 +126,9 @@
     "italian": "ArrivederLa!",
     "ipa": "/arɾivedˈɛr lˈa/",
     "translation": "до свидания! (вежливо, одному человеку)",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «до свидания! (вежливо, одному человеку)».",
+    "example": "Grazie del Suo aiuto. ArrivederLa!",
+    "exampleTranslation": "Спасибо за Вашу помощь. До свидания!",
+    "usage": "",
     "association": "goodbye"
   },
   {
@@ -137,9 +137,9 @@
     "italian": "Buona giornata!",
     "ipa": "/buˈɔna dʒornˈata/",
     "translation": "хорошего дня!",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «хорошего дня!».",
+    "example": "Grazie, buona giornata!",
+    "exampleTranslation": "Спасибо, хорошего дня!",
+    "usage": "",
     "association": "goodbye"
   },
   {
@@ -148,9 +148,9 @@
     "italian": "Buona serata!",
     "ipa": "/buˈɔna serˈata/",
     "translation": "хорошего вечера!",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «хорошего вечера!».",
+    "example": "A domani e buona serata!",
+    "exampleTranslation": "До завтра и хорошего вечера!",
+    "usage": "",
     "association": "goodbye"
   },
   {
@@ -159,9 +159,9 @@
     "italian": "Buonanotte!",
     "ipa": "/buonanˈɔtːe/",
     "translation": "спокойной ночи!",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «спокойной ночи!».",
+    "example": "Buonanotte, a domani!",
+    "exampleTranslation": "Спокойной ночи, до завтра!",
+    "usage": "",
     "association": "night"
   },
   {
@@ -170,9 +170,9 @@
     "italian": "A presto!",
     "ipa": "/a prˈɛsto/",
     "translation": "до скорого!",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «до скорого!».",
+    "example": "Grazie della visita. A presto!",
+    "exampleTranslation": "Спасибо за визит. До скорого!",
+    "usage": "",
     "association": "soon"
   },
   {
@@ -181,9 +181,9 @@
     "italian": "A domani!",
     "ipa": "/a domˈani/",
     "translation": "до завтра!",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «до завтра!».",
+    "example": "Finisco il lavoro. A domani!",
+    "exampleTranslation": "Я заканчиваю работу. До завтра!",
+    "usage": "",
     "association": "tomorrow"
   },
   {
@@ -192,9 +192,9 @@
     "italian": "A più tardi!",
     "ipa": "/a pju ˈtardi/",
     "translation": "до скорого; увидимся позже!",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «до скорого; увидимся позже!».",
+    "example": "Adesso lavoro. A più tardi!",
+    "exampleTranslation": "Сейчас я работаю. Увидимся позже!",
+    "usage": "",
     "association": "later"
   },
   {
@@ -203,9 +203,9 @@
     "italian": "Alla prossima!",
     "ipa": "/ˌalla prˈɔssima/",
     "translation": "до следующего раза!",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «до следующего раза!».",
+    "example": "È stato un piacere. Alla prossima!",
+    "exampleTranslation": "Было приятно. До следующего раза!",
+    "usage": "",
     "association": "goodbye"
   },
   {
@@ -214,9 +214,9 @@
     "italian": "Ci vediamo!",
     "ipa": "/tʃi vedjˈamo/",
     "translation": "увидимся!",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «увидимся!».",
+    "example": "Ci vediamo domani al bar.",
+    "exampleTranslation": "Увидимся завтра в кафе.",
+    "usage": "",
     "association": "see-you"
   },
   {
@@ -225,9 +225,9 @@
     "italian": "Ci sentiamo!",
     "ipa": "/tʃi sentjˈamo/",
     "translation": "созвонимся; спишемся!",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «созвонимся; спишемся!».",
+    "example": "Sono occupata adesso. Ci sentiamo stasera!",
+    "exampleTranslation": "Сейчас я занята. Созвонимся вечером!",
+    "usage": "",
     "association": "phone"
   },
   {
@@ -236,9 +236,9 @@
     "italian": "Come ti chiami?",
     "ipa": "/kˌome ti kjˈami/",
     "translation": "как тебя зовут?",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «как тебя зовут?».",
+    "example": "Ciao! Come ti chiami?",
+    "exampleTranslation": "Привет! Как тебя зовут?",
+    "usage": "",
     "association": "name"
   },
   {
@@ -247,9 +247,9 @@
     "italian": "Come si chiama?",
     "ipa": "/kˌome si kjˈama/",
     "translation": "как Вас зовут?",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «как Вас зовут?».",
+    "example": "Buongiorno, come si chiama?",
+    "exampleTranslation": "Добрый день, как Вас зовут?",
+    "usage": "",
     "association": "book"
   },
   {
@@ -258,9 +258,9 @@
     "italian": "Mi chiamo…",
     "ipa": "/mi kjˈamo/",
     "translation": "меня зовут…",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «меня зовут…».",
+    "example": "Mi chiamo Natalia.",
+    "exampleTranslation": "Меня зовут Наталья.",
+    "usage": "",
     "association": "book"
   },
   {
@@ -269,9 +269,9 @@
     "italian": "E tu?",
     "ipa": "/e tˈu/",
     "translation": "а ты?",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «а ты?».",
+    "example": "Io vivo in Russia. E tu?",
+    "exampleTranslation": "Я живу в России. А ты?",
+    "usage": "",
     "association": "book"
   },
   {
@@ -280,9 +280,9 @@
     "italian": "E Lei?",
     "ipa": "/e lˈɛi/",
     "translation": "а Вы?",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «а Вы?».",
+    "example": "Io sono di Krasnojarsk. E Lei?",
+    "exampleTranslation": "Я из Красноярска. А Вы?",
+    "usage": "",
     "association": "book"
   },
   {
@@ -291,9 +291,9 @@
     "italian": "Piacere!",
     "ipa": "/pjatʃˈere/",
     "translation": "приятно познакомиться!",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «приятно познакомиться!».",
+    "example": "Mi chiamo Natalia, piacere!",
+    "exampleTranslation": "Меня зовут Наталья, приятно познакомиться!",
+    "usage": "",
     "association": "name"
   },
   {
@@ -302,9 +302,9 @@
     "italian": "Piacere mio!",
     "ipa": "/pjatʃˈere mˈio/",
     "translation": "взаимно!",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «взаимно!».",
+    "example": "Piacere di conoscerti. — Piacere mio!",
+    "exampleTranslation": "Приятно познакомиться. — Взаимно!",
+    "usage": "",
     "association": "name"
   },
   {
@@ -313,9 +313,9 @@
     "italian": "Di dove sei?",
     "ipa": "/di dˈove sˈɛi/",
     "translation": "откуда ты?",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «откуда ты?».",
+    "example": "Di dove sei? Sono di Roma.",
+    "exampleTranslation": "Откуда ты? Я из Рима.",
+    "usage": "",
     "association": "origin"
   },
   {
@@ -324,9 +324,9 @@
     "italian": "Di dov’è?",
     "ipa": "/di dˈova/",
     "translation": "откуда Вы?",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «откуда Вы?».",
+    "example": "Di dov’è, signora Rossi?",
+    "exampleTranslation": "Откуда Вы, синьора Росси?",
+    "usage": "",
     "association": "book"
   },
   {
@@ -335,9 +335,9 @@
     "italian": "Di dove siete?",
     "ipa": "/di dˈove sjˈete/",
     "translation": "откуда вы?",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «откуда вы?».",
+    "example": "Di dove siete? Siamo di Milano.",
+    "exampleTranslation": "Откуда вы? Мы из Милана.",
+    "usage": "",
     "association": "origin"
   },
   {
@@ -346,9 +346,9 @@
     "italian": "Di dove sono?",
     "ipa": "/di dˈove sˈono/",
     "translation": "откуда они?",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «откуда они?».",
+    "example": "Di dove sono i tuoi amici?",
+    "exampleTranslation": "Откуда твои друзья?",
+    "usage": "",
     "association": "origin"
   },
   {
@@ -357,9 +357,9 @@
     "italian": "Sono di…",
     "ipa": "/sˌono dˈi/",
     "translation": "я из…",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «я из…».",
+    "example": "Sono di Krasnojarsk.",
+    "exampleTranslation": "Я из Красноярска.",
+    "usage": "",
     "association": "book"
   },
   {
@@ -368,9 +368,9 @@
     "italian": "Abito a…",
     "ipa": "/ˈabito ˈa/",
     "translation": "я живу в…",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «я живу в…».",
+    "example": "Abito a Krasnojarsk.",
+    "exampleTranslation": "Я живу в Красноярске.",
+    "usage": "",
     "association": "book"
   },
   {
@@ -379,9 +379,9 @@
     "italian": "Vivo in…",
     "ipa": "/vˈivo in/",
     "translation": "я живу в…",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «я живу в…».",
+    "example": "Vivo in Russia.",
+    "exampleTranslation": "Я живу в России.",
+    "usage": "",
     "association": "book"
   },
   {
@@ -390,9 +390,9 @@
     "italian": "Come va?",
     "ipa": "/kˌome vˈa/",
     "translation": "как дела?",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «как дела?».",
+    "example": "Ciao, come va oggi?",
+    "exampleTranslation": "Привет, как дела сегодня?",
+    "usage": "",
     "association": "book"
   },
   {
@@ -401,9 +401,9 @@
     "italian": "Come stai?",
     "ipa": "/kˌome stˈaj/",
     "translation": "как ты?",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «как ты?».",
+    "example": "Come stai dopo il viaggio?",
+    "exampleTranslation": "Как ты себя чувствуешь после поездки?",
+    "usage": "",
     "association": "book"
   },
   {
@@ -412,9 +412,9 @@
     "italian": "Come sta?",
     "ipa": "/kˌome stˈa/",
     "translation": "как Вы?",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «как Вы?».",
+    "example": "Buongiorno, signora. Come sta?",
+    "exampleTranslation": "Добрый день, синьора. Как Вы?",
+    "usage": "",
     "association": "book"
   },
   {
@@ -423,9 +423,9 @@
     "italian": "Benissimo!",
     "ipa": "/benˈissimo/",
     "translation": "превосходно!",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «превосходно!».",
+    "example": "Oggi sto benissimo!",
+    "exampleTranslation": "Сегодня я чувствую себя превосходно!",
+    "usage": "",
     "association": "excellent"
   },
   {
@@ -434,9 +434,9 @@
     "italian": "Molto bene, grazie.",
     "ipa": "/mˈolto bˈɛne ɡrˈatsje/",
     "translation": "очень хорошо, спасибо.",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «очень хорошо, спасибо.».",
+    "example": "Come stai? — Molto bene, grazie.",
+    "exampleTranslation": "Как ты? — Очень хорошо, спасибо.",
+    "usage": "",
     "association": "good"
   },
   {
@@ -445,9 +445,9 @@
     "italian": "Bene.",
     "ipa": "/bˈɛne/",
     "translation": "хорошо.",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «хорошо.».",
+    "example": "Come va? — Bene, grazie.",
+    "exampleTranslation": "Как дела? — Хорошо, спасибо.",
+    "usage": "",
     "association": "good"
   },
   {
@@ -456,9 +456,9 @@
     "italian": "Non c’è male.",
     "ipa": "/non tʃ mˈale/",
     "translation": "неплохо.",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «неплохо.».",
+    "example": "Come va il lavoro? — Non c’è male.",
+    "exampleTranslation": "Как работа? — Неплохо.",
+    "usage": "",
     "association": "bad"
   },
   {
@@ -467,9 +467,9 @@
     "italian": "Così così.",
     "ipa": "/koˈzi koˈzi/",
     "translation": "так себе.",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «так себе.».",
+    "example": "Come stai oggi? — Così così.",
+    "exampleTranslation": "Как ты сегодня? — Так себе.",
+    "usage": "",
     "association": "book"
   },
   {
@@ -478,9 +478,9 @@
     "italian": "Male.",
     "ipa": "/mˈale/",
     "translation": "плохо.",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «плохо.».",
+    "example": "Come ti senti? — Male.",
+    "exampleTranslation": "Как ты себя чувствуешь? — Плохо.",
+    "usage": "",
     "association": "bad"
   },
   {
@@ -489,9 +489,9 @@
     "italian": "Dove abiti?",
     "ipa": "/dˈove ˈabiti/",
     "translation": "где ты живёшь?",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «где ты живёшь?».",
+    "example": "Dove abiti adesso?",
+    "exampleTranslation": "Где ты сейчас живёшь?",
+    "usage": "",
     "association": "origin"
   },
   {
@@ -500,9 +500,9 @@
     "italian": "Che cosa fai?",
     "ipa": "/ke kˈɔza fˈaːi/",
     "translation": "что ты делаешь?; чем ты занимаешься?",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «что ты делаешь?; чем ты занимаешься?».",
+    "example": "Che cosa fai questo fine settimana?",
+    "exampleTranslation": "Что ты делаешь в эти выходные?",
+    "usage": "",
     "association": "book"
   },
   {
@@ -511,9 +511,9 @@
     "italian": "Quando parti?",
     "ipa": "/kwˈando pˈarti/",
     "translation": "когда ты уезжаешь?",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «когда ты уезжаешь?».",
+    "example": "Quando parti per Roma?",
+    "exampleTranslation": "Когда ты уезжаешь в Рим?",
+    "usage": "",
     "association": "book"
   },
   {
@@ -522,9 +522,9 @@
     "italian": "Perché studi italiano?",
     "ipa": "/perˈke ˈstudi itaˈljano/",
     "translation": "почему ты изучаешь итальянский?",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «почему ты изучаешь итальянский?».",
+    "example": "Perché studi italiano ogni giorno?",
+    "exampleTranslation": "Почему ты каждый день изучаешь итальянский язык?",
+    "usage": "",
     "association": "origin"
   },
   {
@@ -533,9 +533,9 @@
     "italian": "Chi sei?",
     "ipa": "/ki sˈɛi/",
     "translation": "кто ты?",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «кто ты?».",
+    "example": "Ciao, chi sei?",
+    "exampleTranslation": "Привет, кто ты?",
+    "usage": "",
     "association": "book"
   },
   {
@@ -544,9 +544,9 @@
     "italian": "Qual è il tuo indirizzo?",
     "ipa": "/kwal ɛ il ˈtuo indiˈrittso/",
     "translation": "какой у тебя адрес?",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «какой у тебя адрес?».",
+    "example": "Qual è il tuo indirizzo a Roma?",
+    "exampleTranslation": "Какой у тебя адрес в Риме?",
+    "usage": "",
     "association": "book"
   },
   {
@@ -555,9 +555,9 @@
     "italian": "Qual è il Suo numero di telefono?",
     "ipa": "/kwal ɛ il ˈsuo ˈnumero di teˈlɛfono/",
     "translation": "какой у Вас номер телефона?",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «какой у Вас номер телефона?».",
+    "example": "Qual è il Suo numero di telefono, per favore?",
+    "exampleTranslation": "Какой у Вас номер телефона, пожалуйста?",
+    "usage": "",
     "association": "phone"
   },
   {
@@ -566,9 +566,9 @@
     "italian": "Quanti anni hai?",
     "ipa": "/kwˈanti ˈanni ˈaj/",
     "translation": "сколько тебе лет?",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «сколько тебе лет?».",
+    "example": "Quanti anni hai? Ho undici anni.",
+    "exampleTranslation": "Сколько тебе лет? Мне одиннадцать лет.",
+    "usage": "",
     "association": "book"
   },
   {
@@ -599,9 +599,9 @@
     "italian": "di dove",
     "ipa": "/di dˈove/",
     "translation": "откуда",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «откуда».",
+    "example": "Di dove è questa ragazza?",
+    "exampleTranslation": "Откуда эта девушка?",
+    "usage": "",
     "association": "origin"
   },
   {
@@ -610,9 +610,9 @@
     "italian": "che cosa",
     "ipa": "/ke kˈɔza/",
     "translation": "что",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «что».",
+    "example": "Che cosa vuoi mangiare?",
+    "exampleTranslation": "Что ты хочешь поесть?",
+    "usage": "",
     "association": "book"
   },
   {
@@ -852,9 +852,9 @@
     "italian": "un po’",
     "ipa": "/un pˈo/",
     "translation": "немного",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «немного».",
+    "example": "Parlo un po’ italiano.",
+    "exampleTranslation": "Я немного говорю по-итальянски.",
+    "usage": "",
     "association": "book"
   },
   {
@@ -1380,9 +1380,9 @@
     "italian": "essere + nome",
     "ipa": "/ˈɛssere nˈome/",
     "translation": "быть кем-либо; быть чем-либо",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «быть кем-либо; быть чем-либо».",
+    "example": "Sono Natalia.",
+    "exampleTranslation": "Я Наталья.",
+    "usage": "",
     "association": "name"
   },
   {
@@ -1391,9 +1391,9 @@
     "italian": "essere + professione",
     "ipa": "/ˈɛssere professjˈone/",
     "translation": "быть по профессии",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «быть по профессии».",
+    "example": "Sono una business analyst.",
+    "exampleTranslation": "Я бизнес-аналитик.",
+    "usage": "",
     "association": "book"
   },
   {
@@ -1402,9 +1402,9 @@
     "italian": "essere + nazionalità",
     "ipa": "/ˈɛssere natsjonaliˈta/",
     "translation": "быть какой-либо национальности",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «быть какой-либо национальности».",
+    "example": "Sono russa.",
+    "exampleTranslation": "Я русская.",
+    "usage": "",
     "association": "book"
   },
   {
@@ -1413,9 +1413,9 @@
     "italian": "essere + aggettivo",
     "ipa": "/ˈɛssere adʒːetːˈivo/",
     "translation": "быть каким-либо",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «быть каким-либо».",
+    "example": "Oggi sono felice.",
+    "exampleTranslation": "Сегодня я счастлива.",
+    "usage": "",
     "association": "book"
   },
   {
@@ -1424,9 +1424,9 @@
     "italian": "essere di + città",
     "ipa": "/ˈɛssere di tʃitˈta/",
     "translation": "быть родом из города",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «быть родом из города».",
+    "example": "Sono di Krasnojarsk.",
+    "exampleTranslation": "Я из Красноярска.",
+    "usage": "",
     "association": "book"
   },
   {
@@ -1435,9 +1435,9 @@
     "italian": "essere a + città",
     "ipa": "/ˈɛssere a tʃitˈta/",
     "translation": "находиться в городе",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «находиться в городе».",
+    "example": "Oggi sono a Roma.",
+    "exampleTranslation": "Сегодня я в Риме.",
+    "usage": "",
     "association": "book"
   },
   {
@@ -1446,9 +1446,9 @@
     "italian": "essere in + paese",
     "ipa": "/ˈɛssere in paˈeze/",
     "translation": "находиться в стране",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «находиться в стране».",
+    "example": "Adesso sono in Italia.",
+    "exampleTranslation": "Сейчас я в Италии.",
+    "usage": "",
     "association": "book"
   },
   {
@@ -1457,9 +1457,9 @@
     "italian": "essere stanco",
     "ipa": "/ˈɛssere stˈanko/",
     "translation": "быть уставшим",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «быть уставшим».",
+    "example": "Dopo il lavoro sono stanca.",
+    "exampleTranslation": "После работы я устала.",
+    "usage": "",
     "association": "book"
   },
   {
@@ -1468,9 +1468,9 @@
     "italian": "essere felice",
     "ipa": "/ˈɛssere felˈitʃe/",
     "translation": "быть счастливым",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «быть счастливым».",
+    "example": "Sono felice di vederti.",
+    "exampleTranslation": "Я рада тебя видеть.",
+    "usage": "",
     "association": "good"
   },
   {
@@ -1479,9 +1479,9 @@
     "italian": "essere triste",
     "ipa": "/ˈɛssere trˈiste/",
     "translation": "быть грустным",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «быть грустным».",
+    "example": "Oggi sono un po’ triste.",
+    "exampleTranslation": "Сегодня мне немного грустно.",
+    "usage": "",
     "association": "bad"
   },
   {
@@ -1490,9 +1490,9 @@
     "italian": "essere nervoso",
     "ipa": "/ˈɛssere nervˈozo/",
     "translation": "нервничать; быть нервным",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «нервничать; быть нервным».",
+    "example": "Sono nervosa prima dell’esame.",
+    "exampleTranslation": "Я нервничаю перед экзаменом.",
+    "usage": "",
     "association": "book"
   },
   {
@@ -1501,9 +1501,9 @@
     "italian": "essere preoccupato",
     "ipa": "/ˈɛssere preokːupˈato/",
     "translation": "быть обеспокоенным",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «быть обеспокоенным».",
+    "example": "Sono preoccupata per mia figlia.",
+    "exampleTranslation": "Я беспокоюсь о своей дочери.",
+    "usage": "",
     "association": "book"
   },
   {
@@ -1512,9 +1512,9 @@
     "italian": "essere malato",
     "ipa": "/ˈɛssere malˈato/",
     "translation": "быть больным",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «быть больным».",
+    "example": "Oggi sono malata e resto a casa.",
+    "exampleTranslation": "Сегодня я болею и остаюсь дома.",
+    "usage": "",
     "association": "book"
   },
   {
@@ -1523,9 +1523,9 @@
     "italian": "essere raffreddato",
     "ipa": "/ˈɛssere raffredːˈato/",
     "translation": "быть простуженным",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «быть простуженным».",
+    "example": "Sono raffreddata e bevo tè caldo.",
+    "exampleTranslation": "Я простужена и пью горячий чай.",
+    "usage": "",
     "association": "book"
   },
   {
@@ -1534,9 +1534,9 @@
     "italian": "essere affamato",
     "ipa": "/ˈɛssere affamˈato/",
     "translation": "быть голодным",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «быть голодным».",
+    "example": "Sono affamata, prepariamo la cena.",
+    "exampleTranslation": "Я голодна, давай приготовим ужин.",
+    "usage": "",
     "association": "book"
   },
   {
@@ -1545,9 +1545,9 @@
     "italian": "essere assetato",
     "ipa": "/ˈɛssere assetˈato/",
     "translation": "испытывать жажду",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «испытывать жажду».",
+    "example": "Dopo la passeggiata sono assetata.",
+    "exampleTranslation": "После прогулки я хочу пить.",
+    "usage": "",
     "association": "book"
   },
   {
@@ -1556,9 +1556,9 @@
     "italian": "essere contento di",
     "ipa": "/ˈɛssere konˈtɛnto di/",
     "translation": "быть довольным чем-либо",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «быть довольным чем-либо».",
+    "example": "Sono contenta del risultato.",
+    "exampleTranslation": "Я довольна результатом.",
+    "usage": "",
     "association": "good"
   },
   {
@@ -1567,9 +1567,9 @@
     "italian": "essere sorpreso",
     "ipa": "/ˈɛssere sorprˈezo/",
     "translation": "быть удивлённым",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «быть удивлённым».",
+    "example": "Sono sorpresa da questa notizia.",
+    "exampleTranslation": "Я удивлена этой новостью.",
+    "usage": "",
     "association": "book"
   },
   {
@@ -1578,9 +1578,9 @@
     "italian": "essere deluso",
     "ipa": "/ˈɛssere delˈuzo/",
     "translation": "быть разочарованным",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «быть разочарованным».",
+    "example": "Sono delusa dal risultato.",
+    "exampleTranslation": "Я разочарована результатом.",
+    "usage": "",
     "association": "bad"
   },
   {
@@ -1589,9 +1589,9 @@
     "italian": "essere arrabbiato con",
     "ipa": "/ˈɛssere arɾabːjˈato kˈon/",
     "translation": "сердиться на кого-либо",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «сердиться на кого-либо».",
+    "example": "Sono arrabbiata con lui.",
+    "exampleTranslation": "Я сержусь на него.",
+    "usage": "",
     "association": "book"
   },
   {
@@ -1600,9 +1600,9 @@
     "italian": "essere fiero di",
     "ipa": "/ˈɛssere fjˈɛro dˈi/",
     "translation": "гордиться кем-либо или чем-либо",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «гордиться кем-либо или чем-либо».",
+    "example": "Sono fiera di mia figlia.",
+    "exampleTranslation": "Я горжусь своей дочерью.",
+    "usage": "",
     "association": "book"
   },
   {
@@ -1611,9 +1611,9 @@
     "italian": "essere preoccupato per",
     "ipa": "/ˈɛssere preokːupˈato pˈer/",
     "translation": "беспокоиться о ком-либо или чём-либо",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «беспокоиться о ком-либо или чём-либо».",
+    "example": "Sono preoccupata per il viaggio.",
+    "exampleTranslation": "Я беспокоюсь о поездке.",
+    "usage": "",
     "association": "book"
   },
   {
@@ -1622,9 +1622,9 @@
     "italian": "essere a casa",
     "ipa": "/ˈɛssere a kˈaza/",
     "translation": "быть дома",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «быть дома».",
+    "example": "Stasera sono a casa.",
+    "exampleTranslation": "Сегодня вечером я дома.",
+    "usage": "",
     "association": "house"
   },
   {
@@ -1633,9 +1633,9 @@
     "italian": "essere al lavoro",
     "ipa": "/ˈɛssere al lavˈɔro/",
     "translation": "быть на работе",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «быть на работе».",
+    "example": "Adesso sono al lavoro.",
+    "exampleTranslation": "Сейчас я на работе.",
+    "usage": "",
     "association": "book"
   },
   {
@@ -1644,9 +1644,9 @@
     "italian": "essere a scuola",
     "ipa": "/ˈɛssere a skuˈɔla/",
     "translation": "быть в школе",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «быть в школе».",
+    "example": "Mia figlia è a scuola.",
+    "exampleTranslation": "Моя дочь в школе.",
+    "usage": "",
     "association": "book"
   },
   {
@@ -1655,9 +1655,9 @@
     "italian": "essere all’università",
     "ipa": "/ˈɛssere alluniversiˈta/",
     "translation": "быть в университете",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «быть в университете».",
+    "example": "Mio fratello è all’università.",
+    "exampleTranslation": "Мой брат в университете.",
+    "usage": "",
     "association": "book"
   },
   {
@@ -1666,9 +1666,9 @@
     "italian": "essere in vacanza",
     "ipa": "/ˈɛssere in vakˈantsa/",
     "translation": "быть в отпуске",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «быть в отпуске».",
+    "example": "Ad agosto sono in vacanza.",
+    "exampleTranslation": "В августе я в отпуске.",
+    "usage": "",
     "association": "travel"
   },
   {
@@ -1677,9 +1677,9 @@
     "italian": "essere in viaggio",
     "ipa": "/ˈɛssere in vjˈadʒːo/",
     "translation": "быть в поездке",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «быть в поездке».",
+    "example": "Questa settimana sono in viaggio.",
+    "exampleTranslation": "На этой неделе я в поездке.",
+    "usage": "",
     "association": "travel"
   },
   {
@@ -1688,9 +1688,9 @@
     "italian": "essere in ritardo",
     "ipa": "/ˈɛssere in ritˈardo/",
     "translation": "опаздывать",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «опаздывать».",
+    "example": "Scusami, sono in ritardo.",
+    "exampleTranslation": "Извини, я опаздываю.",
+    "usage": "",
     "association": "book"
   },
   {
@@ -1699,9 +1699,9 @@
     "italian": "essere in orario",
     "ipa": "/ˈɛssere in orˈario/",
     "translation": "быть вовремя",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «быть вовремя».",
+    "example": "Il treno è in orario.",
+    "exampleTranslation": "Поезд прибывает вовремя.",
+    "usage": "",
     "association": "book"
   },
   {
@@ -1710,9 +1710,9 @@
     "italian": "essere in anticipo",
     "ipa": "/ˈɛssere in antˈitʃipo/",
     "translation": "прийти или быть заранее",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «прийти или быть заранее».",
+    "example": "Oggi sono in anticipo di dieci minuti.",
+    "exampleTranslation": "Сегодня я пришла на десять минут раньше.",
+    "usage": "",
     "association": "book"
   },
   {
@@ -1721,9 +1721,9 @@
     "italian": "essere in forma",
     "ipa": "/ˈɛssere in fˈorma/",
     "translation": "быть в хорошей форме",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «быть в хорошей форме».",
+    "example": "Cammino ogni giorno per essere in forma.",
+    "exampleTranslation": "Я гуляю каждый день, чтобы быть в форме.",
+    "usage": "",
     "association": "book"
   },
   {
@@ -1732,9 +1732,9 @@
     "italian": "essere di buon umore",
     "ipa": "/ˈɛssere di bwˌɔn umˈore/",
     "translation": "быть в хорошем настроении",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «быть в хорошем настроении».",
+    "example": "Oggi sono di buon umore.",
+    "exampleTranslation": "Сегодня у меня хорошее настроение.",
+    "usage": "",
     "association": "book"
   },
   {
@@ -1743,9 +1743,9 @@
     "italian": "essere di cattivo umore",
     "ipa": "/ˈɛssere di katːˈivo umˈore/",
     "translation": "быть в плохом настроении",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «быть в плохом настроении».",
+    "example": "Stamattina sono di cattivo umore.",
+    "exampleTranslation": "Сегодня утром у меня плохое настроение.",
+    "usage": "",
     "association": "bad"
   },
   {
@@ -1754,9 +1754,9 @@
     "italian": "essere d’accordo con",
     "ipa": "/ˈɛssere dakːˈɔrdo kˈon/",
     "translation": "быть согласным с",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «быть согласным с».",
+    "example": "Sono d’accordo con te.",
+    "exampleTranslation": "Я согласна с тобой.",
+    "usage": "",
     "association": "book"
   },
   {
@@ -1765,9 +1765,9 @@
     "italian": "essere contrario a",
     "ipa": "/ˈɛssere konˈtrarjo a/",
     "translation": "быть против",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «быть против».",
+    "example": "Sono contraria a questa decisione.",
+    "exampleTranslation": "Я против этого решения.",
+    "usage": "",
     "association": "book"
   },
   {
@@ -1776,9 +1776,9 @@
     "italian": "essere in difficoltà",
     "ipa": "/ˈɛssere in diffikolˈta/",
     "translation": "испытывать трудности",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «испытывать трудности».",
+    "example": "Sono in difficoltà con questo esercizio.",
+    "exampleTranslation": "У меня трудности с этим упражнением.",
+    "usage": "",
     "association": "book"
   },
   {
@@ -1787,9 +1787,9 @@
     "italian": "essere al verde",
     "ipa": "/ˈɛssere al vˈerde/",
     "translation": "быть без денег",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «быть без денег».",
+    "example": "Questo mese sono al verde.",
+    "exampleTranslation": "В этом месяце у меня совсем нет денег.",
+    "usage": "",
     "association": "book"
   },
   {
@@ -1798,9 +1798,9 @@
     "italian": "essere fidanzato",
     "ipa": "/ˈɛssere fidantsˈato/",
     "translation": "быть помолвленным; состоять в отношениях",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «быть помолвленным; состоять в отношениях».",
+    "example": "Marco è fidanzato con Anna.",
+    "exampleTranslation": "Марко помолвлен с Анной.",
+    "usage": "",
     "association": "book"
   },
   {
@@ -1809,9 +1809,9 @@
     "italian": "essere sposato",
     "ipa": "/ˈɛssere spozˈato/",
     "translation": "быть женатым; замужем",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «быть женатым; замужем».",
+    "example": "Mia sorella è sposata.",
+    "exampleTranslation": "Моя сестра замужем.",
+    "usage": "",
     "association": "book"
   },
   {
@@ -1820,9 +1820,9 @@
     "italian": "essere divorziato",
     "ipa": "/ˈɛssere divortsjˈato/",
     "translation": "быть разведённым",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «быть разведённым».",
+    "example": "Lui è divorziato da due anni.",
+    "exampleTranslation": "Он разведён уже два года.",
+    "usage": "",
     "association": "book"
   },
   {
@@ -1831,9 +1831,9 @@
     "italian": "essere single",
     "ipa": "/ˈɛssere sˈinɡˌɔl/",
     "translation": "быть без пары",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «быть без пары».",
+    "example": "Al momento sono single.",
+    "exampleTranslation": "Сейчас я не состою в отношениях.",
+    "usage": "",
     "association": "book"
   },
   {
@@ -1842,9 +1842,9 @@
     "italian": "essere libero",
     "ipa": "/ˈɛssere lˈibero/",
     "translation": "быть свободным",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «быть свободным».",
+    "example": "Sono libera stasera.",
+    "exampleTranslation": "Я свободна сегодня вечером.",
+    "usage": "",
     "association": "book"
   },
   {
@@ -1853,9 +1853,9 @@
     "italian": "essere impegnato",
     "ipa": "/ˈɛssere impeɲˈato/",
     "translation": "быть занятым",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «быть занятым».",
+    "example": "Oggi sono molto impegnata.",
+    "exampleTranslation": "Сегодня я очень занята.",
+    "usage": "",
     "association": "book"
   },
   {
@@ -1886,9 +1886,9 @@
     "italian": "essere pronto a + infinito",
     "ipa": "/ˈɛssere prˈonto a infinˈito/",
     "translation": "быть готовым что-либо сделать",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «быть готовым что-либо сделать».",
+    "example": "Sono pronta a partire.",
+    "exampleTranslation": "Я готова отправляться.",
+    "usage": "",
     "association": "book"
   },
   {
@@ -1897,9 +1897,9 @@
     "italian": "essere in grado di + infinito",
     "ipa": "/ˈɛssere in ɡrˈado di infinˈito/",
     "translation": "быть в состоянии что-либо сделать",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «быть в состоянии что-либо сделать».",
+    "example": "Sono in grado di farlo da sola.",
+    "exampleTranslation": "Я в состоянии сделать это сама.",
+    "usage": "",
     "association": "book"
   },
   {
@@ -1908,9 +1908,9 @@
     "italian": "essere capace di + infinito",
     "ipa": "/ˈɛssere kapˈatʃe di infinˈito/",
     "translation": "быть способным что-либо сделать",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «быть способным что-либо сделать».",
+    "example": "Sono capace di parlare italiano.",
+    "exampleTranslation": "Я способна говорить по-итальянски.",
+    "usage": "",
     "association": "book"
   },
   {
@@ -1919,9 +1919,9 @@
     "italian": "essere abituato a",
     "ipa": "/ˈɛssere abituˈato ˈa/",
     "translation": "быть привыкшим к",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «быть привыкшим к».",
+    "example": "Sono abituata a svegliarmi presto.",
+    "exampleTranslation": "Я привыкла рано просыпаться.",
+    "usage": "",
     "association": "book"
   },
   {
@@ -1930,9 +1930,9 @@
     "italian": "essere sicuro di",
     "ipa": "/ˈɛssere sikˈuro dˈi/",
     "translation": "быть уверенным в",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «быть уверенным в».",
+    "example": "Sono sicura della mia scelta.",
+    "exampleTranslation": "Я уверена в своём выборе.",
+    "usage": "",
     "association": "book"
   },
   {
@@ -1941,9 +1941,9 @@
     "italian": "essere bravo in",
     "ipa": "/ˈɛssere brˈavo in/",
     "translation": "хорошо разбираться в; быть способным в",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «хорошо разбираться в; быть способным в».",
+    "example": "Mia figlia è brava in matematica.",
+    "exampleTranslation": "Моя дочь хорошо разбирается в математике.",
+    "usage": "",
     "association": "book"
   },
   {
@@ -1952,9 +1952,9 @@
     "italian": "essere buono con",
     "ipa": "/ˈɛssere buˈɔno kˈon/",
     "translation": "быть добрым с",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «быть добрым с».",
+    "example": "Lei è buona con i bambini.",
+    "exampleTranslation": "Она добра с детьми.",
+    "usage": "",
     "association": "good"
   },
   {
@@ -1963,9 +1963,9 @@
     "italian": "essere alla moda",
     "ipa": "/ˈɛssere ˌalla mˈɔda/",
     "translation": "быть модным",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «быть модным».",
+    "example": "Questo vestito è alla moda.",
+    "exampleTranslation": "Это платье модное.",
+    "usage": "",
     "association": "book"
   },
   {
@@ -2051,9 +2051,9 @@
     "italian": "avere + oggetto",
     "ipa": "/avˈere odʒːˈɛtːo/",
     "translation": "иметь предмет",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «иметь предмет».",
+    "example": "Ho una macchina nuova.",
+    "exampleTranslation": "У меня новая машина.",
+    "usage": "",
     "association": "book"
   },
   {
@@ -2062,9 +2062,9 @@
     "italian": "avere + numero + anni",
     "ipa": "/avˈere nˈumero ˈanni/",
     "translation": "быть определённого возраста",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «быть определённого возраста».",
+    "example": "Ho quarantaquattro anni.",
+    "exampleTranslation": "Мне сорок четыре года.",
+    "usage": "",
     "association": "book"
   },
   {
@@ -2073,9 +2073,9 @@
     "italian": "avere figli",
     "ipa": "/avˈere fˈiʎi/",
     "translation": "иметь детей",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «иметь детей».",
+    "example": "Ho una figlia.",
+    "exampleTranslation": "У меня есть дочь.",
+    "usage": "",
     "association": "book"
   },
   {
@@ -2084,9 +2084,9 @@
     "italian": "avere fame",
     "ipa": "/avˈere fˈame/",
     "translation": "быть голодным",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «быть голодным».",
+    "example": "Ho fame, prepariamo la cena.",
+    "exampleTranslation": "Я голодна, давай приготовим ужин.",
+    "usage": "",
     "association": "book"
   },
   {
@@ -2095,9 +2095,9 @@
     "italian": "avere sete",
     "ipa": "/avˈere sˈete/",
     "translation": "хотеть пить",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «хотеть пить».",
+    "example": "Ho sete, vorrei dell’acqua.",
+    "exampleTranslation": "Я хочу пить, мне нужна вода.",
+    "usage": "",
     "association": "book"
   },
   {
@@ -2106,9 +2106,9 @@
     "italian": "avere freddo",
     "ipa": "/avˈere frˈedːo/",
     "translation": "мёрзнуть",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «мёрзнуть».",
+    "example": "Ho freddo, chiudo la finestra.",
+    "exampleTranslation": "Мне холодно, я закрою окно.",
+    "usage": "",
     "association": "book"
   },
   {
@@ -2117,9 +2117,9 @@
     "italian": "avere caldo",
     "ipa": "/avˈere kˈaldo/",
     "translation": "испытывать жару",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «испытывать жару».",
+    "example": "Ho caldo, apro la finestra.",
+    "exampleTranslation": "Мне жарко, я открою окно.",
+    "usage": "",
     "association": "book"
   },
   {
@@ -2128,9 +2128,9 @@
     "italian": "avere sonno",
     "ipa": "/avˈere sˈonno/",
     "translation": "хотеть спать",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «хотеть спать».",
+    "example": "Ho sonno, vado a letto.",
+    "exampleTranslation": "Я хочу спать, я иду в постель.",
+    "usage": "",
     "association": "book"
   },
   {
@@ -2139,9 +2139,9 @@
     "italian": "avere fretta",
     "ipa": "/avˈere frˈetːa/",
     "translation": "спешить",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «спешить».",
+    "example": "Ho fretta, il treno parte presto.",
+    "exampleTranslation": "Я спешу, поезд скоро отправляется.",
+    "usage": "",
     "association": "book"
   },
   {
@@ -2150,9 +2150,9 @@
     "italian": "avere paura di",
     "ipa": "/avˈere paˈura dˈi/",
     "translation": "бояться",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «бояться».",
+    "example": "Ho paura di volare.",
+    "exampleTranslation": "Я боюсь летать.",
+    "usage": "",
     "association": "book"
   },
   {
@@ -2161,9 +2161,9 @@
     "italian": "avere bisogno di",
     "ipa": "/avˈere bizˈoɲɲo dˈi/",
     "translation": "нуждаться в",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «нуждаться в».",
+    "example": "Ho bisogno del tuo aiuto.",
+    "exampleTranslation": "Мне нужна твоя помощь.",
+    "usage": "",
     "association": "book"
   },
   {
@@ -2172,9 +2172,9 @@
     "italian": "avere voglia di",
     "ipa": "/avˈere vˈoʎa dˈi/",
     "translation": "хотеть; иметь желание",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «хотеть; иметь желание».",
+    "example": "Ho voglia di un caffè.",
+    "exampleTranslation": "Мне хочется кофе.",
+    "usage": "",
     "association": "book"
   },
   {
@@ -2183,9 +2183,9 @@
     "italian": "avere mal di…",
     "ipa": "/avˈere mˈal dˈi/",
     "translation": "испытывать боль в…",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «испытывать боль в…».",
+    "example": "Ho mal di schiena.",
+    "exampleTranslation": "У меня болит спина.",
+    "usage": "",
     "association": "book"
   },
   {
@@ -2194,9 +2194,9 @@
     "italian": "avere ragione",
     "ipa": "/avˈere radʒˈoːne/",
     "translation": "быть правым",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «быть правым».",
+    "example": "Hai ragione, questo è importante.",
+    "exampleTranslation": "Ты права, это важно.",
+    "usage": "",
     "association": "book"
   },
   {
@@ -2205,9 +2205,9 @@
     "italian": "avere torto",
     "ipa": "/avˈere tˈɔrto/",
     "translation": "быть неправым",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «быть неправым».",
+    "example": "Questa volta ho torto.",
+    "exampleTranslation": "На этот раз я не права.",
+    "usage": "",
     "association": "book"
   },
   {
@@ -2216,9 +2216,9 @@
     "italian": "avere fortuna",
     "ipa": "/avˈere fortˈuna/",
     "translation": "быть удачливым; везти",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «быть удачливым; везти».",
+    "example": "Oggi ho molta fortuna.",
+    "exampleTranslation": "Сегодня мне очень везёт.",
+    "usage": "",
     "association": "book"
   },
   {
@@ -2227,9 +2227,9 @@
     "italian": "avere mal di testa",
     "ipa": "/avˈere mˈal di tˈɛsta/",
     "translation": "иметь головную боль",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «иметь головную боль».",
+    "example": "Ho mal di testa e resto a casa.",
+    "exampleTranslation": "У меня болит голова, и я остаюсь дома.",
+    "usage": "",
     "association": "book"
   },
   {
@@ -2238,9 +2238,9 @@
     "italian": "avere mal di gola",
     "ipa": "/avˈere mˈal di ɡˈola/",
     "translation": "иметь боль в горле",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «иметь боль в горле».",
+    "example": "Ho mal di gola e bevo tè caldo.",
+    "exampleTranslation": "У меня болит горло, и я пью горячий чай.",
+    "usage": "",
     "association": "book"
   },
   {
@@ -2348,9 +2348,9 @@
     "italian": "di Roma",
     "ipa": "/di rˈoma/",
     "translation": "из Рима; римский",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «из Рима; римский».",
+    "example": "Questo è un piatto tipico di Roma.",
+    "exampleTranslation": "Это типичное римское блюдо.",
+    "usage": "",
     "association": "origin"
   },
   {
@@ -2359,9 +2359,9 @@
     "italian": "a Roma",
     "ipa": "/a rˈoma/",
     "translation": "в Риме; в Рим",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «в Риме; в Рим».",
+    "example": "Domani vado a Roma.",
+    "exampleTranslation": "Завтра я еду в Рим.",
+    "usage": "",
     "association": "origin"
   },
   {
@@ -2370,9 +2370,9 @@
     "italian": "da Roma",
     "ipa": "/da rˈoma/",
     "translation": "из Рима",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «из Рима».",
+    "example": "Il treno arriva da Roma.",
+    "exampleTranslation": "Поезд прибывает из Рима.",
+    "usage": "",
     "association": "origin"
   },
   {
@@ -2381,9 +2381,9 @@
     "italian": "in Italia",
     "ipa": "/in itˈalia/",
     "translation": "в Италии; в Италию",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «в Италии; в Италию».",
+    "example": "Vorrei vivere in Italia.",
+    "exampleTranslation": "Я хотела бы жить в Италии.",
+    "usage": "",
     "association": "origin"
   },
   {
@@ -2392,9 +2392,9 @@
     "italian": "da Maria",
     "ipa": "/da mˌarˈiːa/",
     "translation": "от Марии; у Марии",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «от Марии; у Марии».",
+    "example": "Stasera ceno da Maria.",
+    "exampleTranslation": "Сегодня вечером я ужинаю у Марии.",
+    "usage": "",
     "association": "book"
   },
   {
@@ -2403,9 +2403,9 @@
     "italian": "con Maria",
     "ipa": "/kon maˈria/",
     "translation": "с Марией",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «с Марией».",
+    "example": "Vado al cinema con Maria.",
+    "exampleTranslation": "Я иду в кино с Марией.",
+    "usage": "",
     "association": "book"
   },
   {
@@ -2414,9 +2414,9 @@
     "italian": "per Maria",
     "ipa": "/per mˌarˈiːa/",
     "translation": "для Марии",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «для Марии».",
+    "example": "Questo regalo è per Maria.",
+    "exampleTranslation": "Этот подарок для Марии.",
+    "usage": "",
     "association": "book"
   },
   {
@@ -2425,9 +2425,9 @@
     "italian": "tra amici",
     "ipa": "/tra amˈitʃi/",
     "translation": "среди друзей",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «среди друзей».",
+    "example": "Tra amici possiamo parlare liberamente.",
+    "exampleTranslation": "Среди друзей мы можем говорить свободно.",
+    "usage": "",
     "association": "book"
   },
   {
@@ -2436,9 +2436,9 @@
     "italian": "fra amici",
     "ipa": "/fra amˈitʃi/",
     "translation": "среди друзей",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «среди друзей».",
+    "example": "Questa è una cena fra amici.",
+    "exampleTranslation": "Это ужин в кругу друзей.",
+    "usage": "",
     "association": "book"
   },
   {
@@ -2645,9 +2645,9 @@
     "italian": "di + il = del",
     "ipa": "/di il dˈel/",
     "translation": "di с il образует del",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «di с il образует del».",
+    "example": "Il colore del mare è bellissimo.",
+    "exampleTranslation": "Цвет моря очень красивый.",
+    "usage": "",
     "association": "book"
   },
   {
@@ -2656,9 +2656,9 @@
     "italian": "di + lo = dello",
     "ipa": "/di lo dˈello/",
     "translation": "di с lo образует dello",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «di с lo образует dello».",
+    "example": "Le chiavi sono nello zaino dello studente.",
+    "exampleTranslation": "Ключи находятся в рюкзаке студента.",
+    "usage": "",
     "association": "book"
   },
   {
@@ -2667,9 +2667,9 @@
     "italian": "di + l’ = dell’",
     "ipa": "/di ˈɛlle dˈɛl/",
     "translation": "di с l’ образует dell’",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «di с l’ образует dell’».",
+    "example": "La porta dell’ufficio è chiusa.",
+    "exampleTranslation": "Дверь офиса закрыта.",
+    "usage": "",
     "association": "book"
   },
   {
@@ -2678,9 +2678,9 @@
     "italian": "di + la = della",
     "ipa": "/di la dˈella/",
     "translation": "di с la образует della",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «di с la образует della».",
+    "example": "Non ricordo il nome della strada.",
+    "exampleTranslation": "Я не помню название улицы.",
+    "usage": "",
     "association": "book"
   },
   {
@@ -2689,9 +2689,9 @@
     "italian": "di + i = dei",
     "ipa": "/di i dˈɛːi/",
     "translation": "di с i образует dei",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «di с i образует dei».",
+    "example": "Conosco uno dei tuoi amici.",
+    "exampleTranslation": "Я знаю одного из твоих друзей.",
+    "usage": "",
     "association": "book"
   },
   {
@@ -2700,9 +2700,9 @@
     "italian": "di + gli = degli",
     "ipa": "/di ʎi dˈeʎi/",
     "translation": "di с gli образует degli",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «di с gli образует degli».",
+    "example": "Parlo con uno degli studenti.",
+    "exampleTranslation": "Я разговариваю с одним из студентов.",
+    "usage": "",
     "association": "book"
   },
   {
@@ -2711,9 +2711,9 @@
     "italian": "di + le = delle",
     "ipa": "/di le dˈelle/",
     "translation": "di с le образует delle",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «di с le образует delle».",
+    "example": "Il prezzo delle camere è alto.",
+    "exampleTranslation": "Цена комнат высокая.",
+    "usage": "",
     "association": "book"
   },
   {
@@ -2722,9 +2722,9 @@
     "italian": "a + il = al",
     "ipa": "/a il ˈal/",
     "translation": "a с il образует al",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «a с il образует al».",
+    "example": "Vado al lavoro alle otto.",
+    "exampleTranslation": "Я иду на работу в восемь.",
+    "usage": "",
     "association": "book"
   },
   {
@@ -2733,9 +2733,9 @@
     "italian": "a + lo = allo",
     "ipa": "/a lo ˈallo/",
     "translation": "a с lo образует allo",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «a с lo образует allo».",
+    "example": "Domani parlo allo psicologo.",
+    "exampleTranslation": "Завтра я поговорю с психологом.",
+    "usage": "",
     "association": "book"
   },
   {
@@ -2744,9 +2744,9 @@
     "italian": "a + l’ = all’",
     "ipa": "/a ˈɛlle ˈal/",
     "translation": "a с l’ образует all’",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «a с l’ образует all’».",
+    "example": "Prendo un taxi all’aeroporto.",
+    "exampleTranslation": "Я беру такси в аэропорту.",
+    "usage": "",
     "association": "book"
   },
   {
@@ -2755,9 +2755,9 @@
     "italian": "a + la = alla",
     "ipa": "/a la ˈalla/",
     "translation": "a с la образует alla",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «a с la образует alla».",
+    "example": "Ti aspetto alla stazione.",
+    "exampleTranslation": "Я жду тебя на вокзале.",
+    "usage": "",
     "association": "book"
   },
   {
@@ -2766,9 +2766,9 @@
     "italian": "a + i = ai",
     "ipa": "/a i ˈaj/",
     "translation": "a с i образует ai",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «a с i образует ai».",
+    "example": "Telefono ai miei genitori.",
+    "exampleTranslation": "Я звоню своим родителям.",
+    "usage": "",
     "association": "book"
   },
   {
@@ -2777,9 +2777,9 @@
     "italian": "a + gli = agli",
     "ipa": "/a ʎi ˈaʎi/",
     "translation": "a с gli образует agli",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «a с gli образует agli».",
+    "example": "Parlo agli studenti.",
+    "exampleTranslation": "Я разговариваю со студентами.",
+    "usage": "",
     "association": "book"
   },
   {
@@ -2788,9 +2788,9 @@
     "italian": "a + le = alle",
     "ipa": "/a le ˈalle/",
     "translation": "a с le образует alle",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «a с le образует alle».",
+    "example": "Arrivo alle otto.",
+    "exampleTranslation": "Я приезжаю в восемь.",
+    "usage": "",
     "association": "book"
   },
   {
@@ -2799,9 +2799,9 @@
     "italian": "da + il = dal",
     "ipa": "/da il dˈal/",
     "translation": "da с il образует dal",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «da с il образует dal».",
+    "example": "Domani vado dal medico.",
+    "exampleTranslation": "Завтра я иду к врачу.",
+    "usage": "",
     "association": "book"
   },
   {
@@ -2810,9 +2810,9 @@
     "italian": "da + lo = dallo",
     "ipa": "/da lo dˈallo/",
     "translation": "da с lo образует dallo",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «da с lo образует dallo».",
+    "example": "Esco adesso dallo psicologo.",
+    "exampleTranslation": "Я сейчас выхожу от психолога.",
+    "usage": "",
     "association": "book"
   },
   {
@@ -2821,9 +2821,9 @@
     "italian": "da + l’ = dall’",
     "ipa": "/da ˈɛlle dˈal/",
     "translation": "da с l’ образует dall’",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «da с l’ образует dall’».",
+    "example": "Il treno parte dall’aeroporto.",
+    "exampleTranslation": "Поезд отправляется из аэропорта.",
+    "usage": "",
     "association": "book"
   },
   {
@@ -2832,9 +2832,9 @@
     "italian": "da + la = dalla",
     "ipa": "/da la dˈalla/",
     "translation": "da с la образует dalla",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «da с la образует dalla».",
+    "example": "Torno dalla farmacia.",
+    "exampleTranslation": "Я возвращаюсь из аптеки.",
+    "usage": "",
     "association": "book"
   },
   {
@@ -2843,9 +2843,9 @@
     "italian": "da + i = dai",
     "ipa": "/da i dˈaj/",
     "translation": "da с i образует dai",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «da с i образует dai».",
+    "example": "Vengo dai miei genitori.",
+    "exampleTranslation": "Я еду от своих родителей.",
+    "usage": "",
     "association": "book"
   },
   {
@@ -2854,9 +2854,9 @@
     "italian": "da + gli = dagli",
     "ipa": "/da ʎi dˈaʎi/",
     "translation": "da с gli образует dagli",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «da с gli образует dagli».",
+    "example": "Torno dagli amici.",
+    "exampleTranslation": "Я возвращаюсь от друзей.",
+    "usage": "",
     "association": "book"
   },
   {
@@ -2865,9 +2865,9 @@
     "italian": "da + le = dalle",
     "ipa": "/da le dˈalle/",
     "translation": "da с le образует dalle",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «da с le образует dalle».",
+    "example": "Torno dalle vacanze domani.",
+    "exampleTranslation": "Я возвращаюсь из отпуска завтра.",
+    "usage": "",
     "association": "book"
   },
   {
@@ -2876,9 +2876,9 @@
     "italian": "in + il = nel",
     "ipa": "/in il nˈɛl/",
     "translation": "in с il образует nel",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «in с il образует nel».",
+    "example": "Il bar è nel centro della città.",
+    "exampleTranslation": "Бар находится в центре города.",
+    "usage": "",
     "association": "book"
   },
   {
@@ -2887,9 +2887,9 @@
     "italian": "in + lo = nello",
     "ipa": "/in lo nˈello/",
     "translation": "in с lo образует nello",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «in с lo образует nello».",
+    "example": "Il libro è nello zaino.",
+    "exampleTranslation": "Книга находится в рюкзаке.",
+    "usage": "",
     "association": "book"
   },
   {
@@ -2898,9 +2898,9 @@
     "italian": "in + l’ = nell’",
     "ipa": "/in ˈɛlle nˈɛl/",
     "translation": "in с l’ образует nell’",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «in с l’ образует nell’».",
+    "example": "Il cappotto è nell’armadio.",
+    "exampleTranslation": "Пальто находится в шкафу.",
+    "usage": "",
     "association": "book"
   },
   {
@@ -2909,9 +2909,9 @@
     "italian": "in + la = nella",
     "ipa": "/in la nˈella/",
     "translation": "in с la образует nella",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «in с la образует nella».",
+    "example": "Le chiavi sono nella borsa.",
+    "exampleTranslation": "Ключи находятся в сумке.",
+    "usage": "",
     "association": "book"
   },
   {
@@ -2920,9 +2920,9 @@
     "italian": "in + i = nei",
     "ipa": "/in i nˈei/",
     "translation": "in с i образует nei",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «in с i образует nei».",
+    "example": "Compro il pane nei negozi locali.",
+    "exampleTranslation": "Я покупаю хлеб в местных магазинах.",
+    "usage": "",
     "association": "book"
   },
   {
@@ -2931,9 +2931,9 @@
     "italian": "in + gli = negli",
     "ipa": "/in ʎi nˈeʎi/",
     "translation": "in с gli образует negli",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «in с gli образует negli».",
+    "example": "Mia sorella vive negli Stati Uniti.",
+    "exampleTranslation": "Моя сестра живёт в Соединённых Штатах.",
+    "usage": "",
     "association": "book"
   },
   {
@@ -2942,9 +2942,9 @@
     "italian": "in + le = nelle",
     "ipa": "/in le nˈelle/",
     "translation": "in с le образует nelle",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «in с le образует nelle».",
+    "example": "Nelle città italiane cammino molto.",
+    "exampleTranslation": "В итальянских городах я много хожу пешком.",
+    "usage": "",
     "association": "book"
   },
   {
@@ -2953,9 +2953,9 @@
     "italian": "su + il = sul",
     "ipa": "/su il sˈul/",
     "translation": "su с il образует sul",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «su с il образует sul».",
+    "example": "Il telefono è sul tavolo.",
+    "exampleTranslation": "Телефон лежит на столе.",
+    "usage": "",
     "association": "book"
   },
   {
@@ -2964,9 +2964,9 @@
     "italian": "su + lo = sullo",
     "ipa": "/su lo sˈullo/",
     "translation": "su с lo образует sullo",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «su с lo образует sullo».",
+    "example": "Il libro è sullo scaffale.",
+    "exampleTranslation": "Книга находится на полке.",
+    "usage": "",
     "association": "book"
   },
   {
@@ -2975,9 +2975,9 @@
     "italian": "su + l’ = sull’",
     "ipa": "/su ˈɛlle sˈul/",
     "translation": "su с l’ образует sull’",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «su с l’ образует sull’».",
+    "example": "Leggo un libro sull’aereo.",
+    "exampleTranslation": "Я читаю книгу в самолёте.",
+    "usage": "",
     "association": "book"
   },
   {
@@ -2986,9 +2986,9 @@
     "italian": "su + la = sulla",
     "ipa": "/su la sˈulla/",
     "translation": "su с la образует sulla",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «su с la образует sulla».",
+    "example": "La borsa è sulla sedia.",
+    "exampleTranslation": "Сумка лежит на стуле.",
+    "usage": "",
     "association": "book"
   },
   {
@@ -2997,9 +2997,9 @@
     "italian": "su + i = sui",
     "ipa": "/su i sˈui/",
     "translation": "su с i образует sui",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «su с i образует sui».",
+    "example": "Ci sono appunti sui libri.",
+    "exampleTranslation": "На книгах лежат заметки.",
+    "usage": "",
     "association": "book"
   },
   {
@@ -3008,9 +3008,9 @@
     "italian": "su + gli = sugli",
     "ipa": "/su ʎi sˈuʎi/",
     "translation": "su с gli образует sugli",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «su с gli образует sugli».",
+    "example": "Parliamo spesso degli amici.",
+    "exampleTranslation": "Мы часто говорим о друзьях.",
+    "usage": "",
     "association": "book"
   },
   {
@@ -3019,9 +3019,9 @@
     "italian": "su + le = sulle",
     "ipa": "/su le sˈulle/",
     "translation": "su с le образует sulle",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «su с le образует sulle».",
+    "example": "Leggo un articolo sulle vacanze in Italia.",
+    "exampleTranslation": "Я читаю статью об отпуске в Италии.",
+    "usage": "",
     "association": "book"
   },
   {
@@ -3030,9 +3030,9 @@
     "italian": "con il",
     "ipa": "/kon il/",
     "translation": "с определённым предметом мужского рода",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «с определённым предметом мужского рода».",
+    "example": "Bevo il tè con il limone.",
+    "exampleTranslation": "Я пью чай с лимоном.",
+    "usage": "",
     "association": "book"
   },
   {
@@ -3041,9 +3041,9 @@
     "italian": "con i",
     "ipa": "/kon i/",
     "translation": "с определёнными предметами мужского рода",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «с определёнными предметами мужского рода».",
+    "example": "Esco con i miei amici.",
+    "exampleTranslation": "Я выхожу с моими друзьями.",
+    "usage": "",
     "association": "book"
   },
   {
@@ -4614,9 +4614,9 @@
     "italian": "avere gli occhi azzurri",
     "ipa": "/avˈere ʎi ˈɔkːi adzːˈurɾi/",
     "translation": "иметь голубые глаза",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «иметь голубые глаза».",
+    "example": "Mia figlia ha gli occhi azzurri.",
+    "exampleTranslation": "У моей дочери голубые глаза.",
+    "usage": "",
     "association": "book"
   },
   {
@@ -4625,9 +4625,9 @@
     "italian": "avere gli occhi verdi",
     "ipa": "/avˈere ʎi ˈɔkːi vˈerdi/",
     "translation": "иметь зелёные глаза",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «иметь зелёные глаза».",
+    "example": "Lui ha gli occhi verdi.",
+    "exampleTranslation": "У него зелёные глаза.",
+    "usage": "",
     "association": "book"
   },
   {
@@ -4636,9 +4636,9 @@
     "italian": "avere gli occhi marroni",
     "ipa": "/avˈere ʎi ˈɔkːi marɾˈoni/",
     "translation": "иметь карие глаза",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «иметь карие глаза».",
+    "example": "Io ho gli occhi marroni.",
+    "exampleTranslation": "У меня карие глаза.",
+    "usage": "",
     "association": "book"
   },
   {
@@ -4647,9 +4647,9 @@
     "italian": "avere gli occhi grigi",
     "ipa": "/avˈere ʎi ˈɔkːi ɡrˈidʒi/",
     "translation": "иметь серые глаза",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «иметь серые глаза».",
+    "example": "Mio padre ha gli occhi grigi.",
+    "exampleTranslation": "У моего отца серые глаза.",
+    "usage": "",
     "association": "book"
   },
   {
@@ -4658,9 +4658,9 @@
     "italian": "avere gli occhi neri",
     "ipa": "/avˈere ʎi ˈɔkːi nˈeri/",
     "translation": "иметь чёрные глаза",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «иметь чёрные глаза».",
+    "example": "Lei ha gli occhi neri.",
+    "exampleTranslation": "У неё чёрные глаза.",
+    "usage": "",
     "association": "book"
   },
   {
@@ -4669,9 +4669,9 @@
     "italian": "avere i capelli biondi",
     "ipa": "/avˈere i kapˈelli bjˈondi/",
     "translation": "иметь светлые волосы",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «иметь светлые волосы».",
+    "example": "Mia sorella ha i capelli biondi.",
+    "exampleTranslation": "У моей сестры светлые волосы.",
+    "usage": "",
     "association": "book"
   },
   {
@@ -4680,9 +4680,9 @@
     "italian": "avere i capelli castani",
     "ipa": "/avˈere i kapˈelli kastˈani/",
     "translation": "иметь каштановые волосы",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «иметь каштановые волосы».",
+    "example": "Io ho i capelli castani.",
+    "exampleTranslation": "У меня каштановые волосы.",
+    "usage": "",
     "association": "book"
   },
   {
@@ -4691,9 +4691,9 @@
     "italian": "avere i capelli neri",
     "ipa": "/avˈere i kapˈelli nˈeri/",
     "translation": "иметь чёрные волосы",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «иметь чёрные волосы».",
+    "example": "Lei ha i capelli neri.",
+    "exampleTranslation": "У неё чёрные волосы.",
+    "usage": "",
     "association": "book"
   },
   {
@@ -4702,9 +4702,9 @@
     "italian": "avere i capelli rossi",
     "ipa": "/avˈere i kapˈelli rˈossi/",
     "translation": "иметь рыжие волосы",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «иметь рыжие волосы».",
+    "example": "La bambina ha i capelli rossi.",
+    "exampleTranslation": "У девочки рыжие волосы.",
+    "usage": "",
     "association": "book"
   },
   {
@@ -4713,9 +4713,9 @@
     "italian": "avere i capelli lunghi",
     "ipa": "/avˈere i kapˈelli lˈuŋɡi/",
     "translation": "иметь длинные волосы",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «иметь длинные волосы».",
+    "example": "Mia figlia ha i capelli lunghi.",
+    "exampleTranslation": "У моей дочери длинные волосы.",
+    "usage": "",
     "association": "book"
   },
   {
@@ -4724,9 +4724,9 @@
     "italian": "avere i capelli corti",
     "ipa": "/avˈere i kapˈelli kˈorti/",
     "translation": "иметь короткие волосы",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «иметь короткие волосы».",
+    "example": "Adesso ho i capelli corti.",
+    "exampleTranslation": "Сейчас у меня короткие волосы.",
+    "usage": "",
     "association": "book"
   },
   {
@@ -4735,9 +4735,9 @@
     "italian": "avere i capelli lisci",
     "ipa": "/avˈere i kapˈelli lˈiʃi/",
     "translation": "иметь прямые волосы",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «иметь прямые волосы».",
+    "example": "Lei ha i capelli lisci.",
+    "exampleTranslation": "У неё прямые волосы.",
+    "usage": "",
     "association": "book"
   },
   {
@@ -4746,9 +4746,9 @@
     "italian": "avere i capelli ricci",
     "ipa": "/avˈere i kapˈelli rˈitʃːi/",
     "translation": "иметь кудрявые волосы",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «иметь кудрявые волосы».",
+    "example": "Lui ha i capelli ricci.",
+    "exampleTranslation": "У него кудрявые волосы.",
+    "usage": "",
     "association": "book"
   },
   {
@@ -5472,9 +5472,9 @@
     "italian": "essere in Italia",
     "ipa": "/ˈɛssere in itˈalia/",
     "translation": "быть в Италии",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «быть в Италии».",
+    "example": "A settembre sono in Italia.",
+    "exampleTranslation": "В сентябре я в Италии.",
+    "usage": "",
     "association": "origin"
   },
   {
@@ -5483,9 +5483,9 @@
     "italian": "vivere in Italia",
     "ipa": "/vˈivere in itˈalia/",
     "translation": "жить в Италии",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «жить в Италии».",
+    "example": "Vorrei vivere in Italia.",
+    "exampleTranslation": "Я хотела бы жить в Италии.",
+    "usage": "",
     "association": "origin"
   },
   {
@@ -5494,9 +5494,9 @@
     "italian": "venire dall’Italia",
     "ipa": "/venˈire dallitˈalia/",
     "translation": "приезжать из Италии",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «приезжать из Италии».",
+    "example": "Questi prodotti vengono dall’Italia.",
+    "exampleTranslation": "Эти продукты привезены из Италии.",
+    "usage": "",
     "association": "origin"
   },
   {
@@ -5505,9 +5505,9 @@
     "italian": "essere in Russia",
     "ipa": "/ˈɛssere in rˈussia/",
     "translation": "быть в России",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «быть в России».",
+    "example": "Adesso sono in Russia.",
+    "exampleTranslation": "Сейчас я в России.",
+    "usage": "",
     "association": "origin"
   },
   {
@@ -5516,9 +5516,9 @@
     "italian": "vivere in Russia",
     "ipa": "/vˈivere in rˈussia/",
     "translation": "жить в России",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «жить в России».",
+    "example": "La mia famiglia vive in Russia.",
+    "exampleTranslation": "Моя семья живёт в России.",
+    "usage": "",
     "association": "origin"
   },
   {
@@ -5527,9 +5527,9 @@
     "italian": "venire dalla Russia",
     "ipa": "/venˈire dˌalla rˈussia/",
     "translation": "приезжать из России",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «приезжать из России».",
+    "example": "Vengo dalla Russia.",
+    "exampleTranslation": "Я приехала из России.",
+    "usage": "",
     "association": "origin"
   },
   {
@@ -5538,9 +5538,9 @@
     "italian": "essere negli Stati Uniti",
     "ipa": "/ˈɛssere nˈeʎi stˈati unˈiti/",
     "translation": "быть в Соединённых Штатах",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «быть в Соединённых Штатах».",
+    "example": "Mia sorella è negli Stati Uniti.",
+    "exampleTranslation": "Моя сестра находится в Соединённых Штатах.",
+    "usage": "",
     "association": "book"
   },
   {
@@ -5549,9 +5549,9 @@
     "italian": "vivere negli Stati Uniti",
     "ipa": "/vˈivere nˈeʎi stˈati unˈiti/",
     "translation": "жить в Соединённых Штатах",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «жить в Соединённых Штатах».",
+    "example": "Il mio amico vive negli Stati Uniti.",
+    "exampleTranslation": "Мой друг живёт в Соединённых Штатах.",
+    "usage": "",
     "association": "book"
   },
   {
@@ -5560,9 +5560,9 @@
     "italian": "venire dagli Stati Uniti",
     "ipa": "/venˈire dˌaʎi stˈati unˈiti/",
     "translation": "приезжать из Соединённых Штатов",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «приезжать из Соединённых Штатов».",
+    "example": "L’aereo viene dagli Stati Uniti.",
+    "exampleTranslation": "Самолёт прилетает из Соединённых Штатов.",
+    "usage": "",
     "association": "book"
   },
   {
@@ -5571,9 +5571,9 @@
     "italian": "essere in Toscana",
     "ipa": "/ˈɛssere in toskˈana/",
     "translation": "быть в Тоскане",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «быть в Тоскане».",
+    "example": "Questa settimana sono in Toscana.",
+    "exampleTranslation": "На этой неделе я в Тоскане.",
+    "usage": "",
     "association": "book"
   },
   {
@@ -5582,9 +5582,9 @@
     "italian": "vivere in Toscana",
     "ipa": "/vˈivere in toskˈana/",
     "translation": "жить в Тоскане",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «жить в Тоскане».",
+    "example": "Vorrei vivere in Toscana.",
+    "exampleTranslation": "Я хотела бы жить в Тоскане.",
+    "usage": "",
     "association": "book"
   },
   {
@@ -5593,9 +5593,9 @@
     "italian": "venire dalla Toscana",
     "ipa": "/venˈire dˌalla toskˈana/",
     "translation": "приезжать из Тосканы",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «приезжать из Тосканы».",
+    "example": "Questo vino viene dalla Toscana.",
+    "exampleTranslation": "Это вино привезено из Тосканы.",
+    "usage": "",
     "association": "book"
   },
   {
@@ -5791,9 +5791,9 @@
     "italian": "Buenos Aires",
     "ipa": "/buˈɛnos ˈaires/",
     "translation": "Буэнос-Айрес",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «Буэнос-Айрес».",
+    "example": "Vorrei visitare Buenos Aires.",
+    "exampleTranslation": "Я хотела бы посетить Буэнос-Айрес.",
+    "usage": "",
     "association": "book"
   },
   {
@@ -5813,9 +5813,9 @@
     "italian": "essere a Krasnojarsk",
     "ipa": "/ˈɛssere a kraznˈojarsk/",
     "translation": "быть в Красноярске",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «быть в Красноярске».",
+    "example": "Oggi sono a Krasnojarsk.",
+    "exampleTranslation": "Сегодня я в Красноярске.",
+    "usage": "",
     "association": "origin"
   },
   {
@@ -5824,9 +5824,9 @@
     "italian": "essere di Krasnojarsk",
     "ipa": "/ˈɛssere di kraznˈojarsk/",
     "translation": "быть из Красноярска",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «быть из Красноярска».",
+    "example": "Sono di Krasnojarsk.",
+    "exampleTranslation": "Я из Красноярска.",
+    "usage": "",
     "association": "origin"
   },
   {
@@ -5835,9 +5835,9 @@
     "italian": "venire da Krasnojarsk",
     "ipa": "/venˈire da kraznˈojarsk/",
     "translation": "приезжать из Красноярска",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «приезжать из Красноярска».",
+    "example": "Vengo da Krasnojarsk.",
+    "exampleTranslation": "Я приехала из Красноярска.",
+    "usage": "",
     "association": "origin"
   },
   {
@@ -5846,9 +5846,9 @@
     "italian": "abitare a Krasnojarsk",
     "ipa": "/abitˈare a kraznˈojarsk/",
     "translation": "жить в Красноярске",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «жить в Красноярске».",
+    "example": "La mia famiglia abita a Krasnojarsk.",
+    "exampleTranslation": "Моя семья живёт в Красноярске.",
+    "usage": "",
     "association": "origin"
   },
   {
@@ -5857,9 +5857,9 @@
     "italian": "essere a Roma",
     "ipa": "/ˈɛssere a rˈoma/",
     "translation": "быть в Риме",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «быть в Риме».",
+    "example": "Domani sono a Roma.",
+    "exampleTranslation": "Завтра я в Риме.",
+    "usage": "",
     "association": "origin"
   },
   {
@@ -5868,9 +5868,9 @@
     "italian": "essere di Roma",
     "ipa": "/ˈɛssere di rˈoma/",
     "translation": "быть из Рима",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «быть из Рима».",
+    "example": "Il mio amico è di Roma.",
+    "exampleTranslation": "Мой друг из Рима.",
+    "usage": "",
     "association": "origin"
   },
   {
@@ -5879,9 +5879,9 @@
     "italian": "venire da Roma",
     "ipa": "/venˈire da rˈoma/",
     "translation": "приезжать из Рима",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «приезжать из Рима».",
+    "example": "Il treno viene da Roma.",
+    "exampleTranslation": "Поезд прибывает из Рима.",
+    "usage": "",
     "association": "origin"
   },
   {
@@ -5890,9 +5890,9 @@
     "italian": "abitare a Roma",
     "ipa": "/abitˈare a rˈoma/",
     "translation": "жить в Риме",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «жить в Риме».",
+    "example": "Vorrei abitare a Roma.",
+    "exampleTranslation": "Я хотела бы жить в Риме.",
+    "usage": "",
     "association": "origin"
   },
   {
@@ -5901,9 +5901,9 @@
     "italian": "essere a Parigi",
     "ipa": "/ˈɛssere a parˈidʒi/",
     "translation": "быть в Париже",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «быть в Париже».",
+    "example": "Domani sono a Parigi.",
+    "exampleTranslation": "Завтра я в Париже.",
+    "usage": "",
     "association": "origin"
   },
   {
@@ -5912,9 +5912,9 @@
     "italian": "essere di Parigi",
     "ipa": "/ˈɛssere di parˈidʒi/",
     "translation": "быть из Парижа",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «быть из Парижа».",
+    "example": "La mia collega è di Parigi.",
+    "exampleTranslation": "Моя коллега из Парижа.",
+    "usage": "",
     "association": "origin"
   },
   {
@@ -5923,9 +5923,9 @@
     "italian": "venire da Parigi",
     "ipa": "/venˈire da parˈidʒi/",
     "translation": "приезжать из Парижа",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «приезжать из Парижа».",
+    "example": "L’aereo viene da Parigi.",
+    "exampleTranslation": "Самолёт прилетает из Парижа.",
+    "usage": "",
     "association": "origin"
   },
   {
@@ -5934,9 +5934,9 @@
     "italian": "abitare a Parigi",
     "ipa": "/abitˈare a parˈidʒi/",
     "translation": "жить в Париже",
-    "example": "",
-    "exampleTranslation": "",
-    "usage": "Готовая учебная модель или выражение: «жить в Париже».",
+    "example": "Mia sorella abita a Parigi.",
+    "exampleTranslation": "Моя сестра живёт в Париже.",
+    "usage": "",
     "association": "origin"
   },
   {

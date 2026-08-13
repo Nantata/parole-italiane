@@ -290,7 +290,7 @@ const semanticEmoji: Array<[RegExp, string]> = [
   [/contrario|d’accordo/i, "↔️"],
   [/fidanzato|sposato/i, "💍"],
   [/divorziato/i, "💔"],
-  [/single/i, "👤"],
+  [/celibe|nubile|single/i, "👤"],
   [/libero/i, "🕊️"],
   [/impegnato/i, "📅"],
   [/fiero/i, "🏆"],
@@ -382,6 +382,12 @@ const cityLandmarks: Array<[RegExp, string]> = [
 ];
 
 const landmarkEmoji: Record<string, string> = {
+  krasnoyarsk: "🌉",
+  moscow: "🏰",
+  rome: "🏛️",
+  paris: "🗼",
+  berlin: "🏛️",
+  london: "🎡",
   madrid: "🏛️",
   stockholm: "🏰",
   bern: "🐻",
@@ -397,14 +403,21 @@ const landmarkEmoji: Record<string, string> = {
   brussels: "🏛️",
 };
 
-const generatedCities = new Set([
-  "krasnoyarsk",
-  "moscow",
-  "rome",
-  "paris",
-  "berlin",
-  "london",
-]);
+const associationEmoji: Record<Association, string> = {
+  sea: "🌊", house: "🏠", coffee: "☕", sun: "☀️", travel: "🧳",
+  street: "🏘️", flowers: "🌸", book: "📚", hello: "👋", morning: "🌅",
+  afternoon: "🌤️", evening: "🌇", night: "🌙", goodbye: "👋", "good-day": "☀️",
+  soon: "⏳", tomorrow: "📅", later: "🕒", "next-time": "🔜", "see-you": "👀",
+  phone: "📱", meeting: "🤝", name: "🏷️", origin: "📍", "how-are-you": "🙂",
+  excellent: "🤩", good: "😊", "not-bad": "🙂", "so-so": "😐", bad: "🙁",
+};
+
+function spokenCardText(value: string) {
+  if (value.includes("=")) return value.split("=").at(-1)?.trim() || value;
+  return value
+    .replace(/\s*\+\s*(nome|professione|nazionalità|aggettivo|città|paese|infinito|oggetto|numero|anni)/gi, "")
+    .trim();
+}
 
 function cleanItalian(value: string) {
   return value
@@ -468,18 +481,6 @@ function Visual({
   const city = cityLandmarks.find(([pattern]) =>
     pattern.test(card?.italian || ""),
   )?.[1];
-  if (city && topic.includes("Города") && generatedCities.has(city))
-    return (
-      <figure
-        className={`visual landmarkAssociation ${small ? "visualSmall" : ""}`}
-        aria-label={`Достопримечательность: ${card?.italian || city}`}
-      >
-        <img
-          src={`/cities/city-${city}.png?v=landmarks-1`}
-          alt={`Достопримечательность города ${card?.italian || city}`}
-        />
-      </figure>
-    );
   if (city && topic.includes("Города"))
     return (
       <figure
@@ -530,17 +531,10 @@ function Visual({
       </figure>
     );
   }
-  const label =
-    associations.find((a) => a.value === type)?.label || "Ассоциация";
+  const label = associations.find((a) => a.value === type)?.label || "Ассоциация";
   return (
-    <figure
-      className={`visual ${small ? "visualSmall" : ""}`}
-      aria-label={label}
-    >
-      <img
-        src={`/associations/association-${type}.png?v=semantic-1`}
-        alt={label}
-      />
+    <figure className={`visual semanticVisual emojiAssociation ${small ? "visualSmall" : ""}`} aria-label={label}>
+      <span>{associationEmoji[type]}</span>
     </figure>
   );
 }
@@ -786,6 +780,10 @@ export default function FlashcardsApp() {
       setMessage("Заполни итальянский текст, IPA и перевод");
       return;
     }
+    if (!form.example.trim() || !form.exampleTranslation.trim()) {
+      setMessage("Добавь жизненный пример на итальянском и его перевод");
+      return;
+    }
     if (/[→⇒⇢]|->/.test(form.italian)) {
       setMessage(
         "В одной карточке должно быть одно слово или одно цельное выражение — без стрелок и вариантов.",
@@ -977,10 +975,10 @@ ${list.map((item, itemIndex) => `${itemIndex + 1}. ${item}`).join("\n")}
 1. Количество объектов в ответе должно быть ровно ${list.length}: по одному для каждого элемента, в исходном порядке. Ничего не пропускай, не объединяй и не добавляй от себя.
 2. kind="word" ставь для отдельного слова, включая глагол в инфинитиве. kind="phrase" ставь для выражения или готового предложения из нескольких слов.
 2.1. В поле italian каждой карточки указывай только одно слово или одно цельное выражение. Не объединяй единственное и множественное число, варианты или формы стрелками (например, нельзя: la bugia → le bugie).
-3. Для КАЖДОГО word поля example и exampleTranslation обязательны и не могут быть пустыми. example — естественное итальянское предложение уровня A1–A2 длиной примерно 4–10 слов, показывающее значение слова в понятном контексте. Для глагола допустима естественная спрягаемая форма. exampleTranslation — точный русский перевод всего предложения. usage для word оставь пустым.
+3. Для КАЖДОЙ карточки — и word, и phrase — поля example и exampleTranslation обязательны и не могут быть пустыми. example — естественное итальянское предложение уровня A1–A2 длиной примерно 4–10 слов, показывающее слово или выражение в понятном бытовом контексте. Для глагола допустима естественная спрягаемая форма. exampleTranslation — точный русский перевод всего предложения. usage оставь пустым.
 3.1. Пример должен быть фразой, которую реально можно сказать в обычной жизни. Запрещены метаязыковые шаблоны вроде «Oggi uso la parola…», «Oggi studio il verbo…», «Questa parola è…», «Vedo…» без полезного контекста и «Il numero è…».
 3.2. Используй полную общеупотребительную словарную форму, если сокращение может быть непонятно начинающему: например, la bicicletta, а не la bici.
-4. Для КАЖДОГО phrase поля example и exampleTranslation оставь пустыми, а usage обязательно заполни кратким понятным пояснением по-русски: кто, кому и в какой ситуации говорит эту фразу.
+4. Для phrase не пиши технические пояснения вроде «готовая учебная модель». Покажи выражение в нормальной жизненной фразе и переведи её.
 5. ipa обязательна для каждого элемента: только нормативная итальянская IPA в косых чертах, без русской транскрипции.
 6. translation обязательна: точный естественный русский перевод.
 7. association выбери строго из: sea, house, coffee, sun, travel, street, flowers, book, hello, morning, afternoon, evening, night, goodbye, good-day, soon, tomorrow, later, next-time, see-you, phone, meeting, name, origin, how-are-you, excellent, good, not-bad, so-so, bad. Она обязана буквально соответствовать значению: male=bad, così così=so-so, benissimo=excellent, приветствие=hello, прощание=goodbye. coffee разрешена только для caffè, espresso, cappuccino и непосредственно связанных с кофе слов. Не создавай случайную ассоциацию. Если среди вариантов нет точного смысла, используй нейтральную book.
@@ -1031,15 +1029,14 @@ ${list.map((item, itemIndex) => `${itemIndex + 1}. ${item}`).join("\n")}
         throw new Error(
           `В карточке «${combinedCard.italian}» объединено несколько форм. Оставь одно слово или одно цельное выражение без стрелок.`,
         );
-      const incompleteWord = parsed.find(
+      const incompleteExample = parsed.find(
         (card) =>
-          card?.kind === "word" &&
-          (!String(card.example || "").trim() ||
-            !String(card.exampleTranslation || "").trim()),
+          !String(card?.example || "").trim() ||
+          !String(card?.exampleTranslation || "").trim(),
       );
-      if (incompleteWord)
+      if (incompleteExample)
         throw new Error(
-          `У слова «${incompleteWord.italian || "без названия"}» нет предложения или его перевода. Попроси ChatGPT дополнить ответ.`,
+          `У карточки «${incompleteExample.italian || "без названия"}» нет жизненного примера или его перевода. Попроси ChatGPT дополнить ответ.`,
         );
       const genericExample = parsed.find(
         (card) =>
@@ -1051,13 +1048,6 @@ ${list.map((item, itemIndex) => `${itemIndex + 1}. ${item}`).join("\n")}
       if (genericExample)
         throw new Error(
           `У слова «${genericExample.italian || "без названия"}» шаблонный пример. Нужна естественная бытовая фраза с этим словом.`,
-        );
-      const incompletePhrase = parsed.find(
-        (card) => card?.kind === "phrase" && !String(card.usage || "").trim(),
-      );
-      if (incompletePhrase)
-        throw new Error(
-          `У фразы «${incompletePhrase.italian || "без названия"}» нет пояснения ситуации употребления.`,
         );
       const cardsForTopic = parsed.map((card) => ({
         ...card,
@@ -1388,10 +1378,10 @@ ${list.map((item, itemIndex) => `${itemIndex + 1}. ${item}`).join("\n")}
             >
               <button
                 type="button"
-                className={`cardSound ${speakingText === current.italian.trim() ? "speaking" : ""}`}
+                className={`cardSound ${speakingText === spokenCardText(current.italian) ? "speaking" : ""}`}
                 onClick={(event) => {
                   event.stopPropagation();
-                  speakItalian(current.italian);
+                  speakItalian(spokenCardText(current.italian));
                 }}
                 aria-label={`Прослушать: ${current.italian}`}
                 title="Прослушать слово по-итальянски"
@@ -1411,7 +1401,7 @@ ${list.map((item, itemIndex) => `${itemIndex + 1}. ${item}`).join("\n")}
               ) : (
                 <span className="answer">
                   <b>{current.translation}</b>
-                  {current.kind === "word" && current.example ? (
+                  {current.example ? (
                     <small>
                       <span className="exampleItalian">
                         {current.example}
@@ -1430,9 +1420,6 @@ ${list.map((item, itemIndex) => `${itemIndex + 1}. ${item}`).join("\n")}
                       </span>
                       <em>{current.exampleTranslation}</em>
                     </small>
-                  ) : null}
-                  {current.kind === "phrase" && current.usage ? (
-                    <small className="usage">{current.usage}</small>
                   ) : null}
                 </span>
               )}
@@ -1910,37 +1897,21 @@ ${list.map((item, itemIndex) => `${itemIndex + 1}. ${item}`).join("\n")}
                 placeholder="добрый день"
               />
             </label>
-            {form.kind === "word" ? (
-              <>
-                <label>
-                  Пример на итальянском
-                  <input
-                    lang="it"
-                    value={form.example}
-                    onChange={(e) =>
-                      setForm({ ...form, example: e.target.value })
-                    }
-                  />
-                </label>
-                <label>
-                  Перевод примера
-                  <input
-                    value={form.exampleTranslation}
-                    onChange={(e) =>
-                      setForm({ ...form, exampleTranslation: e.target.value })
-                    }
-                  />
-                </label>
-              </>
-            ) : (
-              <label>
-                Когда используется фраза
-                <textarea
-                  value={form.usage}
-                  onChange={(e) => setForm({ ...form, usage: e.target.value })}
-                />
-              </label>
-            )}
+            <label>
+              Жизненный пример на итальянском <b>*</b>
+              <input
+                lang="it"
+                value={form.example}
+                onChange={(e) => setForm({ ...form, example: e.target.value, usage: "" })}
+              />
+            </label>
+            <label>
+              Перевод примера <b>*</b>
+              <input
+                value={form.exampleTranslation}
+                onChange={(e) => setForm({ ...form, exampleTranslation: e.target.value })}
+              />
+            </label>
             <label>
               Визуальная ассоциация
               <select
