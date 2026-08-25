@@ -204,6 +204,19 @@ const numberValues: Record<string, string> = {
   "due miliardi": "2 000 000 000",
 };
 
+const calculationValues: Record<string, string> = {
+  "venti meno tre fa diciassette": "20 − 3 = 17",
+  "nove più sei fa quindici": "9 + 6 = 15",
+  "dodici più otto fa venti": "12 + 8 = 20",
+  "sette più dodici fa diciannove": "7 + 12 = 19",
+  "quattro più uno fa cinque": "4 + 1 = 5",
+  "sedici diviso quattro fa quattro": "16 ÷ 4 = 4",
+  "sette più quattro fa undici": "7 + 4 = 11",
+  "uno più sei fa sette": "1 + 6 = 7",
+  "tre meno tre fa zero": "3 − 3 = 0",
+  "cinque per due fa dieci": "5 × 2 = 10",
+};
+
 const semanticEmoji: Array<[RegExp, string]> = [
   [/e tu|e lei/i, "👉"],
   [/di dove|dov’è|dove sono/i, "📍"],
@@ -280,6 +293,18 @@ const semanticEmoji: Array<[RegExp, string]> = [
   [/malato/i, "🤒"],
   [/felice|contento/i, "😄"],
   [/triste|deluso/i, "😢"],
+  [/sporco/i, "🟤"],
+  [/pulito/i, "✨"],
+  [/difficile/i, "🧩"],
+  [/facile/i, "✅"],
+  [/alto/i, "🦒"],
+  [/basso/i, "🪑"],
+  [/nuovo/i, "🆕"],
+  [/vecchio/i, "🏚️"],
+  [/piccolo/i, "🐭"],
+  [/brutto|cattivo/i, "👎"],
+  [/però/i, "↔️"],
+  [/anche/i, "➕"],
   [/nervoso|preoccupato/i, "😟"],
   [/arrabbiato/i, "😠"],
   [/sorpreso/i, "😮"],
@@ -476,6 +501,16 @@ function Visual({
         aria-label={`Число ${number}`}
       >
         <strong>{number}</strong>
+      </figure>
+    );
+  const calculation = calculationValues[italian];
+  if (calculation)
+    return (
+      <figure
+        className={`visual semanticVisual numberAssociation ${small ? "visualSmall" : ""}`}
+        aria-label={`Пример ${calculation}`}
+      >
+        <strong>{calculation}</strong>
       </figure>
     );
   const city = cityLandmarks.find(([pattern]) =>
