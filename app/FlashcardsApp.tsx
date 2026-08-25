@@ -217,6 +217,27 @@ const calculationValues: Record<string, string> = {
   "cinque per due fa dieci": "5 × 2 = 10",
 };
 
+const cardImagePaths: Record<string, string> = {
+  sporco: "card-images/sporco.webp",
+  difficile: "card-images/difficile.webp",
+  facile: "card-images/facile.webp",
+  alto: "card-images/alto.webp",
+  basso: "card-images/basso.webp",
+  nuovo: "card-images/nuovo.webp",
+  vecchio: "card-images/vecchio.webp",
+  piccolo: "card-images/piccolo.webp",
+  brutto: "card-images/brutto.webp",
+  cattivo: "card-images/cattivo.webp",
+  pulito: "card-images/pulito.webp",
+  però: "card-images/pero.webp",
+  anche: "card-images/anche.webp",
+  bello: "card-images/bello.webp",
+  grande: "card-images/grande.webp",
+  buono: "card-images/buono.webp",
+  felice: "card-images/felice.webp",
+  triste: "card-images/triste.webp",
+};
+
 const semanticEmoji: Array<[RegExp, string]> = [
   [/e tu|e lei/i, "👉"],
   [/di dove|dov’è|dove sono/i, "📍"],
@@ -463,6 +484,20 @@ function Visual({
 }) {
   const italian = cleanItalian(card?.italian || "");
   const topic = card?.topic || "";
+  const cardImagePath = cardImagePaths[italian];
+  if (cardImagePath)
+    return (
+      <figure
+        className={`visual cardPhotoAssociation ${small ? "visualSmall" : ""}`}
+        aria-label={card?.translation || italian}
+      >
+        <img
+          src={`${import.meta.env.BASE_URL}${cardImagePath}`}
+          alt=""
+          loading={small ? "lazy" : "eager"}
+        />
+      </figure>
+    );
   const exactColor = colorValues[italian];
   if (exactColor) {
     return (
