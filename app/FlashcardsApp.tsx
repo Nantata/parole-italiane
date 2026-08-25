@@ -2,6 +2,7 @@
 
 import { FormEvent, useEffect, useMemo, useState } from "react";
 import "flag-icons/css/flag-icons.min.css";
+import generatedScenePaths from "./generated-image-map.json";
 
 type CardKind = "word" | "phrase";
 type Association =
@@ -427,28 +428,6 @@ const cityLandmarks: Array<[RegExp, string]> = [
   [/bruxelles/i, "brussels"],
 ];
 
-const landmarkEmoji: Record<string, string> = {
-  krasnoyarsk: "🌉",
-  moscow: "🏰",
-  rome: "🏛️",
-  paris: "🗼",
-  berlin: "🏛️",
-  london: "🎡",
-  madrid: "🏛️",
-  stockholm: "🏰",
-  bern: "🐻",
-  athens: "🏛️",
-  warsaw: "🏰",
-  brasilia: "🏛️",
-  washington: "🏛️",
-  beijing: "🏯",
-  lima: "⛲",
-  tunis: "🕌",
-  ankara: "🏛️",
-  "buenos-aires": "💃",
-  brussels: "🏛️",
-};
-
 const associationEmoji: Record<Association, string> = {
   sea: "🌊", house: "🏠", coffee: "☕", sun: "☀️", travel: "🧳",
   street: "🏘️", flowers: "🌸", book: "📚", hello: "👋", morning: "🌅",
@@ -551,13 +530,20 @@ function Visual({
   const city = cityLandmarks.find(([pattern]) =>
     pattern.test(card?.italian || ""),
   )?.[1];
-  if (city && topic.includes("Города"))
+  const cityImagePath = city
+    ? generatedScenePaths.city[city as keyof typeof generatedScenePaths.city]
+    : undefined;
+  if (cityImagePath && topic.includes("Города"))
     return (
       <figure
-        className={`visual semanticVisual landmarkIconAssociation ${small ? "visualSmall" : ""}`}
+        className={`visual cardPhotoAssociation ${small ? "visualSmall" : ""}`}
         aria-label={`Символ города ${card?.italian || city}`}
       >
-        <span>{landmarkEmoji[city] || "🏛️"}</span>
+        <img
+          src={`${import.meta.env.BASE_URL}${cityImagePath}`}
+          alt=""
+          loading={small ? "lazy" : "eager"}
+        />
       </figure>
     );
   const flag = countryFlags.find(([pattern]) =>
@@ -570,19 +556,6 @@ function Visual({
         aria-label={card?.translation || italian}
       >
         <span className={`fi fi-${flag}`} aria-hidden="true" />
-      </figure>
-    );
-  const semanticSource = `${card?.italian || ""} ${card?.translation || ""}`;
-  const emoji = semanticEmoji.find(([pattern]) =>
-    pattern.test(semanticSource),
-  )?.[1];
-  if (emoji)
-    return (
-      <figure
-        className={`visual semanticVisual emojiAssociation ${small ? "visualSmall" : ""}`}
-        aria-label={card?.translation || italian}
-      >
-        <span>{emoji}</span>
       </figure>
     );
   if (
@@ -601,6 +574,46 @@ function Visual({
       </figure>
     );
   }
+  const semanticSource = `${card?.italian || ""} ${card?.translation || ""}`;
+  const semanticIndex = semanticEmoji.findIndex(([pattern]) =>
+    pattern.test(semanticSource),
+  );
+  const semanticImagePath =
+    semanticIndex >= 0
+      ? generatedScenePaths.semantic[
+          String(semanticIndex) as keyof typeof generatedScenePaths.semantic
+        ]
+      : undefined;
+  if (semanticImagePath)
+    return (
+      <figure
+        className={`visual cardPhotoAssociation ${small ? "visualSmall" : ""}`}
+        aria-label={card?.translation || italian}
+      >
+        <img
+          src={`${import.meta.env.BASE_URL}${semanticImagePath}`}
+          alt=""
+          loading={small ? "lazy" : "eager"}
+        />
+      </figure>
+    );
+  const associationImagePath =
+    generatedScenePaths.association[
+      type as keyof typeof generatedScenePaths.association
+    ];
+  if (associationImagePath)
+    return (
+      <figure
+        className={`visual cardPhotoAssociation ${small ? "visualSmall" : ""}`}
+        aria-label={card?.translation || italian}
+      >
+        <img
+          src={`${import.meta.env.BASE_URL}${associationImagePath}`}
+          alt=""
+          loading={small ? "lazy" : "eager"}
+        />
+      </figure>
+    );
   const label = associations.find((a) => a.value === type)?.label || "Ассоциация";
   return (
     <figure className={`visual semanticVisual emojiAssociation ${small ? "visualSmall" : ""}`} aria-label={label}>
