@@ -74,3 +74,20 @@ body{background:radial-gradient(circle at 12% 0,#f8faf9 0,transparent 30%),linea
 @media (max-width:520px){.content{padding:18px 17px}.topbar{gap:9px}.accountBox{width:96px;padding:6px 8px}.progressRow{margin-top:14px}.journeyTrack{margin:8px 5px 17px}.flashcard{min-height:382px}.actions{margin-top:13px}.actions button{height:58px}.visual{width:176px;height:132px;margin-bottom:14px}.italian{font-size:36px}.tapHint{bottom:18px}}
 @media (max-width:420px){.topbar{padding-left:13px;padding-right:13px;gap:7px}.brandMark{width:42px;height:42px}.eyebrow{font-size:7px;letter-spacing:.1em}h1{font-size:19px}.accountBox{width:82px}.streak{min-width:45px;height:36px}}
 @media (max-width:370px){.content{padding-left:14px;padding-right:14px}.italian{font-size:33px}.flashcard{min-height:365px;padding-left:16px;padding-right:16px}.topbar{padding-left:10px;padding-right:10px}.accountBox{width:72px;padding-left:6px;padding-right:6px}.accountBox span{font-size:7px}.accountBox button{font-size:9px}.bottomNav button{font-size:9px}.navBadge{right:8px}}
+
+/* Complete present-tense paradigm on the reverse of irregular verb cards. */
+.flashcard.revealed.hasConjugation{justify-content:flex-start;min-height:470px;padding-top:55px;padding-bottom:18px;overflow:visible}
+.flashcard.revealed.hasConjugation .italian{font-size:31px;line-height:1.05}
+.flashcard.revealed.hasConjugation .ipa{margin-top:5px;font-size:14px}
+.flashcard.revealed.hasConjugation .answer{width:100%;margin-top:8px;gap:7px}
+.flashcard.revealed.hasConjugation .answer>b{font-size:18px}
+.conjugationBlock{width:100%;max-width:320px;padding:9px 12px 10px;border:1px solid #cfe4e9;border-radius:17px;background:rgba(249,252,251,.9);box-shadow:0 6px 16px rgba(55,112,132,.07)}
+.conjugationBlock>strong{display:block;margin-bottom:6px;color:#56889b;font-size:9px;font-weight:900;letter-spacing:.09em;text-transform:uppercase}
+.conjugationRows{display:flex;flex-direction:column}
+.conjugationRow{min-height:26px;display:grid;grid-template-columns:1fr 1fr;align-items:center;border-top:1px solid #e2edef;text-align:left}
+.conjugationRow:first-child{border-top:0}
+.conjugationRow i{padding-left:13px;color:#718f9a;font:italic 12px Georgia,serif}
+.conjugationRow b{color:#285f75;font:700 14px Georgia,serif}
+.flashcard.revealed.hasConjugation .answer small{width:100%;max-width:320px;padding-top:8px;gap:3px;font-size:13px;line-height:1.25}
+.flashcard.revealed.hasConjugation .answer em{font-size:11px}
+@media(max-width:370px){.flashcard.revealed.hasConjugation{min-height:455px;padding-top:53px}.conjugationBlock{padding-top:7px;padding-bottom:8px}.conjugationRow{min-height:24px}}

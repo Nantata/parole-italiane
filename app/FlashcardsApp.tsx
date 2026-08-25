@@ -52,6 +52,86 @@ type Status = "known" | "repeat";
 type Tab = "study" | "repeat" | "sections" | "library" | "add" | "progress";
 type AddMode = "batch" | "manual";
 
+type VerbForm = {
+  pronoun: string;
+  form: string;
+};
+
+const irregularPresentConjugations: Record<string, VerbForm[]> = {
+  essere: [
+    { pronoun: "io", form: "sono" },
+    { pronoun: "tu", form: "sei" },
+    { pronoun: "lui / lei / Lei", form: "è" },
+    { pronoun: "noi", form: "siamo" },
+    { pronoun: "voi", form: "siete" },
+    { pronoun: "loro", form: "sono" },
+  ],
+  avere: [
+    { pronoun: "io", form: "ho" },
+    { pronoun: "tu", form: "hai" },
+    { pronoun: "lui / lei / Lei", form: "ha" },
+    { pronoun: "noi", form: "abbiamo" },
+    { pronoun: "voi", form: "avete" },
+    { pronoun: "loro", form: "hanno" },
+  ],
+  stare: [
+    { pronoun: "io", form: "sto" },
+    { pronoun: "tu", form: "stai" },
+    { pronoun: "lui / lei / Lei", form: "sta" },
+    { pronoun: "noi", form: "stiamo" },
+    { pronoun: "voi", form: "state" },
+    { pronoun: "loro", form: "stanno" },
+  ],
+  fare: [
+    { pronoun: "io", form: "faccio" },
+    { pronoun: "tu", form: "fai" },
+    { pronoun: "lui / lei / Lei", form: "fa" },
+    { pronoun: "noi", form: "facciamo" },
+    { pronoun: "voi", form: "fate" },
+    { pronoun: "loro", form: "fanno" },
+  ],
+  andare: [
+    { pronoun: "io", form: "vado" },
+    { pronoun: "tu", form: "vai" },
+    { pronoun: "lui / lei / Lei", form: "va" },
+    { pronoun: "noi", form: "andiamo" },
+    { pronoun: "voi", form: "andate" },
+    { pronoun: "loro", form: "vanno" },
+  ],
+  venire: [
+    { pronoun: "io", form: "vengo" },
+    { pronoun: "tu", form: "vieni" },
+    { pronoun: "lui / lei / Lei", form: "viene" },
+    { pronoun: "noi", form: "veniamo" },
+    { pronoun: "voi", form: "venite" },
+    { pronoun: "loro", form: "vengono" },
+  ],
+  uscire: [
+    { pronoun: "io", form: "esco" },
+    { pronoun: "tu", form: "esci" },
+    { pronoun: "lui / lei / Lei", form: "esce" },
+    { pronoun: "noi", form: "usciamo" },
+    { pronoun: "voi", form: "uscite" },
+    { pronoun: "loro", form: "escono" },
+  ],
+  volere: [
+    { pronoun: "io", form: "voglio" },
+    { pronoun: "tu", form: "vuoi" },
+    { pronoun: "lui / lei / Lei", form: "vuole" },
+    { pronoun: "noi", form: "vogliamo" },
+    { pronoun: "voi", form: "volete" },
+    { pronoun: "loro", form: "vogliono" },
+  ],
+  dare: [
+    { pronoun: "io", form: "do" },
+    { pronoun: "tu", form: "dai" },
+    { pronoun: "lui / lei / Lei", form: "dà" },
+    { pronoun: "noi", form: "diamo" },
+    { pronoun: "voi", form: "date" },
+    { pronoun: "loro", form: "danno" },
+  ],
+};
+
 const associations: { value: Association; label: string }[] = [
   { value: "sea", label: "Море" },
   { value: "house", label: "Итальянский дом" },
@@ -755,6 +835,9 @@ export default function FlashcardsApp({
     : studySessionActive
       ? studySession[studySessionIndex] || null
       : null;
+  const currentConjugation = current
+    ? irregularPresentConjugations[current.italian.trim().toLocaleLowerCase("it")]
+    : undefined;
   const knownCount = selectedCards.filter(
     (card) => progress[card.id] === "known",
   ).length;
@@ -1450,7 +1533,7 @@ ${list.map((item, itemIndex) => `${itemIndex + 1}. ${item}`).join("\n")}
         ) : current ? (
           <>
             <div
-              className={`flashcard ${revealed ? "revealed" : ""}`}
+              className={`flashcard ${revealed ? "revealed" : ""} ${currentConjugation ? "hasConjugation" : ""}`}
               onClick={() => setRevealed(!revealed)}
               onKeyDown={(event) => {
                 if (event.key === "Enter" || event.key === " ") {
@@ -1477,7 +1560,9 @@ ${list.map((item, itemIndex) => `${itemIndex + 1}. ${item}`).join("\n")}
               <span className="topicPill">
                 {current.kind === "word" ? "СЛОВО" : "ФРАЗА"} · {current.topic}
               </span>
-              <Visual type={current.association} card={current} />
+              {!(revealed && currentConjugation) && (
+                <Visual type={current.association} card={current} />
+              )}
               <span className="italian">{current.italian}</span>
               <span className="ipa">{current.ipa}</span>
               {!revealed ? (
@@ -1487,6 +1572,22 @@ ${list.map((item, itemIndex) => `${itemIndex + 1}. ${item}`).join("\n")}
               ) : (
                 <span className="answer">
                   <b>{current.translation}</b>
+                  {currentConjugation ? (
+                    <span
+                      className="conjugationBlock"
+                      aria-label={`Спряжение глагола ${current.italian} в настоящем времени`}
+                    >
+                      <strong>Presente indicativo</strong>
+                      <div className="conjugationRows">
+                        {currentConjugation.map(({ pronoun, form }) => (
+                          <span className="conjugationRow" key={pronoun}>
+                            <i>{pronoun}</i>
+                            <b>{form}</b>
+                          </span>
+                        ))}
+                      </div>
+                    </span>
+                  ) : null}
                   {current.example ? (
                     <small>
                       <span className="exampleItalian">
