@@ -48,6 +48,41 @@ type Card = {
   usage: string;
   association: Association;
 };
+
+const ALL_TOPICS = "Все разделы";
+const NEW_TOPIC = "✨ Новое";
+const FIRST_NEW_BASE_CARD_ID = 630;
+
+const groupedTopicTitles: Record<number, string> = {
+  1: "Приветствия и общение", 2: "Приветствия и общение", 3: "Приветствия и общение",
+  4: "Служебные и связующие слова", 5: "Служебные и связующие слова",
+  6: "Глаголы", 7: "Глаголы", 8: "Глаголы", 9: "Глаголы", 10: "Глаголы",
+  11: "Глаголы", 12: "Глаголы", 13: "Глаголы",
+  14: "Предлоги и артикли", 15: "Предлоги и артикли", 16: "Предлоги и артикли",
+  17: "Предлоги и артикли", 18: "Предлоги и артикли", 19: "Предлоги и артикли",
+  20: "Предлоги и артикли", 21: "Предлоги и артикли", 22: "Предлоги и артикли",
+  23: "Существительные", 24: "Существительные", 25: "Существительные",
+  26: "Семья", 27: "Человек: тело и внешность", 28: "Человек: тело и внешность",
+  29: "Цвета и характеристики", 30: "Цвета и характеристики",
+  31: "Страны, города и национальности", 32: "Страны, города и национальности",
+  33: "Страны, города и национальности", 34: "Числа и счёт", 35: "Числа и счёт",
+  36: "Числа и счёт", 37: "Служебные и связующие слова", 38: "Числа и счёт",
+};
+
+function groupedTopic(topic: string) {
+  const match = topic.match(/^(\d+)\./);
+  return match ? groupedTopicTitles[Number(match[1])] || topic : topic;
+}
+
+function isNewCard(card: Card) {
+  return card.id >= FIRST_NEW_BASE_CARD_ID;
+}
+
+function cardMatchesTopic(card: Card, selectedTopic: string) {
+  if (selectedTopic === ALL_TOPICS) return true;
+  if (selectedTopic === NEW_TOPIC) return isNewCard(card);
+  return groupedTopic(card.topic) === selectedTopic;
+}
 type Status = "known" | "repeat";
 type Tab = "study" | "repeat" | "sections" | "library" | "add" | "progress";
 type AddMode = "batch" | "manual";
@@ -821,7 +856,7 @@ export default function FlashcardsApp({
   const [speakingText, setSpeakingText] = useState("");
   const [savedTopics, setSavedTopics] = useState<string[]>([]);
   const [progress, setProgress] = useState<Record<number, Status>>({});
-  const [topic, setTopic] = useState("Все разделы");
+  const [topic, setTopic] = useState(ALL_TOPICS);
   const [index, setIndex] = useState(0);
   const [revealed, setRevealed] = useState(false);
   const [studyTopics, setStudyTopics] = useState<string[]>([]);
@@ -843,7 +878,7 @@ export default function FlashcardsApp({
   const [importing, setImporting] = useState(false);
   const [importSucceeded, setImportSucceeded] = useState(false);
   const [kindFilter, setKindFilter] = useState<"all" | CardKind>("all");
-  const [libraryTopic, setLibraryTopic] = useState("Все разделы");
+  const [libraryTopic, setLibraryTopic] = useState(ALL_TOPICS);
   const [renamingTopic, setRenamingTopic] = useState<string | null>(null);
   const [renameValue, setRenameValue] = useState("");
   const [expandedCardId, setExpandedCardId] = useState<number | null>(null);
@@ -902,17 +937,24 @@ export default function FlashcardsApp({
       .finally(() => setLoading(false));
   }, []);
 
-  const topics = useMemo(
+  const rawTopics = useMemo(
     () => [
-      "Все разделы",
       ...Array.from(
         new Set([...savedTopics, ...cards.map((card) => card.topic)]),
       ),
     ],
     [cards, savedTopics],
   );
+  const topics = useMemo(
+    () => [
+      ALL_TOPICS,
+      ...(cards.some(isNewCard) ? [NEW_TOPIC] : []),
+      ...Array.from(new Set(rawTopics.map(groupedTopic))),
+    ],
+    [cards, rawTopics],
+  );
   const selectedCards = cards.filter(
-    (card) => topic === "Все разделы" || card.topic === topic,
+    (card) => cardMatchesTopic(card, topic),
   );
   const repeatOnly = tab === "repeat";
   const repeatQueue = selectedCards.filter(
@@ -937,7 +979,7 @@ export default function FlashcardsApp({
   const libraryCards = cards
     .filter((card) => kindFilter === "all" || card.kind === kindFilter)
     .filter(
-      (card) => libraryTopic === "Все разделы" || card.topic === libraryTopic,
+      (card) => cardMatchesTopic(card, libraryTopic),
     )
     .sort(
       (a, b) =>
@@ -983,7 +1025,7 @@ export default function FlashcardsApp({
     }
     const available = cards.filter(
       (card) =>
-        studyTopics.includes(card.topic) &&
+        studyTopics.some((item) => cardMatchesTopic(card, item)) &&
         (includeKnown || progress[card.id] !== "known"),
     );
     if (!available.length) {
@@ -1016,7 +1058,7 @@ export default function FlashcardsApp({
 
   async function resetProgress(scope = false) {
     const ids =
-      scope && topic !== "Все разделы"
+      scope && topic !== ALL_TOPICS
         ? selectedCards.map((card) => card.id)
         : undefined;
     setProgress((old) =>
@@ -1097,7 +1139,7 @@ export default function FlashcardsApp({
 
   async function addTopic() {
     const title = prompt("Название нового раздела", "Урок ");
-    if (!title?.trim() || topics.includes(title.trim())) return;
+    if (!title?.trim() || rawTopics.includes(title.trim())) return;
     if (!offlineDemo)
       await fetch("/api/topics", {
         method: "POST",
@@ -1196,7 +1238,7 @@ export default function FlashcardsApp({
 
   async function removeDuplicates() {
     const scope =
-      libraryTopic === "Все разделы"
+      libraryTopic === ALL_TOPICS
         ? "во всём словаре"
         : `в разделе «${libraryTopic}»`;
     if (
@@ -1210,7 +1252,7 @@ export default function FlashcardsApp({
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
         deduplicate: true,
-        topic: libraryTopic === "Все разделы" ? "" : libraryTopic,
+        topic: rawTopics.includes(libraryTopic) ? libraryTopic : "",
       }),
     });
     const data = await response.json();
@@ -1353,7 +1395,7 @@ ${list.map((item, itemIndex) => `${itemIndex + 1}. ${item}`).join("\n")}
     setRevealed(false);
     if (!repeat) {
       setStudyTopics(
-        selectedTopic === "Все разделы" ? topics.slice(1) : [selectedTopic],
+        selectedTopic === ALL_TOPICS ? topics.slice(1) : [selectedTopic],
       );
       setStudySessionActive(false);
       setStudyMessage("");
@@ -1466,8 +1508,8 @@ ${list.map((item, itemIndex) => `${itemIndex + 1}. ${item}`).join("\n")}
             </div>
             <div className="topicChecks">
               {topics.slice(1).map((item) => {
-                const count = cards.filter(
-                  (card) => card.topic === item,
+                const count = cards.filter((card) =>
+                  cardMatchesTopic(card, item),
                 ).length;
                 return (
                   <label key={item}>
@@ -1648,7 +1690,7 @@ ${list.map((item, itemIndex) => `${itemIndex + 1}. ${item}`).join("\n")}
                 <span aria-hidden="true">🔊</span>
               </button>
               <span className="topicPill">
-                {current.kind === "word" ? "СЛОВО" : "ФРАЗА"} · {current.topic}
+                {current.kind === "word" ? "СЛОВО" : "ФРАЗА"} · {groupedTopic(current.topic)}
               </span>
               {!(revealed && currentConjugation) && (
                 <Visual type={current.association} card={current} />
@@ -1757,16 +1799,21 @@ ${list.map((item, itemIndex) => `${itemIndex + 1}. ${item}`).join("\n")}
         </div>
         <div className="sectionGrid">
           {topics.slice(1).map((item, i) => {
-            const list = cards.filter((c) => c.topic === item);
+            const list = cards.filter((card) => cardMatchesTopic(card, item));
             const done = list.filter((c) => progress[c.id] === "known").length;
             const scene = associations[i % associations.length].value;
             const isRenaming = renamingTopic === item;
+            const canRename = rawTopics.includes(item);
             return (
-              <article key={item}>
+              <article
+                className={item === NEW_TOPIC ? "newSection" : undefined}
+                key={item}
+              >
                 <Visual type={scene} card={list[0]} small />
                 <div className="sectionBody">
                   <span>
-                    Урок · {list.length} {cardWord(list.length)}
+                    {item === NEW_TOPIC ? "Последнее добавление" : "Раздел"} ·{" "}
+                    {list.length} {cardWord(list.length)}
                   </span>
                   {isRenaming ? (
                     <div className="renameLine">
@@ -1802,14 +1849,16 @@ ${list.map((item, itemIndex) => `${itemIndex + 1}. ${item}`).join("\n")}
                   </small>
                   <div className="sectionActions">
                     <button onClick={() => openLibrary(item)}>Список</button>
-                    <button
-                      onClick={() => {
-                        setRenamingTopic(item);
-                        setRenameValue(item);
-                      }}
-                    >
-                      Переименовать
-                    </button>
+                    {canRename && (
+                      <button
+                        onClick={() => {
+                          setRenamingTopic(item);
+                          setRenameValue(item);
+                        }}
+                      >
+                        Переименовать
+                      </button>
+                    )}
                     <button
                       className="primaryMini"
                       onClick={() => openStudy(item)}
@@ -1943,7 +1992,7 @@ ${list.map((item, itemIndex) => `${itemIndex + 1}. ${item}`).join("\n")}
                   aria-expanded={expanded}
                 >
                   <span>
-                    {card.kind === "word" ? "Слово" : "Фраза"} · {card.topic}
+                    {card.kind === "word" ? "Слово" : "Фраза"} · {groupedTopic(card.topic)}
                   </span>
                   <b>{card.italian}</b>
                   <i>{card.ipa}</i>
@@ -1983,7 +2032,7 @@ ${list.map((item, itemIndex) => `${itemIndex + 1}. ${item}`).join("\n")}
                         value={card.topic}
                         onChange={(e) => moveCard(card, e.target.value)}
                       >
-                        {topics.slice(1).map((item) => (
+                        {rawTopics.map((item) => (
                           <option key={item}>{item}</option>
                         ))}
                       </select>
@@ -2042,7 +2091,7 @@ ${list.map((item, itemIndex) => `${itemIndex + 1}. ${item}`).join("\n")}
                   value={form.topic}
                   onChange={(e) => setForm({ ...form, topic: e.target.value })}
                 >
-                  {topics.slice(1).map((item) => (
+                  {rawTopics.map((item) => (
                     <option key={item}>{item}</option>
                   ))}
                 </select>
@@ -2122,7 +2171,7 @@ ${list.map((item, itemIndex) => `${itemIndex + 1}. ${item}`).join("\n")}
                   value={form.topic}
                   onChange={(e) => setForm({ ...form, topic: e.target.value })}
                 >
-                  {topics.slice(1).map((item) => (
+                  {rawTopics.map((item) => (
                     <option key={item}>{item}</option>
                   ))}
                 </select>
@@ -2255,7 +2304,7 @@ ${list.map((item, itemIndex) => `${itemIndex + 1}. ${item}`).join("\n")}
         </div>
         <div className="topicProgressList">
           {topics.slice(1).map((item) => {
-            const list = cards.filter((c) => c.topic === item);
+            const list = cards.filter((card) => cardMatchesTopic(card, item));
             const done = list.filter((c) => progress[c.id] === "known").length;
             return (
               <button key={item} onClick={() => openStudy(item)}>
