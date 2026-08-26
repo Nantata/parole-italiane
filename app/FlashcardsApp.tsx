@@ -319,6 +319,29 @@ const cardImagePaths: Record<string, string> = {
   triste: "card-images/triste.webp",
 };
 
+const familyImagePaths: Record<string, string> = {
+  "la famiglia": "card-family/la-famiglia.webp",
+  "il parente": "card-family/il-parente.webp",
+  "il genitore": "card-family/il-genitore.webp",
+  "i genitori": "card-family/i-genitori.webp",
+  "il marito": "card-family/il-marito.webp",
+  "la moglie": "card-family/la-moglie.webp",
+  "il figlio": "card-family/il-figlio.webp",
+  "la figlia": "card-family/la-figlia.webp",
+  "il fratello": "card-family/il-fratello.webp",
+  "la sorella": "card-family/la-sorella.webp",
+  "il cugino": "card-family/il-cugino.webp",
+  "la cugina": "card-family/la-cugina.webp",
+  "lo zio": "card-family/lo-zio.webp",
+  "la zia": "card-family/la-zia.webp",
+  "il nonno": "card-family/il-nonno.webp",
+  "la nonna": "card-family/la-nonna.webp",
+  "il nipote": "card-family/il-nipote.webp",
+  "la nipote": "card-family/la-nipote.webp",
+  "il padre": "card-family/il-padre.webp",
+  "la madre": "card-family/la-madre.webp",
+};
+
 const semanticEmoji: Array<[RegExp, string]> = [
   [/e tu|e lei/i, "👉"],
   [/di dove|dov’è|dove sono/i, "📍"],
@@ -541,8 +564,28 @@ function Visual({
   small?: boolean;
   card?: Partial<Card>;
 }) {
+  const fullItalian = (card?.italian || "")
+    .toLocaleLowerCase("it")
+    .replace(/[!?.…]/g, "")
+    .trim();
   const italian = cleanItalian(card?.italian || "");
   const topic = card?.topic || "";
+  const familyImagePath = topic.includes("Семья")
+    ? familyImagePaths[fullItalian]
+    : undefined;
+  if (familyImagePath)
+    return (
+      <figure
+        className={`visual cardPhotoAssociation ${small ? "visualSmall" : ""}`}
+        aria-label={card?.translation || italian}
+      >
+        <img
+          src={`${import.meta.env.BASE_URL}${familyImagePath}`}
+          alt=""
+          loading={small ? "lazy" : "eager"}
+        />
+      </figure>
+    );
   const cardImagePath = cardImagePaths[italian];
   if (cardImagePath)
     return (
