@@ -317,6 +317,39 @@ const cardImagePaths: Record<string, string> = {
   buono: "card-images/buono.webp",
   felice: "card-images/felice.webp",
   triste: "card-images/triste.webp",
+  guardare: "card-new/guardare.webp",
+  ascoltare: "card-new/ascoltare.webp",
+  tornare: "card-new/tornare.webp",
+  usare: "card-new/usare.webp",
+  desiderare: "card-new/desiderare.webp",
+  perfezionare: "card-new/perfezionare.webp",
+  conversare: "card-new/conversare.webp",
+  telefonare: "card-new/telefonare.webp",
+  chiamare: "card-new/chiamare.webp",
+  visitare: "card-new/visitare.webp",
+  lavare: "card-new/lavare.webp",
+  cominciare: "card-new/cominciare.webp",
+  iniziare: "card-new/iniziare.webp",
+  cercare: "card-new/cercare.webp",
+  trovare: "card-new/trovare.webp",
+  pensare: "card-new/pensare.webp",
+  riposare: "card-new/riposare.webp",
+  fumare: "card-new/fumare.webp",
+  aspettare: "card-new/aspettare.webp",
+  insegnare: "card-new/insegnare.webp",
+  inviare: "card-new/inviare.webp",
+  mandare: "card-new/mandare.webp",
+  giocare: "card-new/giocare.webp",
+  spiegare: "card-new/spiegare.webp",
+  raccontare: "card-new/raccontare.webp",
+  "lo scambio": "card-new/lo-scambio.webp",
+  "il madrelingua": "card-new/il-madrelingua.webp",
+  "la conversazione": "card-new/la-conversazione.webp",
+  "la lezione": "card-new/la-lezione.webp",
+  "i dolci": "card-new/i-dolci.webp",
+  "l'insegnante": "card-new/l-insegnante.webp",
+  "sono di origine italiana": "card-new/sono-di-origine-italiana.webp",
+  "in cambio di": "card-new/in-cambio-di.webp",
 };
 
 const familyImagePaths: Record<string, string> = {
@@ -698,6 +731,20 @@ function Visual({
     );
   }
   const semanticSource = `${card?.italian || ""} ${card?.translation || ""}`;
+  const exactCardImagePath = cardImagePaths[italian.toLocaleLowerCase("it-IT")];
+  if (exactCardImagePath)
+    return (
+      <figure
+        className={`visual cardPhotoAssociation ${small ? "visualSmall" : ""}`}
+        aria-label={card?.translation || italian}
+      >
+        <img
+          src={`${import.meta.env.BASE_URL}${exactCardImagePath}`}
+          alt=""
+          loading={small ? "lazy" : "eager"}
+        />
+      </figure>
+    );
   const semanticIndex = semanticEmoji.findIndex(([pattern]) =>
     pattern.test(semanticSource),
   );
