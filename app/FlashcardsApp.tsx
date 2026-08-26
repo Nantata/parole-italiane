@@ -385,6 +385,10 @@ const cardImagePaths: Record<string, string> = {
   "l'insegnante": "card-new/l-insegnante.webp",
   "sono di origine italiana": "card-new/sono-di-origine-italiana.webp",
   "in cambio di": "card-new/in-cambio-di.webp",
+  "il petto": "card-body/il-petto.webp",
+  "la pancia": "card-body/la-pancia.webp",
+  "il gomito": "card-body/il-gomito.webp",
+  "la spalla": "card-scenes/semantic-025-la-spalla.webp",
 };
 
 const familyImagePaths: Record<string, string> = {
