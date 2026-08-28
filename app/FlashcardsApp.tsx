@@ -453,11 +453,13 @@ const cardImagePaths: Record<string, string> = {
   "la pancia": "card-body/la-pancia.webp",
   "il gomito": "card-body/il-gomito.webp",
   "la spalla": "card-scenes/semantic-025-la-spalla.webp",
-  bosco: "card-images/bosco-v2.webp",
-  spiaggia: "card-images/spiaggia-v2.webp",
-  valigia: "card-images/valigia-v2.webp",
-  arancia: "card-images/arancia-v2.webp",
-  farmacia: "card-images/farmacia-v2.webp",
+  // These five files were uploaded with shifted filenames. Keep the existing
+  // illustrations and bind each Italian word to the scene it actually shows.
+  bosco: "card-images/valigia-v2.webp?v=2",
+  spiaggia: "card-images/bosco-v2.webp?v=2",
+  valigia: "card-images/farmacia-v2.webp?v=2",
+  arancia: "card-images/spiaggia-v2.webp?v=2",
+  farmacia: "card-images/arancia-v2.webp?v=2",
 };
 
 const familyImagePaths: Record<string, string> = {
