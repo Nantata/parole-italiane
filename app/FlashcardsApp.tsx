@@ -1408,7 +1408,11 @@ ${list.map((item, itemIndex) => `${itemIndex + 1}. ${item}`).join("\n")}
   }
 
   return (
-    <main className="appShell">
+    <main
+      className={`appShell warmTheme ${
+        tab === "study" && !studySessionActive ? "studySetupTheme" : ""
+      }`}
+    >
       <header className="topbar">
         <div className="brandMark">
           <span>ciao</span>
@@ -1487,11 +1491,10 @@ ${list.map((item, itemIndex) => `${itemIndex + 1}. ${item}`).join("\n")}
     if (!repeatOnly && !studySessionActive)
       return (
         <section className="studySetup">
-          <p className="sectionLabel">Собрать занятие</p>
-          <h2>Что учим сегодня?</h2>
+          <p className="sectionLabel">Моё занятие</p>
+          <h2>Соберите занятие</h2>
           <p className="setupIntro">
-            Выбери один или несколько разделов, а затем впиши любое количество
-            карточек.
+            Выберите один или несколько разделов и количество карточек.
           </p>
           <div className="setupBlock">
             <div className="setupBlockHead">
@@ -1511,18 +1514,25 @@ ${list.map((item, itemIndex) => `${itemIndex + 1}. ${item}`).join("\n")}
               </button>
             </div>
             <div className="topicChecks">
-              {topics.slice(1).map((item) => {
-                const count = cards.filter((card) =>
+              {topics.slice(1).map((item, topicIndex) => {
+                const topicCards = cards.filter((card) =>
                   cardMatchesTopic(card, item),
-                ).length;
+                );
+                const count = topicCards.length;
+                const previewCard = topicCards[0];
+                const scene = previewCard?.association || "book";
                 return (
-                  <label key={item}>
+                  <label
+                    className={`topicCheck topicTone${(topicIndex % 5) + 1}`}
+                    key={item}
+                  >
                     <input
                       type="checkbox"
                       checked={studyTopics.includes(item)}
                       onChange={() => toggleStudyTopic(item)}
                     />
-                    <span>✓</span>
+                    <span className="topicCheckbox">✓</span>
+                    <Visual type={scene} card={previewCard} small />
                     <b>
                       {item}
                       <small>
@@ -1802,10 +1812,10 @@ ${list.map((item, itemIndex) => `${itemIndex + 1}. ${item}`).join("\n")}
           <button onClick={addTopic}>＋ Раздел</button>
         </div>
         <div className="sectionGrid">
-          {topics.slice(1).map((item, i) => {
+          {topics.slice(1).map((item) => {
             const list = cards.filter((card) => cardMatchesTopic(card, item));
             const done = list.filter((c) => progress[c.id] === "known").length;
-            const scene = associations[i % associations.length].value;
+            const scene = list[0]?.association || "book";
             const isRenaming = renamingTopic === item;
             const canRename = rawTopics.includes(item);
             return (
