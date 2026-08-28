@@ -51,9 +51,26 @@ type Card = {
 
 const ALL_TOPICS = "Все разделы";
 const NEW_TOPIC = "✨ Новое";
-// "Новое" shows only the latest uploaded batch. Previous batch cards remain
-// in their thematic sections but are no longer listed here.
-const FIRST_NEW_BASE_CARD_ID = 663;
+// "Новое" is a view of the latest uploaded batch, not a separate copy of
+// cards. On the next upload this list is fully replaced; the cards themselves
+// continue to live in their permanent thematic sections.
+//
+// The set deliberately includes words that were already in the library
+// (for example, l'insegnante): they appear in today's batch without creating
+// a duplicate card.
+const LATEST_NEW_CARD_ITALIAN = new Set([
+  "la segretaria", "l'impiegato", "l'insegnante", "il giornalista",
+  "il farmacista", "il tassista", "il commesso", "l'infermiere",
+  "il cameriere", "l'operaio", "il cuoco", "il chirurgo", "l'architetto",
+  "l'estetista", "l'avvocato", "l'attore", "il dottore", "il medico",
+  "il meccanico", "il poliziotto", "il traduttore", "il rappresentante",
+  "la casalinga", "Che lavoro fai?", "Che fai nella vita?",
+  "Di che cosa ti occupi?", "Dove lavori?", "fare la spesa",
+  "fare una passeggiata", "fare le vacanze", "fare il bagno", "fare la coda",
+  "fare uno sbaglio", "fare colazione", "Che tempo fa?", "Fa caldo.",
+  "Fa freddo.", "parlare", "scrivere", "partire", "capire", "cercare",
+  "giocare", "mangiare",
+].map((italian) => italian.toLocaleLowerCase("it")));
 
 const groupedTopicTitles: Record<number, string> = {
   1: "Приветствия и общение", 2: "Приветствия и общение", 3: "Приветствия и общение",
@@ -77,7 +94,7 @@ function groupedTopic(topic: string) {
 }
 
 function isNewCard(card: Card) {
-  return card.id >= FIRST_NEW_BASE_CARD_ID;
+  return LATEST_NEW_CARD_ITALIAN.has(card.italian.trim().toLocaleLowerCase("it"));
 }
 
 function cardMatchesTopic(card: Card, selectedTopic: string) {
