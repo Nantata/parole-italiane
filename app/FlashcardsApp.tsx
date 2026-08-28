@@ -1998,3 +1998,446 @@ ${list.map((item, itemIndex) => `${itemIndex + 1}. ${item}`).join("\n")}
     const allVisibleSelected =
       visibleIds.length > 0 &&
       visibleIds.every((id) => selectedIds.includes(id));
+    return (
+      <section>
+        <div className="listTitle">
+          <div>
+            <p className="sectionLabel">Свободный просмотр</p>
+            <h2>Все карточки</h2>
+          </div>
+        </div>
+        <p className="libraryHint">
+          Здесь можно спокойно просматривать, раскрывать и распределять карточки
+          — прогресс обучения не меняется.
+        </p>
+        <label className="libraryTopicFilter">
+          Показать раздел
+          <select
+            value={libraryTopic}
+            onChange={(e) => {
+              setLibraryTopic(e.target.value);
+              setSelectedIds([]);
+              setLibraryMessage("");
+            }}
+          >
+            {topics.map((item) => (
+              <option key={item}>{item}</option>
+            ))}
+          </select>
+        </label>
+        <div className="filterChips">
+          <button
+            className={kindFilter === "all" ? "active" : ""}
+            onClick={() => setKindFilter("all")}
+          >
+            Все · {libraryCards.length}
+          </button>
+          <button
+            className={kindFilter === "word" ? "active" : ""}
+            onClick={() => setKindFilter("word")}
+          >
+            Слова
+          </button>
+          <button
+            className={kindFilter === "phrase" ? "active" : ""}
+            onClick={() => setKindFilter("phrase")}
+          >
+            Фразы
+          </button>
+        </div>
+        {isOwner && <div className="bulkBar">
+          <button
+            onClick={() =>
+              setSelectedIds(
+                allVisibleSelected
+                  ? selectedIds.filter((id) => !visibleIds.includes(id))
+                  : Array.from(new Set([...selectedIds, ...visibleIds])),
+              )
+            }
+          >
+            {allVisibleSelected ? "Снять выбор" : "Выбрать все"}
+          </button>
+          <button className="dedupeButton" onClick={removeDuplicates}>
+            Убрать дубли
+          </button>
+          <button
+            className="deleteBulk"
+            onClick={deleteSelected}
+            disabled={!selectedIds.length}
+          >
+            Удалить выбранные
+            {selectedIds.length ? ` · ${selectedIds.length}` : ""}
+          </button>
+        </div>}
+        {libraryMessage && (
+          <p className="libraryMessage" role="status">
+            {libraryMessage}
+          </p>
+        )}
+        <div className="wordList">
+          {libraryCards.map((card) => {
+            const expanded = expandedCardId === card.id;
+            const selected = selectedIds.includes(card.id);
+            return (
+              <article
+                className={`${expanded ? "expanded " : ""}${selected ? "selected" : ""}`}
+                key={card.id}
+              >
+                {isOwner && <label
+                  className="selectCard"
+                  aria-label={`Выбрать ${card.italian}`}
+                >
+                  <input
+                    type="checkbox"
+                    checked={selected}
+                    onChange={() => toggleSelected(card.id)}
+                  />
+                  <span>✓</span>
+                </label>}
+                <Visual type={card.association} card={card} small />
+                <button
+                  className="wordMain"
+                  onClick={() => setExpandedCardId(expanded ? null : card.id)}
+                  aria-expanded={expanded}
+                >
+                  <span>
+                    {card.kind === "word" ? "Слово" : "Фраза"} · {groupedTopic(card.topic)}
+                  </span>
+                  <b>{card.italian}</b>
+                  <i>{card.ipa}</i>
+                  <p>{card.translation}</p>
+                  <em>{expanded ? "Свернуть" : "Подробнее"}</em>
+                </button>
+                {isOwner && <div className="wordButtons">
+                  <button
+                    onClick={() => edit(card)}
+                    aria-label={`Редактировать ${card.italian}`}
+                  >
+                    ✎
+                  </button>
+                  <button
+                    onClick={() => remove(card)}
+                    aria-label={`Удалить ${card.italian}`}
+                  >
+                    ×
+                  </button>
+                </div>}
+                {expanded && (
+                  <div className="wordDetails">
+                    {card.example && (
+                      <p>
+                        <b>{card.example}</b>
+                        <span>{card.exampleTranslation}</span>
+                      </p>
+                    )}
+                    {card.usage && (
+                      <p>
+                        <span>{card.usage}</span>
+                      </p>
+                    )}
+                    {isOwner && <label>
+                      Перенести в раздел
+                      <select
+                        value={card.topic}
+                        onChange={(e) => moveCard(card, e.target.value)}
+                      >
+                        {rawTopics.map((item) => (
+                          <option key={item}>{item}</option>
+                        ))}
+                      </select>
+                    </label>}
+                  </div>
+                )}
+              </article>
+            );
+          })}
+        </div>
+        {!libraryCards.length && (
+          <div className="emptyList">В этом разделе пока нет карточек.</div>
+        )}
+      </section>
+    );
+  }
+
+  function AddView() {
+    return (
+      <section>
+        <p className="sectionLabel">Новые знания</p>
+        <h2>{editingId ? "Исправить карточку" : "Добавить материалы"}</h2>
+        {!editingId && (
+          <div className="modeSwitch">
+            <button
+              className={addMode === "batch" ? "active" : ""}
+              onClick={() => setAddMode("batch")}
+            >
+              Списком через ChatGPT
+            </button>
+            <button
+              className={addMode === "manual" ? "active" : ""}
+              onClick={() => setAddMode("manual")}
+            >
+              Одну вручную
+            </button>
+          </div>
+        )}
+        {addMode === "batch" && !editingId ? (
+          <div className="batchFlow">
+            <div className="freeNote">
+              <span>✦</span>
+              <div>
+                <b>Полностью бесплатно</b>
+                <p>
+                  ChatGPT подготовит IPA и переводы, для каждого слова —
+                  предложение с переводом, для каждой фразы — пояснение
+                  ситуации. Сайт проверит и сохранит результат.
+                </p>
+              </div>
+            </div>
+            <label>
+              Куда добавить карточки
+              <div className="topicLine">
+                <select
+                  value={form.topic}
+                  onChange={(e) => setForm({ ...form, topic: e.target.value })}
+                >
+                  {rawTopics.map((item) => (
+                    <option key={item}>{item}</option>
+                  ))}
+                </select>
+                <button onClick={addTopic}>＋ Новый</button>
+              </div>
+            </label>
+            <label>
+              1. Вставь слова и фразы — каждый элемент с новой строки
+              <textarea
+                value={batchWords}
+                onChange={(e) => setBatchWords(e.target.value)}
+                placeholder={"casa\nmare\nCome stai?\nMolto bene, grazie."}
+              />
+            </label>
+            <button className="copyButton" onClick={copyPrompt}>
+              {copied
+                ? "✓ Задание скопировано"
+                : "Скопировать задание для ChatGPT"}
+            </button>
+            <p className="flowHint">
+              Открой ChatGPT, вставь задание и скопируй полученный JSON.
+            </p>
+            <label>
+              2. Вставь сюда ответ ChatGPT
+              <textarea
+                className="jsonArea"
+                value={batchResult}
+                onChange={(e) => {
+                  setBatchResult(e.target.value);
+                  setImportSucceeded(false);
+                  setMessage("");
+                }}
+                placeholder={'[{"topic":"...","kind":"word", ...}]'}
+              />
+            </label>
+            {message && (
+              <p
+                className={`formMessage ${importSucceeded ? "success" : ""}`}
+                role="status"
+              >
+                {message}
+              </p>
+            )}
+            <button
+              className={`saveButton ${importing ? "loadingButton" : ""}`}
+              onClick={importBatch}
+              disabled={importing || !batchResult.trim()}
+            >
+              {importing ? (
+                <>
+                  <span className="spinner" />
+                  Импортирую карточки…
+                </>
+              ) : (
+                "Импортировать карточки"
+              )}
+            </button>
+          </div>
+        ) : (
+          <form className="cardForm" onSubmit={submit}>
+            <label>
+              Тип материала
+              <select
+                value={form.kind}
+                onChange={(e) =>
+                  setForm({ ...form, kind: e.target.value as CardKind })
+                }
+              >
+                <option value="word">Отдельное слово</option>
+                <option value="phrase">Фраза или выражение</option>
+              </select>
+            </label>
+            <label>
+              Раздел
+              <div className="topicLine">
+                <select
+                  value={form.topic}
+                  onChange={(e) => setForm({ ...form, topic: e.target.value })}
+                >
+                  {rawTopics.map((item) => (
+                    <option key={item}>{item}</option>
+                  ))}
+                </select>
+                <button type="button" onClick={addTopic}>
+                  ＋
+                </button>
+              </div>
+            </label>
+            <label>
+              Итальянский текст <b>*</b>
+              <input
+                lang="it"
+                value={form.italian}
+                onChange={(e) => setForm({ ...form, italian: e.target.value })}
+                placeholder="buongiorno"
+              />
+            </label>
+            <label>
+              Транскрипция IPA <b>*</b>
+              <input
+                value={form.ipa}
+                onChange={(e) => setForm({ ...form, ipa: e.target.value })}
+                placeholder="/bwɔnˈdʒorno/"
+              />
+            </label>
+            <label>
+              Перевод <b>*</b>
+              <input
+                value={form.translation}
+                onChange={(e) =>
+                  setForm({ ...form, translation: e.target.value })
+                }
+                placeholder="добрый день"
+              />
+            </label>
+            <label>
+              Жизненный пример на итальянском <b>*</b>
+              <input
+                lang="it"
+                value={form.example}
+                onChange={(e) => setForm({ ...form, example: e.target.value, usage: "" })}
+              />
+            </label>
+            <label>
+              Перевод примера <b>*</b>
+              <input
+                value={form.exampleTranslation}
+                onChange={(e) => setForm({ ...form, exampleTranslation: e.target.value })}
+              />
+            </label>
+            <label>
+              Визуальная ассоциация
+              <select
+                value={form.association}
+                onChange={(e) =>
+                  setForm({
+                    ...form,
+                    association: e.target.value as Association,
+                  })
+                }
+              >
+                {associations.map((a) => (
+                  <option key={a.value} value={a.value}>
+                    {a.label}
+                  </option>
+                ))}
+              </select>
+            </label>
+            <Visual type={form.association} card={form} />
+            {message && <p className="formMessage">{message}</p>}
+            <button className="saveButton" type="submit">
+              {editingId ? "Сохранить изменения" : "Добавить карточку"}
+            </button>
+            {editingId && (
+              <button
+                className="cancelButton"
+                type="button"
+                onClick={() => {
+                  setEditingId(null);
+                  setForm(emptyForm);
+                  setTab("library");
+                }}
+              >
+                Отмена
+              </button>
+            )}
+          </form>
+        )}
+      </section>
+    );
+  }
+
+  function ProgressView() {
+    const totalKnown = cards.filter((c) => progress[c.id] === "known").length;
+    const percent = cards.length
+      ? Math.round((totalKnown / cards.length) * 100)
+      : 0;
+    return (
+      <section>
+        <p className="sectionLabel">Моё путешествие</p>
+        <h2>Прогресс</h2>
+        <div className="progressHero">
+          <div
+            className="progressCircle"
+            style={
+              { "--progress": `${percent * 3.6}deg` } as React.CSSProperties
+            }
+          >
+            <div>
+              <b>{percent}%</b>
+              <span>маршрута</span>
+            </div>
+          </div>
+          <h3>Bravissima, Наталья!</h3>
+          <p>Каждая изученная карточка — ещё один шаг по солнечной Италии.</p>
+        </div>
+        <div className="statGrid">
+          <article>
+            <b>{cards.length}</b>
+            <span>всего карточек</span>
+          </article>
+          <article>
+            <b>{totalKnown}</b>
+            <span>уже знаю</span>
+          </article>
+          <article>
+            <b>{hardCount}</b>
+            <span>хочу повторить</span>
+          </article>
+        </div>
+        <div className="topicProgressList">
+          {topics.slice(1).map((item) => {
+            const list = cards.filter((card) => cardMatchesTopic(card, item));
+            const done = list.filter((c) => progress[c.id] === "known").length;
+            return (
+              <button key={item} onClick={() => openStudy(item)}>
+                <span>
+                  {item}
+                  <small>
+                    {done} из {list.length}
+                  </small>
+                </span>
+                <i>
+                  <em
+                    style={{
+                      width: `${list.length ? (done / list.length) * 100 : 0}%`,
+                    }}
+                  />
+                </i>
+              </button>
+            );
+          })}
+        </div>
+        <button className="resetLink" onClick={() => resetProgress(false)}>
+          Сбросить весь прогресс
+        </button>
+      </section>
+    );
+  }
+}
