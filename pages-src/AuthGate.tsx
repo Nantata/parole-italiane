@@ -32,13 +32,16 @@ export default function AuthGate({ children }: { children: ReactNode }) {
       setIsOwner(false);
       return;
     }
+    // Доступ к приложению получают все подтверждённые аккаунты.
+    // Таблица allowed_emails используется только для определения владельца
+    // и, следовательно, права редактировать карточки.
     supabase
       .from("allowed_emails")
-      .select("email,is_owner")
+      .select("is_owner")
       .eq("email", session.user.email.toLowerCase())
       .maybeSingle()
       .then(({ data }) => {
-        setAllowed(Boolean(data));
+        setAllowed(true);
         setIsOwner(Boolean(data?.is_owner));
       });
   }, [session]);
