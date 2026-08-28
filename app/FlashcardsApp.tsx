@@ -687,7 +687,7 @@ function cleanItalian(value: string) {
   return value
     .toLocaleLowerCase("it")
     .replace(/[!?.…]/g, "")
-    .replace(/^(il|lo|la|l’|i|gli|le)\s+/i, "")
+    .replace(/^(?:(?:il|lo|la|i|gli|le)\s+|l['’]\s*)/i, "")
     .trim();
 }
 
