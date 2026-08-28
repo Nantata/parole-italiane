@@ -51,7 +51,9 @@ type Card = {
 
 const ALL_TOPICS = "Все разделы";
 const NEW_TOPIC = "✨ Новое";
-const FIRST_NEW_BASE_CARD_ID = 630;
+// "Новое" shows only the latest uploaded batch. Previous batch cards remain
+// in their thematic sections but are no longer listed here.
+const FIRST_NEW_BASE_CARD_ID = 663;
 
 const groupedTopicTitles: Record<number, string> = {
   1: "Приветствия и общение", 2: "Приветствия и общение", 3: "Приветствия и общение",
@@ -165,6 +167,20 @@ const irregularPresentConjugations: Record<string, VerbForm[]> = {
     { pronoun: "voi", form: "date" },
     { pronoun: "loro", form: "danno" },
   ],
+};
+
+const presentPronouns = ["io", "tu", "lui / lei / Lei", "noi", "voi", "loro"];
+function presentForms(forms: string[]): VerbForm[] {
+  return presentPronouns.map((pronoun, index) => ({ pronoun, form: forms[index] }));
+}
+const regularPresentConjugations: Record<string, VerbForm[]> = {
+  parlare: presentForms(["parlo", "parli", "parla", "parliamo", "parlate", "parlano"]),
+  scrivere: presentForms(["scrivo", "scrivi", "scrive", "scriviamo", "scrivete", "scrivono"]),
+  partire: presentForms(["parto", "parti", "parte", "partiamo", "partite", "partono"]),
+  capire: presentForms(["capisco", "capisci", "capisce", "capiamo", "capite", "capiscono"]),
+  cercare: presentForms(["cerco", "cerchi", "cerca", "cerchiamo", "cercate", "cercano"]),
+  giocare: presentForms(["gioco", "giochi", "gioca", "giochiamo", "giocate", "giocano"]),
+  mangiare: presentForms(["mangio", "mangi", "mangia", "mangiamo", "mangiate", "mangiano"]),
 };
 
 const associations: { value: Association; label: string }[] = [
@@ -974,7 +990,8 @@ export default function FlashcardsApp({
       ? studySession[studySessionIndex] || null
       : null;
   const currentConjugation = current
-    ? irregularPresentConjugations[current.italian.trim().toLocaleLowerCase("it")]
+    ? irregularPresentConjugations[current.italian.trim().toLocaleLowerCase("it")] ||
+      regularPresentConjugations[current.italian.trim().toLocaleLowerCase("it")]
     : undefined;
   const knownCount = selectedCards.filter(
     (card) => progress[card.id] === "known",
