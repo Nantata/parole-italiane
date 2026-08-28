@@ -7,6 +7,7 @@ type Mode = "login" | "signup" | "recovery" | "new-password";
 export default function AuthGate({ children }: { children: ReactNode }) {
   const [session, setSession] = useState<Session | null>(null);
   const [allowed, setAllowed] = useState<boolean | null>(null);
+  const [isOwner, setIsOwner] = useState(false);
   const [mode, setMode] = useState<Mode>(() => {
     const recoveryType = new URLSearchParams(window.location.hash.slice(1)).get("type");
     return recoveryType === "recovery" ? "new-password" : "login";
@@ -28,14 +29,18 @@ export default function AuthGate({ children }: { children: ReactNode }) {
   useEffect(() => {
     if (!session?.user.email) {
       setAllowed(null);
+      setIsOwner(false);
       return;
     }
     supabase
       .from("allowed_emails")
-      .select("email")
+      .select("email,is_owner")
       .eq("email", session.user.email.toLowerCase())
       .maybeSingle()
-      .then(({ data }) => setAllowed(Boolean(data)));
+      .then(({ data }) => {
+        setAllowed(Boolean(data));
+        setIsOwner(Boolean(data?.is_owner));
+      });
   }, [session]);
 
   async function submit(event: FormEvent) {
@@ -86,6 +91,7 @@ export default function AuthGate({ children }: { children: ReactNode }) {
       {
         account: {
           email: session.user.email ?? "",
+          isOwner,
           onSignOut: () => supabase.auth.signOut(),
         },
       },

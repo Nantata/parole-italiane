@@ -852,9 +852,11 @@ export default function FlashcardsApp({
 }: {
   account?: {
     email: string;
+    isOwner: boolean;
     onSignOut: () => void | Promise<unknown>;
   };
 } = {}) {
+  const isOwner = account?.isOwner === true;
   const [tab, setTab] = useState<Tab>("study");
   const [cards, setCards] = useState<Card[]>(starterCards);
   const [speakingText, setSpeakingText] = useState("");
@@ -1084,6 +1086,7 @@ export default function FlashcardsApp({
 
   async function submit(event: FormEvent) {
     event.preventDefault();
+    if (!isOwner) return;
     setMessage("");
     if (!form.italian.trim() || !form.ipa.trim() || !form.translation.trim()) {
       setMessage("Заполни итальянский текст, IPA и перевод");
@@ -1127,6 +1130,7 @@ export default function FlashcardsApp({
   }
 
   function edit(card: Card) {
+    if (!isOwner) return;
     setForm({ ...card });
     setEditingId(card.id);
     setAddMode("manual");
@@ -1135,6 +1139,7 @@ export default function FlashcardsApp({
   }
 
   async function remove(card: Card) {
+    if (!isOwner) return;
     if (!confirm(`Удалить «${card.italian}»?`)) return;
     setCards((old) => old.filter((item) => item.id !== card.id));
     if (card.id > 0 && !offlineDemo)
@@ -1142,6 +1147,7 @@ export default function FlashcardsApp({
   }
 
   async function addTopic() {
+    if (!isOwner) return;
     const title = prompt("Название нового раздела", "Урок ");
     if (!title?.trim() || rawTopics.includes(title.trim())) return;
     if (!offlineDemo)
@@ -1155,6 +1161,7 @@ export default function FlashcardsApp({
   }
 
   async function moveCard(card: Card, nextTopic: string) {
+    if (!isOwner) return;
     if (!nextTopic || nextTopic === card.topic) return;
     const updated = { ...card, topic: nextTopic };
     setCards((old) =>
@@ -1173,6 +1180,7 @@ export default function FlashcardsApp({
   }
 
   async function renameTopic(oldTitle: string) {
+    if (!isOwner) return;
     const newTitle = renameValue.trim();
     if (!newTitle || newTitle === oldTitle) {
       setRenamingTopic(null);
@@ -1223,6 +1231,7 @@ export default function FlashcardsApp({
   }
 
   async function deleteSelected() {
+    if (!isOwner) return;
     const ids = selectedIds.filter((id) => id > 0);
     if (!ids.length || !confirm(`Удалить выбранные карточки: ${ids.length}?`))
       return;
@@ -1241,6 +1250,7 @@ export default function FlashcardsApp({
   }
 
   async function removeDuplicates() {
+    if (!isOwner) return;
     const scope =
       libraryTopic === ALL_TOPICS
         ? "во всём словаре"
@@ -1829,7 +1839,7 @@ ${list.map((item, itemIndex) => `${itemIndex + 1}. ${item}`).join("\n")}
                     {item === NEW_TOPIC ? "Последнее добавление" : "Раздел"} ·{" "}
                     {list.length} {cardWord(list.length)}
                   </span>
-                  {isRenaming ? (
+                  {isOwner && isRenaming ? (
                     <div className="renameLine">
                       <input
                         autoFocus
@@ -1863,7 +1873,7 @@ ${list.map((item, itemIndex) => `${itemIndex + 1}. ${item}`).join("\n")}
                   </small>
                   <div className="sectionActions">
                     <button onClick={() => openLibrary(item)}>Список</button>
-                    {canRename && (
+                    {isOwner && canRename && (
                       <button
                         onClick={() => {
                           setRenamingTopic(item);
@@ -1885,7 +1895,7 @@ ${list.map((item, itemIndex) => `${itemIndex + 1}. ${item}`).join("\n")}
             );
           })}
         </div>
-        {topics.length === 1 && (
+        {isOwner && topics.length === 1 && (
           <div className="emptyCard">
             <span>Создай первый раздел</span>
             <b>Например, «Урок 1. Знакомство»</b>
@@ -1950,7 +1960,7 @@ ${list.map((item, itemIndex) => `${itemIndex + 1}. ${item}`).join("\n")}
             Фразы
           </button>
         </div>
-        <div className="bulkBar">
+        {isOwner && <div className="bulkBar">
           <button
             onClick={() =>
               setSelectedIds(
@@ -1973,7 +1983,7 @@ ${list.map((item, itemIndex) => `${itemIndex + 1}. ${item}`).join("\n")}
             Удалить выбранные
             {selectedIds.length ? ` · ${selectedIds.length}` : ""}
           </button>
-        </div>
+        </div>}
         {libraryMessage && (
           <p className="libraryMessage" role="status">
             {libraryMessage}
@@ -1988,7 +1998,7 @@ ${list.map((item, itemIndex) => `${itemIndex + 1}. ${item}`).join("\n")}
                 className={`${expanded ? "expanded " : ""}${selected ? "selected" : ""}`}
                 key={card.id}
               >
-                <label
+                {isOwner && <label
                   className="selectCard"
                   aria-label={`Выбрать ${card.italian}`}
                 >
@@ -1998,7 +2008,7 @@ ${list.map((item, itemIndex) => `${itemIndex + 1}. ${item}`).join("\n")}
                     onChange={() => toggleSelected(card.id)}
                   />
                   <span>✓</span>
-                </label>
+                </label>}
                 <Visual type={card.association} card={card} small />
                 <button
                   className="wordMain"
@@ -2013,7 +2023,7 @@ ${list.map((item, itemIndex) => `${itemIndex + 1}. ${item}`).join("\n")}
                   <p>{card.translation}</p>
                   <em>{expanded ? "Свернуть" : "Подробнее"}</em>
                 </button>
-                <div className="wordButtons">
+                {isOwner && <div className="wordButtons">
                   <button
                     onClick={() => edit(card)}
                     aria-label={`Редактировать ${card.italian}`}
@@ -2026,7 +2036,7 @@ ${list.map((item, itemIndex) => `${itemIndex + 1}. ${item}`).join("\n")}
                   >
                     ×
                   </button>
-                </div>
+                </div>}
                 {expanded && (
                   <div className="wordDetails">
                     {card.example && (
@@ -2040,7 +2050,7 @@ ${list.map((item, itemIndex) => `${itemIndex + 1}. ${item}`).join("\n")}
                         <span>{card.usage}</span>
                       </p>
                     )}
-                    <label>
+                    {isOwner && <label>
                       Перенести в раздел
                       <select
                         value={card.topic}
@@ -2050,7 +2060,7 @@ ${list.map((item, itemIndex) => `${itemIndex + 1}. ${item}`).join("\n")}
                           <option key={item}>{item}</option>
                         ))}
                       </select>
-                    </label>
+                    </label>}
                   </div>
                 )}
               </article>

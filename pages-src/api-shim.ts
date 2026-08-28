@@ -38,6 +38,17 @@ async function currentUser() {
   return data.user;
 }
 
+async function currentUserIsOwner() {
+  const user = await currentUser();
+  if (!user?.email) return false;
+  const { data } = await supabase
+    .from("allowed_emails")
+    .select("is_owner")
+    .eq("email", user.email.toLowerCase())
+    .maybeSingle();
+  return data?.is_owner === true;
+}
+
 async function handleData(url: URL, init: RequestInit) {
   const user = await currentUser();
   if (!user) return json({ error: "Войдите в аккаунт" }, 401);
@@ -58,6 +69,7 @@ async function handleData(url: URL, init: RequestInit) {
     });
   }
   if (method === "POST" || method === "PUT") {
+    if (!(await currentUserIsOwner())) return json({ error: "Только владелец сайта может менять карточки" }, 403);
     const body = JSON.parse(String(init.body || "{}")) as CardInput & { cards?: CardInput[] };
     if (Array.isArray(body.cards)) {
       const prepared = body.cards.map((card) => dbCard(card, user.id));
@@ -88,6 +100,7 @@ async function handleData(url: URL, init: RequestInit) {
     return json({ card: appCard(data as Record<string, unknown>) }, method === "POST" ? 201 : 200);
   }
   if (method === "DELETE") {
+    if (!(await currentUserIsOwner())) return json({ error: "Только владелец сайта может удалять карточки" }, 403);
     const contentType = new Headers(init.headers).get("content-type") || "";
     if (contentType.includes("application/json")) {
       const body = JSON.parse(String(init.body || "{}")) as { ids?: number[]; deduplicate?: boolean };
@@ -125,6 +138,7 @@ async function handleProgress(init: RequestInit) {
 async function handleTopics(init: RequestInit) {
   const user = await currentUser();
   if (!user) return json({ error: "Войдите в аккаунт" }, 401);
+  if (!(await currentUserIsOwner())) return json({ error: "Только владелец сайта может менять разделы" }, 403);
   const body = JSON.parse(String(init.body || "{}")) as { title?: string; oldTitle?: string; newTitle?: string };
   const method = (init.method || "POST").toUpperCase();
   if (method === "PUT") {
