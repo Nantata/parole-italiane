@@ -368,21 +368,21 @@ const calculationValues: Record<string, string> = {
 
 const cardImagePaths: Record<string, string> = {
   segretaria: "card-professions/la-segretaria-v2.webp",
-  impiegato: "card-professions/l-impiegato-v2.webp",
-  insegnante: "card-professions/l-insegnante-v2.webp",
+  impiegato: "card-professions/l-impiegato-v2.webp?v=3",
+  insegnante: "card-professions/l-insegnante-v2.webp?v=3",
   giornalista: "card-professions/il-giornalista-v2.webp",
   farmacista: "card-professions/il-farmacista-v2.webp",
   tassista: "card-professions/il-tassista-v2.webp",
   commesso: "card-professions/il-commesso-v2.webp",
-  infermiere: "card-professions/l-infermiere-v2.webp",
+  infermiere: "card-professions/l-infermiere-v2.webp?v=3",
   cameriere: "card-professions/il-cameriere-v2.webp",
-  operaio: "card-professions/l-operaio-v2.webp",
+  operaio: "card-professions/l-operaio-v2.webp?v=3",
   cuoco: "card-professions/il-cuoco-v2.webp",
   chirurgo: "card-professions/il-chirurgo-v2.webp",
-  architetto: "card-professions/l-architetto-v2.webp",
-  estetista: "card-professions/l-estetista-v2.webp",
-  avvocato: "card-professions/l-avvocato-v2.webp",
-  attore: "card-professions/l-attore-v2.webp",
+  architetto: "card-professions/l-architetto-v2.webp?v=3",
+  estetista: "card-professions/l-estetista-v2.webp?v=3",
+  avvocato: "card-professions/l-avvocato-v2.webp?v=3",
+  attore: "card-professions/l-attore-v2.webp?v=3",
   // The existing physician image remains unchanged for both doctor cards.
   dottore: "card-scenes/semantic-045-il-medico-v2.webp",
   meccanico: "card-professions/il-meccanico-v2.webp",
@@ -683,12 +683,27 @@ function spokenCardText(value: string) {
     .trim();
 }
 
-function cleanItalian(value: string) {
+function normalizeItalian(value: string) {
   return value
-    .toLocaleLowerCase("it")
-    .replace(/[!?.…]/g, "")
-    .replace(/^(?:(?:il|lo|la|i|gli|le)\s+|l['’]\s*)/i, "")
+    .replace(/[\u0060\u00B4\u02BC\u2018\u2019\u201B\u2032\uFF07]/g, "'")
+    .normalize("NFKC")
+    .toLocaleLowerCase("it-IT")
+    .replace(/[\u200B-\u200D\u2060\uFEFF]/g, "")
+    .replace(/[\u00A0\u202F]/g, " ")
+    .replace(/\s+/g, " ")
     .trim();
+}
+
+function cleanItalian(value: string) {
+  return normalizeItalian(value)
+    .replace(/[!?.…]/g, "")
+    .replace(/^(?:(?:il|lo|la|i|gli|le)\s+|l'\s*)/i, "")
+    .trim();
+}
+
+function getCardImagePath(value: string) {
+  const normalized = normalizeItalian(value).replace(/[!?.…]/g, "").trim();
+  return cardImagePaths[normalized] || cardImagePaths[cleanItalian(normalized)];
 }
 
 function Visual({
@@ -722,7 +737,7 @@ function Visual({
         />
       </figure>
     );
-  const cardImagePath = cardImagePaths[italian];
+  const cardImagePath = getCardImagePath(card?.italian || "");
   if (cardImagePath)
     return (
       <figure
@@ -834,7 +849,7 @@ function Visual({
     );
   }
   const semanticSource = `${card?.italian || ""} ${card?.translation || ""}`;
-  const exactCardImagePath = cardImagePaths[italian.toLocaleLowerCase("it-IT")];
+  const exactCardImagePath = getCardImagePath(card?.italian || "");
   if (exactCardImagePath)
     return (
       <figure
