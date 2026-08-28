@@ -33,11 +33,15 @@ function appCard(card: Record<string, unknown>) {
     exampleTranslation: card.example_translation, usage: card.usage, association: card.association,
   };
 }
+function baseCardWithOverride(card: CardInput & { id: number }, override?: Record<string, unknown>) {
+  if (!override) return card;
+  const { card_id: _cardId, ...changes } = override;
+  return { ...card, ...changes, id: card.id };
+}
 async function currentUser() {
   const { data } = await supabase.auth.getUser();
   return data.user;
 }
-
 async function currentUserIsOwner() {
   const user = await currentUser();
   if (!user?.email) return false;
@@ -54,15 +58,22 @@ async function handleData(url: URL, init: RequestInit) {
   if (!user) return json({ error: "Войдите в аккаунт" }, 401);
   const method = (init.method || "GET").toUpperCase();
   if (method === "GET") {
-    const [cardsResult, progressResult, topicsResult] = await Promise.all([
+    const [cardsResult, progressResult, topicsResult, overridesResult] = await Promise.all([
       supabase.from("user_cards").select("*").order("created_at", { ascending: false }),
       supabase.from("user_progress").select("card_id,status"),
       supabase.from("user_topics").select("title").order("created_at"),
+      supabase.from("base_card_overrides").select("*")
     ]);
-    const error = cardsResult.error || progressResult.error || topicsResult.error;
+    const error = cardsResult.error || progressResult.error || topicsResult.error || overridesResult.error;
     if (error) return json({ error: error.message }, 403);
     return json({
-      cards: [...baseCards, ...(cardsResult.data || []).map((card) => appCard(card))],
+      cards: [
+        ...baseCards.map((card) => baseCardWithOverride(
+          card,
+          (overridesResult.data || []).find((override) => Number(override.card_id) === card.id),
+        )),
+        ...(cardsResult.data || []).map((card) => appCard(card)),
+      ],
       progress: (progressResult.data || []).map((item) => ({ cardId: Number(item.card_id), status: item.status })),
       topics: (topicsResult.data || []).map((item) => item.title),
       packStatus: { expected: baseCards.length, loaded: baseCards.length, remaining: 0 },
@@ -89,7 +100,14 @@ async function handleData(url: URL, init: RequestInit) {
       }
       return json({ added: missing.length }, 201);
     }
-    if (method === "PUT" && (!body.id || body.id < 1_000_000)) return json({ error: "Базовые учебные карточки защищены от изменения" }, 400);
+    if (method === "PUT" && body.id && body.id < 1_000_000) {
+      if (!(await currentUserIsOwner())) return json({ error: "Изменять базовые карточки может только владелец" }, 403);
+      const original = baseCards.find((card) => card.id === body.id);
+      if (!original) return json({ error: "Карточка не найдена" }, 404);
+      const override = { ...original, ...body, card_id: body.id, updated_at: new Date().toISOString() };
+      const { error } = await supabase.from("base_card_overrides").upsert(override, { onConflict: "card_id" });
+      return error ? json({ error: error.message }, 400) : json({ card: { ...original, ...body } });
+    }
     const prepared = dbCard(body, user.id);
     if (!prepared.italian || !prepared.ipa || !prepared.translation) return json({ error: "Заполните итальянский текст, IPA и перевод" }, 400);
     const query = method === "POST"
