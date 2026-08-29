@@ -104,7 +104,20 @@ async function handleData(url: URL, init: RequestInit) {
       if (!(await currentUserIsOwner())) return json({ error: "Изменять базовые карточки может только владелец" }, 403);
       const original = baseCards.find((card) => card.id === body.id);
       if (!original) return json({ error: "Карточка не найдена" }, 404);
-      const override = { ...original, ...body, card_id: body.id, updated_at: new Date().toISOString() };
+      const changed = { ...original, ...body };
+      const override = {
+        card_id: body.id,
+        topic: clean(changed.topic),
+        kind: changed.kind === "phrase" ? "phrase" : "word",
+        italian: clean(changed.italian),
+        ipa: clean(changed.ipa),
+        translation: clean(changed.translation),
+        example: clean(changed.example),
+        exampleTranslation: clean(changed.exampleTranslation),
+        usage: clean(changed.usage),
+        association: clean(changed.association) || "book",
+        updated_at: new Date().toISOString(),
+      };
       const { error } = await supabase.from("base_card_overrides").upsert(override, { onConflict: "card_id" });
       return error ? json({ error: error.message }, 400) : json({ card: { ...original, ...body } });
     }
