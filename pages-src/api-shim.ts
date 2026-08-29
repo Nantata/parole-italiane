@@ -258,3 +258,6 @@ window.fetch = async (input: RequestInfo | URL, init: RequestInit = {}) => {
   const url = new URL(raw, window.location.origin);
   if (url.pathname === "/api/data") return handleData(url, init);
   if (url.pathname === "/api/progress") return handleProgress(init);
+  if (url.pathname === "/api/topics") return handleTopics(init);
+  return originalFetch(input, init);
+};
