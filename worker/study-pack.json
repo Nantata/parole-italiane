@@ -1,6 +1,6 @@
 [
   {
-    "topic": "1. Приветствия",
+    "topic": "Приветствия и общение",
     "kind": "phrase",
     "italian": "Ciao!",
     "ipa": "/tʃˈao/",
@@ -11,7 +11,7 @@
     "association": "hello"
   },
   {
-    "topic": "1. Приветствия",
+    "topic": "Приветствия и общение",
     "kind": "phrase",
     "italian": "Buongiorno!",
     "ipa": "/buondʒˈɔrno/",
@@ -22,7 +22,7 @@
     "association": "morning"
   },
   {
-    "topic": "1. Приветствия",
+    "topic": "Приветствия и общение",
     "kind": "phrase",
     "italian": "Buondì!",
     "ipa": "/bwonˈdi/",
@@ -33,7 +33,7 @@
     "association": "morning"
   },
   {
-    "topic": "1. Приветствия",
+    "topic": "Приветствия и общение",
     "kind": "phrase",
     "italian": "Buon pomeriggio!",
     "ipa": "/bwˌɔn pomerˈidʒːo/",
@@ -44,7 +44,7 @@
     "association": "afternoon"
   },
   {
-    "topic": "1. Приветствия",
+    "topic": "Приветствия и общение",
     "kind": "phrase",
     "italian": "Buonasera!",
     "ipa": "/bwˌɔnasˈera/",
@@ -55,7 +55,7 @@
     "association": "evening"
   },
   {
-    "topic": "1. Приветствия",
+    "topic": "Приветствия и общение",
     "kind": "phrase",
     "italian": "Salve!",
     "ipa": "/sˈalve/",
@@ -66,7 +66,7 @@
     "association": "hello"
   },
   {
-    "topic": "1. Приветствия",
+    "topic": "Приветствия и общение",
     "kind": "phrase",
     "italian": "Buongiorno, signora!",
     "ipa": "/buondʒˈɔrno siɲˈora/",
@@ -77,7 +77,7 @@
     "association": "morning"
   },
   {
-    "topic": "1. Приветствия",
+    "topic": "Приветствия и общение",
     "kind": "phrase",
     "italian": "Ciao! Come va?",
     "ipa": "/tʃˈao kˌome vˈa/",
@@ -88,7 +88,7 @@
     "association": "hello"
   },
   {
-    "topic": "1. Приветствия",
+    "topic": "Приветствия и общение",
     "kind": "phrase",
     "italian": "Salve, piacere!",
     "ipa": "/sˈalve pjatʃˈere/",
@@ -99,7 +99,7 @@
     "association": "hello"
   },
   {
-    "topic": "2. Прощания",
+    "topic": "Приветствия и общение",
     "kind": "phrase",
     "italian": "Ciao!",
     "ipa": "/tʃˈao/",
@@ -110,7 +110,7 @@
     "association": "goodbye"
   },
   {
-    "topic": "2. Прощания",
+    "topic": "Приветствия и общение",
     "kind": "phrase",
     "italian": "Arrivederci!",
     "ipa": "/arɾivedˈɛrtʃi/",
@@ -121,7 +121,7 @@
     "association": "goodbye"
   },
   {
-    "topic": "2. Прощания",
+    "topic": "Приветствия и общение",
     "kind": "phrase",
     "italian": "ArrivederLa!",
     "ipa": "/arɾivedˈɛr lˈa/",
@@ -132,7 +132,7 @@
     "association": "goodbye"
   },
   {
-    "topic": "2. Прощания",
+    "topic": "Приветствия и общение",
     "kind": "phrase",
     "italian": "Buona giornata!",
     "ipa": "/buˈɔna dʒornˈata/",
@@ -143,7 +143,7 @@
     "association": "goodbye"
   },
   {
-    "topic": "2. Прощания",
+    "topic": "Приветствия и общение",
     "kind": "phrase",
     "italian": "Buona serata!",
     "ipa": "/buˈɔna serˈata/",
@@ -154,7 +154,7 @@
     "association": "goodbye"
   },
   {
-    "topic": "2. Прощания",
+    "topic": "Приветствия и общение",
     "kind": "phrase",
     "italian": "Buonanotte!",
     "ipa": "/buonanˈɔtːe/",
@@ -165,7 +165,7 @@
     "association": "night"
   },
   {
-    "topic": "2. Прощания",
+    "topic": "Приветствия и общение",
     "kind": "phrase",
     "italian": "A presto!",
     "ipa": "/a prˈɛsto/",
@@ -176,7 +176,7 @@
     "association": "soon"
   },
   {
-    "topic": "2. Прощания",
+    "topic": "Приветствия и общение",
     "kind": "phrase",
     "italian": "A domani!",
     "ipa": "/a domˈani/",
@@ -187,7 +187,7 @@
     "association": "tomorrow"
   },
   {
-    "topic": "2. Прощания",
+    "topic": "Приветствия и общение",
     "kind": "phrase",
     "italian": "A più tardi!",
     "ipa": "/a pju ˈtardi/",
@@ -198,7 +198,7 @@
     "association": "later"
   },
   {
-    "topic": "2. Прощания",
+    "topic": "Приветствия и общение",
     "kind": "phrase",
     "italian": "Alla prossima!",
     "ipa": "/ˌalla prˈɔssima/",
@@ -209,7 +209,7 @@
     "association": "goodbye"
   },
   {
-    "topic": "2. Прощания",
+    "topic": "Приветствия и общение",
     "kind": "phrase",
     "italian": "Ci vediamo!",
     "ipa": "/tʃi vedjˈamo/",
@@ -220,7 +220,7 @@
     "association": "see-you"
   },
   {
-    "topic": "2. Прощания",
+    "topic": "Приветствия и общение",
     "kind": "phrase",
     "italian": "Ci sentiamo!",
     "ipa": "/tʃi sentjˈamo/",
@@ -231,7 +231,7 @@
     "association": "phone"
   },
   {
-    "topic": "3. Знакомство и общение",
+    "topic": "Приветствия и общение",
     "kind": "phrase",
     "italian": "Come ti chiami?",
     "ipa": "/kˌome ti kjˈami/",
@@ -242,7 +242,7 @@
     "association": "name"
   },
   {
-    "topic": "3. Знакомство и общение",
+    "topic": "Приветствия и общение",
     "kind": "phrase",
     "italian": "Come si chiama?",
     "ipa": "/kˌome si kjˈama/",
@@ -253,7 +253,7 @@
     "association": "book"
   },
   {
-    "topic": "3. Знакомство и общение",
+    "topic": "Приветствия и общение",
     "kind": "phrase",
     "italian": "Mi chiamo…",
     "ipa": "/mi kjˈamo/",
@@ -264,7 +264,7 @@
     "association": "book"
   },
   {
-    "topic": "3. Знакомство и общение",
+    "topic": "Приветствия и общение",
     "kind": "phrase",
     "italian": "E tu?",
     "ipa": "/e tˈu/",
@@ -275,7 +275,7 @@
     "association": "book"
   },
   {
-    "topic": "3. Знакомство и общение",
+    "topic": "Приветствия и общение",
     "kind": "phrase",
     "italian": "E Lei?",
     "ipa": "/e lˈɛi/",
@@ -286,7 +286,7 @@
     "association": "book"
   },
   {
-    "topic": "3. Знакомство и общение",
+    "topic": "Приветствия и общение",
     "kind": "phrase",
     "italian": "Piacere!",
     "ipa": "/pjatʃˈere/",
@@ -297,7 +297,7 @@
     "association": "name"
   },
   {
-    "topic": "3. Знакомство и общение",
+    "topic": "Приветствия и общение",
     "kind": "phrase",
     "italian": "Piacere mio!",
     "ipa": "/pjatʃˈere mˈio/",
@@ -308,7 +308,7 @@
     "association": "name"
   },
   {
-    "topic": "3. Знакомство и общение",
+    "topic": "Приветствия и общение",
     "kind": "phrase",
     "italian": "Di dove sei?",
     "ipa": "/di dˈove sˈɛi/",
@@ -319,7 +319,7 @@
     "association": "origin"
   },
   {
-    "topic": "3. Знакомство и общение",
+    "topic": "Приветствия и общение",
     "kind": "phrase",
     "italian": "Di dov’è?",
     "ipa": "/di dˈova/",
@@ -330,7 +330,7 @@
     "association": "book"
   },
   {
-    "topic": "3. Знакомство и общение",
+    "topic": "Приветствия и общение",
     "kind": "phrase",
     "italian": "Di dove siete?",
     "ipa": "/di dˈove sjˈete/",
@@ -341,7 +341,7 @@
     "association": "origin"
   },
   {
-    "topic": "3. Знакомство и общение",
+    "topic": "Приветствия и общение",
     "kind": "phrase",
     "italian": "Di dove sono?",
     "ipa": "/di dˈove sˈono/",
@@ -352,7 +352,7 @@
     "association": "origin"
   },
   {
-    "topic": "3. Знакомство и общение",
+    "topic": "Приветствия и общение",
     "kind": "phrase",
     "italian": "Sono di…",
     "ipa": "/sˌono dˈi/",
@@ -363,7 +363,7 @@
     "association": "book"
   },
   {
-    "topic": "3. Знакомство и общение",
+    "topic": "Приветствия и общение",
     "kind": "phrase",
     "italian": "Abito a…",
     "ipa": "/ˈabito ˈa/",
@@ -374,7 +374,7 @@
     "association": "book"
   },
   {
-    "topic": "3. Знакомство и общение",
+    "topic": "Приветствия и общение",
     "kind": "phrase",
     "italian": "Vivo in…",
     "ipa": "/vˈivo in/",
@@ -385,7 +385,7 @@
     "association": "book"
   },
   {
-    "topic": "3. Знакомство и общение",
+    "topic": "Приветствия и общение",
     "kind": "phrase",
     "italian": "Come va?",
     "ipa": "/kˌome vˈa/",
@@ -396,7 +396,7 @@
     "association": "book"
   },
   {
-    "topic": "3. Знакомство и общение",
+    "topic": "Приветствия и общение",
     "kind": "phrase",
     "italian": "Come stai?",
     "ipa": "/kˌome stˈaj/",
@@ -407,7 +407,7 @@
     "association": "book"
   },
   {
-    "topic": "3. Знакомство и общение",
+    "topic": "Приветствия и общение",
     "kind": "phrase",
     "italian": "Come sta?",
     "ipa": "/kˌome stˈa/",
@@ -418,7 +418,7 @@
     "association": "book"
   },
   {
-    "topic": "3. Знакомство и общение",
+    "topic": "Приветствия и общение",
     "kind": "phrase",
     "italian": "Benissimo!",
     "ipa": "/benˈissimo/",
@@ -429,7 +429,7 @@
     "association": "excellent"
   },
   {
-    "topic": "3. Знакомство и общение",
+    "topic": "Приветствия и общение",
     "kind": "phrase",
     "italian": "Molto bene, grazie.",
     "ipa": "/mˈolto bˈɛne ɡrˈatsje/",
@@ -440,7 +440,7 @@
     "association": "good"
   },
   {
-    "topic": "3. Знакомство и общение",
+    "topic": "Приветствия и общение",
     "kind": "phrase",
     "italian": "Bene.",
     "ipa": "/bˈɛne/",
@@ -451,7 +451,7 @@
     "association": "good"
   },
   {
-    "topic": "3. Знакомство и общение",
+    "topic": "Приветствия и общение",
     "kind": "phrase",
     "italian": "Non c’è male.",
     "ipa": "/non tʃ mˈale/",
@@ -462,7 +462,7 @@
     "association": "bad"
   },
   {
-    "topic": "3. Знакомство и общение",
+    "topic": "Приветствия и общение",
     "kind": "phrase",
     "italian": "Così così.",
     "ipa": "/koˈzi koˈzi/",
@@ -473,7 +473,7 @@
     "association": "book"
   },
   {
-    "topic": "3. Знакомство и общение",
+    "topic": "Приветствия и общение",
     "kind": "phrase",
     "italian": "Male.",
     "ipa": "/mˈale/",
@@ -484,7 +484,7 @@
     "association": "bad"
   },
   {
-    "topic": "3. Знакомство и общение",
+    "topic": "Приветствия и общение",
     "kind": "phrase",
     "italian": "Dove abiti?",
     "ipa": "/dˈove ˈabiti/",
@@ -495,7 +495,7 @@
     "association": "origin"
   },
   {
-    "topic": "3. Знакомство и общение",
+    "topic": "Приветствия и общение",
     "kind": "phrase",
     "italian": "Che cosa fai?",
     "ipa": "/ke kˈɔza fˈaːi/",
@@ -506,7 +506,7 @@
     "association": "book"
   },
   {
-    "topic": "3. Знакомство и общение",
+    "topic": "Приветствия и общение",
     "kind": "phrase",
     "italian": "Quando parti?",
     "ipa": "/kwˈando pˈarti/",
@@ -517,7 +517,7 @@
     "association": "book"
   },
   {
-    "topic": "3. Знакомство и общение",
+    "topic": "Приветствия и общение",
     "kind": "phrase",
     "italian": "Perché studi italiano?",
     "ipa": "/perˈke ˈstudi itaˈljano/",
@@ -528,7 +528,7 @@
     "association": "origin"
   },
   {
-    "topic": "3. Знакомство и общение",
+    "topic": "Приветствия и общение",
     "kind": "phrase",
     "italian": "Chi sei?",
     "ipa": "/ki sˈɛi/",
@@ -539,7 +539,7 @@
     "association": "book"
   },
   {
-    "topic": "3. Знакомство и общение",
+    "topic": "Приветствия и общение",
     "kind": "phrase",
     "italian": "Qual è il tuo indirizzo?",
     "ipa": "/kwal ɛ il ˈtuo indiˈrittso/",
@@ -550,7 +550,7 @@
     "association": "book"
   },
   {
-    "topic": "3. Знакомство и общение",
+    "topic": "Приветствия и общение",
     "kind": "phrase",
     "italian": "Qual è il Suo numero di telefono?",
     "ipa": "/kwal ɛ il ˈsuo ˈnumero di teˈlɛfono/",
@@ -561,7 +561,7 @@
     "association": "phone"
   },
   {
-    "topic": "3. Знакомство и общение",
+    "topic": "Приветствия и общение",
     "kind": "phrase",
     "italian": "Quanti anni hai?",
     "ipa": "/kwˈanti ˈanni ˈaj/",
@@ -572,7 +572,7 @@
     "association": "book"
   },
   {
-    "topic": "4. Вопросительные и служебные слова",
+    "topic": "Служебные и связующие слова",
     "kind": "word",
     "italian": "come",
     "ipa": "/kˈome/",
@@ -583,7 +583,7 @@
     "association": "book"
   },
   {
-    "topic": "4. Вопросительные и служебные слова",
+    "topic": "Служебные и связующие слова",
     "kind": "word",
     "italian": "dove",
     "ipa": "/dˈove/",
@@ -594,7 +594,7 @@
     "association": "origin"
   },
   {
-    "topic": "4. Вопросительные и служебные слова",
+    "topic": "Служебные и связующие слова",
     "kind": "phrase",
     "italian": "di dove",
     "ipa": "/di dˈove/",
@@ -605,7 +605,7 @@
     "association": "origin"
   },
   {
-    "topic": "4. Вопросительные и служебные слова",
+    "topic": "Служебные и связующие слова",
     "kind": "phrase",
     "italian": "che cosa",
     "ipa": "/ke kˈɔza/",
@@ -616,7 +616,7 @@
     "association": "book"
   },
   {
-    "topic": "4. Вопросительные и служебные слова",
+    "topic": "Служебные и связующие слова",
     "kind": "word",
     "italian": "chi",
     "ipa": "/kˈi/",
@@ -627,7 +627,7 @@
     "association": "book"
   },
   {
-    "topic": "4. Вопросительные и служебные слова",
+    "topic": "Служебные и связующие слова",
     "kind": "word",
     "italian": "quando",
     "ipa": "/kwˈando/",
@@ -638,7 +638,7 @@
     "association": "book"
   },
   {
-    "topic": "4. Вопросительные и служебные слова",
+    "topic": "Служебные и связующие слова",
     "kind": "word",
     "italian": "perché",
     "ipa": "/perˈke/",
@@ -649,7 +649,7 @@
     "association": "book"
   },
   {
-    "topic": "4. Вопросительные и служебные слова",
+    "topic": "Служебные и связующие слова",
     "kind": "word",
     "italian": "quale",
     "ipa": "/kwˈale/",
@@ -660,7 +660,7 @@
     "association": "book"
   },
   {
-    "topic": "4. Вопросительные и служебные слова",
+    "topic": "Служебные и связующие слова",
     "kind": "word",
     "italian": "quanto",
     "ipa": "/kwˈanto/",
@@ -671,7 +671,7 @@
     "association": "book"
   },
   {
-    "topic": "4. Вопросительные и служебные слова",
+    "topic": "Служебные и связующие слова",
     "kind": "word",
     "italian": "quanti",
     "ipa": "/kwˈanti/",
@@ -682,7 +682,7 @@
     "association": "book"
   },
   {
-    "topic": "4. Вопросительные и служебные слова",
+    "topic": "Служебные и связующие слова",
     "kind": "word",
     "italian": "sì",
     "ipa": "/si/",
@@ -693,7 +693,7 @@
     "association": "book"
   },
   {
-    "topic": "4. Вопросительные и служебные слова",
+    "topic": "Служебные и связующие слова",
     "kind": "word",
     "italian": "no",
     "ipa": "/nˈɔ/",
@@ -704,7 +704,7 @@
     "association": "book"
   },
   {
-    "topic": "4. Вопросительные и служебные слова",
+    "topic": "Служебные и связующие слова",
     "kind": "word",
     "italian": "non",
     "ipa": "/nˈon/",
@@ -715,7 +715,7 @@
     "association": "book"
   },
   {
-    "topic": "4. Вопросительные и служебные слова",
+    "topic": "Служебные и связующие слова",
     "kind": "word",
     "italian": "e",
     "ipa": "/ˈe/",
@@ -726,7 +726,7 @@
     "association": "book"
   },
   {
-    "topic": "4. Вопросительные и служебные слова",
+    "topic": "Служебные и связующие слова",
     "kind": "word",
     "italian": "o",
     "ipa": "/ˈo/",
@@ -737,7 +737,7 @@
     "association": "book"
   },
   {
-    "topic": "4. Вопросительные и служебные слова",
+    "topic": "Служебные и связующие слова",
     "kind": "word",
     "italian": "ma",
     "ipa": "/mˈa/",
@@ -748,7 +748,7 @@
     "association": "book"
   },
   {
-    "topic": "4. Вопросительные и служебные слова",
+    "topic": "Служебные и связующие слова",
     "kind": "word",
     "italian": "oggi",
     "ipa": "/ˈɔdʒːi/",
@@ -759,7 +759,7 @@
     "association": "book"
   },
   {
-    "topic": "4. Вопросительные и служебные слова",
+    "topic": "Служебные и связующие слова",
     "kind": "word",
     "italian": "domani",
     "ipa": "/domˈani/",
@@ -770,7 +770,7 @@
     "association": "tomorrow"
   },
   {
-    "topic": "4. Вопросительные и служебные слова",
+    "topic": "Служебные и связующие слова",
     "kind": "word",
     "italian": "sempre",
     "ipa": "/sˈɛmpre/",
@@ -781,7 +781,7 @@
     "association": "book"
   },
   {
-    "topic": "4. Вопросительные и служебные слова",
+    "topic": "Служебные и связующие слова",
     "kind": "word",
     "italian": "qui",
     "ipa": "/kwˈi/",
@@ -792,7 +792,7 @@
     "association": "book"
   },
   {
-    "topic": "4. Вопросительные и служебные слова",
+    "topic": "Служебные и связующие слова",
     "kind": "word",
     "italian": "stasera",
     "ipa": "/stˌa sˈera/",
@@ -803,7 +803,7 @@
     "association": "book"
   },
   {
-    "topic": "4. Вопросительные и служебные слова",
+    "topic": "Служебные и связующие слова",
     "kind": "word",
     "italian": "presto",
     "ipa": "/prˈɛsto/",
@@ -814,7 +814,7 @@
     "association": "book"
   },
   {
-    "topic": "4. Вопросительные и служебные слова",
+    "topic": "Служебные и связующие слова",
     "kind": "word",
     "italian": "tardi",
     "ipa": "/tˈardi/",
@@ -825,7 +825,7 @@
     "association": "book"
   },
   {
-    "topic": "4. Вопросительные и служебные слова",
+    "topic": "Служебные и связующие слова",
     "kind": "word",
     "italian": "molto",
     "ipa": "/mˈolto/",
@@ -836,7 +836,7 @@
     "association": "book"
   },
   {
-    "topic": "4. Вопросительные и служебные слова",
+    "topic": "Служебные и связующие слова",
     "kind": "word",
     "italian": "poco",
     "ipa": "/pˈɔko/",
@@ -847,7 +847,7 @@
     "association": "book"
   },
   {
-    "topic": "4. Вопросительные и служебные слова",
+    "topic": "Служебные и связующие слова",
     "kind": "phrase",
     "italian": "un po’",
     "ipa": "/un pˈo/",
@@ -858,7 +858,7 @@
     "association": "book"
   },
   {
-    "topic": "4. Вопросительные и служебные слова",
+    "topic": "Служебные и связующие слова",
     "kind": "word",
     "italian": "grazie",
     "ipa": "/ɡrˈatsje/",
@@ -869,7 +869,7 @@
     "association": "book"
   },
   {
-    "topic": "5. Местоимения",
+    "topic": "Служебные и связующие слова",
     "kind": "word",
     "italian": "io",
     "ipa": "/ˈio/",
@@ -880,7 +880,7 @@
     "association": "book"
   },
   {
-    "topic": "5. Местоимения",
+    "topic": "Служебные и связующие слова",
     "kind": "word",
     "italian": "tu",
     "ipa": "/tˈu/",
@@ -891,7 +891,7 @@
     "association": "book"
   },
   {
-    "topic": "5. Местоимения",
+    "topic": "Служебные и связующие слова",
     "kind": "word",
     "italian": "lui",
     "ipa": "/lˈui/",
@@ -902,7 +902,7 @@
     "association": "book"
   },
   {
-    "topic": "5. Местоимения",
+    "topic": "Служебные и связующие слова",
     "kind": "word",
     "italian": "lei",
     "ipa": "/lˈɛi/",
@@ -913,7 +913,7 @@
     "association": "book"
   },
   {
-    "topic": "5. Местоимения",
+    "topic": "Служебные и связующие слова",
     "kind": "word",
     "italian": "Lei",
     "ipa": "/lˈɛi/",
@@ -924,7 +924,7 @@
     "association": "book"
   },
   {
-    "topic": "5. Местоимения",
+    "topic": "Служебные и связующие слова",
     "kind": "word",
     "italian": "noi",
     "ipa": "/nˈoi/",
@@ -935,7 +935,7 @@
     "association": "book"
   },
   {
-    "topic": "5. Местоимения",
+    "topic": "Служебные и связующие слова",
     "kind": "word",
     "italian": "voi",
     "ipa": "/vˈoi/",
@@ -946,7 +946,7 @@
     "association": "book"
   },
   {
-    "topic": "5. Местоимения",
+    "topic": "Служебные и связующие слова",
     "kind": "word",
     "italian": "loro",
     "ipa": "/lˈɔro/",
@@ -957,7 +957,7 @@
     "association": "book"
   },
   {
-    "topic": "5. Местоимения",
+    "topic": "Служебные и связующие слова",
     "kind": "word",
     "italian": "mi",
     "ipa": "/mˈi/",
@@ -968,7 +968,7 @@
     "association": "book"
   },
   {
-    "topic": "5. Местоимения",
+    "topic": "Служебные и связующие слова",
     "kind": "word",
     "italian": "ti",
     "ipa": "/tˈi/",
@@ -979,7 +979,7 @@
     "association": "book"
   },
   {
-    "topic": "5. Местоимения",
+    "topic": "Служебные и связующие слова",
     "kind": "word",
     "italian": "si",
     "ipa": "/sˈi/",
@@ -990,7 +990,7 @@
     "association": "book"
   },
   {
-    "topic": "5. Местоимения",
+    "topic": "Служебные и связующие слова",
     "kind": "word",
     "italian": "ci",
     "ipa": "/tʃˈi/",
@@ -1001,7 +1001,7 @@
     "association": "book"
   },
   {
-    "topic": "5. Местоимения",
+    "topic": "Служебные и связующие слова",
     "kind": "word",
     "italian": "te",
     "ipa": "/tˈe/",
@@ -1012,7 +1012,7 @@
     "association": "book"
   },
   {
-    "topic": "5. Местоимения",
+    "topic": "Служебные и связующие слова",
     "kind": "word",
     "italian": "mio",
     "ipa": "/mˈio/",
@@ -1023,7 +1023,7 @@
     "association": "book"
   },
   {
-    "topic": "5. Местоимения",
+    "topic": "Служебные и связующие слова",
     "kind": "word",
     "italian": "tuo",
     "ipa": "/tˈuo/",
@@ -1034,7 +1034,7 @@
     "association": "book"
   },
   {
-    "topic": "5. Местоимения",
+    "topic": "Служебные и связующие слова",
     "kind": "word",
     "italian": "suo",
     "ipa": "/sˈuo/",
@@ -1045,7 +1045,7 @@
     "association": "book"
   },
   {
-    "topic": "5. Местоимения",
+    "topic": "Служебные и связующие слова",
     "kind": "word",
     "italian": "Suo",
     "ipa": "/sˈuo/",
@@ -1056,7 +1056,7 @@
     "association": "book"
   },
   {
-    "topic": "5. Местоимения",
+    "topic": "Служебные и связующие слова",
     "kind": "word",
     "italian": "questo",
     "ipa": "/kwˈesto/",
@@ -1067,7 +1067,7 @@
     "association": "book"
   },
   {
-    "topic": "6. Основные глаголы",
+    "topic": "Глаголы",
     "kind": "word",
     "italian": "essere",
     "ipa": "/ˈɛssere/",
@@ -1078,7 +1078,7 @@
     "association": "book"
   },
   {
-    "topic": "6. Основные глаголы",
+    "topic": "Глаголы",
     "kind": "word",
     "italian": "avere",
     "ipa": "/aˈvere/",
@@ -1089,7 +1089,7 @@
     "association": "book"
   },
   {
-    "topic": "6. Основные глаголы",
+    "topic": "Глаголы",
     "kind": "word",
     "italian": "stare",
     "ipa": "/ˈstare/",
@@ -1100,7 +1100,7 @@
     "association": "book"
   },
   {
-    "topic": "6. Основные глаголы",
+    "topic": "Глаголы",
     "kind": "word",
     "italian": "chiamarsi",
     "ipa": "/kjamˈarsi/",
@@ -1111,7 +1111,7 @@
     "association": "book"
   },
   {
-    "topic": "6. Основные глаголы",
+    "topic": "Глаголы",
     "kind": "word",
     "italian": "abitare",
     "ipa": "/abiˈtare/",
@@ -1122,7 +1122,7 @@
     "association": "book"
   },
   {
-    "topic": "6. Основные глаголы",
+    "topic": "Глаголы",
     "kind": "word",
     "italian": "vivere",
     "ipa": "/vˈivere/",
@@ -1133,7 +1133,7 @@
     "association": "book"
   },
   {
-    "topic": "6. Основные глаголы",
+    "topic": "Глаголы",
     "kind": "word",
     "italian": "studiare",
     "ipa": "/stuˈdjare/",
@@ -1144,7 +1144,7 @@
     "association": "book"
   },
   {
-    "topic": "6. Основные глаголы",
+    "topic": "Глаголы",
     "kind": "word",
     "italian": "mangiare",
     "ipa": "/manˈdʒare/",
@@ -1155,7 +1155,7 @@
     "association": "book"
   },
   {
-    "topic": "6. Основные глаголы",
+    "topic": "Глаголы",
     "kind": "word",
     "italian": "fare",
     "ipa": "/ˈfare/",
@@ -1166,7 +1166,7 @@
     "association": "book"
   },
   {
-    "topic": "6. Основные глаголы",
+    "topic": "Глаголы",
     "kind": "word",
     "italian": "partire",
     "ipa": "/partˈire/",
@@ -1177,7 +1177,7 @@
     "association": "book"
   },
   {
-    "topic": "6. Основные глаголы",
+    "topic": "Глаголы",
     "kind": "word",
     "italian": "vedere",
     "ipa": "/vedˈere/",
@@ -1188,7 +1188,7 @@
     "association": "book"
   },
   {
-    "topic": "6. Основные глаголы",
+    "topic": "Глаголы",
     "kind": "word",
     "italian": "vedersi",
     "ipa": "/vedˈersi/",
@@ -1199,7 +1199,7 @@
     "association": "book"
   },
   {
-    "topic": "6. Основные глаголы",
+    "topic": "Глаголы",
     "kind": "word",
     "italian": "sentire",
     "ipa": "/sentˈire/",
@@ -1210,7 +1210,7 @@
     "association": "phone"
   },
   {
-    "topic": "6. Основные глаголы",
+    "topic": "Глаголы",
     "kind": "word",
     "italian": "sentirsi",
     "ipa": "/sentˈirsi/",
@@ -1221,7 +1221,7 @@
     "association": "phone"
   },
   {
-    "topic": "6. Основные глаголы",
+    "topic": "Глаголы",
     "kind": "word",
     "italian": "andare",
     "ipa": "/anˈdare/",
@@ -1232,7 +1232,7 @@
     "association": "book"
   },
   {
-    "topic": "6. Основные глаголы",
+    "topic": "Глаголы",
     "kind": "word",
     "italian": "venire",
     "ipa": "/veˈnire/",
@@ -1243,7 +1243,7 @@
     "association": "book"
   },
   {
-    "topic": "6. Основные глаголы",
+    "topic": "Глаголы",
     "kind": "word",
     "italian": "parlare",
     "ipa": "/parˈlare/",
@@ -1254,7 +1254,7 @@
     "association": "book"
   },
   {
-    "topic": "6. Основные глаголы",
+    "topic": "Глаголы",
     "kind": "word",
     "italian": "uscire",
     "ipa": "/uʃˈʃire/",
@@ -1265,7 +1265,7 @@
     "association": "book"
   },
   {
-    "topic": "6. Основные глаголы",
+    "topic": "Глаголы",
     "kind": "word",
     "italian": "lavorare",
     "ipa": "/lavoˈrare/",
@@ -1276,7 +1276,7 @@
     "association": "book"
   },
   {
-    "topic": "6. Основные глаголы",
+    "topic": "Глаголы",
     "kind": "word",
     "italian": "viaggiare",
     "ipa": "/vjadˈdʒare/",
@@ -1287,7 +1287,7 @@
     "association": "travel"
   },
   {
-    "topic": "6. Основные глаголы",
+    "topic": "Глаголы",
     "kind": "word",
     "italian": "volere",
     "ipa": "/voˈlere/",
@@ -1298,7 +1298,7 @@
     "association": "book"
   },
   {
-    "topic": "6. Основные глаголы",
+    "topic": "Глаголы",
     "kind": "word",
     "italian": "dare",
     "ipa": "/ˈdare/",
@@ -1309,7 +1309,7 @@
     "association": "book"
   },
   {
-    "topic": "7. Глагол essere",
+    "topic": "Глаголы",
     "kind": "word",
     "italian": "essere",
     "ipa": "/ˈɛssere/",
@@ -1320,7 +1320,7 @@
     "association": "book"
   },
   {
-    "topic": "7. Глагол essere",
+    "topic": "Глаголы",
     "kind": "word",
     "italian": "sono",
     "ipa": "/sˈono/",
@@ -1331,7 +1331,7 @@
     "association": "book"
   },
   {
-    "topic": "7. Глагол essere",
+    "topic": "Глаголы",
     "kind": "word",
     "italian": "sei",
     "ipa": "/sˈɛi/",
@@ -1342,7 +1342,7 @@
     "association": "book"
   },
   {
-    "topic": "7. Глагол essere",
+    "topic": "Глаголы",
     "kind": "word",
     "italian": "è",
     "ipa": "/ɛ/",
@@ -1353,7 +1353,7 @@
     "association": "book"
   },
   {
-    "topic": "7. Глагол essere",
+    "topic": "Глаголы",
     "kind": "word",
     "italian": "siamo",
     "ipa": "/sjˈamo/",
@@ -1364,7 +1364,7 @@
     "association": "book"
   },
   {
-    "topic": "7. Глагол essere",
+    "topic": "Глаголы",
     "kind": "word",
     "italian": "siete",
     "ipa": "/sjˈete/",
@@ -1375,7 +1375,7 @@
     "association": "book"
   },
   {
-    "topic": "7. Глагол essere",
+    "topic": "Глаголы",
     "kind": "phrase",
     "italian": "essere + nome",
     "ipa": "/ˈɛssere nˈome/",
@@ -1386,7 +1386,7 @@
     "association": "name"
   },
   {
-    "topic": "7. Глагол essere",
+    "topic": "Глаголы",
     "kind": "phrase",
     "italian": "essere + professione",
     "ipa": "/ˈɛssere professjˈone/",
@@ -1397,7 +1397,7 @@
     "association": "book"
   },
   {
-    "topic": "7. Глагол essere",
+    "topic": "Глаголы",
     "kind": "phrase",
     "italian": "essere + nazionalità",
     "ipa": "/ˈɛssere natsjonaliˈta/",
@@ -1408,7 +1408,7 @@
     "association": "book"
   },
   {
-    "topic": "7. Глагол essere",
+    "topic": "Глаголы",
     "kind": "phrase",
     "italian": "essere + aggettivo",
     "ipa": "/ˈɛssere adʒːetːˈivo/",
@@ -1419,7 +1419,7 @@
     "association": "book"
   },
   {
-    "topic": "7. Глагол essere",
+    "topic": "Глаголы",
     "kind": "phrase",
     "italian": "essere di + città",
     "ipa": "/ˈɛssere di tʃitˈta/",
@@ -1430,7 +1430,7 @@
     "association": "book"
   },
   {
-    "topic": "7. Глагол essere",
+    "topic": "Глаголы",
     "kind": "phrase",
     "italian": "essere a + città",
     "ipa": "/ˈɛssere a tʃitˈta/",
@@ -1441,7 +1441,7 @@
     "association": "book"
   },
   {
-    "topic": "7. Глагол essere",
+    "topic": "Глаголы",
     "kind": "phrase",
     "italian": "essere in + paese",
     "ipa": "/ˈɛssere in paˈeze/",
@@ -1452,7 +1452,7 @@
     "association": "book"
   },
   {
-    "topic": "8. Состояния с essere",
+    "topic": "Глаголы",
     "kind": "phrase",
     "italian": "essere stanco",
     "ipa": "/ˈɛssere stˈanko/",
@@ -1463,7 +1463,7 @@
     "association": "book"
   },
   {
-    "topic": "8. Состояния с essere",
+    "topic": "Глаголы",
     "kind": "phrase",
     "italian": "essere felice",
     "ipa": "/ˈɛssere felˈitʃe/",
@@ -1474,7 +1474,7 @@
     "association": "good"
   },
   {
-    "topic": "8. Состояния с essere",
+    "topic": "Глаголы",
     "kind": "phrase",
     "italian": "essere triste",
     "ipa": "/ˈɛssere trˈiste/",
@@ -1485,7 +1485,7 @@
     "association": "bad"
   },
   {
-    "topic": "8. Состояния с essere",
+    "topic": "Глаголы",
     "kind": "phrase",
     "italian": "essere nervoso",
     "ipa": "/ˈɛssere nervˈozo/",
@@ -1496,7 +1496,7 @@
     "association": "book"
   },
   {
-    "topic": "8. Состояния с essere",
+    "topic": "Глаголы",
     "kind": "phrase",
     "italian": "essere preoccupato",
     "ipa": "/ˈɛssere preokːupˈato/",
@@ -1507,7 +1507,7 @@
     "association": "book"
   },
   {
-    "topic": "8. Состояния с essere",
+    "topic": "Глаголы",
     "kind": "phrase",
     "italian": "essere malato",
     "ipa": "/ˈɛssere malˈato/",
@@ -1518,7 +1518,7 @@
     "association": "book"
   },
   {
-    "topic": "8. Состояния с essere",
+    "topic": "Глаголы",
     "kind": "phrase",
     "italian": "essere raffreddato",
     "ipa": "/ˈɛssere raffredːˈato/",
@@ -1529,7 +1529,7 @@
     "association": "book"
   },
   {
-    "topic": "8. Состояния с essere",
+    "topic": "Глаголы",
     "kind": "phrase",
     "italian": "essere affamato",
     "ipa": "/ˈɛssere affamˈato/",
@@ -1540,7 +1540,7 @@
     "association": "book"
   },
   {
-    "topic": "8. Состояния с essere",
+    "topic": "Глаголы",
     "kind": "phrase",
     "italian": "essere assetato",
     "ipa": "/ˈɛssere assetˈato/",
@@ -1551,7 +1551,7 @@
     "association": "book"
   },
   {
-    "topic": "8. Состояния с essere",
+    "topic": "Глаголы",
     "kind": "phrase",
     "italian": "essere contento di",
     "ipa": "/ˈɛssere konˈtɛnto di/",
@@ -1562,7 +1562,7 @@
     "association": "good"
   },
   {
-    "topic": "8. Состояния с essere",
+    "topic": "Глаголы",
     "kind": "phrase",
     "italian": "essere sorpreso",
     "ipa": "/ˈɛssere sorprˈezo/",
@@ -1573,7 +1573,7 @@
     "association": "book"
   },
   {
-    "topic": "8. Состояния с essere",
+    "topic": "Глаголы",
     "kind": "phrase",
     "italian": "essere deluso",
     "ipa": "/ˈɛssere delˈuzo/",
@@ -1584,7 +1584,7 @@
     "association": "bad"
   },
   {
-    "topic": "8. Состояния с essere",
+    "topic": "Глаголы",
     "kind": "phrase",
     "italian": "essere arrabbiato con",
     "ipa": "/ˈɛssere arɾabːjˈato kˈon/",
@@ -1595,7 +1595,7 @@
     "association": "book"
   },
   {
-    "topic": "8. Состояния с essere",
+    "topic": "Глаголы",
     "kind": "phrase",
     "italian": "essere fiero di",
     "ipa": "/ˈɛssere fjˈɛro dˈi/",
@@ -1606,7 +1606,7 @@
     "association": "book"
   },
   {
-    "topic": "8. Состояния с essere",
+    "topic": "Глаголы",
     "kind": "phrase",
     "italian": "essere preoccupato per",
     "ipa": "/ˈɛssere preokːupˈato pˈer/",
@@ -1617,7 +1617,7 @@
     "association": "book"
   },
   {
-    "topic": "9. Положение, место и время с essere",
+    "topic": "Глаголы",
     "kind": "phrase",
     "italian": "essere a casa",
     "ipa": "/ˈɛssere a kˈaza/",
@@ -1628,7 +1628,7 @@
     "association": "house"
   },
   {
-    "topic": "9. Положение, место и время с essere",
+    "topic": "Глаголы",
     "kind": "phrase",
     "italian": "essere al lavoro",
     "ipa": "/ˈɛssere al lavˈɔro/",
@@ -1639,7 +1639,7 @@
     "association": "book"
   },
   {
-    "topic": "9. Положение, место и время с essere",
+    "topic": "Глаголы",
     "kind": "phrase",
     "italian": "essere a scuola",
     "ipa": "/ˈɛssere a skuˈɔla/",
@@ -1650,7 +1650,7 @@
     "association": "book"
   },
   {
-    "topic": "9. Положение, место и время с essere",
+    "topic": "Глаголы",
     "kind": "phrase",
     "italian": "essere all’università",
     "ipa": "/ˈɛssere alluniversiˈta/",
@@ -1661,7 +1661,7 @@
     "association": "book"
   },
   {
-    "topic": "9. Положение, место и время с essere",
+    "topic": "Глаголы",
     "kind": "phrase",
     "italian": "essere in vacanza",
     "ipa": "/ˈɛssere in vakˈantsa/",
@@ -1672,7 +1672,7 @@
     "association": "travel"
   },
   {
-    "topic": "9. Положение, место и время с essere",
+    "topic": "Глаголы",
     "kind": "phrase",
     "italian": "essere in viaggio",
     "ipa": "/ˈɛssere in vjˈadʒːo/",
@@ -1683,7 +1683,7 @@
     "association": "travel"
   },
   {
-    "topic": "9. Положение, место и время с essere",
+    "topic": "Глаголы",
     "kind": "phrase",
     "italian": "essere in ritardo",
     "ipa": "/ˈɛssere in ritˈardo/",
@@ -1694,7 +1694,7 @@
     "association": "book"
   },
   {
-    "topic": "9. Положение, место и время с essere",
+    "topic": "Глаголы",
     "kind": "phrase",
     "italian": "essere in orario",
     "ipa": "/ˈɛssere in orˈario/",
@@ -1705,7 +1705,7 @@
     "association": "book"
   },
   {
-    "topic": "9. Положение, место и время с essere",
+    "topic": "Глаголы",
     "kind": "phrase",
     "italian": "essere in anticipo",
     "ipa": "/ˈɛssere in antˈitʃipo/",
@@ -1716,7 +1716,7 @@
     "association": "book"
   },
   {
-    "topic": "9. Положение, место и время с essere",
+    "topic": "Глаголы",
     "kind": "phrase",
     "italian": "essere in forma",
     "ipa": "/ˈɛssere in fˈorma/",
@@ -1727,7 +1727,7 @@
     "association": "book"
   },
   {
-    "topic": "9. Положение, место и время с essere",
+    "topic": "Глаголы",
     "kind": "phrase",
     "italian": "essere di buon umore",
     "ipa": "/ˈɛssere di bwˌɔn umˈore/",
@@ -1738,7 +1738,7 @@
     "association": "book"
   },
   {
-    "topic": "9. Положение, место и время с essere",
+    "topic": "Глаголы",
     "kind": "phrase",
     "italian": "essere di cattivo umore",
     "ipa": "/ˈɛssere di katːˈivo umˈore/",
@@ -1749,7 +1749,7 @@
     "association": "bad"
   },
   {
-    "topic": "10. Отношения и положение с essere",
+    "topic": "Глаголы",
     "kind": "phrase",
     "italian": "essere d’accordo con",
     "ipa": "/ˈɛssere dakːˈɔrdo kˈon/",
@@ -1760,7 +1760,7 @@
     "association": "book"
   },
   {
-    "topic": "10. Отношения и положение с essere",
+    "topic": "Глаголы",
     "kind": "phrase",
     "italian": "essere contrario a",
     "ipa": "/ˈɛssere konˈtrarjo a/",
@@ -1771,7 +1771,7 @@
     "association": "book"
   },
   {
-    "topic": "10. Отношения и положение с essere",
+    "topic": "Глаголы",
     "kind": "phrase",
     "italian": "essere in difficoltà",
     "ipa": "/ˈɛssere in diffikolˈta/",
@@ -1782,7 +1782,7 @@
     "association": "book"
   },
   {
-    "topic": "10. Отношения и положение с essere",
+    "topic": "Глаголы",
     "kind": "phrase",
     "italian": "essere al verde",
     "ipa": "/ˈɛssere al vˈerde/",
@@ -1793,7 +1793,7 @@
     "association": "book"
   },
   {
-    "topic": "10. Отношения и положение с essere",
+    "topic": "Глаголы",
     "kind": "phrase",
     "italian": "essere fidanzato",
     "ipa": "/ˈɛssere fidantsˈato/",
@@ -1804,7 +1804,7 @@
     "association": "book"
   },
   {
-    "topic": "10. Отношения и положение с essere",
+    "topic": "Глаголы",
     "kind": "phrase",
     "italian": "essere sposato",
     "ipa": "/ˈɛssere spozˈato/",
@@ -1815,7 +1815,7 @@
     "association": "book"
   },
   {
-    "topic": "10. Отношения и положение с essere",
+    "topic": "Глаголы",
     "kind": "phrase",
     "italian": "essere divorziato",
     "ipa": "/ˈɛssere divortsjˈato/",
@@ -1826,7 +1826,7 @@
     "association": "book"
   },
   {
-    "topic": "10. Отношения и положение с essere",
+    "topic": "Глаголы",
     "kind": "phrase",
     "italian": "essere single",
     "ipa": "/ˈɛssere sˈinɡˌɔl/",
@@ -1837,7 +1837,7 @@
     "association": "book"
   },
   {
-    "topic": "10. Отношения и положение с essere",
+    "topic": "Глаголы",
     "kind": "phrase",
     "italian": "essere libero",
     "ipa": "/ˈɛssere lˈibero/",
@@ -1848,7 +1848,7 @@
     "association": "book"
   },
   {
-    "topic": "10. Отношения и положение с essere",
+    "topic": "Глаголы",
     "kind": "phrase",
     "italian": "essere impegnato",
     "ipa": "/ˈɛssere impeɲˈato/",
@@ -1859,7 +1859,7 @@
     "association": "book"
   },
   {
-    "topic": "10. Отношения и положение с essere",
+    "topic": "Глаголы",
     "kind": "word",
     "italian": "celibe",
     "ipa": "/tʃˈɛlibe/",
@@ -1870,7 +1870,7 @@
     "association": "book"
   },
   {
-    "topic": "10. Отношения и положение с essere",
+    "topic": "Глаголы",
     "kind": "word",
     "italian": "nubile",
     "ipa": "/nˈubile/",
@@ -1881,7 +1881,7 @@
     "association": "book"
   },
   {
-    "topic": "11. Способности и привычки с essere",
+    "topic": "Глаголы",
     "kind": "phrase",
     "italian": "essere pronto a + infinito",
     "ipa": "/ˈɛssere prˈonto a infinˈito/",
@@ -1892,7 +1892,7 @@
     "association": "book"
   },
   {
-    "topic": "11. Способности и привычки с essere",
+    "topic": "Глаголы",
     "kind": "phrase",
     "italian": "essere in grado di + infinito",
     "ipa": "/ˈɛssere in ɡrˈado di infinˈito/",
@@ -1903,7 +1903,7 @@
     "association": "book"
   },
   {
-    "topic": "11. Способности и привычки с essere",
+    "topic": "Глаголы",
     "kind": "phrase",
     "italian": "essere capace di + infinito",
     "ipa": "/ˈɛssere kapˈatʃe di infinˈito/",
@@ -1914,7 +1914,7 @@
     "association": "book"
   },
   {
-    "topic": "11. Способности и привычки с essere",
+    "topic": "Глаголы",
     "kind": "phrase",
     "italian": "essere abituato a",
     "ipa": "/ˈɛssere abituˈato ˈa/",
@@ -1925,7 +1925,7 @@
     "association": "book"
   },
   {
-    "topic": "11. Способности и привычки с essere",
+    "topic": "Глаголы",
     "kind": "phrase",
     "italian": "essere sicuro di",
     "ipa": "/ˈɛssere sikˈuro dˈi/",
@@ -1936,7 +1936,7 @@
     "association": "book"
   },
   {
-    "topic": "11. Способности и привычки с essere",
+    "topic": "Глаголы",
     "kind": "phrase",
     "italian": "essere bravo in",
     "ipa": "/ˈɛssere brˈavo in/",
@@ -1947,7 +1947,7 @@
     "association": "book"
   },
   {
-    "topic": "11. Способности и привычки с essere",
+    "topic": "Глаголы",
     "kind": "phrase",
     "italian": "essere buono con",
     "ipa": "/ˈɛssere buˈɔno kˈon/",
@@ -1958,7 +1958,7 @@
     "association": "good"
   },
   {
-    "topic": "11. Способности и привычки с essere",
+    "topic": "Глаголы",
     "kind": "phrase",
     "italian": "essere alla moda",
     "ipa": "/ˈɛssere ˌalla mˈɔda/",
@@ -1969,7 +1969,7 @@
     "association": "book"
   },
   {
-    "topic": "12. Глагол avere",
+    "topic": "Глаголы",
     "kind": "word",
     "italian": "avere",
     "ipa": "/aˈvere/",
@@ -1980,7 +1980,7 @@
     "association": "book"
   },
   {
-    "topic": "12. Глагол avere",
+    "topic": "Глаголы",
     "kind": "word",
     "italian": "ho",
     "ipa": "/ˈɔ/",
@@ -1991,7 +1991,7 @@
     "association": "book"
   },
   {
-    "topic": "12. Глагол avere",
+    "topic": "Глаголы",
     "kind": "word",
     "italian": "hai",
     "ipa": "/ˈaj/",
@@ -2002,7 +2002,7 @@
     "association": "book"
   },
   {
-    "topic": "12. Глагол avere",
+    "topic": "Глаголы",
     "kind": "word",
     "italian": "ha",
     "ipa": "/ˈa/",
@@ -2013,7 +2013,7 @@
     "association": "book"
   },
   {
-    "topic": "12. Глагол avere",
+    "topic": "Глаголы",
     "kind": "word",
     "italian": "abbiamo",
     "ipa": "/abːjˈamo/",
@@ -2024,7 +2024,7 @@
     "association": "book"
   },
   {
-    "topic": "12. Глагол avere",
+    "topic": "Глаголы",
     "kind": "word",
     "italian": "avete",
     "ipa": "/avˈete/",
@@ -2035,7 +2035,7 @@
     "association": "book"
   },
   {
-    "topic": "12. Глагол avere",
+    "topic": "Глаголы",
     "kind": "word",
     "italian": "hanno",
     "ipa": "/ˈanno/",
@@ -2046,7 +2046,7 @@
     "association": "book"
   },
   {
-    "topic": "12. Глагол avere",
+    "topic": "Глаголы",
     "kind": "phrase",
     "italian": "avere + oggetto",
     "ipa": "/avˈere odʒːˈɛtːo/",
@@ -2057,7 +2057,7 @@
     "association": "book"
   },
   {
-    "topic": "12. Глагол avere",
+    "topic": "Глаголы",
     "kind": "phrase",
     "italian": "avere + numero + anni",
     "ipa": "/avˈere nˈumero ˈanni/",
@@ -2068,7 +2068,7 @@
     "association": "book"
   },
   {
-    "topic": "12. Глагол avere",
+    "topic": "Глаголы",
     "kind": "phrase",
     "italian": "avere figli",
     "ipa": "/avˈere fˈiʎi/",
@@ -2079,7 +2079,7 @@
     "association": "book"
   },
   {
-    "topic": "13. Устойчивые выражения с avere",
+    "topic": "Глаголы",
     "kind": "phrase",
     "italian": "avere fame",
     "ipa": "/avˈere fˈame/",
@@ -2090,7 +2090,7 @@
     "association": "book"
   },
   {
-    "topic": "13. Устойчивые выражения с avere",
+    "topic": "Глаголы",
     "kind": "phrase",
     "italian": "avere sete",
     "ipa": "/avˈere sˈete/",
@@ -2101,7 +2101,7 @@
     "association": "book"
   },
   {
-    "topic": "13. Устойчивые выражения с avere",
+    "topic": "Глаголы",
     "kind": "phrase",
     "italian": "avere freddo",
     "ipa": "/avˈere frˈedːo/",
@@ -2112,7 +2112,7 @@
     "association": "book"
   },
   {
-    "topic": "13. Устойчивые выражения с avere",
+    "topic": "Глаголы",
     "kind": "phrase",
     "italian": "avere caldo",
     "ipa": "/avˈere kˈaldo/",
@@ -2123,7 +2123,7 @@
     "association": "book"
   },
   {
-    "topic": "13. Устойчивые выражения с avere",
+    "topic": "Глаголы",
     "kind": "phrase",
     "italian": "avere sonno",
     "ipa": "/avˈere sˈonno/",
@@ -2134,7 +2134,7 @@
     "association": "book"
   },
   {
-    "topic": "13. Устойчивые выражения с avere",
+    "topic": "Глаголы",
     "kind": "phrase",
     "italian": "avere fretta",
     "ipa": "/avˈere frˈetːa/",
@@ -2145,7 +2145,7 @@
     "association": "book"
   },
   {
-    "topic": "13. Устойчивые выражения с avere",
+    "topic": "Глаголы",
     "kind": "phrase",
     "italian": "avere paura di",
     "ipa": "/avˈere paˈura dˈi/",
@@ -2156,7 +2156,7 @@
     "association": "book"
   },
   {
-    "topic": "13. Устойчивые выражения с avere",
+    "topic": "Глаголы",
     "kind": "phrase",
     "italian": "avere bisogno di",
     "ipa": "/avˈere bizˈoɲɲo dˈi/",
@@ -2167,7 +2167,7 @@
     "association": "book"
   },
   {
-    "topic": "13. Устойчивые выражения с avere",
+    "topic": "Глаголы",
     "kind": "phrase",
     "italian": "avere voglia di",
     "ipa": "/avˈere vˈoʎa dˈi/",
@@ -2178,7 +2178,7 @@
     "association": "book"
   },
   {
-    "topic": "13. Устойчивые выражения с avere",
+    "topic": "Глаголы",
     "kind": "phrase",
     "italian": "avere mal di…",
     "ipa": "/avˈere mˈal dˈi/",
@@ -2189,7 +2189,7 @@
     "association": "book"
   },
   {
-    "topic": "13. Устойчивые выражения с avere",
+    "topic": "Глаголы",
     "kind": "phrase",
     "italian": "avere ragione",
     "ipa": "/avˈere radʒˈoːne/",
@@ -2200,7 +2200,7 @@
     "association": "book"
   },
   {
-    "topic": "13. Устойчивые выражения с avere",
+    "topic": "Глаголы",
     "kind": "phrase",
     "italian": "avere torto",
     "ipa": "/avˈere tˈɔrto/",
@@ -2211,7 +2211,7 @@
     "association": "book"
   },
   {
-    "topic": "13. Устойчивые выражения с avere",
+    "topic": "Глаголы",
     "kind": "phrase",
     "italian": "avere fortuna",
     "ipa": "/avˈere fortˈuna/",
@@ -2222,7 +2222,7 @@
     "association": "book"
   },
   {
-    "topic": "13. Устойчивые выражения с avere",
+    "topic": "Глаголы",
     "kind": "phrase",
     "italian": "avere mal di testa",
     "ipa": "/avˈere mˈal di tˈɛsta/",
@@ -2233,7 +2233,7 @@
     "association": "book"
   },
   {
-    "topic": "13. Устойчивые выражения с avere",
+    "topic": "Глаголы",
     "kind": "phrase",
     "italian": "avere mal di gola",
     "ipa": "/avˈere mˈal di ɡˈola/",
@@ -2244,7 +2244,7 @@
     "association": "book"
   },
   {
-    "topic": "14. Простые предлоги",
+    "topic": "Предлоги и артикли",
     "kind": "word",
     "italian": "di",
     "ipa": "/dˈi/",
@@ -2255,7 +2255,7 @@
     "association": "book"
   },
   {
-    "topic": "14. Простые предлоги",
+    "topic": "Предлоги и артикли",
     "kind": "word",
     "italian": "a",
     "ipa": "/ˈa/",
@@ -2266,7 +2266,7 @@
     "association": "book"
   },
   {
-    "topic": "14. Простые предлоги",
+    "topic": "Предлоги и артикли",
     "kind": "word",
     "italian": "da",
     "ipa": "/dˈa/",
@@ -2277,7 +2277,7 @@
     "association": "book"
   },
   {
-    "topic": "14. Простые предлоги",
+    "topic": "Предлоги и артикли",
     "kind": "word",
     "italian": "in",
     "ipa": "/ˈin/",
@@ -2288,7 +2288,7 @@
     "association": "book"
   },
   {
-    "topic": "14. Простые предлоги",
+    "topic": "Предлоги и артикли",
     "kind": "word",
     "italian": "con",
     "ipa": "/kˈon/",
@@ -2299,7 +2299,7 @@
     "association": "book"
   },
   {
-    "topic": "14. Простые предлоги",
+    "topic": "Предлоги и артикли",
     "kind": "word",
     "italian": "su",
     "ipa": "/sˈu/",
@@ -2310,7 +2310,7 @@
     "association": "book"
   },
   {
-    "topic": "14. Простые предлоги",
+    "topic": "Предлоги и артикли",
     "kind": "word",
     "italian": "per",
     "ipa": "/pˈer/",
@@ -2321,7 +2321,7 @@
     "association": "book"
   },
   {
-    "topic": "14. Простые предлоги",
+    "topic": "Предлоги и артикли",
     "kind": "word",
     "italian": "tra",
     "ipa": "/trˈa/",
@@ -2332,7 +2332,7 @@
     "association": "book"
   },
   {
-    "topic": "14. Простые предлоги",
+    "topic": "Предлоги и артикли",
     "kind": "word",
     "italian": "fra",
     "ipa": "/frˈa/",
@@ -2343,7 +2343,7 @@
     "association": "book"
   },
   {
-    "topic": "14. Простые предлоги",
+    "topic": "Предлоги и артикли",
     "kind": "phrase",
     "italian": "di Roma",
     "ipa": "/di rˈoma/",
@@ -2354,7 +2354,7 @@
     "association": "origin"
   },
   {
-    "topic": "14. Простые предлоги",
+    "topic": "Предлоги и артикли",
     "kind": "phrase",
     "italian": "a Roma",
     "ipa": "/a rˈoma/",
@@ -2365,7 +2365,7 @@
     "association": "origin"
   },
   {
-    "topic": "14. Простые предлоги",
+    "topic": "Предлоги и артикли",
     "kind": "phrase",
     "italian": "da Roma",
     "ipa": "/da rˈoma/",
@@ -2376,7 +2376,7 @@
     "association": "origin"
   },
   {
-    "topic": "14. Простые предлоги",
+    "topic": "Предлоги и артикли",
     "kind": "phrase",
     "italian": "in Italia",
     "ipa": "/in itˈalia/",
@@ -2387,7 +2387,7 @@
     "association": "origin"
   },
   {
-    "topic": "14. Простые предлоги",
+    "topic": "Предлоги и артикли",
     "kind": "phrase",
     "italian": "da Maria",
     "ipa": "/da mˌarˈiːa/",
@@ -2398,7 +2398,7 @@
     "association": "book"
   },
   {
-    "topic": "14. Простые предлоги",
+    "topic": "Предлоги и артикли",
     "kind": "phrase",
     "italian": "con Maria",
     "ipa": "/kon maˈria/",
@@ -2409,7 +2409,7 @@
     "association": "book"
   },
   {
-    "topic": "14. Простые предлоги",
+    "topic": "Предлоги и артикли",
     "kind": "phrase",
     "italian": "per Maria",
     "ipa": "/per mˌarˈiːa/",
@@ -2420,7 +2420,7 @@
     "association": "book"
   },
   {
-    "topic": "14. Простые предлоги",
+    "topic": "Предлоги и артикли",
     "kind": "phrase",
     "italian": "tra amici",
     "ipa": "/tra amˈitʃi/",
@@ -2431,7 +2431,7 @@
     "association": "book"
   },
   {
-    "topic": "14. Простые предлоги",
+    "topic": "Предлоги и артикли",
     "kind": "phrase",
     "italian": "fra amici",
     "ipa": "/fra amˈitʃi/",
@@ -2442,7 +2442,7 @@
     "association": "book"
   },
   {
-    "topic": "15. Определённые артикли",
+    "topic": "Предлоги и артикли",
     "kind": "word",
     "italian": "il",
     "ipa": "/ˈil/",
@@ -2453,7 +2453,7 @@
     "association": "book"
   },
   {
-    "topic": "15. Определённые артикли",
+    "topic": "Предлоги и артикли",
     "kind": "word",
     "italian": "lo",
     "ipa": "/lˈo/",
@@ -2464,7 +2464,7 @@
     "association": "book"
   },
   {
-    "topic": "15. Определённые артикли",
+    "topic": "Предлоги и артикли",
     "kind": "word",
     "italian": "l’",
     "ipa": "/ˈɛlle/",
@@ -2475,7 +2475,7 @@
     "association": "book"
   },
   {
-    "topic": "15. Определённые артикли",
+    "topic": "Предлоги и артикли",
     "kind": "word",
     "italian": "la",
     "ipa": "/lˈa/",
@@ -2486,7 +2486,7 @@
     "association": "book"
   },
   {
-    "topic": "15. Определённые артикли",
+    "topic": "Предлоги и артикли",
     "kind": "word",
     "italian": "i",
     "ipa": "/ˈi/",
@@ -2497,7 +2497,7 @@
     "association": "book"
   },
   {
-    "topic": "15. Определённые артикли",
+    "topic": "Предлоги и артикли",
     "kind": "word",
     "italian": "gli",
     "ipa": "/ʎˈi/",
@@ -2508,7 +2508,7 @@
     "association": "book"
   },
   {
-    "topic": "15. Определённые артикли",
+    "topic": "Предлоги и артикли",
     "kind": "word",
     "italian": "le",
     "ipa": "/lˈe/",
@@ -2519,7 +2519,7 @@
     "association": "book"
   },
   {
-    "topic": "16. Неопределённые артикли",
+    "topic": "Предлоги и артикли",
     "kind": "word",
     "italian": "un",
     "ipa": "/ˈun/",
@@ -2530,7 +2530,7 @@
     "association": "book"
   },
   {
-    "topic": "16. Неопределённые артикли",
+    "topic": "Предлоги и артикли",
     "kind": "word",
     "italian": "uno",
     "ipa": "/ˈuno/",
@@ -2541,7 +2541,7 @@
     "association": "book"
   },
   {
-    "topic": "16. Неопределённые артикли",
+    "topic": "Предлоги и артикли",
     "kind": "word",
     "italian": "una",
     "ipa": "/ˈuna/",
@@ -2552,7 +2552,7 @@
     "association": "book"
   },
   {
-    "topic": "16. Неопределённые артикли",
+    "topic": "Предлоги и артикли",
     "kind": "word",
     "italian": "un’",
     "ipa": "/ˈun/",
@@ -2563,7 +2563,7 @@
     "association": "book"
   },
   {
-    "topic": "17. Частичные артикли",
+    "topic": "Предлоги и артикли",
     "kind": "word",
     "italian": "del",
     "ipa": "/dˈel/",
@@ -2574,7 +2574,7 @@
     "association": "book"
   },
   {
-    "topic": "17. Частичные артикли",
+    "topic": "Предлоги и артикли",
     "kind": "word",
     "italian": "dello",
     "ipa": "/dˈello/",
@@ -2585,7 +2585,7 @@
     "association": "book"
   },
   {
-    "topic": "17. Частичные артикли",
+    "topic": "Предлоги и артикли",
     "kind": "word",
     "italian": "dell’",
     "ipa": "/dˈɛl/",
@@ -2596,7 +2596,7 @@
     "association": "book"
   },
   {
-    "topic": "17. Частичные артикли",
+    "topic": "Предлоги и артикли",
     "kind": "word",
     "italian": "della",
     "ipa": "/dˈella/",
@@ -2607,7 +2607,7 @@
     "association": "book"
   },
   {
-    "topic": "17. Частичные артикли",
+    "topic": "Предлоги и артикли",
     "kind": "word",
     "italian": "dei",
     "ipa": "/dˈei/",
@@ -2618,7 +2618,7 @@
     "association": "book"
   },
   {
-    "topic": "17. Частичные артикли",
+    "topic": "Предлоги и артикли",
     "kind": "word",
     "italian": "degli",
     "ipa": "/dˈeʎi/",
@@ -2629,7 +2629,7 @@
     "association": "book"
   },
   {
-    "topic": "17. Частичные артикли",
+    "topic": "Предлоги и артикли",
     "kind": "word",
     "italian": "delle",
     "ipa": "/dˈelle/",
@@ -2640,7 +2640,7 @@
     "association": "book"
   },
   {
-    "topic": "18. Предлог di + артикль",
+    "topic": "Предлоги и артикли",
     "kind": "phrase",
     "italian": "di + il = del",
     "ipa": "/di il dˈel/",
@@ -2651,7 +2651,7 @@
     "association": "book"
   },
   {
-    "topic": "18. Предлог di + артикль",
+    "topic": "Предлоги и артикли",
     "kind": "phrase",
     "italian": "di + lo = dello",
     "ipa": "/di lo dˈello/",
@@ -2662,7 +2662,7 @@
     "association": "book"
   },
   {
-    "topic": "18. Предлог di + артикль",
+    "topic": "Предлоги и артикли",
     "kind": "phrase",
     "italian": "di + l’ = dell’",
     "ipa": "/di ˈɛlle dˈɛl/",
@@ -2673,7 +2673,7 @@
     "association": "book"
   },
   {
-    "topic": "18. Предлог di + артикль",
+    "topic": "Предлоги и артикли",
     "kind": "phrase",
     "italian": "di + la = della",
     "ipa": "/di la dˈella/",
@@ -2684,7 +2684,7 @@
     "association": "book"
   },
   {
-    "topic": "18. Предлог di + артикль",
+    "topic": "Предлоги и артикли",
     "kind": "phrase",
     "italian": "di + i = dei",
     "ipa": "/di i dˈɛːi/",
@@ -2695,7 +2695,7 @@
     "association": "book"
   },
   {
-    "topic": "18. Предлог di + артикль",
+    "topic": "Предлоги и артикли",
     "kind": "phrase",
     "italian": "di + gli = degli",
     "ipa": "/di ʎi dˈeʎi/",
@@ -2706,7 +2706,7 @@
     "association": "book"
   },
   {
-    "topic": "18. Предлог di + артикль",
+    "topic": "Предлоги и артикли",
     "kind": "phrase",
     "italian": "di + le = delle",
     "ipa": "/di le dˈelle/",
@@ -2717,7 +2717,7 @@
     "association": "book"
   },
   {
-    "topic": "19. Предлог a + артикль",
+    "topic": "Предлоги и артикли",
     "kind": "phrase",
     "italian": "a + il = al",
     "ipa": "/a il ˈal/",
@@ -2728,7 +2728,7 @@
     "association": "book"
   },
   {
-    "topic": "19. Предлог a + артикль",
+    "topic": "Предлоги и артикли",
     "kind": "phrase",
     "italian": "a + lo = allo",
     "ipa": "/a lo ˈallo/",
@@ -2739,7 +2739,7 @@
     "association": "book"
   },
   {
-    "topic": "19. Предлог a + артикль",
+    "topic": "Предлоги и артикли",
     "kind": "phrase",
     "italian": "a + l’ = all’",
     "ipa": "/a ˈɛlle ˈal/",
@@ -2750,7 +2750,7 @@
     "association": "book"
   },
   {
-    "topic": "19. Предлог a + артикль",
+    "topic": "Предлоги и артикли",
     "kind": "phrase",
     "italian": "a + la = alla",
     "ipa": "/a la ˈalla/",
@@ -2761,7 +2761,7 @@
     "association": "book"
   },
   {
-    "topic": "19. Предлог a + артикль",
+    "topic": "Предлоги и артикли",
     "kind": "phrase",
     "italian": "a + i = ai",
     "ipa": "/a i ˈaj/",
@@ -2772,7 +2772,7 @@
     "association": "book"
   },
   {
-    "topic": "19. Предлог a + артикль",
+    "topic": "Предлоги и артикли",
     "kind": "phrase",
     "italian": "a + gli = agli",
     "ipa": "/a ʎi ˈaʎi/",
@@ -2783,7 +2783,7 @@
     "association": "book"
   },
   {
-    "topic": "19. Предлог a + артикль",
+    "topic": "Предлоги и артикли",
     "kind": "phrase",
     "italian": "a + le = alle",
     "ipa": "/a le ˈalle/",
@@ -2794,7 +2794,7 @@
     "association": "book"
   },
   {
-    "topic": "20. Предлог da + артикль",
+    "topic": "Предлоги и артикли",
     "kind": "phrase",
     "italian": "da + il = dal",
     "ipa": "/da il dˈal/",
@@ -2805,7 +2805,7 @@
     "association": "book"
   },
   {
-    "topic": "20. Предлог da + артикль",
+    "topic": "Предлоги и артикли",
     "kind": "phrase",
     "italian": "da + lo = dallo",
     "ipa": "/da lo dˈallo/",
@@ -2816,7 +2816,7 @@
     "association": "book"
   },
   {
-    "topic": "20. Предлог da + артикль",
+    "topic": "Предлоги и артикли",
     "kind": "phrase",
     "italian": "da + l’ = dall’",
     "ipa": "/da ˈɛlle dˈal/",
@@ -2827,7 +2827,7 @@
     "association": "book"
   },
   {
-    "topic": "20. Предлог da + артикль",
+    "topic": "Предлоги и артикли",
     "kind": "phrase",
     "italian": "da + la = dalla",
     "ipa": "/da la dˈalla/",
@@ -2838,7 +2838,7 @@
     "association": "book"
   },
   {
-    "topic": "20. Предлог da + артикль",
+    "topic": "Предлоги и артикли",
     "kind": "phrase",
     "italian": "da + i = dai",
     "ipa": "/da i dˈaj/",
@@ -2849,7 +2849,7 @@
     "association": "book"
   },
   {
-    "topic": "20. Предлог da + артикль",
+    "topic": "Предлоги и артикли",
     "kind": "phrase",
     "italian": "da + gli = dagli",
     "ipa": "/da ʎi dˈaʎi/",
@@ -2860,7 +2860,7 @@
     "association": "book"
   },
   {
-    "topic": "20. Предлог da + артикль",
+    "topic": "Предлоги и артикли",
     "kind": "phrase",
     "italian": "da + le = dalle",
     "ipa": "/da le dˈalle/",
@@ -2871,7 +2871,7 @@
     "association": "book"
   },
   {
-    "topic": "21. Предлог in + артикль",
+    "topic": "Предлоги и артикли",
     "kind": "phrase",
     "italian": "in + il = nel",
     "ipa": "/in il nˈɛl/",
@@ -2882,7 +2882,7 @@
     "association": "book"
   },
   {
-    "topic": "21. Предлог in + артикль",
+    "topic": "Предлоги и артикли",
     "kind": "phrase",
     "italian": "in + lo = nello",
     "ipa": "/in lo nˈello/",
@@ -2893,7 +2893,7 @@
     "association": "book"
   },
   {
-    "topic": "21. Предлог in + артикль",
+    "topic": "Предлоги и артикли",
     "kind": "phrase",
     "italian": "in + l’ = nell’",
     "ipa": "/in ˈɛlle nˈɛl/",
@@ -2904,7 +2904,7 @@
     "association": "book"
   },
   {
-    "topic": "21. Предлог in + артикль",
+    "topic": "Предлоги и артикли",
     "kind": "phrase",
     "italian": "in + la = nella",
     "ipa": "/in la nˈella/",
@@ -2915,7 +2915,7 @@
     "association": "book"
   },
   {
-    "topic": "21. Предлог in + артикль",
+    "topic": "Предлоги и артикли",
     "kind": "phrase",
     "italian": "in + i = nei",
     "ipa": "/in i nˈei/",
@@ -2926,7 +2926,7 @@
     "association": "book"
   },
   {
-    "topic": "21. Предлог in + артикль",
+    "topic": "Предлоги и артикли",
     "kind": "phrase",
     "italian": "in + gli = negli",
     "ipa": "/in ʎi nˈeʎi/",
@@ -2937,7 +2937,7 @@
     "association": "book"
   },
   {
-    "topic": "21. Предлог in + артикль",
+    "topic": "Предлоги и артикли",
     "kind": "phrase",
     "italian": "in + le = nelle",
     "ipa": "/in le nˈelle/",
@@ -2948,7 +2948,7 @@
     "association": "book"
   },
   {
-    "topic": "22. Предлог su + артикль",
+    "topic": "Предлоги и артикли",
     "kind": "phrase",
     "italian": "su + il = sul",
     "ipa": "/su il sˈul/",
@@ -2959,7 +2959,7 @@
     "association": "book"
   },
   {
-    "topic": "22. Предлог su + артикль",
+    "topic": "Предлоги и артикли",
     "kind": "phrase",
     "italian": "su + lo = sullo",
     "ipa": "/su lo sˈullo/",
@@ -2970,7 +2970,7 @@
     "association": "book"
   },
   {
-    "topic": "22. Предлог su + артикль",
+    "topic": "Предлоги и артикли",
     "kind": "phrase",
     "italian": "su + l’ = sull’",
     "ipa": "/su ˈɛlle sˈul/",
@@ -2981,7 +2981,7 @@
     "association": "book"
   },
   {
-    "topic": "22. Предлог su + артикль",
+    "topic": "Предлоги и артикли",
     "kind": "phrase",
     "italian": "su + la = sulla",
     "ipa": "/su la sˈulla/",
@@ -2992,7 +2992,7 @@
     "association": "book"
   },
   {
-    "topic": "22. Предлог su + артикль",
+    "topic": "Предлоги и артикли",
     "kind": "phrase",
     "italian": "su + i = sui",
     "ipa": "/su i sˈui/",
@@ -3003,7 +3003,7 @@
     "association": "book"
   },
   {
-    "topic": "22. Предлог su + артикль",
+    "topic": "Предлоги и артикли",
     "kind": "phrase",
     "italian": "su + gli = sugli",
     "ipa": "/su ʎi sˈuʎi/",
@@ -3014,7 +3014,7 @@
     "association": "book"
   },
   {
-    "topic": "22. Предлог su + артикль",
+    "topic": "Предлоги и артикли",
     "kind": "phrase",
     "italian": "su + le = sulle",
     "ipa": "/su le sˈulle/",
@@ -3025,7 +3025,7 @@
     "association": "book"
   },
   {
-    "topic": "22. Предлог su + артикль",
+    "topic": "Предлоги и артикли",
     "kind": "phrase",
     "italian": "con il",
     "ipa": "/kon il/",
@@ -3036,7 +3036,7 @@
     "association": "book"
   },
   {
-    "topic": "22. Предлог su + артикль",
+    "topic": "Предлоги и артикли",
     "kind": "phrase",
     "italian": "con i",
     "ipa": "/kon i/",
@@ -3047,7 +3047,7 @@
     "association": "book"
   },
   {
-    "topic": "22. Предлог su + артикль",
+    "topic": "Предлоги и артикли",
     "kind": "word",
     "italian": "col",
     "ipa": "/kˈɔl/",
@@ -3058,7 +3058,7 @@
     "association": "book"
   },
   {
-    "topic": "22. Предлог su + артикль",
+    "topic": "Предлоги и артикли",
     "kind": "word",
     "italian": "coi",
     "ipa": "/kˈɔi/",
@@ -3069,7 +3069,7 @@
     "association": "book"
   },
   {
-    "topic": "23. Общие существительные",
+    "topic": "Существительные",
     "kind": "word",
     "italian": "il libro",
     "ipa": "/il lˈibro/",
@@ -3080,7 +3080,7 @@
     "association": "book"
   },
   {
-    "topic": "23. Общие существительные",
+    "topic": "Существительные",
     "kind": "word",
     "italian": "l’amico",
     "ipa": "/lamˈiko/",
@@ -3091,7 +3091,7 @@
     "association": "book"
   },
   {
-    "topic": "23. Общие существительные",
+    "topic": "Существительные",
     "kind": "word",
     "italian": "l’amica",
     "ipa": "/lamˈika/",
@@ -3102,7 +3102,7 @@
     "association": "book"
   },
   {
-    "topic": "23. Общие существительные",
+    "topic": "Существительные",
     "kind": "word",
     "italian": "lo studente",
     "ipa": "/lo studˈɛnte/",
@@ -3113,7 +3113,7 @@
     "association": "book"
   },
   {
-    "topic": "23. Общие существительные",
+    "topic": "Существительные",
     "kind": "word",
     "italian": "lo psicologo",
     "ipa": "/lo psikˈɔloɡo/",
@@ -3124,7 +3124,7 @@
     "association": "book"
   },
   {
-    "topic": "23. Общие существительные",
+    "topic": "Существительные",
     "kind": "word",
     "italian": "il turista",
     "ipa": "/il turˈista/",
@@ -3135,7 +3135,7 @@
     "association": "book"
   },
   {
-    "topic": "23. Общие существительные",
+    "topic": "Существительные",
     "kind": "word",
     "italian": "lo psichiatra",
     "ipa": "/lo psikjˈatra/",
@@ -3146,7 +3146,7 @@
     "association": "book"
   },
   {
-    "topic": "23. Общие существительные",
+    "topic": "Существительные",
     "kind": "word",
     "italian": "lo zaino",
     "ipa": "/lo dzˈaino/",
@@ -3157,7 +3157,7 @@
     "association": "book"
   },
   {
-    "topic": "23. Общие существительные",
+    "topic": "Существительные",
     "kind": "word",
     "italian": "la casa",
     "ipa": "/la kˈaza/",
@@ -3168,7 +3168,7 @@
     "association": "house"
   },
   {
-    "topic": "23. Общие существительные",
+    "topic": "Существительные",
     "kind": "word",
     "italian": "la sedia",
     "ipa": "/la sˈɛdia/",
@@ -3179,7 +3179,7 @@
     "association": "book"
   },
   {
-    "topic": "23. Общие существительные",
+    "topic": "Существительные",
     "kind": "word",
     "italian": "l’idea",
     "ipa": "/lidˈɛa/",
@@ -3190,7 +3190,7 @@
     "association": "book"
   },
   {
-    "topic": "23. Общие существительные",
+    "topic": "Существительные",
     "kind": "word",
     "italian": "il gelato",
     "ipa": "/il dʒelˈato/",
@@ -3201,7 +3201,7 @@
     "association": "book"
   },
   {
-    "topic": "23. Общие существительные",
+    "topic": "Существительные",
     "kind": "word",
     "italian": "la camera",
     "ipa": "/la kˈamera/",
@@ -3212,7 +3212,7 @@
     "association": "book"
   },
   {
-    "topic": "23. Общие существительные",
+    "topic": "Существительные",
     "kind": "word",
     "italian": "il tavolo",
     "ipa": "/il tˈavolo/",
@@ -3223,7 +3223,7 @@
     "association": "book"
   },
   {
-    "topic": "23. Общие существительные",
+    "topic": "Существительные",
     "kind": "word",
     "italian": "il lavoro",
     "ipa": "/il lavˈɔro/",
@@ -3234,7 +3234,7 @@
     "association": "book"
   },
   {
-    "topic": "23. Общие существительные",
+    "topic": "Существительные",
     "kind": "word",
     "italian": "la scuola",
     "ipa": "/la skuˈɔla/",
@@ -3245,7 +3245,7 @@
     "association": "book"
   },
   {
-    "topic": "23. Общие существительные",
+    "topic": "Существительные",
     "kind": "word",
     "italian": "l’università",
     "ipa": "/luniversiˈta/",
@@ -3256,7 +3256,7 @@
     "association": "book"
   },
   {
-    "topic": "23. Общие существительные",
+    "topic": "Существительные",
     "kind": "word",
     "italian": "il viaggio",
     "ipa": "/il vjˈadʒːo/",
@@ -3267,7 +3267,7 @@
     "association": "travel"
   },
   {
-    "topic": "23. Общие существительные",
+    "topic": "Существительные",
     "kind": "word",
     "italian": "la vacanza",
     "ipa": "/la vakˈantsa/",
@@ -3278,7 +3278,7 @@
     "association": "travel"
   },
   {
-    "topic": "23. Общие существительные",
+    "topic": "Существительные",
     "kind": "word",
     "italian": "l’orario",
     "ipa": "/lorˈario/",
@@ -3289,7 +3289,7 @@
     "association": "book"
   },
   {
-    "topic": "23. Общие существительные",
+    "topic": "Существительные",
     "kind": "word",
     "italian": "il ritardo",
     "ipa": "/il ritˈardo/",
@@ -3300,7 +3300,7 @@
     "association": "book"
   },
   {
-    "topic": "23. Общие существительные",
+    "topic": "Существительные",
     "kind": "word",
     "italian": "l’anticipo",
     "ipa": "/lantˈitʃipo/",
@@ -3311,7 +3311,7 @@
     "association": "book"
   },
   {
-    "topic": "23. Общие существительные",
+    "topic": "Существительные",
     "kind": "word",
     "italian": "la forma",
     "ipa": "/la fˈorma/",
@@ -3322,7 +3322,7 @@
     "association": "book"
   },
   {
-    "topic": "23. Общие существительные",
+    "topic": "Существительные",
     "kind": "word",
     "italian": "l’umore",
     "ipa": "/lumˈore/",
@@ -3333,7 +3333,7 @@
     "association": "book"
   },
   {
-    "topic": "23. Общие существительные",
+    "topic": "Существительные",
     "kind": "word",
     "italian": "la difficoltà",
     "ipa": "/la diffikolˈta/",
@@ -3344,7 +3344,7 @@
     "association": "book"
   },
   {
-    "topic": "23. Общие существительные",
+    "topic": "Существительные",
     "kind": "word",
     "italian": "lo spettacolo",
     "ipa": "/lo spetːˈakolo/",
@@ -3355,7 +3355,7 @@
     "association": "book"
   },
   {
-    "topic": "23. Общие существительные",
+    "topic": "Существительные",
     "kind": "word",
     "italian": "l’aeroporto",
     "ipa": "/laeropˈɔrto/",
@@ -3366,7 +3366,7 @@
     "association": "travel"
   },
   {
-    "topic": "23. Общие существительные",
+    "topic": "Существительные",
     "kind": "word",
     "italian": "il medico",
     "ipa": "/il mˈɛdiko/",
@@ -3377,7 +3377,7 @@
     "association": "book"
   },
   {
-    "topic": "23. Общие существительные",
+    "topic": "Существительные",
     "kind": "word",
     "italian": "il treno",
     "ipa": "/il trˈɛno/",
@@ -3388,7 +3388,7 @@
     "association": "travel"
   },
   {
-    "topic": "23. Общие существительные",
+    "topic": "Существительные",
     "kind": "word",
     "italian": "il regalo",
     "ipa": "/il reɡˈalo/",
@@ -3399,7 +3399,7 @@
     "association": "book"
   },
   {
-    "topic": "23. Общие существительные",
+    "topic": "Существительные",
     "kind": "word",
     "italian": "l’ora",
     "ipa": "/lˈora/",
@@ -3410,7 +3410,7 @@
     "association": "book"
   },
   {
-    "topic": "23. Общие существительные",
+    "topic": "Существительные",
     "kind": "word",
     "italian": "il fiore",
     "ipa": "/il fjˈore/",
@@ -3421,7 +3421,7 @@
     "association": "flowers"
   },
   {
-    "topic": "23. Общие существительные",
+    "topic": "Существительные",
     "kind": "word",
     "italian": "la rosa",
     "ipa": "/la rˈɔza/",
@@ -3432,7 +3432,7 @@
     "association": "flowers"
   },
   {
-    "topic": "23. Общие существительные",
+    "topic": "Существительные",
     "kind": "word",
     "italian": "la borsa",
     "ipa": "/la bˈorsa/",
@@ -3443,7 +3443,7 @@
     "association": "book"
   },
   {
-    "topic": "23. Общие существительные",
+    "topic": "Существительные",
     "kind": "word",
     "italian": "la chiave",
     "ipa": "/la kjˈave/",
@@ -3454,7 +3454,7 @@
     "association": "book"
   },
   {
-    "topic": "23. Общие существительные",
+    "topic": "Существительные",
     "kind": "word",
     "italian": "il problema",
     "ipa": "/il problˈɛma/",
@@ -3465,7 +3465,7 @@
     "association": "book"
   },
   {
-    "topic": "23. Общие существительные",
+    "topic": "Существительные",
     "kind": "word",
     "italian": "la città",
     "ipa": "/la tʃitˈta/",
@@ -3476,7 +3476,7 @@
     "association": "book"
   },
   {
-    "topic": "23. Общие существительные",
+    "topic": "Существительные",
     "kind": "word",
     "italian": "il caffè",
     "ipa": "/il kafˈfɛ/",
@@ -3487,7 +3487,7 @@
     "association": "coffee"
   },
   {
-    "topic": "23. Общие существительные",
+    "topic": "Существительные",
     "kind": "word",
     "italian": "il film",
     "ipa": "/il fˈilm/",
@@ -3498,7 +3498,7 @@
     "association": "book"
   },
   {
-    "topic": "23. Общие существительные",
+    "topic": "Существительные",
     "kind": "word",
     "italian": "la musica",
     "ipa": "/la mˈuzika/",
@@ -3509,7 +3509,7 @@
     "association": "book"
   },
   {
-    "topic": "23. Общие существительные",
+    "topic": "Существительные",
     "kind": "word",
     "italian": "la macchina",
     "ipa": "/la mˈakːina/",
@@ -3520,7 +3520,7 @@
     "association": "book"
   },
   {
-    "topic": "23. Общие существительные",
+    "topic": "Существительные",
     "kind": "word",
     "italian": "l’aiuto",
     "ipa": "/lajˈuto/",
@@ -3531,7 +3531,7 @@
     "association": "book"
   },
   {
-    "topic": "23. Общие существительные",
+    "topic": "Существительные",
     "kind": "word",
     "italian": "l’indirizzo",
     "ipa": "/lindirˈitsːo/",
@@ -3542,7 +3542,7 @@
     "association": "book"
   },
   {
-    "topic": "23. Общие существительные",
+    "topic": "Существительные",
     "kind": "word",
     "italian": "il numero",
     "ipa": "/il nˈumero/",
@@ -3553,7 +3553,7 @@
     "association": "book"
   },
   {
-    "topic": "23. Общие существительные",
+    "topic": "Существительные",
     "kind": "word",
     "italian": "il telefono",
     "ipa": "/il telˈɛfono/",
@@ -3564,7 +3564,7 @@
     "association": "phone"
   },
   {
-    "topic": "23. Общие существительные",
+    "topic": "Существительные",
     "kind": "word",
     "italian": "la via",
     "ipa": "/la vˈia/",
@@ -3575,7 +3575,7 @@
     "association": "book"
   },
   {
-    "topic": "23. Общие существительные",
+    "topic": "Существительные",
     "kind": "word",
     "italian": "l’euro",
     "ipa": "/lˈɛuro/",
@@ -3586,7 +3586,7 @@
     "association": "book"
   },
   {
-    "topic": "23. Общие существительные",
+    "topic": "Существительные",
     "kind": "word",
     "italian": "la persona",
     "ipa": "/la persˈona/",
@@ -3597,7 +3597,7 @@
     "association": "book"
   },
   {
-    "topic": "23. Общие существительные",
+    "topic": "Числа и счёт",
     "kind": "word",
     "italian": "il milione",
     "ipa": "/il miliˈone/",
@@ -3608,7 +3608,7 @@
     "association": "book"
   },
   {
-    "topic": "23. Общие существительные",
+    "topic": "Числа и счёт",
     "kind": "word",
     "italian": "il miliardo",
     "ipa": "/il miliˈardo/",
@@ -3619,7 +3619,7 @@
     "association": "book"
   },
   {
-    "topic": "24. Существительные-исключения",
+    "topic": "Существительные",
     "kind": "word",
     "italian": "la mano",
     "ipa": "/la mˈano/",
@@ -3630,7 +3630,7 @@
     "association": "book"
   },
   {
-    "topic": "24. Существительные-исключения",
+    "topic": "Существительные",
     "kind": "word",
     "italian": "l’eco",
     "ipa": "/lˈɛko/",
@@ -3641,7 +3641,7 @@
     "association": "book"
   },
   {
-    "topic": "24. Существительные-исключения",
+    "topic": "Существительные",
     "kind": "word",
     "italian": "la radio",
     "ipa": "/la ˈradjo/",
@@ -3652,7 +3652,7 @@
     "association": "book"
   },
   {
-    "topic": "24. Существительные-исключения",
+    "topic": "Существительные",
     "kind": "word",
     "italian": "la foto",
     "ipa": "/la fˈɔto/",
@@ -3663,7 +3663,7 @@
     "association": "book"
   },
   {
-    "topic": "24. Существительные-исключения",
+    "topic": "Существительные",
     "kind": "word",
     "italian": "la moto",
     "ipa": "/la ˈmɔto/",
@@ -3674,7 +3674,7 @@
     "association": "book"
   },
   {
-    "topic": "24. Существительные-исключения",
+    "topic": "Существительные",
     "kind": "word",
     "italian": "la bicicletta",
     "ipa": "/la bitʃiˈkletta/",
@@ -3685,7 +3685,7 @@
     "association": "book"
   },
   {
-    "topic": "24. Существительные-исключения",
+    "topic": "Существительные",
     "kind": "word",
     "italian": "l’auto",
     "ipa": "/ˈlauto/",
@@ -3696,7 +3696,7 @@
     "association": "book"
   },
   {
-    "topic": "24. Существительные-исключения",
+    "topic": "Существительные",
     "kind": "word",
     "italian": "il problema",
     "ipa": "/il problˈɛma/",
@@ -3707,7 +3707,7 @@
     "association": "book"
   },
   {
-    "topic": "24. Существительные-исключения",
+    "topic": "Существительные",
     "kind": "word",
     "italian": "il tema",
     "ipa": "/il tˈɛma/",
@@ -3718,7 +3718,7 @@
     "association": "book"
   },
   {
-    "topic": "24. Существительные-исключения",
+    "topic": "Существительные",
     "kind": "word",
     "italian": "il programma",
     "ipa": "/il proɡrˈamma/",
@@ -3729,7 +3729,7 @@
     "association": "book"
   },
   {
-    "topic": "24. Существительные-исключения",
+    "topic": "Существительные",
     "kind": "word",
     "italian": "il clima",
     "ipa": "/il klˈima/",
@@ -3740,7 +3740,7 @@
     "association": "book"
   },
   {
-    "topic": "24. Существительные-исключения",
+    "topic": "Существительные",
     "kind": "word",
     "italian": "il pianeta",
     "ipa": "/il pjanˈeta/",
@@ -3751,7 +3751,7 @@
     "association": "book"
   },
   {
-    "topic": "24. Существительные-исключения",
+    "topic": "Существительные",
     "kind": "word",
     "italian": "il poeta",
     "ipa": "/il poˈɛta/",
@@ -3762,7 +3762,7 @@
     "association": "book"
   },
   {
-    "topic": "24. Существительные-исключения",
+    "topic": "Существительные",
     "kind": "word",
     "italian": "il pigiama",
     "ipa": "/il pidʒˈama/",
@@ -3773,7 +3773,7 @@
     "association": "book"
   },
   {
-    "topic": "24. Существительные-исключения",
+    "topic": "Существительные",
     "kind": "word",
     "italian": "la stazione",
     "ipa": "/la statsiˈone/",
@@ -3784,7 +3784,7 @@
     "association": "book"
   },
   {
-    "topic": "24. Существительные-исключения",
+    "topic": "Существительные",
     "kind": "word",
     "italian": "l’attrice",
     "ipa": "/latːrˈitʃe/",
@@ -3795,7 +3795,7 @@
     "association": "book"
   },
   {
-    "topic": "24. Существительные-исключения",
+    "topic": "Существительные",
     "kind": "word",
     "italian": "la virtù",
     "ipa": "/la virˈtu/",
@@ -3806,7 +3806,7 @@
     "association": "book"
   },
   {
-    "topic": "25. Особые формы множественного числа",
+    "topic": "Существительные",
     "kind": "word",
     "italian": "l’amica",
     "ipa": "/laˈmika/",
@@ -3817,7 +3817,7 @@
     "association": "book"
   },
   {
-    "topic": "25. Особые формы множественного числа",
+    "topic": "Существительные",
     "kind": "word",
     "italian": "la collega",
     "ipa": "/la kolˈlɛɡa/",
@@ -3828,7 +3828,7 @@
     "association": "book"
   },
   {
-    "topic": "25. Особые формы множественного числа",
+    "topic": "Существительные",
     "kind": "word",
     "italian": "il bosco",
     "ipa": "/il ˈbɔsko/",
@@ -3839,7 +3839,7 @@
     "association": "book"
   },
   {
-    "topic": "25. Особые формы множественного числа",
+    "topic": "Существительные",
     "kind": "word",
     "italian": "il lago",
     "ipa": "/il ˈlaɡo/",
@@ -3850,7 +3850,7 @@
     "association": "book"
   },
   {
-    "topic": "25. Особые формы множественного числа",
+    "topic": "Существительные",
     "kind": "word",
     "italian": "il medico",
     "ipa": "/il ˈmɛdiko/",
@@ -3861,7 +3861,7 @@
     "association": "book"
   },
   {
-    "topic": "25. Особые формы множественного числа",
+    "topic": "Существительные",
     "kind": "word",
     "italian": "l’amico",
     "ipa": "/laˈmiko/",
@@ -3872,7 +3872,7 @@
     "association": "book"
   },
   {
-    "topic": "25. Особые формы множественного числа",
+    "topic": "Существительные",
     "kind": "word",
     "italian": "il greco",
     "ipa": "/il ˈɡrɛko/",
@@ -3883,7 +3883,7 @@
     "association": "book"
   },
   {
-    "topic": "25. Особые формы множественного числа",
+    "topic": "Существительные",
     "kind": "word",
     "italian": "il catalogo",
     "ipa": "/il kaˈtaloɡo/",
@@ -3894,7 +3894,7 @@
     "association": "book"
   },
   {
-    "topic": "25. Особые формы множественного числа",
+    "topic": "Существительные",
     "kind": "word",
     "italian": "l’arancia",
     "ipa": "/laˈrantʃa/",
@@ -3905,7 +3905,7 @@
     "association": "book"
   },
   {
-    "topic": "25. Особые формы множественного числа",
+    "topic": "Существительные",
     "kind": "word",
     "italian": "la spiaggia",
     "ipa": "/la ˈspjaddʒa/",
@@ -3916,7 +3916,7 @@
     "association": "sea"
   },
   {
-    "topic": "25. Особые формы множественного числа",
+    "topic": "Существительные",
     "kind": "word",
     "italian": "la camicia",
     "ipa": "/la kaˈmitʃa/",
@@ -3927,7 +3927,7 @@
     "association": "book"
   },
   {
-    "topic": "25. Особые формы множественного числа",
+    "topic": "Существительные",
     "kind": "word",
     "italian": "la valigia",
     "ipa": "/la vaˈlidʒa/",
@@ -3938,7 +3938,7 @@
     "association": "travel"
   },
   {
-    "topic": "25. Особые формы множественного числа",
+    "topic": "Существительные",
     "kind": "word",
     "italian": "la farmacia",
     "ipa": "/la farmaˈtʃia/",
@@ -3949,7 +3949,7 @@
     "association": "book"
   },
   {
-    "topic": "25. Особые формы множественного числа",
+    "topic": "Существительные",
     "kind": "word",
     "italian": "la bugia",
     "ipa": "/la buˈdʒia/",
@@ -3960,7 +3960,7 @@
     "association": "book"
   },
   {
-    "topic": "25. Особые формы множественного числа",
+    "topic": "Существительные",
     "kind": "word",
     "italian": "il bar",
     "ipa": "/il ˈbar/",
@@ -3971,7 +3971,7 @@
     "association": "book"
   },
   {
-    "topic": "25. Особые формы множественного числа",
+    "topic": "Существительные",
     "kind": "word",
     "italian": "il film",
     "ipa": "/il ˈfilm/",
@@ -3982,7 +3982,7 @@
     "association": "book"
   },
   {
-    "topic": "25. Особые формы множественного числа",
+    "topic": "Существительные",
     "kind": "word",
     "italian": "la città",
     "ipa": "/la tʃitˈta/",
@@ -3993,7 +3993,7 @@
     "association": "book"
   },
   {
-    "topic": "25. Особые формы множественного числа",
+    "topic": "Существительные",
     "kind": "word",
     "italian": "il caffè",
     "ipa": "/il kafˈfɛ/",
@@ -4004,7 +4004,7 @@
     "association": "coffee"
   },
   {
-    "topic": "25. Особые формы множественного числа",
+    "topic": "Существительные",
     "kind": "word",
     "italian": "la crisi",
     "ipa": "/la ˈkrizi/",
@@ -4015,7 +4015,7 @@
     "association": "book"
   },
   {
-    "topic": "25. Особые формы множественного числа",
+    "topic": "Существительные",
     "kind": "word",
     "italian": "l’uomo",
     "ipa": "/ˈlwɔmo/",
@@ -4026,7 +4026,7 @@
     "association": "book"
   },
   {
-    "topic": "25. Особые формы множественного числа",
+    "topic": "Существительные",
     "kind": "word",
     "italian": "l’uovo",
     "ipa": "/ˈlwɔvo/",
@@ -4037,7 +4037,7 @@
     "association": "book"
   },
   {
-    "topic": "26. Семья",
+    "topic": "Семья",
     "kind": "word",
     "italian": "la famiglia",
     "ipa": "/la famˈiʎa/",
@@ -4048,7 +4048,7 @@
     "association": "book"
   },
   {
-    "topic": "26. Семья",
+    "topic": "Семья",
     "kind": "word",
     "italian": "il parente",
     "ipa": "/il parˈɛnte/",
@@ -4059,7 +4059,7 @@
     "association": "book"
   },
   {
-    "topic": "26. Семья",
+    "topic": "Семья",
     "kind": "word",
     "italian": "il genitore",
     "ipa": "/il dʒenitˈore/",
@@ -4070,7 +4070,7 @@
     "association": "book"
   },
   {
-    "topic": "26. Семья",
+    "topic": "Семья",
     "kind": "word",
     "italian": "i genitori",
     "ipa": "/i dʒenitˈori/",
@@ -4081,7 +4081,7 @@
     "association": "book"
   },
   {
-    "topic": "26. Семья",
+    "topic": "Семья",
     "kind": "word",
     "italian": "il marito",
     "ipa": "/il marˈito/",
@@ -4092,7 +4092,7 @@
     "association": "book"
   },
   {
-    "topic": "26. Семья",
+    "topic": "Семья",
     "kind": "word",
     "italian": "la moglie",
     "ipa": "/la mˈoʎe/",
@@ -4103,7 +4103,7 @@
     "association": "book"
   },
   {
-    "topic": "26. Семья",
+    "topic": "Семья",
     "kind": "word",
     "italian": "il figlio",
     "ipa": "/il fˈiʎo/",
@@ -4114,7 +4114,7 @@
     "association": "book"
   },
   {
-    "topic": "26. Семья",
+    "topic": "Семья",
     "kind": "word",
     "italian": "la figlia",
     "ipa": "/la fˈiʎa/",
@@ -4125,7 +4125,7 @@
     "association": "book"
   },
   {
-    "topic": "26. Семья",
+    "topic": "Семья",
     "kind": "word",
     "italian": "il fratello",
     "ipa": "/il fratˈɛllo/",
@@ -4136,7 +4136,7 @@
     "association": "book"
   },
   {
-    "topic": "26. Семья",
+    "topic": "Семья",
     "kind": "word",
     "italian": "la sorella",
     "ipa": "/la sorˈɛlla/",
@@ -4147,7 +4147,7 @@
     "association": "book"
   },
   {
-    "topic": "26. Семья",
+    "topic": "Семья",
     "kind": "word",
     "italian": "il cugino",
     "ipa": "/il kudʒˈino/",
@@ -4158,7 +4158,7 @@
     "association": "book"
   },
   {
-    "topic": "26. Семья",
+    "topic": "Семья",
     "kind": "word",
     "italian": "la cugina",
     "ipa": "/la kudʒˈina/",
@@ -4169,7 +4169,7 @@
     "association": "book"
   },
   {
-    "topic": "26. Семья",
+    "topic": "Семья",
     "kind": "word",
     "italian": "lo zio",
     "ipa": "/lo dzˈio/",
@@ -4180,7 +4180,7 @@
     "association": "book"
   },
   {
-    "topic": "26. Семья",
+    "topic": "Семья",
     "kind": "word",
     "italian": "la zia",
     "ipa": "/la dzˈia/",
@@ -4191,7 +4191,7 @@
     "association": "book"
   },
   {
-    "topic": "26. Семья",
+    "topic": "Семья",
     "kind": "word",
     "italian": "il nonno",
     "ipa": "/il nˈɔnno/",
@@ -4202,7 +4202,7 @@
     "association": "book"
   },
   {
-    "topic": "26. Семья",
+    "topic": "Семья",
     "kind": "word",
     "italian": "la nonna",
     "ipa": "/la nˈɔnna/",
@@ -4213,7 +4213,7 @@
     "association": "book"
   },
   {
-    "topic": "26. Семья",
+    "topic": "Семья",
     "kind": "word",
     "italian": "il nipote",
     "ipa": "/il nipˈote/",
@@ -4224,7 +4224,7 @@
     "association": "book"
   },
   {
-    "topic": "26. Семья",
+    "topic": "Семья",
     "kind": "word",
     "italian": "la nipote",
     "ipa": "/la nipˈote/",
@@ -4235,7 +4235,7 @@
     "association": "book"
   },
   {
-    "topic": "26. Семья",
+    "topic": "Семья",
     "kind": "word",
     "italian": "il padre",
     "ipa": "/il pˈadre/",
@@ -4246,7 +4246,7 @@
     "association": "book"
   },
   {
-    "topic": "26. Семья",
+    "topic": "Семья",
     "kind": "word",
     "italian": "la madre",
     "ipa": "/la mˈadre/",
@@ -4257,7 +4257,7 @@
     "association": "book"
   },
   {
-    "topic": "27. Части тела",
+    "topic": "Человек: тело и внешность",
     "kind": "word",
     "italian": "il corpo",
     "ipa": "/il kˈɔrpo/",
@@ -4268,7 +4268,7 @@
     "association": "book"
   },
   {
-    "topic": "27. Части тела",
+    "topic": "Человек: тело и внешность",
     "kind": "word",
     "italian": "l’aspetto",
     "ipa": "/laspˈɛtːo/",
@@ -4279,7 +4279,7 @@
     "association": "book"
   },
   {
-    "topic": "27. Части тела",
+    "topic": "Человек: тело и внешность",
     "kind": "word",
     "italian": "la testa",
     "ipa": "/la tˈɛsta/",
@@ -4290,7 +4290,7 @@
     "association": "book"
   },
   {
-    "topic": "27. Части тела",
+    "topic": "Человек: тело и внешность",
     "kind": "word",
     "italian": "i capelli",
     "ipa": "/i kapˈelli/",
@@ -4301,7 +4301,7 @@
     "association": "book"
   },
   {
-    "topic": "27. Части тела",
+    "topic": "Человек: тело и внешность",
     "kind": "word",
     "italian": "l’orecchio",
     "ipa": "/lorˈekːio/",
@@ -4312,7 +4312,7 @@
     "association": "book"
   },
   {
-    "topic": "27. Части тела",
+    "topic": "Человек: тело и внешность",
     "kind": "word",
     "italian": "l’occhio",
     "ipa": "/lˈɔkːio/",
@@ -4323,7 +4323,7 @@
     "association": "book"
   },
   {
-    "topic": "27. Части тела",
+    "topic": "Человек: тело и внешность",
     "kind": "word",
     "italian": "il collo",
     "ipa": "/il kˈollo/",
@@ -4334,7 +4334,7 @@
     "association": "book"
   },
   {
-    "topic": "27. Части тела",
+    "topic": "Человек: тело и внешность",
     "kind": "word",
     "italian": "il naso",
     "ipa": "/il nˈazo/",
@@ -4345,7 +4345,7 @@
     "association": "book"
   },
   {
-    "topic": "27. Части тела",
+    "topic": "Человек: тело и внешность",
     "kind": "word",
     "italian": "la spalla",
     "ipa": "/la spˈalla/",
@@ -4356,7 +4356,7 @@
     "association": "book"
   },
   {
-    "topic": "27. Части тела",
+    "topic": "Человек: тело и внешность",
     "kind": "word",
     "italian": "la bocca",
     "ipa": "/la bˈokːa/",
@@ -4367,7 +4367,7 @@
     "association": "book"
   },
   {
-    "topic": "27. Части тела",
+    "topic": "Человек: тело и внешность",
     "kind": "word",
     "italian": "il braccio",
     "ipa": "/il brˈatʃːo/",
@@ -4378,7 +4378,7 @@
     "association": "book"
   },
   {
-    "topic": "27. Части тела",
+    "topic": "Человек: тело и внешность",
     "kind": "word",
     "italian": "il petto",
     "ipa": "/il pˈɛtːo/",
@@ -4389,7 +4389,7 @@
     "association": "book"
   },
   {
-    "topic": "27. Части тела",
+    "topic": "Человек: тело и внешность",
     "kind": "word",
     "italian": "il gomito",
     "ipa": "/il ɡˈomito/",
@@ -4400,7 +4400,7 @@
     "association": "book"
   },
   {
-    "topic": "27. Части тела",
+    "topic": "Человек: тело и внешность",
     "kind": "word",
     "italian": "la pancia",
     "ipa": "/la pˈantʃa/",
@@ -4411,7 +4411,7 @@
     "association": "book"
   },
   {
-    "topic": "27. Части тела",
+    "topic": "Человек: тело и внешность",
     "kind": "word",
     "italian": "la mano",
     "ipa": "/la mˈano/",
@@ -4422,7 +4422,7 @@
     "association": "book"
   },
   {
-    "topic": "27. Части тела",
+    "topic": "Человек: тело и внешность",
     "kind": "word",
     "italian": "la gamba",
     "ipa": "/la ɡˈamba/",
@@ -4433,7 +4433,7 @@
     "association": "book"
   },
   {
-    "topic": "27. Части тела",
+    "topic": "Человек: тело и внешность",
     "kind": "word",
     "italian": "il dito",
     "ipa": "/il dˈito/",
@@ -4444,7 +4444,7 @@
     "association": "book"
   },
   {
-    "topic": "27. Части тела",
+    "topic": "Человек: тело и внешность",
     "kind": "word",
     "italian": "il ginocchio",
     "ipa": "/il dʒinˈɔkːio/",
@@ -4455,7 +4455,7 @@
     "association": "book"
   },
   {
-    "topic": "27. Части тела",
+    "topic": "Человек: тело и внешность",
     "kind": "word",
     "italian": "il piede",
     "ipa": "/il pjˈɛde/",
@@ -4466,7 +4466,7 @@
     "association": "book"
   },
   {
-    "topic": "27. Части тела",
+    "topic": "Человек: тело и внешность",
     "kind": "word",
     "italian": "la gola",
     "ipa": "/la ɡˈola/",
@@ -4477,7 +4477,7 @@
     "association": "book"
   },
   {
-    "topic": "28. Глаза и волосы",
+    "topic": "Человек: тело и внешность",
     "kind": "word",
     "italian": "azzurro",
     "ipa": "/adzːˈurɾo/",
@@ -4488,7 +4488,7 @@
     "association": "book"
   },
   {
-    "topic": "28. Глаза и волосы",
+    "topic": "Человек: тело и внешность",
     "kind": "word",
     "italian": "verde",
     "ipa": "/vˈerde/",
@@ -4499,7 +4499,7 @@
     "association": "book"
   },
   {
-    "topic": "28. Глаза и волосы",
+    "topic": "Человек: тело и внешность",
     "kind": "word",
     "italian": "marrone",
     "ipa": "/marɾˈone/",
@@ -4510,7 +4510,7 @@
     "association": "book"
   },
   {
-    "topic": "28. Глаза и волосы",
+    "topic": "Человек: тело и внешность",
     "kind": "word",
     "italian": "grigio",
     "ipa": "/ɡrˈidʒo/",
@@ -4521,7 +4521,7 @@
     "association": "book"
   },
   {
-    "topic": "28. Глаза и волосы",
+    "topic": "Человек: тело и внешность",
     "kind": "word",
     "italian": "nero",
     "ipa": "/nˈero/",
@@ -4532,7 +4532,7 @@
     "association": "book"
   },
   {
-    "topic": "28. Глаза и волосы",
+    "topic": "Человек: тело и внешность",
     "kind": "word",
     "italian": "biondo",
     "ipa": "/bjˈondo/",
@@ -4543,7 +4543,7 @@
     "association": "book"
   },
   {
-    "topic": "28. Глаза и волосы",
+    "topic": "Человек: тело и внешность",
     "kind": "word",
     "italian": "castano",
     "ipa": "/kastˈano/",
@@ -4554,7 +4554,7 @@
     "association": "book"
   },
   {
-    "topic": "28. Глаза и волосы",
+    "topic": "Человек: тело и внешность",
     "kind": "word",
     "italian": "rosso",
     "ipa": "/rˈosso/",
@@ -4565,7 +4565,7 @@
     "association": "book"
   },
   {
-    "topic": "28. Глаза и волосы",
+    "topic": "Человек: тело и внешность",
     "kind": "word",
     "italian": "lungo",
     "ipa": "/lˈuŋɡo/",
@@ -4576,7 +4576,7 @@
     "association": "book"
   },
   {
-    "topic": "28. Глаза и волосы",
+    "topic": "Человек: тело и внешность",
     "kind": "word",
     "italian": "corto",
     "ipa": "/kˈorto/",
@@ -4587,7 +4587,7 @@
     "association": "book"
   },
   {
-    "topic": "28. Глаза и волосы",
+    "topic": "Человек: тело и внешность",
     "kind": "word",
     "italian": "liscio",
     "ipa": "/lˈiʃo/",
@@ -4598,7 +4598,7 @@
     "association": "book"
   },
   {
-    "topic": "28. Глаза и волосы",
+    "topic": "Человек: тело и внешность",
     "kind": "word",
     "italian": "riccio",
     "ipa": "/rˈitʃːo/",
@@ -4609,7 +4609,7 @@
     "association": "book"
   },
   {
-    "topic": "28. Глаза и волосы",
+    "topic": "Человек: тело и внешность",
     "kind": "phrase",
     "italian": "avere gli occhi azzurri",
     "ipa": "/avˈere ʎi ˈɔkːi adzːˈurɾi/",
@@ -4620,7 +4620,7 @@
     "association": "book"
   },
   {
-    "topic": "28. Глаза и волосы",
+    "topic": "Человек: тело и внешность",
     "kind": "phrase",
     "italian": "avere gli occhi verdi",
     "ipa": "/avˈere ʎi ˈɔkːi vˈerdi/",
@@ -4631,7 +4631,7 @@
     "association": "book"
   },
   {
-    "topic": "28. Глаза и волосы",
+    "topic": "Человек: тело и внешность",
     "kind": "phrase",
     "italian": "avere gli occhi marroni",
     "ipa": "/avˈere ʎi ˈɔkːi marɾˈoni/",
@@ -4642,7 +4642,7 @@
     "association": "book"
   },
   {
-    "topic": "28. Глаза и волосы",
+    "topic": "Человек: тело и внешность",
     "kind": "phrase",
     "italian": "avere gli occhi grigi",
     "ipa": "/avˈere ʎi ˈɔkːi ɡrˈidʒi/",
@@ -4653,7 +4653,7 @@
     "association": "book"
   },
   {
-    "topic": "28. Глаза и волосы",
+    "topic": "Человек: тело и внешность",
     "kind": "phrase",
     "italian": "avere gli occhi neri",
     "ipa": "/avˈere ʎi ˈɔkːi nˈeri/",
@@ -4664,7 +4664,7 @@
     "association": "book"
   },
   {
-    "topic": "28. Глаза и волосы",
+    "topic": "Человек: тело и внешность",
     "kind": "phrase",
     "italian": "avere i capelli biondi",
     "ipa": "/avˈere i kapˈelli bjˈondi/",
@@ -4675,7 +4675,7 @@
     "association": "book"
   },
   {
-    "topic": "28. Глаза и волосы",
+    "topic": "Человек: тело и внешность",
     "kind": "phrase",
     "italian": "avere i capelli castani",
     "ipa": "/avˈere i kapˈelli kastˈani/",
@@ -4686,7 +4686,7 @@
     "association": "book"
   },
   {
-    "topic": "28. Глаза и волосы",
+    "topic": "Человек: тело и внешность",
     "kind": "phrase",
     "italian": "avere i capelli neri",
     "ipa": "/avˈere i kapˈelli nˈeri/",
@@ -4697,7 +4697,7 @@
     "association": "book"
   },
   {
-    "topic": "28. Глаза и волосы",
+    "topic": "Человек: тело и внешность",
     "kind": "phrase",
     "italian": "avere i capelli rossi",
     "ipa": "/avˈere i kapˈelli rˈossi/",
@@ -4708,7 +4708,7 @@
     "association": "book"
   },
   {
-    "topic": "28. Глаза и волосы",
+    "topic": "Человек: тело и внешность",
     "kind": "phrase",
     "italian": "avere i capelli lunghi",
     "ipa": "/avˈere i kapˈelli lˈuŋɡi/",
@@ -4719,7 +4719,7 @@
     "association": "book"
   },
   {
-    "topic": "28. Глаза и волосы",
+    "topic": "Человек: тело и внешность",
     "kind": "phrase",
     "italian": "avere i capelli corti",
     "ipa": "/avˈere i kapˈelli kˈorti/",
@@ -4730,7 +4730,7 @@
     "association": "book"
   },
   {
-    "topic": "28. Глаза и волосы",
+    "topic": "Человек: тело и внешность",
     "kind": "phrase",
     "italian": "avere i capelli lisci",
     "ipa": "/avˈere i kapˈelli lˈiʃi/",
@@ -4741,7 +4741,7 @@
     "association": "book"
   },
   {
-    "topic": "28. Глаза и волосы",
+    "topic": "Человек: тело и внешность",
     "kind": "phrase",
     "italian": "avere i capelli ricci",
     "ipa": "/avˈere i kapˈelli rˈitʃːi/",
@@ -4752,7 +4752,7 @@
     "association": "book"
   },
   {
-    "topic": "29. Цвета",
+    "topic": "Цвета и характеристики",
     "kind": "word",
     "italian": "rosso",
     "ipa": "/rˈosso/",
@@ -4763,7 +4763,7 @@
     "association": "book"
   },
   {
-    "topic": "29. Цвета",
+    "topic": "Цвета и характеристики",
     "kind": "word",
     "italian": "arancione",
     "ipa": "/aɾantʃˈone/",
@@ -4774,7 +4774,7 @@
     "association": "book"
   },
   {
-    "topic": "29. Цвета",
+    "topic": "Цвета и характеристики",
     "kind": "word",
     "italian": "giallo",
     "ipa": "/dʒˈallo/",
@@ -4785,7 +4785,7 @@
     "association": "book"
   },
   {
-    "topic": "29. Цвета",
+    "topic": "Цвета и характеристики",
     "kind": "word",
     "italian": "verde",
     "ipa": "/vˈerde/",
@@ -4796,7 +4796,7 @@
     "association": "book"
   },
   {
-    "topic": "29. Цвета",
+    "topic": "Цвета и характеристики",
     "kind": "word",
     "italian": "azzurro",
     "ipa": "/adzːˈurɾo/",
@@ -4807,7 +4807,7 @@
     "association": "book"
   },
   {
-    "topic": "29. Цвета",
+    "topic": "Цвета и характеристики",
     "kind": "word",
     "italian": "blu",
     "ipa": "/blˈu/",
@@ -4818,7 +4818,7 @@
     "association": "book"
   },
   {
-    "topic": "29. Цвета",
+    "topic": "Цвета и характеристики",
     "kind": "word",
     "italian": "viola",
     "ipa": "/vjˈɔla/",
@@ -4829,7 +4829,7 @@
     "association": "book"
   },
   {
-    "topic": "29. Цвета",
+    "topic": "Цвета и характеристики",
     "kind": "word",
     "italian": "rosa",
     "ipa": "/rˈɔza/",
@@ -4840,7 +4840,7 @@
     "association": "flowers"
   },
   {
-    "topic": "29. Цвета",
+    "topic": "Цвета и характеристики",
     "kind": "word",
     "italian": "marrone",
     "ipa": "/marɾˈone/",
@@ -4851,7 +4851,7 @@
     "association": "book"
   },
   {
-    "topic": "29. Цвета",
+    "topic": "Цвета и характеристики",
     "kind": "word",
     "italian": "beige",
     "ipa": "/bˈɛːʒ/",
@@ -4862,7 +4862,7 @@
     "association": "book"
   },
   {
-    "topic": "29. Цвета",
+    "topic": "Цвета и характеристики",
     "kind": "word",
     "italian": "bianco",
     "ipa": "/bjˈanko/",
@@ -4873,7 +4873,7 @@
     "association": "book"
   },
   {
-    "topic": "29. Цвета",
+    "topic": "Цвета и характеристики",
     "kind": "word",
     "italian": "nero",
     "ipa": "/nˈero/",
@@ -4884,7 +4884,7 @@
     "association": "book"
   },
   {
-    "topic": "29. Цвета",
+    "topic": "Цвета и характеристики",
     "kind": "word",
     "italian": "grigio",
     "ipa": "/ɡrˈidʒo/",
@@ -4895,7 +4895,7 @@
     "association": "book"
   },
   {
-    "topic": "29. Цвета",
+    "topic": "Цвета и характеристики",
     "kind": "word",
     "italian": "turchese",
     "ipa": "/turkˈeze/",
@@ -4906,7 +4906,7 @@
     "association": "book"
   },
   {
-    "topic": "29. Цвета",
+    "topic": "Цвета и характеристики",
     "kind": "word",
     "italian": "oro",
     "ipa": "/ˈɔro/",
@@ -4917,7 +4917,7 @@
     "association": "book"
   },
   {
-    "topic": "29. Цвета",
+    "topic": "Цвета и характеристики",
     "kind": "word",
     "italian": "argento",
     "ipa": "/ardʒˈɛnto/",
@@ -4928,7 +4928,7 @@
     "association": "book"
   },
   {
-    "topic": "30. Прилагательные и характеристики",
+    "topic": "Цвета и характеристики",
     "kind": "word",
     "italian": "bello",
     "ipa": "/ˈbɛllo/",
@@ -4939,7 +4939,7 @@
     "association": "book"
   },
   {
-    "topic": "30. Прилагательные и характеристики",
+    "topic": "Цвета и характеристики",
     "kind": "word",
     "italian": "grande",
     "ipa": "/ˈɡrande/",
@@ -4950,7 +4950,7 @@
     "association": "book"
   },
   {
-    "topic": "30. Прилагательные и характеристики",
+    "topic": "Цвета и характеристики",
     "kind": "word",
     "italian": "buono",
     "ipa": "/ˈbwɔno/",
@@ -4961,7 +4961,7 @@
     "association": "good"
   },
   {
-    "topic": "30. Прилагательные и характеристики",
+    "topic": "Цвета и характеристики",
     "kind": "word",
     "italian": "luminoso",
     "ipa": "/luminˈozo/",
@@ -4972,7 +4972,7 @@
     "association": "book"
   },
   {
-    "topic": "30. Прилагательные и характеристики",
+    "topic": "Цвета и характеристики",
     "kind": "word",
     "italian": "stanco",
     "ipa": "/stˈanko/",
@@ -4983,7 +4983,7 @@
     "association": "book"
   },
   {
-    "topic": "30. Прилагательные и характеристики",
+    "topic": "Цвета и характеристики",
     "kind": "word",
     "italian": "felice",
     "ipa": "/feˈlitʃe/",
@@ -4994,7 +4994,7 @@
     "association": "good"
   },
   {
-    "topic": "30. Прилагательные и характеристики",
+    "topic": "Цвета и характеристики",
     "kind": "word",
     "italian": "triste",
     "ipa": "/ˈtriste/",
@@ -5005,7 +5005,7 @@
     "association": "bad"
   },
   {
-    "topic": "30. Прилагательные и характеристики",
+    "topic": "Цвета и характеристики",
     "kind": "word",
     "italian": "nervoso",
     "ipa": "/nervˈozo/",
@@ -5016,7 +5016,7 @@
     "association": "book"
   },
   {
-    "topic": "30. Прилагательные и характеристики",
+    "topic": "Цвета и характеристики",
     "kind": "word",
     "italian": "preoccupato",
     "ipa": "/preokːupˈato/",
@@ -5027,7 +5027,7 @@
     "association": "book"
   },
   {
-    "topic": "30. Прилагательные и характеристики",
+    "topic": "Цвета и характеристики",
     "kind": "word",
     "italian": "malato",
     "ipa": "/malˈato/",
@@ -5038,7 +5038,7 @@
     "association": "book"
   },
   {
-    "topic": "30. Прилагательные и характеристики",
+    "topic": "Цвета и характеристики",
     "kind": "word",
     "italian": "raffreddato",
     "ipa": "/raffredːˈato/",
@@ -5049,7 +5049,7 @@
     "association": "book"
   },
   {
-    "topic": "30. Прилагательные и характеристики",
+    "topic": "Цвета и характеристики",
     "kind": "word",
     "italian": "affamato",
     "ipa": "/affamˈato/",
@@ -5060,7 +5060,7 @@
     "association": "book"
   },
   {
-    "topic": "30. Прилагательные и характеристики",
+    "topic": "Цвета и характеристики",
     "kind": "word",
     "italian": "assetato",
     "ipa": "/assetˈato/",
@@ -5071,7 +5071,7 @@
     "association": "book"
   },
   {
-    "topic": "30. Прилагательные и характеристики",
+    "topic": "Цвета и характеристики",
     "kind": "word",
     "italian": "contento",
     "ipa": "/kontˈɛnto/",
@@ -5082,7 +5082,7 @@
     "association": "good"
   },
   {
-    "topic": "30. Прилагательные и характеристики",
+    "topic": "Цвета и характеристики",
     "kind": "word",
     "italian": "contrario",
     "ipa": "/kontrˈario/",
@@ -5093,7 +5093,7 @@
     "association": "book"
   },
   {
-    "topic": "30. Прилагательные и характеристики",
+    "topic": "Цвета и характеристики",
     "kind": "word",
     "italian": "fidanzato",
     "ipa": "/fidantsˈato/",
@@ -5104,7 +5104,7 @@
     "association": "book"
   },
   {
-    "topic": "30. Прилагательные и характеристики",
+    "topic": "Цвета и характеристики",
     "kind": "word",
     "italian": "sposato",
     "ipa": "/spozˈato/",
@@ -5115,7 +5115,7 @@
     "association": "book"
   },
   {
-    "topic": "30. Прилагательные и характеристики",
+    "topic": "Цвета и характеристики",
     "kind": "word",
     "italian": "divorziato",
     "ipa": "/divortsjˈato/",
@@ -5126,7 +5126,7 @@
     "association": "book"
   },
   {
-    "topic": "30. Прилагательные и характеристики",
+    "topic": "Цвета и характеристики",
     "kind": "word",
     "italian": "single",
     "ipa": "/sˈinɡˌɔl/",
@@ -5137,7 +5137,7 @@
     "association": "book"
   },
   {
-    "topic": "30. Прилагательные и характеристики",
+    "topic": "Цвета и характеристики",
     "kind": "word",
     "italian": "libero",
     "ipa": "/lˈibero/",
@@ -5148,7 +5148,7 @@
     "association": "book"
   },
   {
-    "topic": "30. Прилагательные и характеристики",
+    "topic": "Цвета и характеристики",
     "kind": "word",
     "italian": "impegnato",
     "ipa": "/impeɲˈato/",
@@ -5159,7 +5159,7 @@
     "association": "book"
   },
   {
-    "topic": "30. Прилагательные и характеристики",
+    "topic": "Цвета и характеристики",
     "kind": "word",
     "italian": "arrabbiato",
     "ipa": "/arɾabːjˈato/",
@@ -5170,7 +5170,7 @@
     "association": "book"
   },
   {
-    "topic": "30. Прилагательные и характеристики",
+    "topic": "Цвета и характеристики",
     "kind": "word",
     "italian": "sorpreso",
     "ipa": "/sorprˈezo/",
@@ -5181,7 +5181,7 @@
     "association": "book"
   },
   {
-    "topic": "30. Прилагательные и характеристики",
+    "topic": "Цвета и характеристики",
     "kind": "word",
     "italian": "deluso",
     "ipa": "/delˈuzo/",
@@ -5192,7 +5192,7 @@
     "association": "bad"
   },
   {
-    "topic": "30. Прилагательные и характеристики",
+    "topic": "Цвета и характеристики",
     "kind": "word",
     "italian": "fiero",
     "ipa": "/fjˈɛro/",
@@ -5203,7 +5203,7 @@
     "association": "book"
   },
   {
-    "topic": "30. Прилагательные и характеристики",
+    "topic": "Цвета и характеристики",
     "kind": "word",
     "italian": "pronto",
     "ipa": "/prˈonto/",
@@ -5214,7 +5214,7 @@
     "association": "book"
   },
   {
-    "topic": "30. Прилагательные и характеристики",
+    "topic": "Цвета и характеристики",
     "kind": "word",
     "italian": "capace",
     "ipa": "/kapˈatʃe/",
@@ -5225,7 +5225,7 @@
     "association": "book"
   },
   {
-    "topic": "30. Прилагательные и характеристики",
+    "topic": "Цвета и характеристики",
     "kind": "word",
     "italian": "abituato",
     "ipa": "/abituˈato/",
@@ -5236,7 +5236,7 @@
     "association": "book"
   },
   {
-    "topic": "30. Прилагательные и характеристики",
+    "topic": "Цвета и характеристики",
     "kind": "word",
     "italian": "sicuro",
     "ipa": "/sikˈuro/",
@@ -5247,7 +5247,7 @@
     "association": "book"
   },
   {
-    "topic": "30. Прилагательные и характеристики",
+    "topic": "Цвета и характеристики",
     "kind": "word",
     "italian": "bravo",
     "ipa": "/brˈavo/",
@@ -5258,7 +5258,7 @@
     "association": "book"
   },
   {
-    "topic": "31. Страны с артиклями",
+    "topic": "Страны, города и национальности",
     "kind": "word",
     "italian": "la Russia",
     "ipa": "/la rˈussia/",
@@ -5269,7 +5269,7 @@
     "association": "origin"
   },
   {
-    "topic": "31. Страны с артиклями",
+    "topic": "Страны, города и национальности",
     "kind": "word",
     "italian": "l’Italia",
     "ipa": "/litˈalia/",
@@ -5280,7 +5280,7 @@
     "association": "origin"
   },
   {
-    "topic": "31. Страны с артиклями",
+    "topic": "Страны, города и национальности",
     "kind": "word",
     "italian": "la Francia",
     "ipa": "/la frˈantʃa/",
@@ -5291,7 +5291,7 @@
     "association": "origin"
   },
   {
-    "topic": "31. Страны с артиклями",
+    "topic": "Страны, города и национальности",
     "kind": "word",
     "italian": "la Germania",
     "ipa": "/la dʒermˈania/",
@@ -5302,7 +5302,7 @@
     "association": "origin"
   },
   {
-    "topic": "31. Страны с артиклями",
+    "topic": "Страны, города и национальности",
     "kind": "word",
     "italian": "la Spagna",
     "ipa": "/la spˈaɲɲa/",
@@ -5313,7 +5313,7 @@
     "association": "origin"
   },
   {
-    "topic": "31. Страны с артиклями",
+    "topic": "Страны, города и национальности",
     "kind": "word",
     "italian": "l’Inghilterra",
     "ipa": "/liŋɡiltˈɛrɾa/",
@@ -5324,7 +5324,7 @@
     "association": "book"
   },
   {
-    "topic": "31. Страны с артиклями",
+    "topic": "Страны, города и национальности",
     "kind": "word",
     "italian": "la Svezia",
     "ipa": "/la zvˈɛtsia/",
@@ -5335,7 +5335,7 @@
     "association": "book"
   },
   {
-    "topic": "31. Страны с артиклями",
+    "topic": "Страны, города и национальности",
     "kind": "word",
     "italian": "la Svizzera",
     "ipa": "/la zvˈitsːera/",
@@ -5346,7 +5346,7 @@
     "association": "book"
   },
   {
-    "topic": "31. Страны с артиклями",
+    "topic": "Страны, города и национальности",
     "kind": "word",
     "italian": "la Grecia",
     "ipa": "/la ɡrˈetʃa/",
@@ -5357,7 +5357,7 @@
     "association": "book"
   },
   {
-    "topic": "31. Страны с артиклями",
+    "topic": "Страны, города и национальности",
     "kind": "word",
     "italian": "la Polonia",
     "ipa": "/la polˈɔnia/",
@@ -5368,7 +5368,7 @@
     "association": "book"
   },
   {
-    "topic": "31. Страны с артиклями",
+    "topic": "Страны, города и национальности",
     "kind": "word",
     "italian": "il Brasile",
     "ipa": "/il brazˈile/",
@@ -5379,7 +5379,7 @@
     "association": "book"
   },
   {
-    "topic": "31. Страны с артиклями",
+    "topic": "Страны, города и национальности",
     "kind": "word",
     "italian": "gli Stati Uniti",
     "ipa": "/ʎi stˈati unˈiti/",
@@ -5390,7 +5390,7 @@
     "association": "book"
   },
   {
-    "topic": "31. Страны с артиклями",
+    "topic": "Страны, города и национальности",
     "kind": "word",
     "italian": "la Cina",
     "ipa": "/la tʃˈina/",
@@ -5401,7 +5401,7 @@
     "association": "book"
   },
   {
-    "topic": "31. Страны с артиклями",
+    "topic": "Страны, города и национальности",
     "kind": "word",
     "italian": "il Perù",
     "ipa": "/il peˈru/",
@@ -5412,7 +5412,7 @@
     "association": "book"
   },
   {
-    "topic": "31. Страны с артиклями",
+    "topic": "Страны, города и национальности",
     "kind": "word",
     "italian": "la Tunisia",
     "ipa": "/la tunizˈia/",
@@ -5423,7 +5423,7 @@
     "association": "book"
   },
   {
-    "topic": "31. Страны с артиклями",
+    "topic": "Страны, города и национальности",
     "kind": "word",
     "italian": "la Turchia",
     "ipa": "/la turkˈia/",
@@ -5434,7 +5434,7 @@
     "association": "book"
   },
   {
-    "topic": "31. Страны с артиклями",
+    "topic": "Страны, города и национальности",
     "kind": "word",
     "italian": "l’Argentina",
     "ipa": "/lardʒentˈina/",
@@ -5445,7 +5445,7 @@
     "association": "book"
   },
   {
-    "topic": "31. Страны с артиклями",
+    "topic": "Страны, города и национальности",
     "kind": "word",
     "italian": "il Belgio",
     "ipa": "/il bˈɛldʒo/",
@@ -5456,7 +5456,7 @@
     "association": "book"
   },
   {
-    "topic": "31. Страны с артиклями",
+    "topic": "Страны, города и национальности",
     "kind": "word",
     "italian": "la Toscana",
     "ipa": "/la toskˈana/",
@@ -5467,7 +5467,7 @@
     "association": "book"
   },
   {
-    "topic": "31. Страны с артиклями",
+    "topic": "Страны, города и национальности",
     "kind": "phrase",
     "italian": "essere in Italia",
     "ipa": "/ˈɛssere in itˈalia/",
@@ -5478,7 +5478,7 @@
     "association": "origin"
   },
   {
-    "topic": "31. Страны с артиклями",
+    "topic": "Страны, города и национальности",
     "kind": "phrase",
     "italian": "vivere in Italia",
     "ipa": "/vˈivere in itˈalia/",
@@ -5489,7 +5489,7 @@
     "association": "origin"
   },
   {
-    "topic": "31. Страны с артиклями",
+    "topic": "Страны, города и национальности",
     "kind": "phrase",
     "italian": "venire dall’Italia",
     "ipa": "/venˈire dallitˈalia/",
@@ -5500,7 +5500,7 @@
     "association": "origin"
   },
   {
-    "topic": "31. Страны с артиклями",
+    "topic": "Страны, города и национальности",
     "kind": "phrase",
     "italian": "essere in Russia",
     "ipa": "/ˈɛssere in rˈussia/",
@@ -5511,7 +5511,7 @@
     "association": "origin"
   },
   {
-    "topic": "31. Страны с артиклями",
+    "topic": "Страны, города и национальности",
     "kind": "phrase",
     "italian": "vivere in Russia",
     "ipa": "/vˈivere in rˈussia/",
@@ -5522,7 +5522,7 @@
     "association": "origin"
   },
   {
-    "topic": "31. Страны с артиклями",
+    "topic": "Страны, города и национальности",
     "kind": "phrase",
     "italian": "venire dalla Russia",
     "ipa": "/venˈire dˌalla rˈussia/",
@@ -5533,7 +5533,7 @@
     "association": "origin"
   },
   {
-    "topic": "31. Страны с артиклями",
+    "topic": "Страны, города и национальности",
     "kind": "phrase",
     "italian": "essere negli Stati Uniti",
     "ipa": "/ˈɛssere nˈeʎi stˈati unˈiti/",
@@ -5544,7 +5544,7 @@
     "association": "book"
   },
   {
-    "topic": "31. Страны с артиклями",
+    "topic": "Страны, города и национальности",
     "kind": "phrase",
     "italian": "vivere negli Stati Uniti",
     "ipa": "/vˈivere nˈeʎi stˈati unˈiti/",
@@ -5555,7 +5555,7 @@
     "association": "book"
   },
   {
-    "topic": "31. Страны с артиклями",
+    "topic": "Страны, города и национальности",
     "kind": "phrase",
     "italian": "venire dagli Stati Uniti",
     "ipa": "/venˈire dˌaʎi stˈati unˈiti/",
@@ -5566,7 +5566,7 @@
     "association": "book"
   },
   {
-    "topic": "31. Страны с артиклями",
+    "topic": "Страны, города и национальности",
     "kind": "phrase",
     "italian": "essere in Toscana",
     "ipa": "/ˈɛssere in toskˈana/",
@@ -5577,7 +5577,7 @@
     "association": "book"
   },
   {
-    "topic": "31. Страны с артиклями",
+    "topic": "Страны, города и национальности",
     "kind": "phrase",
     "italian": "vivere in Toscana",
     "ipa": "/vˈivere in toskˈana/",
@@ -5588,7 +5588,7 @@
     "association": "book"
   },
   {
-    "topic": "31. Страны с артиклями",
+    "topic": "Страны, города и национальности",
     "kind": "phrase",
     "italian": "venire dalla Toscana",
     "ipa": "/venˈire dˌalla toskˈana/",
@@ -5599,7 +5599,7 @@
     "association": "book"
   },
   {
-    "topic": "32. Города и столицы",
+    "topic": "Страны, города и национальности",
     "kind": "word",
     "italian": "Krasnojarsk",
     "ipa": "/kraznˈojarsk/",
@@ -5610,7 +5610,7 @@
     "association": "origin"
   },
   {
-    "topic": "32. Города и столицы",
+    "topic": "Страны, города и национальности",
     "kind": "word",
     "italian": "Mosca",
     "ipa": "/mˈoska/",
@@ -5621,7 +5621,7 @@
     "association": "origin"
   },
   {
-    "topic": "32. Города и столицы",
+    "topic": "Страны, города и национальности",
     "kind": "word",
     "italian": "Roma",
     "ipa": "/rˈoma/",
@@ -5632,7 +5632,7 @@
     "association": "origin"
   },
   {
-    "topic": "32. Города и столицы",
+    "topic": "Страны, города и национальности",
     "kind": "word",
     "italian": "Parigi",
     "ipa": "/parˈidʒi/",
@@ -5643,7 +5643,7 @@
     "association": "origin"
   },
   {
-    "topic": "32. Города и столицы",
+    "topic": "Страны, города и национальности",
     "kind": "word",
     "italian": "Berlino",
     "ipa": "/berlˈino/",
@@ -5654,7 +5654,7 @@
     "association": "book"
   },
   {
-    "topic": "32. Города и столицы",
+    "topic": "Страны, города и национальности",
     "kind": "word",
     "italian": "Madrid",
     "ipa": "/madrˈid/",
@@ -5665,7 +5665,7 @@
     "association": "book"
   },
   {
-    "topic": "32. Города и столицы",
+    "topic": "Страны, города и национальности",
     "kind": "word",
     "italian": "Londra",
     "ipa": "/lˈondra/",
@@ -5676,7 +5676,7 @@
     "association": "origin"
   },
   {
-    "topic": "32. Города и столицы",
+    "topic": "Страны, города и национальности",
     "kind": "word",
     "italian": "Stoccolma",
     "ipa": "/stokːˈolma/",
@@ -5687,7 +5687,7 @@
     "association": "book"
   },
   {
-    "topic": "32. Города и столицы",
+    "topic": "Страны, города и национальности",
     "kind": "word",
     "italian": "Berna",
     "ipa": "/bˈɛrna/",
@@ -5698,7 +5698,7 @@
     "association": "book"
   },
   {
-    "topic": "32. Города и столицы",
+    "topic": "Страны, города и национальности",
     "kind": "word",
     "italian": "Atene",
     "ipa": "/atˈene/",
@@ -5709,7 +5709,7 @@
     "association": "book"
   },
   {
-    "topic": "32. Города и столицы",
+    "topic": "Страны, города и национальности",
     "kind": "word",
     "italian": "Varsavia",
     "ipa": "/varsˈavia/",
@@ -5720,7 +5720,7 @@
     "association": "book"
   },
   {
-    "topic": "32. Города и столицы",
+    "topic": "Страны, города и национальности",
     "kind": "word",
     "italian": "Brasilia",
     "ipa": "/brazˈilia/",
@@ -5731,7 +5731,7 @@
     "association": "book"
   },
   {
-    "topic": "32. Города и столицы",
+    "topic": "Страны, города и национальности",
     "kind": "word",
     "italian": "Washington",
     "ipa": "/ˈwɔʃinton/",
@@ -5742,7 +5742,7 @@
     "association": "book"
   },
   {
-    "topic": "32. Города и столицы",
+    "topic": "Страны, города и национальности",
     "kind": "word",
     "italian": "Pechino",
     "ipa": "/pekˈino/",
@@ -5753,7 +5753,7 @@
     "association": "book"
   },
   {
-    "topic": "32. Города и столицы",
+    "topic": "Страны, города и национальности",
     "kind": "word",
     "italian": "Lima",
     "ipa": "/lˈima/",
@@ -5764,7 +5764,7 @@
     "association": "book"
   },
   {
-    "topic": "32. Города и столицы",
+    "topic": "Страны, города и национальности",
     "kind": "word",
     "italian": "Tunisi",
     "ipa": "/tˈunizi/",
@@ -5775,7 +5775,7 @@
     "association": "book"
   },
   {
-    "topic": "32. Города и столицы",
+    "topic": "Страны, города и национальности",
     "kind": "word",
     "italian": "Ankara",
     "ipa": "/ˈaŋkaɾa/",
@@ -5786,7 +5786,7 @@
     "association": "book"
   },
   {
-    "topic": "32. Города и столицы",
+    "topic": "Страны, города и национальности",
     "kind": "phrase",
     "italian": "Buenos Aires",
     "ipa": "/buˈɛnos ˈaires/",
@@ -5797,7 +5797,7 @@
     "association": "book"
   },
   {
-    "topic": "32. Города и столицы",
+    "topic": "Страны, города и национальности",
     "kind": "word",
     "italian": "Bruxelles",
     "ipa": "/bruksˈɛll/",
@@ -5808,7 +5808,7 @@
     "association": "book"
   },
   {
-    "topic": "32. Города и столицы",
+    "topic": "Страны, города и национальности",
     "kind": "phrase",
     "italian": "essere a Krasnojarsk",
     "ipa": "/ˈɛssere a kraznˈojarsk/",
@@ -5819,7 +5819,7 @@
     "association": "origin"
   },
   {
-    "topic": "32. Города и столицы",
+    "topic": "Страны, города и национальности",
     "kind": "phrase",
     "italian": "essere di Krasnojarsk",
     "ipa": "/ˈɛssere di kraznˈojarsk/",
@@ -5830,7 +5830,7 @@
     "association": "origin"
   },
   {
-    "topic": "32. Города и столицы",
+    "topic": "Страны, города и национальности",
     "kind": "phrase",
     "italian": "venire da Krasnojarsk",
     "ipa": "/venˈire da kraznˈojarsk/",
@@ -5841,7 +5841,7 @@
     "association": "origin"
   },
   {
-    "topic": "32. Города и столицы",
+    "topic": "Страны, города и национальности",
     "kind": "phrase",
     "italian": "abitare a Krasnojarsk",
     "ipa": "/abitˈare a kraznˈojarsk/",
@@ -5852,7 +5852,7 @@
     "association": "origin"
   },
   {
-    "topic": "32. Города и столицы",
+    "topic": "Страны, города и национальности",
     "kind": "phrase",
     "italian": "essere a Roma",
     "ipa": "/ˈɛssere a rˈoma/",
@@ -5863,7 +5863,7 @@
     "association": "origin"
   },
   {
-    "topic": "32. Города и столицы",
+    "topic": "Страны, города и национальности",
     "kind": "phrase",
     "italian": "essere di Roma",
     "ipa": "/ˈɛssere di rˈoma/",
@@ -5874,7 +5874,7 @@
     "association": "origin"
   },
   {
-    "topic": "32. Города и столицы",
+    "topic": "Страны, города и национальности",
     "kind": "phrase",
     "italian": "venire da Roma",
     "ipa": "/venˈire da rˈoma/",
@@ -5885,7 +5885,7 @@
     "association": "origin"
   },
   {
-    "topic": "32. Города и столицы",
+    "topic": "Страны, города и национальности",
     "kind": "phrase",
     "italian": "abitare a Roma",
     "ipa": "/abitˈare a rˈoma/",
@@ -5896,7 +5896,7 @@
     "association": "origin"
   },
   {
-    "topic": "32. Города и столицы",
+    "topic": "Страны, города и национальности",
     "kind": "phrase",
     "italian": "essere a Parigi",
     "ipa": "/ˈɛssere a parˈidʒi/",
@@ -5907,7 +5907,7 @@
     "association": "origin"
   },
   {
-    "topic": "32. Города и столицы",
+    "topic": "Страны, города и национальности",
     "kind": "phrase",
     "italian": "essere di Parigi",
     "ipa": "/ˈɛssere di parˈidʒi/",
@@ -5918,7 +5918,7 @@
     "association": "origin"
   },
   {
-    "topic": "32. Города и столицы",
+    "topic": "Страны, города и национальности",
     "kind": "phrase",
     "italian": "venire da Parigi",
     "ipa": "/venˈire da parˈidʒi/",
@@ -5929,7 +5929,7 @@
     "association": "origin"
   },
   {
-    "topic": "32. Города и столицы",
+    "topic": "Страны, города и национальности",
     "kind": "phrase",
     "italian": "abitare a Parigi",
     "ipa": "/abitˈare a parˈidʒi/",
@@ -5940,7 +5940,7 @@
     "association": "origin"
   },
   {
-    "topic": "33. Национальности",
+    "topic": "Страны, города и национальности",
     "kind": "word",
     "italian": "russo",
     "ipa": "/rˈusso/",
@@ -5951,7 +5951,7 @@
     "association": "book"
   },
   {
-    "topic": "33. Национальности",
+    "topic": "Страны, города и национальности",
     "kind": "word",
     "italian": "italiano",
     "ipa": "/italiˈano/",
@@ -5962,7 +5962,7 @@
     "association": "origin"
   },
   {
-    "topic": "33. Национальности",
+    "topic": "Страны, города и национальности",
     "kind": "word",
     "italian": "francese",
     "ipa": "/frantʃˈeze/",
@@ -5973,7 +5973,7 @@
     "association": "book"
   },
   {
-    "topic": "33. Национальности",
+    "topic": "Страны, города и национальности",
     "kind": "word",
     "italian": "tedesco",
     "ipa": "/tedˈesko/",
@@ -5984,7 +5984,7 @@
     "association": "book"
   },
   {
-    "topic": "33. Национальности",
+    "topic": "Страны, города и национальности",
     "kind": "word",
     "italian": "spagnolo",
     "ipa": "/spaɲˈɔlo/",
@@ -5995,7 +5995,7 @@
     "association": "book"
   },
   {
-    "topic": "33. Национальности",
+    "topic": "Страны, города и национальности",
     "kind": "word",
     "italian": "inglese",
     "ipa": "/iŋɡlˈeze/",
@@ -6006,7 +6006,7 @@
     "association": "book"
   },
   {
-    "topic": "33. Национальности",
+    "topic": "Страны, города и национальности",
     "kind": "word",
     "italian": "svedese",
     "ipa": "/zvedˈeze/",
@@ -6017,7 +6017,7 @@
     "association": "book"
   },
   {
-    "topic": "33. Национальности",
+    "topic": "Страны, города и национальности",
     "kind": "word",
     "italian": "svizzero",
     "ipa": "/zvˈitsːero/",
@@ -6028,7 +6028,7 @@
     "association": "book"
   },
   {
-    "topic": "33. Национальности",
+    "topic": "Страны, города и национальности",
     "kind": "word",
     "italian": "greco",
     "ipa": "/ɡrˈɛko/",
@@ -6039,7 +6039,7 @@
     "association": "book"
   },
   {
-    "topic": "33. Национальности",
+    "topic": "Страны, города и национальности",
     "kind": "word",
     "italian": "polacco",
     "ipa": "/polˈakːo/",
@@ -6050,7 +6050,7 @@
     "association": "book"
   },
   {
-    "topic": "33. Национальности",
+    "topic": "Страны, города и национальности",
     "kind": "word",
     "italian": "brasiliano",
     "ipa": "/braziliˈano/",
@@ -6061,7 +6061,7 @@
     "association": "book"
   },
   {
-    "topic": "33. Национальности",
+    "topic": "Страны, города и национальности",
     "kind": "word",
     "italian": "americano",
     "ipa": "/amerikˈano/",
@@ -6072,7 +6072,7 @@
     "association": "book"
   },
   {
-    "topic": "33. Национальности",
+    "topic": "Страны, города и национальности",
     "kind": "word",
     "italian": "statunitense",
     "ipa": "/statunitˈɛnse/",
@@ -6083,7 +6083,7 @@
     "association": "book"
   },
   {
-    "topic": "33. Национальности",
+    "topic": "Страны, города и национальности",
     "kind": "word",
     "italian": "cinese",
     "ipa": "/tʃinˈeze/",
@@ -6094,7 +6094,7 @@
     "association": "book"
   },
   {
-    "topic": "33. Национальности",
+    "topic": "Страны, города и национальности",
     "kind": "word",
     "italian": "peruviano",
     "ipa": "/peruvjˈano/",
@@ -6105,7 +6105,7 @@
     "association": "book"
   },
   {
-    "topic": "33. Национальности",
+    "topic": "Страны, города и национальности",
     "kind": "word",
     "italian": "tunisino",
     "ipa": "/tunizˈino/",
@@ -6116,7 +6116,7 @@
     "association": "book"
   },
   {
-    "topic": "33. Национальности",
+    "topic": "Страны, города и национальности",
     "kind": "word",
     "italian": "turco",
     "ipa": "/tˈurko/",
@@ -6127,7 +6127,7 @@
     "association": "book"
   },
   {
-    "topic": "33. Национальности",
+    "topic": "Страны, города и национальности",
     "kind": "word",
     "italian": "argentino",
     "ipa": "/ardʒentˈino/",
@@ -6138,7 +6138,7 @@
     "association": "book"
   },
   {
-    "topic": "33. Национальности",
+    "topic": "Страны, города и национальности",
     "kind": "word",
     "italian": "belga",
     "ipa": "/bˈɛlɡa/",
@@ -6149,7 +6149,7 @@
     "association": "book"
   },
   {
-    "topic": "34. Числа от 0 до 20",
+    "topic": "Числа и счёт",
     "kind": "word",
     "italian": "zero",
     "ipa": "/dzˈɛro/",
@@ -6160,7 +6160,7 @@
     "association": "book"
   },
   {
-    "topic": "34. Числа от 0 до 20",
+    "topic": "Числа и счёт",
     "kind": "word",
     "italian": "uno",
     "ipa": "/ˈuno/",
@@ -6171,7 +6171,7 @@
     "association": "book"
   },
   {
-    "topic": "34. Числа от 0 до 20",
+    "topic": "Числа и счёт",
     "kind": "word",
     "italian": "due",
     "ipa": "/dˈue/",
@@ -6182,7 +6182,7 @@
     "association": "book"
   },
   {
-    "topic": "34. Числа от 0 до 20",
+    "topic": "Числа и счёт",
     "kind": "word",
     "italian": "tre",
     "ipa": "/trˈe/",
@@ -6193,7 +6193,7 @@
     "association": "book"
   },
   {
-    "topic": "34. Числа от 0 до 20",
+    "topic": "Числа и счёт",
     "kind": "word",
     "italian": "quattro",
     "ipa": "/kwˈatːro/",
@@ -6204,7 +6204,7 @@
     "association": "book"
   },
   {
-    "topic": "34. Числа от 0 до 20",
+    "topic": "Числа и счёт",
     "kind": "word",
     "italian": "cinque",
     "ipa": "/tʃˈinkwe/",
@@ -6215,7 +6215,7 @@
     "association": "book"
   },
   {
-    "topic": "34. Числа от 0 до 20",
+    "topic": "Числа и счёт",
     "kind": "word",
     "italian": "sei",
     "ipa": "/sˈɛi/",
@@ -6226,7 +6226,7 @@
     "association": "book"
   },
   {
-    "topic": "34. Числа от 0 до 20",
+    "topic": "Числа и счёт",
     "kind": "word",
     "italian": "sette",
     "ipa": "/sˈɛtːe/",
@@ -6237,7 +6237,7 @@
     "association": "book"
   },
   {
-    "topic": "34. Числа от 0 до 20",
+    "topic": "Числа и счёт",
     "kind": "word",
     "italian": "otto",
     "ipa": "/ˈɔtːo/",
@@ -6248,7 +6248,7 @@
     "association": "book"
   },
   {
-    "topic": "34. Числа от 0 до 20",
+    "topic": "Числа и счёт",
     "kind": "word",
     "italian": "nove",
     "ipa": "/nˈɔve/",
@@ -6259,7 +6259,7 @@
     "association": "book"
   },
   {
-    "topic": "34. Числа от 0 до 20",
+    "topic": "Числа и счёт",
     "kind": "word",
     "italian": "dieci",
     "ipa": "/djˈɛtʃi/",
@@ -6270,7 +6270,7 @@
     "association": "book"
   },
   {
-    "topic": "34. Числа от 0 до 20",
+    "topic": "Числа и счёт",
     "kind": "word",
     "italian": "undici",
     "ipa": "/ˈunditʃi/",
@@ -6281,7 +6281,7 @@
     "association": "book"
   },
   {
-    "topic": "34. Числа от 0 до 20",
+    "topic": "Числа и счёт",
     "kind": "word",
     "italian": "dodici",
     "ipa": "/dˈoditʃi/",
@@ -6292,7 +6292,7 @@
     "association": "book"
   },
   {
-    "topic": "34. Числа от 0 до 20",
+    "topic": "Числа и счёт",
     "kind": "word",
     "italian": "tredici",
     "ipa": "/trˈeditʃi/",
@@ -6303,7 +6303,7 @@
     "association": "book"
   },
   {
-    "topic": "34. Числа от 0 до 20",
+    "topic": "Числа и счёт",
     "kind": "word",
     "italian": "quattordici",
     "ipa": "/kwatːˈorditʃi/",
@@ -6314,7 +6314,7 @@
     "association": "book"
   },
   {
-    "topic": "34. Числа от 0 до 20",
+    "topic": "Числа и счёт",
     "kind": "word",
     "italian": "quindici",
     "ipa": "/kwˈinditʃi/",
@@ -6325,7 +6325,7 @@
     "association": "book"
   },
   {
-    "topic": "34. Числа от 0 до 20",
+    "topic": "Числа и счёт",
     "kind": "word",
     "italian": "sedici",
     "ipa": "/sˈeditʃi/",
@@ -6336,7 +6336,7 @@
     "association": "book"
   },
   {
-    "topic": "34. Числа от 0 до 20",
+    "topic": "Числа и счёт",
     "kind": "word",
     "italian": "diciassette",
     "ipa": "/ditʃassˈɛtːe/",
@@ -6347,7 +6347,7 @@
     "association": "book"
   },
   {
-    "topic": "34. Числа от 0 до 20",
+    "topic": "Числа и счёт",
     "kind": "word",
     "italian": "diciotto",
     "ipa": "/ditʃˈɔtːo/",
@@ -6358,7 +6358,7 @@
     "association": "book"
   },
   {
-    "topic": "34. Числа от 0 до 20",
+    "topic": "Числа и счёт",
     "kind": "word",
     "italian": "diciannove",
     "ipa": "/ditʃannˈɔve/",
@@ -6369,7 +6369,7 @@
     "association": "book"
   },
   {
-    "topic": "34. Числа от 0 до 20",
+    "topic": "Числа и счёт",
     "kind": "word",
     "italian": "venti",
     "ipa": "/vˈɛnti/",
@@ -6380,7 +6380,7 @@
     "association": "book"
   },
   {
-    "topic": "35. Десятки и составные числа",
+    "topic": "Числа и счёт",
     "kind": "word",
     "italian": "trenta",
     "ipa": "/trˈenta/",
@@ -6391,7 +6391,7 @@
     "association": "book"
   },
   {
-    "topic": "35. Десятки и составные числа",
+    "topic": "Числа и счёт",
     "kind": "word",
     "italian": "quaranta",
     "ipa": "/kwaɾˈanta/",
@@ -6402,7 +6402,7 @@
     "association": "book"
   },
   {
-    "topic": "35. Десятки и составные числа",
+    "topic": "Числа и счёт",
     "kind": "word",
     "italian": "cinquanta",
     "ipa": "/tʃinkwˈanta/",
@@ -6413,7 +6413,7 @@
     "association": "book"
   },
   {
-    "topic": "35. Десятки и составные числа",
+    "topic": "Числа и счёт",
     "kind": "word",
     "italian": "sessanta",
     "ipa": "/sessˈanta/",
@@ -6424,7 +6424,7 @@
     "association": "book"
   },
   {
-    "topic": "35. Десятки и составные числа",
+    "topic": "Числа и счёт",
     "kind": "word",
     "italian": "settanta",
     "ipa": "/setːˈanta/",
@@ -6435,7 +6435,7 @@
     "association": "book"
   },
   {
-    "topic": "35. Десятки и составные числа",
+    "topic": "Числа и счёт",
     "kind": "word",
     "italian": "ottanta",
     "ipa": "/otːˈanta/",
@@ -6446,7 +6446,7 @@
     "association": "book"
   },
   {
-    "topic": "35. Десятки и составные числа",
+    "topic": "Числа и счёт",
     "kind": "word",
     "italian": "novanta",
     "ipa": "/novˈanta/",
@@ -6457,7 +6457,7 @@
     "association": "book"
   },
   {
-    "topic": "35. Десятки и составные числа",
+    "topic": "Числа и счёт",
     "kind": "word",
     "italian": "ventuno",
     "ipa": "/ventˈuno/",
@@ -6468,7 +6468,7 @@
     "association": "book"
   },
   {
-    "topic": "35. Десятки и составные числа",
+    "topic": "Числа и счёт",
     "kind": "word",
     "italian": "ventotto",
     "ipa": "/ventˈɔtːo/",
@@ -6479,7 +6479,7 @@
     "association": "book"
   },
   {
-    "topic": "35. Десятки и составные числа",
+    "topic": "Числа и счёт",
     "kind": "word",
     "italian": "ventitré",
     "ipa": "/ventiˈtre/",
@@ -6490,7 +6490,7 @@
     "association": "book"
   },
   {
-    "topic": "35. Десятки и составные числа",
+    "topic": "Числа и счёт",
     "kind": "word",
     "italian": "ventiquattro",
     "ipa": "/ventikwˈatːro/",
@@ -6501,7 +6501,7 @@
     "association": "book"
   },
   {
-    "topic": "35. Десятки и составные числа",
+    "topic": "Числа и счёт",
     "kind": "word",
     "italian": "trentotto",
     "ipa": "/trentˈɔtːo/",
@@ -6512,7 +6512,7 @@
     "association": "book"
   },
   {
-    "topic": "35. Десятки и составные числа",
+    "topic": "Числа и счёт",
     "kind": "word",
     "italian": "quarantatré",
     "ipa": "/kwarantaˈtre/",
@@ -6523,7 +6523,7 @@
     "association": "book"
   },
   {
-    "topic": "35. Десятки и составные числа",
+    "topic": "Числа и счёт",
     "kind": "word",
     "italian": "cinquantasei",
     "ipa": "/tʃinkwantasˈɛj/",
@@ -6534,7 +6534,7 @@
     "association": "book"
   },
   {
-    "topic": "36. Большие числа",
+    "topic": "Числа и счёт",
     "kind": "word",
     "italian": "cento",
     "ipa": "/tʃˈɛnto/",
@@ -6545,7 +6545,7 @@
     "association": "book"
   },
   {
-    "topic": "36. Большие числа",
+    "topic": "Числа и счёт",
     "kind": "word",
     "italian": "centouno",
     "ipa": "/tʃentoˈuno/",
@@ -6556,7 +6556,7 @@
     "association": "book"
   },
   {
-    "topic": "36. Большие числа",
+    "topic": "Числа и счёт",
     "kind": "word",
     "italian": "centotto",
     "ipa": "/tʃentˈɔtːo/",
@@ -6567,7 +6567,7 @@
     "association": "book"
   },
   {
-    "topic": "36. Большие числа",
+    "topic": "Числа и счёт",
     "kind": "word",
     "italian": "duecento",
     "ipa": "/duetʃˈɛnto/",
@@ -6578,7 +6578,7 @@
     "association": "book"
   },
   {
-    "topic": "36. Большие числа",
+    "topic": "Числа и счёт",
     "kind": "word",
     "italian": "novecento",
     "ipa": "/novetʃˈɛnto/",
@@ -6589,7 +6589,7 @@
     "association": "book"
   },
   {
-    "topic": "36. Большие числа",
+    "topic": "Числа и счёт",
     "kind": "word",
     "italian": "mille",
     "ipa": "/mˈille/",
@@ -6600,7 +6600,7 @@
     "association": "book"
   },
   {
-    "topic": "36. Большие числа",
+    "topic": "Числа и счёт",
     "kind": "word",
     "italian": "duemila",
     "ipa": "/duemˈila/",
@@ -6611,7 +6611,7 @@
     "association": "book"
   },
   {
-    "topic": "36. Большие числа",
+    "topic": "Числа и счёт",
     "kind": "word",
     "italian": "mila",
     "ipa": "/mˈila/",
@@ -6622,7 +6622,7 @@
     "association": "book"
   },
   {
-    "topic": "36. Большие числа",
+    "topic": "Числа и счёт",
     "kind": "word",
     "italian": "un milione",
     "ipa": "/un miliˈone/",
@@ -6633,7 +6633,7 @@
     "association": "book"
   },
   {
-    "topic": "36. Большие числа",
+    "topic": "Числа и счёт",
     "kind": "word",
     "italian": "due milioni",
     "ipa": "/dˈue miliˈoni/",
@@ -6644,7 +6644,7 @@
     "association": "book"
   },
   {
-    "topic": "36. Большие числа",
+    "topic": "Числа и счёт",
     "kind": "word",
     "italian": "un miliardo",
     "ipa": "/un miliˈardo/",
@@ -6655,7 +6655,7 @@
     "association": "book"
   },
   {
-    "topic": "36. Большие числа",
+    "topic": "Числа и счёт",
     "kind": "word",
     "italian": "due miliardi",
     "ipa": "/dˈue miliˈardi/",
@@ -6666,7 +6666,7 @@
     "association": "book"
   },
   {
-    "topic": "30. Прилагательные и характеристики",
+    "topic": "Цвета и характеристики",
     "kind": "word",
     "italian": "sporco",
     "ipa": "/ˈsporko/",
@@ -6677,7 +6677,7 @@
     "association": "bad"
   },
   {
-    "topic": "30. Прилагательные и характеристики",
+    "topic": "Цвета и характеристики",
     "kind": "word",
     "italian": "difficile",
     "ipa": "/difˈfitʃile/",
@@ -6688,7 +6688,7 @@
     "association": "book"
   },
   {
-    "topic": "30. Прилагательные и характеристики",
+    "topic": "Цвета и характеристики",
     "kind": "word",
     "italian": "facile",
     "ipa": "/ˈfatʃile/",
@@ -6699,7 +6699,7 @@
     "association": "good"
   },
   {
-    "topic": "30. Прилагательные и характеристики",
+    "topic": "Цвета и характеристики",
     "kind": "word",
     "italian": "alto",
     "ipa": "/ˈalto/",
@@ -6710,7 +6710,7 @@
     "association": "book"
   },
   {
-    "topic": "30. Прилагательные и характеристики",
+    "topic": "Цвета и характеристики",
     "kind": "word",
     "italian": "basso",
     "ipa": "/ˈbasso/",
@@ -6721,7 +6721,7 @@
     "association": "book"
   },
   {
-    "topic": "30. Прилагательные и характеристики",
+    "topic": "Цвета и характеристики",
     "kind": "word",
     "italian": "nuovo",
     "ipa": "/ˈnwɔvo/",
@@ -6732,7 +6732,7 @@
     "association": "phone"
   },
   {
-    "topic": "30. Прилагательные и характеристики",
+    "topic": "Цвета и характеристики",
     "kind": "word",
     "italian": "vecchio",
     "ipa": "/ˈvɛkkjo/",
@@ -6743,7 +6743,7 @@
     "association": "street"
   },
   {
-    "topic": "30. Прилагательные и характеристики",
+    "topic": "Цвета и характеристики",
     "kind": "word",
     "italian": "piccolo",
     "ipa": "/ˈpikkolo/",
@@ -6754,7 +6754,7 @@
     "association": "house"
   },
   {
-    "topic": "30. Прилагательные и характеристики",
+    "topic": "Цвета и характеристики",
     "kind": "word",
     "italian": "brutto",
     "ipa": "/ˈbrutto/",
@@ -6765,7 +6765,7 @@
     "association": "bad"
   },
   {
-    "topic": "30. Прилагательные и характеристики",
+    "topic": "Цвета и характеристики",
     "kind": "word",
     "italian": "cattivo",
     "ipa": "/katˈtivo/",
@@ -6776,7 +6776,7 @@
     "association": "bad"
   },
   {
-    "topic": "30. Прилагательные и характеристики",
+    "topic": "Цвета и характеристики",
     "kind": "word",
     "italian": "pulito",
     "ipa": "/puˈlito/",
@@ -6787,7 +6787,7 @@
     "association": "good"
   },
   {
-    "topic": "37. Связующие слова",
+    "topic": "Служебные и связующие слова",
     "kind": "word",
     "italian": "però",
     "ipa": "/peˈrɔ/",
@@ -6798,7 +6798,7 @@
     "association": "book"
   },
   {
-    "topic": "37. Связующие слова",
+    "topic": "Служебные и связующие слова",
     "kind": "word",
     "italian": "anche",
     "ipa": "/ˈaŋke/",
@@ -6809,7 +6809,7 @@
     "association": "book"
   },
   {
-    "topic": "38. Арифметика",
+    "topic": "Числа и счёт",
     "kind": "phrase",
     "italian": "Venti meno tre fa diciassette.",
     "ipa": "/ˈvɛnti ˈmeno tre fa ditʃasˈsɛtte/",
@@ -6820,7 +6820,7 @@
     "association": "book"
   },
   {
-    "topic": "38. Арифметика",
+    "topic": "Числа и счёт",
     "kind": "phrase",
     "italian": "Nove più sei fa quindici.",
     "ipa": "/ˈnɔve pju sɛi fa ˈkwinditʃi/",
@@ -6831,7 +6831,7 @@
     "association": "book"
   },
   {
-    "topic": "38. Арифметика",
+    "topic": "Числа и счёт",
     "kind": "phrase",
     "italian": "Dodici più otto fa venti.",
     "ipa": "/ˈdoditʃi pju ˈɔtto fa ˈvɛnti/",
@@ -6842,7 +6842,7 @@
     "association": "book"
   },
   {
-    "topic": "38. Арифметика",
+    "topic": "Числа и счёт",
     "kind": "phrase",
     "italian": "Sette più dodici fa diciannove.",
     "ipa": "/ˈsɛtte pju ˈdoditʃi fa ditʃanˈnɔve/",
@@ -6853,7 +6853,7 @@
     "association": "book"
   },
   {
-    "topic": "38. Арифметика",
+    "topic": "Числа и счёт",
     "kind": "phrase",
     "italian": "Quattro più uno fa cinque.",
     "ipa": "/ˈkwattro pju ˈuno fa ˈtʃiŋkwe/",
@@ -6864,7 +6864,7 @@
     "association": "book"
   },
   {
-    "topic": "38. Арифметика",
+    "topic": "Числа и счёт",
     "kind": "phrase",
     "italian": "Sedici diviso quattro fa quattro.",
     "ipa": "/ˈseditʃi diˈvizo ˈkwattro fa ˈkwattro/",
@@ -6875,7 +6875,7 @@
     "association": "book"
   },
   {
-    "topic": "38. Арифметика",
+    "topic": "Числа и счёт",
     "kind": "phrase",
     "italian": "Sette più quattro fa undici.",
     "ipa": "/ˈsɛtte pju ˈkwattro fa ˈunditʃi/",
@@ -6886,7 +6886,7 @@
     "association": "book"
   },
   {
-    "topic": "38. Арифметика",
+    "topic": "Числа и счёт",
     "kind": "phrase",
     "italian": "Uno più sei fa sette.",
     "ipa": "/ˈuno pju sɛi fa ˈsɛtte/",
@@ -6897,7 +6897,7 @@
     "association": "book"
   },
   {
-    "topic": "38. Арифметика",
+    "topic": "Числа и счёт",
     "kind": "phrase",
     "italian": "Tre meno tre fa zero.",
     "ipa": "/tre ˈmeno tre fa ˈdzɛro/",
@@ -6908,7 +6908,7 @@
     "association": "book"
   },
   {
-    "topic": "38. Арифметика",
+    "topic": "Числа и счёт",
     "kind": "phrase",
     "italian": "Cinque per due fa dieci.",
     "ipa": "/ˈtʃiŋkwe per ˈdue fa ˈdjɛtʃi/",
@@ -6919,7 +6919,7 @@
     "association": "book"
   },
   {
-    "topic": "6. Основные глаголы",
+    "topic": "Глаголы",
     "kind": "word",
     "italian": "guardare",
     "ipa": "/ɡwarˈdare/",
@@ -6930,7 +6930,7 @@
     "association": "book"
   },
   {
-    "topic": "6. Основные глаголы",
+    "topic": "Глаголы",
     "kind": "word",
     "italian": "ascoltare",
     "ipa": "/askolˈtare/",
@@ -6941,7 +6941,7 @@
     "association": "book"
   },
   {
-    "topic": "6. Основные глаголы",
+    "topic": "Глаголы",
     "kind": "word",
     "italian": "tornare",
     "ipa": "/torˈnare/",
@@ -6952,7 +6952,7 @@
     "association": "book"
   },
   {
-    "topic": "6. Основные глаголы",
+    "topic": "Глаголы",
     "kind": "word",
     "italian": "usare",
     "ipa": "/uˈzare/",
@@ -6963,7 +6963,7 @@
     "association": "phone"
   },
   {
-    "topic": "6. Основные глаголы",
+    "topic": "Глаголы",
     "kind": "word",
     "italian": "desiderare",
     "ipa": "/dezideˈrare/",
@@ -6974,7 +6974,7 @@
     "association": "book"
   },
   {
-    "topic": "6. Основные глаголы",
+    "topic": "Глаголы",
     "kind": "word",
     "italian": "perfezionare",
     "ipa": "/perfettsjoˈnare/",
@@ -6985,7 +6985,7 @@
     "association": "book"
   },
   {
-    "topic": "6. Основные глаголы",
+    "topic": "Глаголы",
     "kind": "word",
     "italian": "conversare",
     "ipa": "/konverˈsare/",
@@ -6996,7 +6996,7 @@
     "association": "book"
   },
   {
-    "topic": "6. Основные глаголы",
+    "topic": "Глаголы",
     "kind": "word",
     "italian": "telefonare",
     "ipa": "/telefoˈnare/",
@@ -7007,7 +7007,7 @@
     "association": "phone"
   },
   {
-    "topic": "6. Основные глаголы",
+    "topic": "Глаголы",
     "kind": "word",
     "italian": "chiamare",
     "ipa": "/kjaˈmare/",
@@ -7018,7 +7018,7 @@
     "association": "phone"
   },
   {
-    "topic": "6. Основные глаголы",
+    "topic": "Глаголы",
     "kind": "word",
     "italian": "visitare",
     "ipa": "/viziˈtare/",
@@ -7029,7 +7029,7 @@
     "association": "travel"
   },
   {
-    "topic": "6. Основные глаголы",
+    "topic": "Глаголы",
     "kind": "word",
     "italian": "lavare",
     "ipa": "/laˈvare/",
@@ -7040,7 +7040,7 @@
     "association": "book"
   },
   {
-    "topic": "6. Основные глаголы",
+    "topic": "Глаголы",
     "kind": "word",
     "italian": "cominciare",
     "ipa": "/kominˈtʃare/",
@@ -7051,7 +7051,7 @@
     "association": "book"
   },
   {
-    "topic": "6. Основные глаголы",
+    "topic": "Глаголы",
     "kind": "word",
     "italian": "iniziare",
     "ipa": "/initˈtsjare/",
@@ -7062,7 +7062,7 @@
     "association": "book"
   },
   {
-    "topic": "6. Основные глаголы",
+    "topic": "Глаголы",
     "kind": "word",
     "italian": "cercare",
     "ipa": "/tʃerˈkare/",
@@ -7073,7 +7073,7 @@
     "association": "book"
   },
   {
-    "topic": "6. Основные глаголы",
+    "topic": "Глаголы",
     "kind": "word",
     "italian": "trovare",
     "ipa": "/troˈvare/",
@@ -7084,7 +7084,7 @@
     "association": "book"
   },
   {
-    "topic": "6. Основные глаголы",
+    "topic": "Глаголы",
     "kind": "word",
     "italian": "pensare",
     "ipa": "/penˈsare/",
@@ -7095,7 +7095,7 @@
     "association": "book"
   },
   {
-    "topic": "6. Основные глаголы",
+    "topic": "Глаголы",
     "kind": "word",
     "italian": "riposare",
     "ipa": "/ripoˈzare/",
@@ -7106,7 +7106,7 @@
     "association": "book"
   },
   {
-    "topic": "6. Основные глаголы",
+    "topic": "Глаголы",
     "kind": "word",
     "italian": "fumare",
     "ipa": "/fuˈmare/",
@@ -7117,7 +7117,7 @@
     "association": "book"
   },
   {
-    "topic": "6. Основные глаголы",
+    "topic": "Глаголы",
     "kind": "word",
     "italian": "aspettare",
     "ipa": "/aspetˈtare/",
@@ -7128,7 +7128,7 @@
     "association": "book"
   },
   {
-    "topic": "6. Основные глаголы",
+    "topic": "Глаголы",
     "kind": "word",
     "italian": "insegnare",
     "ipa": "/inseɲˈɲare/",
@@ -7139,7 +7139,7 @@
     "association": "book"
   },
   {
-    "topic": "6. Основные глаголы",
+    "topic": "Глаголы",
     "kind": "word",
     "italian": "inviare",
     "ipa": "/inviˈare/",
@@ -7150,7 +7150,7 @@
     "association": "book"
   },
   {
-    "topic": "6. Основные глаголы",
+    "topic": "Глаголы",
     "kind": "word",
     "italian": "mandare",
     "ipa": "/manˈdare/",
@@ -7161,7 +7161,7 @@
     "association": "book"
   },
   {
-    "topic": "6. Основные глаголы",
+    "topic": "Глаголы",
     "kind": "word",
     "italian": "giocare",
     "ipa": "/dʒoˈkare/",
@@ -7172,7 +7172,7 @@
     "association": "book"
   },
   {
-    "topic": "6. Основные глаголы",
+    "topic": "Глаголы",
     "kind": "word",
     "italian": "spiegare",
     "ipa": "/spjeˈɡare/",
@@ -7183,7 +7183,7 @@
     "association": "book"
   },
   {
-    "topic": "6. Основные глаголы",
+    "topic": "Глаголы",
     "kind": "word",
     "italian": "raccontare",
     "ipa": "/rakkonˈtare/",
@@ -7194,7 +7194,7 @@
     "association": "book"
   },
   {
-    "topic": "23. Общие существительные",
+    "topic": "Существительные",
     "kind": "word",
     "italian": "lo scambio",
     "ipa": "/lo ˈskambjo/",
@@ -7205,7 +7205,7 @@
     "association": "book"
   },
   {
-    "topic": "23. Общие существительные",
+    "topic": "Существительные",
     "kind": "word",
     "italian": "il madrelingua",
     "ipa": "/il madreˈliŋɡwa/",
@@ -7216,7 +7216,7 @@
     "association": "book"
   },
   {
-    "topic": "23. Общие существительные",
+    "topic": "Существительные",
     "kind": "word",
     "italian": "la conversazione",
     "ipa": "/la konversatˈtsjone/",
@@ -7227,7 +7227,7 @@
     "association": "book"
   },
   {
-    "topic": "23. Общие существительные",
+    "topic": "Существительные",
     "kind": "word",
     "italian": "la lezione",
     "ipa": "/la letˈtsjone/",
@@ -7238,7 +7238,7 @@
     "association": "book"
   },
   {
-    "topic": "23. Общие существительные",
+    "topic": "Существительные",
     "kind": "word",
     "italian": "i dolci",
     "ipa": "/i ˈdoltʃi/",
@@ -7249,7 +7249,7 @@
     "association": "book"
   },
   {
-    "topic": "23. Общие существительные",
+    "topic": "Существительные",
     "kind": "word",
     "italian": "l'insegnante",
     "ipa": "/linseɲˈɲante/",
@@ -7260,7 +7260,7 @@
     "association": "book"
   },
   {
-    "topic": "3. Знакомство и общение",
+    "topic": "Приветствия и общение",
     "kind": "phrase",
     "italian": "Sono di origine italiana",
     "ipa": "/ˈsono di oˈridʒine itaˈljana/",
@@ -7271,7 +7271,7 @@
     "association": "origin"
   },
   {
-    "topic": "37. Связующие слова",
+    "topic": "Служебные и связующие слова",
     "kind": "phrase",
     "italian": "in cambio di",
     "ipa": "/in ˈkambjo di/",
