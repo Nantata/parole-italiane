@@ -367,6 +367,9 @@ const calculationValues: Record<string, string> = {
 };
 
 const cardImagePaths: Record<string, string> = {
+  "la camicia": "card-nouns/la-camicia.webp?v=1",
+  "la chiave": "card-nouns/la-chiave.webp?v=1",
+  "la rosa": "card-nouns/la-rosa.webp?v=1",
   "avere i capelli biondi": "card-hair/avere-i-capelli-biondi.webp?v=1",
   "avere i capelli castani": "card-hair/avere-i-capelli-castani.webp?v=1",
   "avere i capelli neri": "card-hair/avere-i-capelli-neri.webp?v=1",
