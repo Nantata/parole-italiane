@@ -367,6 +367,14 @@ const calculationValues: Record<string, string> = {
 };
 
 const cardImagePaths: Record<string, string> = {
+  "avere i capelli biondi": "card-hair/avere-i-capelli-biondi.webp?v=1",
+  "avere i capelli castani": "card-hair/avere-i-capelli-castani.webp?v=1",
+  "avere i capelli neri": "card-hair/avere-i-capelli-neri.webp?v=1",
+  "avere i capelli rossi": "card-hair/avere-i-capelli-rossi.webp?v=1",
+  "avere i capelli lunghi": "card-hair/avere-i-capelli-lunghi.webp?v=1",
+  "avere i capelli corti": "card-hair/avere-i-capelli-corti.webp?v=1",
+  "avere i capelli lisci": "card-hair/avere-i-capelli-lisci.webp?v=1",
+  "avere i capelli ricci": "card-hair/avere-i-capelli-ricci.webp?v=1",
   segretaria: "card-professions/la-segretaria-v2.webp",
   impiegato: "card-professions/l-impiegato-v2.webp?v=3",
   insegnante: "card-professions/l-insegnante-v2.webp?v=3",
