@@ -7,6 +7,7 @@ type CardInput = {
   exampleTranslation?: string; usage?: string; association?: string;
 };
 
+// These positional ids are persisted in progress and owner overrides. Never reorder the base pack.
 const baseCards = (studyPack as CardInput[]).map((card, index) => ({ ...card, id: index + 1 }));
 const originalFetch = window.fetch.bind(window);
 
@@ -35,8 +36,41 @@ function appCard(card: Record<string, unknown>) {
 }
 function baseCardWithOverride(card: CardInput & { id: number }, override?: Record<string, unknown>) {
   if (!override) return card;
-  const { card_id: _cardId, ...changes } = override;
+  const { card_id: _cardId, deleted_at: _deletedAt, updated_at: _updatedAt, ...changes } = override;
   return { ...card, ...changes, id: card.id };
+}
+function baseOverride(card: CardInput & { id: number }, deletedAt: string | null = null) {
+  return {
+    card_id: card.id,
+    topic: clean(card.topic),
+    kind: card.kind === "phrase" ? "phrase" : "word",
+    italian: clean(card.italian),
+    ipa: clean(card.ipa),
+    translation: clean(card.translation),
+    example: clean(card.example),
+    exampleTranslation: clean(card.exampleTranslation),
+    usage: clean(card.usage),
+    association: clean(card.association) || "book",
+    deleted_at: deletedAt,
+    updated_at: new Date().toISOString(),
+  };
+}
+async function hideBaseCards(ids: number[]) {
+  const uniqueIds = Array.from(new Set(ids.filter((id) => id > 0 && id < 1_000_000)));
+  if (!uniqueIds.length) return { hidden: 0, error: null };
+  const { data, error } = await supabase.from("base_card_overrides").select("*").in("card_id", uniqueIds);
+  if (error) return { hidden: 0, error };
+  const overrides = new Map((data || []).map((item) => [Number(item.card_id), item]));
+  const deletedAt = new Date().toISOString();
+  const rows = uniqueIds.flatMap((id) => {
+    const original = baseCards.find((card) => card.id === id);
+    if (!original) return [];
+    const effective = baseCardWithOverride(original, overrides.get(id));
+    return [baseOverride(effective, deletedAt)];
+  });
+  if (!rows.length) return { hidden: 0, error: null };
+  const result = await supabase.from("base_card_overrides").upsert(rows, { onConflict: "card_id" });
+  return { hidden: result.error ? 0 : rows.length, error: result.error };
 }
 async function currentUser() {
   const { data } = await supabase.auth.getUser();
@@ -66,12 +100,13 @@ async function handleData(url: URL, init: RequestInit) {
     ]);
     const error = cardsResult.error || progressResult.error || topicsResult.error || overridesResult.error;
     if (error) return json({ error: error.message }, 403);
+    const overrides = new Map((overridesResult.data || []).map((item) => [Number(item.card_id), item]));
+    const visibleBaseCards = baseCards
+      .filter((card) => !overrides.get(card.id)?.deleted_at)
+      .map((card) => baseCardWithOverride(card, overrides.get(card.id)));
     return json({
       cards: [
-        ...baseCards.map((card) => baseCardWithOverride(
-          card,
-          (overridesResult.data || []).find((override) => Number(override.card_id) === card.id),
-        )),
+        ...visibleBaseCards,
         ...(cardsResult.data || []).map((card) => appCard(card)),
       ],
       progress: (progressResult.data || []).map((item) => ({ cardId: Number(item.card_id), status: item.status })),
@@ -105,19 +140,7 @@ async function handleData(url: URL, init: RequestInit) {
       const original = baseCards.find((card) => card.id === body.id);
       if (!original) return json({ error: "Карточка не найдена" }, 404);
       const changed = { ...original, ...body };
-      const override = {
-        card_id: body.id,
-        topic: clean(changed.topic),
-        kind: changed.kind === "phrase" ? "phrase" : "word",
-        italian: clean(changed.italian),
-        ipa: clean(changed.ipa),
-        translation: clean(changed.translation),
-        example: clean(changed.example),
-        exampleTranslation: clean(changed.exampleTranslation),
-        usage: clean(changed.usage),
-        association: clean(changed.association) || "book",
-        updated_at: new Date().toISOString(),
-      };
+      const override = baseOverride(changed as CardInput & { id: number });
       const { error } = await supabase.from("base_card_overrides").upsert(override, { onConflict: "card_id" });
       return error ? json({ error: error.message }, 400) : json({ card: { ...original, ...body } });
     }
@@ -134,16 +157,60 @@ async function handleData(url: URL, init: RequestInit) {
     if (!(await currentUserIsOwner())) return json({ error: "Только владелец сайта может удалять карточки" }, 403);
     const contentType = new Headers(init.headers).get("content-type") || "";
     if (contentType.includes("application/json")) {
-      const body = JSON.parse(String(init.body || "{}")) as { ids?: number[]; deduplicate?: boolean };
+      const body = JSON.parse(String(init.body || "{}")) as { ids?: number[]; deduplicate?: boolean; topic?: string };
       if (Array.isArray(body.ids)) {
-        const ids = body.ids.filter((id) => id >= 1_000_000);
-        if (ids.length) await supabase.from("user_cards").delete().in("id", ids);
-        return json({ removed: ids.length });
+        const baseResult = await hideBaseCards(body.ids);
+        if (baseResult.error) return json({ error: baseResult.error.message }, 400);
+        const userIds = body.ids.filter((id) => id >= 1_000_000);
+        if (userIds.length) {
+          const { error } = await supabase.from("user_cards").delete().in("id", userIds);
+          if (error) return json({ error: error.message }, 400);
+        }
+        return json({ removed: baseResult.hidden + userIds.length });
       }
-      if (body.deduplicate) return json({ removed: 0 });
+      if (body.deduplicate) {
+        const [overridesResult, userCardsResult] = await Promise.all([
+          supabase.from("base_card_overrides").select("*"),
+          supabase.from("user_cards").select("*").order("created_at", { ascending: true }),
+        ]);
+        const error = overridesResult.error || userCardsResult.error;
+        if (error) return json({ error: error.message }, 400);
+        const overrides = new Map((overridesResult.data || []).map((item) => [Number(item.card_id), item]));
+        const effectiveBase = baseCards
+          .filter((card) => !overrides.get(card.id)?.deleted_at)
+          .map((card) => baseCardWithOverride(card, overrides.get(card.id)));
+        const effectiveUser = (userCardsResult.data || []).map((card) => appCard(card));
+        const scope = clean(body.topic);
+        const seen = new Set<string>();
+        const duplicateBaseIds: number[] = [];
+        const duplicateUserIds: number[] = [];
+        for (const card of [...effectiveBase, ...effectiveUser]) {
+          if (scope && card.topic !== scope) continue;
+          const key = clean(card.italian).toLocaleLowerCase("it");
+          if (!key || !seen.has(key)) {
+            if (key) seen.add(key);
+            continue;
+          }
+          if (card.id < 1_000_000) duplicateBaseIds.push(card.id);
+          else duplicateUserIds.push(card.id);
+        }
+        const baseResult = await hideBaseCards(duplicateBaseIds);
+        if (baseResult.error) return json({ error: baseResult.error.message }, 400);
+        if (duplicateUserIds.length) {
+          const { error: deleteError } = await supabase.from("user_cards").delete().in("id", duplicateUserIds);
+          if (deleteError) return json({ error: deleteError.message }, 400);
+        }
+        return json({ removed: baseResult.hidden + duplicateUserIds.length });
+      }
     }
     const id = Number(url.searchParams.get("id"));
-    if (id >= 1_000_000) await supabase.from("user_cards").delete().eq("id", id);
+    if (id > 0 && id < 1_000_000) {
+      const result = await hideBaseCards([id]);
+      if (result.error) return json({ error: result.error.message }, 400);
+    } else if (id >= 1_000_000) {
+      const { error } = await supabase.from("user_cards").delete().eq("id", id);
+      if (error) return json({ error: error.message }, 400);
+    }
     return json({ ok: true });
   }
   return json({ error: "Метод не поддерживается" }, 405);
@@ -191,6 +258,3 @@ window.fetch = async (input: RequestInfo | URL, init: RequestInit = {}) => {
   const url = new URL(raw, window.location.origin);
   if (url.pathname === "/api/data") return handleData(url, init);
   if (url.pathname === "/api/progress") return handleProgress(init);
-  if (url.pathname === "/api/topics") return handleTopics(init);
-  return originalFetch(input, init);
-};
