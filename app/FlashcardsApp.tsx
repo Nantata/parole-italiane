@@ -801,7 +801,7 @@ function Visual({
   if (cardImagePath)
     return (
       <figure
-        className={`visual cardPhotoAssociation ${small ? "visualSmall" : fullItalian === "prendere" ? "visualPrendereTest" : ""}`}
+        className={`visual cardPhotoAssociation ${small ? "visualSmall" : ""}`}
         aria-label={card?.translation || italian}
       >
         <img
