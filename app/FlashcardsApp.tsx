@@ -1859,7 +1859,11 @@ ${list.map((item, itemIndex) => `${itemIndex + 1}. ${item}`).join("\n")}
               {!(revealed && currentConjugation) && (
                 <Visual type={current.association} card={current} />
               )}
-              <span className="italian">{current.italian}</span>
+              <span
+                className={`italian ${normalizeItalian(current.italian).length > 26 ? "italianVeryLong" : normalizeItalian(current.italian).length > 16 ? "italianLong" : ""}`}
+              >
+                {current.italian}
+              </span>
               <span className="ipa">{current.ipa}</span>
               {!revealed ? (
                 <span className="tapHint">

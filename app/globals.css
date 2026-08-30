@@ -76,6 +76,12 @@ body{background:radial-gradient(circle at 12% 0,#f8faf9 0,transparent 30%),linea
 @media (max-width:420px){.topbar{padding-left:13px;padding-right:13px;gap:7px}.brandMark{width:42px;height:42px}.eyebrow{font-size:7px;letter-spacing:.1em}h1{font-size:19px}.accountBox{width:82px}.streak{min-width:45px;height:36px}}
 @media (max-width:370px){.content{padding-left:14px;padding-right:14px}.italian{font-size:33px}.flashcard{min-height:365px;padding-left:16px;padding-right:16px}.topbar{padding-left:10px;padding-right:10px}.accountBox{width:72px;padding-left:6px;padding-right:6px}.accountBox span{font-size:7px}.accountBox button{font-size:9px}.bottomNav button{font-size:9px}.navBadge{right:8px}}
 
+/* Keep long words and phrases clear without changing normal card titles. */
+.italian.italianLong{font-size:31px;line-height:1.06}
+.italian.italianVeryLong{font-size:27px;line-height:1.04}
+.flashcard:not(.revealed) .italianLong + .ipa,
+.flashcard:not(.revealed) .italianVeryLong + .ipa{margin-bottom:30px}
+
 /* Complete present-tense paradigm on the reverse of irregular verb cards. */
 .flashcard.revealed.hasConjugation{justify-content:flex-start;min-height:470px;padding-top:55px;padding-bottom:18px;overflow:visible}
 .flashcard.revealed.hasConjugation .italian{font-size:31px;line-height:1.05}
