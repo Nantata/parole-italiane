@@ -59,11 +59,15 @@ const NEW_TOPIC = "✨ Новое";
 // (for example, l'insegnante): they appear in today's batch without creating
 // a duplicate card.
 const LATEST_NEW_CARD_ITALIAN = new Set([
-  "prendere", "correre", "perdere", "cadere", "leggere", "scrivere",
-  "conoscere", "credere", "ricevere", "ridere", "piangere", "rispondere",
-  "chiedere", "chiudere", "cuocere", "dipingere", "decidere", "esistere",
-  "mettere", "vivere", "dipendere", "vedere", "vendere", "smettere",
-  "scendere",
+  "non spesso", "a volte", "sempre", "mai", "purtroppo", "per fortuna",
+  "la mattina", "alle dieci", "dopo", "poi", "la sera", "stamattina", "stasera",
+  "Fa bel tempo", "Fa brutto tempo", "Come stai?", "Di dove sei?", "Dove abiti?",
+  "Lavori o studi?", "Che lavoro fai?", "Parli altre lingue?",
+  "Perché studi italiano?", "Ascolti la musica italiana?", "Guardi i film italiani?",
+  "Viaggi spesso?", "Visiti spesso l’Italia?", "Ami cucinare?", "Fai sport?",
+  "Fai spesso passeggiate?", "Fai colazione a casa?", "Lavori molto?",
+  "Chiami spesso gli amici?", "Hai animali?", "Fare ordine in casa",
+  "Fare il trasloco", "Vado in palestra", "il pesce", "la piscina",
 ].map((italian) => italian.toLocaleLowerCase("it")));
 
 const groupedTopicTitles: Record<number, string> = {

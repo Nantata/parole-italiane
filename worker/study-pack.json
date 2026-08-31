@@ -308,7 +308,7 @@
     "association": "name"
   },
   {
-    "topic": "Приветствия и общение",
+    "topic": "Готовые фразы",
     "kind": "phrase",
     "italian": "Di dove sei?",
     "ipa": "/di dˈove sˈɛi/",
@@ -396,7 +396,7 @@
     "association": "book"
   },
   {
-    "topic": "Приветствия и общение",
+    "topic": "Готовые фразы",
     "kind": "phrase",
     "italian": "Come stai?",
     "ipa": "/kˌome stˈaj/",
@@ -484,7 +484,7 @@
     "association": "bad"
   },
   {
-    "topic": "Приветствия и общение",
+    "topic": "Готовые фразы",
     "kind": "phrase",
     "italian": "Dove abiti?",
     "ipa": "/dˈove ˈabiti/",
@@ -517,7 +517,7 @@
     "association": "book"
   },
   {
-    "topic": "Приветствия и общение",
+    "topic": "Готовые фразы",
     "kind": "phrase",
     "italian": "Perché studi italiano?",
     "ipa": "/perˈke ˈstudi itaˈljano/",
@@ -770,7 +770,7 @@
     "association": "tomorrow"
   },
   {
-    "topic": "Служебные и связующие слова",
+    "topic": "Готовые фразы",
     "kind": "word",
     "italian": "sempre",
     "ipa": "/sˈɛmpre/",
@@ -792,7 +792,7 @@
     "association": "book"
   },
   {
-    "topic": "Служебные и связующие слова",
+    "topic": "Готовые фразы",
     "kind": "word",
     "italian": "stasera",
     "ipa": "/stˌa sˈera/",
@@ -7513,7 +7513,7 @@
     "association": "book"
   },
   {
-    "topic": "Работа и общение",
+    "topic": "Готовые фразы",
     "kind": "phrase",
     "italian": "Che lavoro fai?",
     "ipa": "/ke laˈvoro fai/",
@@ -7524,7 +7524,7 @@
     "association": "book"
   },
   {
-    "topic": "Работа и общение",
+    "topic": "Готовые фразы",
     "kind": "phrase",
     "italian": "Che fai nella vita?",
     "ipa": "/ke fai nella ˈviːta/",
@@ -7535,7 +7535,7 @@
     "association": "book"
   },
   {
-    "topic": "Работа и общение",
+    "topic": "Готовые фразы",
     "kind": "phrase",
     "italian": "Di che cosa ti occupi?",
     "ipa": "/di ke ˈkɔːza ti okˈkupi/",
@@ -7546,7 +7546,7 @@
     "association": "book"
   },
   {
-    "topic": "Работа и общение",
+    "topic": "Готовые фразы",
     "kind": "phrase",
     "italian": "Dove lavori?",
     "ipa": "/ˈdoːve laˈvoːri/",
@@ -7927,6 +7927,347 @@
     "translation": "спускаться; выходить из транспорта",
     "example": "Scendo dall’autobus alla prossima fermata.",
     "exampleTranslation": "Я выхожу из автобуса на следующей остановке.",
+    "usage": "",
+    "association": "book"
+  },
+  {
+    "topic": "Готовые фразы",
+    "kind": "phrase",
+    "italian": "non spesso",
+    "ipa": "/non ˈspesso/",
+    "translation": "не часто",
+    "example": "Non viaggio spesso.",
+    "exampleTranslation": "Я путешествую не часто.",
+    "usage": "",
+    "association": "book"
+  },
+  {
+    "topic": "Готовые фразы",
+    "kind": "phrase",
+    "italian": "a volte",
+    "ipa": "/a ˈvɔlte/",
+    "translation": "иногда",
+    "example": "A volte lavoro la sera.",
+    "exampleTranslation": "Иногда я работаю вечером.",
+    "usage": "",
+    "association": "book"
+  },
+  {
+    "topic": "Готовые фразы",
+    "kind": "word",
+    "italian": "mai",
+    "ipa": "/mai/",
+    "translation": "никогда",
+    "example": "Non arrivo mai tardi.",
+    "exampleTranslation": "Я никогда не опаздываю.",
+    "usage": "В отрицательном предложении обычно употребляется с non.",
+    "association": "book"
+  },
+  {
+    "topic": "Готовые фразы",
+    "kind": "word",
+    "italian": "purtroppo",
+    "ipa": "/purˈtrɔppo/",
+    "translation": "к сожалению",
+    "example": "Purtroppo oggi lavoro.",
+    "exampleTranslation": "К сожалению, сегодня я работаю.",
+    "usage": "",
+    "association": "book"
+  },
+  {
+    "topic": "Готовые фразы",
+    "kind": "phrase",
+    "italian": "per fortuna",
+    "ipa": "/per forˈtuːna/",
+    "translation": "к счастью",
+    "example": "Per fortuna domani sono libera.",
+    "exampleTranslation": "К счастью, завтра я свободна.",
+    "usage": "",
+    "association": "book"
+  },
+  {
+    "topic": "Готовые фразы",
+    "kind": "phrase",
+    "italian": "la mattina",
+    "ipa": "/la matˈtiːna/",
+    "translation": "утром",
+    "example": "La mattina bevo il caffè.",
+    "exampleTranslation": "Утром я пью кофе.",
+    "usage": "",
+    "association": "book"
+  },
+  {
+    "topic": "Готовые фразы",
+    "kind": "phrase",
+    "italian": "alle dieci",
+    "ipa": "/alle ˈdjɛːtʃi/",
+    "translation": "в десять часов",
+    "example": "La lezione inizia alle dieci.",
+    "exampleTranslation": "Урок начинается в десять.",
+    "usage": "",
+    "association": "book"
+  },
+  {
+    "topic": "Готовые фразы",
+    "kind": "word",
+    "italian": "dopo",
+    "ipa": "/ˈdɔːpo/",
+    "translation": "после; позже",
+    "example": "Dopo il lavoro torno a casa.",
+    "exampleTranslation": "После работы я возвращаюсь домой.",
+    "usage": "",
+    "association": "book"
+  },
+  {
+    "topic": "Готовые фразы",
+    "kind": "word",
+    "italian": "poi",
+    "ipa": "/pɔi/",
+    "translation": "потом; затем",
+    "example": "Prima lavoro, poi riposo.",
+    "exampleTranslation": "Сначала я работаю, потом отдыхаю.",
+    "usage": "",
+    "association": "book"
+  },
+  {
+    "topic": "Готовые фразы",
+    "kind": "phrase",
+    "italian": "la sera",
+    "ipa": "/la ˈseːra/",
+    "translation": "вечером",
+    "example": "La sera guardo un film.",
+    "exampleTranslation": "Вечером я смотрю фильм.",
+    "usage": "",
+    "association": "book"
+  },
+  {
+    "topic": "Готовые фразы",
+    "kind": "word",
+    "italian": "stamattina",
+    "ipa": "/stamatˈtiːna/",
+    "translation": "сегодня утром; этим утром",
+    "example": "Stamattina ho fatto colazione a casa.",
+    "exampleTranslation": "Сегодня утром я позавтракала дома.",
+    "usage": "",
+    "association": "book"
+  },
+  {
+    "topic": "Готовые фразы",
+    "kind": "phrase",
+    "italian": "Fa bel tempo",
+    "ipa": "/fa bɛl ˈtɛmpo/",
+    "translation": "хорошая погода",
+    "example": "Oggi fa bel tempo.",
+    "exampleTranslation": "Сегодня хорошая погода.",
+    "usage": "",
+    "association": "book"
+  },
+  {
+    "topic": "Готовые фразы",
+    "kind": "phrase",
+    "italian": "Fa brutto tempo",
+    "ipa": "/fa ˈbrutto ˈtɛmpo/",
+    "translation": "плохая погода",
+    "example": "Oggi fa brutto tempo.",
+    "exampleTranslation": "Сегодня плохая погода.",
+    "usage": "",
+    "association": "book"
+  },
+  {
+    "topic": "Готовые фразы",
+    "kind": "phrase",
+    "italian": "Lavori o studi?",
+    "ipa": "/laˈvoːri o ˈstuːdi/",
+    "translation": "Ты работаешь или учишься?",
+    "example": "Lavori o studi? Lavoro.",
+    "exampleTranslation": "Ты работаешь или учишься? Я работаю.",
+    "usage": "",
+    "association": "book"
+  },
+  {
+    "topic": "Готовые фразы",
+    "kind": "phrase",
+    "italian": "Parli altre lingue?",
+    "ipa": "/ˈparli ˈaltre ˈliŋɡwe/",
+    "translation": "Ты говоришь на других языках?",
+    "example": "Parli altre lingue? Parlo russo.",
+    "exampleTranslation": "Ты говоришь на других языках? Я говорю по-русски.",
+    "usage": "",
+    "association": "book"
+  },
+  {
+    "topic": "Готовые фразы",
+    "kind": "phrase",
+    "italian": "Ascolti la musica italiana?",
+    "ipa": "/aˈskolti la ˈmuːzika itaˈljaːna/",
+    "translation": "Ты слушаешь итальянскую музыку?",
+    "example": "Ascolti la musica italiana? Sì, spesso.",
+    "exampleTranslation": "Ты слушаешь итальянскую музыку? Да, часто.",
+    "usage": "",
+    "association": "book"
+  },
+  {
+    "topic": "Готовые фразы",
+    "kind": "phrase",
+    "italian": "Guardi i film italiani?",
+    "ipa": "/ˈɡwardi i film itaˈljaːni/",
+    "translation": "Ты смотришь итальянские фильмы?",
+    "example": "Guardi i film italiani? Sì, a volte.",
+    "exampleTranslation": "Ты смотришь итальянские фильмы? Да, иногда.",
+    "usage": "",
+    "association": "book"
+  },
+  {
+    "topic": "Готовые фразы",
+    "kind": "phrase",
+    "italian": "Viaggi spesso?",
+    "ipa": "/ˈvjaddʒi ˈspesso/",
+    "translation": "Ты часто путешествуешь?",
+    "example": "Viaggi spesso? Sì, mi piace viaggiare.",
+    "exampleTranslation": "Ты часто путешествуешь? Да, мне нравится путешествовать.",
+    "usage": "",
+    "association": "book"
+  },
+  {
+    "topic": "Готовые фразы",
+    "kind": "phrase",
+    "italian": "Visiti spesso l’Italia?",
+    "ipa": "/ˈviːziti ˈspesso liˈtaːlja/",
+    "translation": "Ты часто бываешь в Италии?",
+    "example": "Visiti spesso l’Italia? Non spesso.",
+    "exampleTranslation": "Ты часто бываешь в Италии? Не часто.",
+    "usage": "",
+    "association": "book"
+  },
+  {
+    "topic": "Готовые фразы",
+    "kind": "phrase",
+    "italian": "Ami cucinare?",
+    "ipa": "/ˈaːmi kutʃiˈnaːre/",
+    "translation": "Ты любишь готовить?",
+    "example": "Ami cucinare? Sì, molto.",
+    "exampleTranslation": "Ты любишь готовить? Да, очень.",
+    "usage": "",
+    "association": "book"
+  },
+  {
+    "topic": "Готовые фразы",
+    "kind": "phrase",
+    "italian": "Fai sport?",
+    "ipa": "/fai spɔrt/",
+    "translation": "Ты занимаешься спортом?",
+    "example": "Fai sport? Vado in palestra.",
+    "exampleTranslation": "Ты занимаешься спортом? Я хожу в спортзал.",
+    "usage": "",
+    "association": "book"
+  },
+  {
+    "topic": "Готовые фразы",
+    "kind": "phrase",
+    "italian": "Fai spesso passeggiate?",
+    "ipa": "/fai ˈspesso passedˈdʒaːte/",
+    "translation": "Ты часто гуляешь?",
+    "example": "Fai spesso passeggiate? Sì, con il cane.",
+    "exampleTranslation": "Ты часто гуляешь? Да, с собакой.",
+    "usage": "",
+    "association": "book"
+  },
+  {
+    "topic": "Готовые фразы",
+    "kind": "phrase",
+    "italian": "Fai colazione a casa?",
+    "ipa": "/fai kolaˈtsjoːne a ˈkaːza/",
+    "translation": "Ты завтракаешь дома?",
+    "example": "Fai colazione a casa? Sì, sempre.",
+    "exampleTranslation": "Ты завтракаешь дома? Да, всегда.",
+    "usage": "",
+    "association": "book"
+  },
+  {
+    "topic": "Готовые фразы",
+    "kind": "phrase",
+    "italian": "Lavori molto?",
+    "ipa": "/laˈvoːri ˈmolto/",
+    "translation": "Ты много работаешь?",
+    "example": "Lavori molto? Sì, purtroppo.",
+    "exampleTranslation": "Ты много работаешь? Да, к сожалению.",
+    "usage": "",
+    "association": "book"
+  },
+  {
+    "topic": "Готовые фразы",
+    "kind": "phrase",
+    "italian": "Chiami spesso gli amici?",
+    "ipa": "/ˈkjaːmi ˈspesso ʎʎaˈmiːtʃi/",
+    "translation": "Ты часто звонишь друзьям?",
+    "example": "Chiami spesso gli amici? Sì, la sera.",
+    "exampleTranslation": "Ты часто звонишь друзьям? Да, вечером.",
+    "usage": "",
+    "association": "book"
+  },
+  {
+    "topic": "Готовые фразы",
+    "kind": "phrase",
+    "italian": "Hai animali?",
+    "ipa": "/ai aniˈmaːli/",
+    "translation": "У тебя есть животные?",
+    "example": "Hai animali? Sì, ho un cane.",
+    "exampleTranslation": "У тебя есть животные? Да, у меня есть собака.",
+    "usage": "",
+    "association": "book"
+  },
+  {
+    "topic": "Готовые фразы",
+    "kind": "phrase",
+    "italian": "Fare ordine in casa",
+    "ipa": "/ˈfaːre ˈordine in ˈkaːza/",
+    "translation": "наводить порядок дома",
+    "example": "Oggi devo fare ordine in casa.",
+    "exampleTranslation": "Сегодня мне нужно навести порядок дома.",
+    "usage": "",
+    "association": "book"
+  },
+  {
+    "topic": "Готовые фразы",
+    "kind": "phrase",
+    "italian": "Fare il trasloco",
+    "ipa": "/ˈfaːre il traˈzlɔːko/",
+    "translation": "переезжать; совершать переезд",
+    "example": "Domani dobbiamo fare il trasloco.",
+    "exampleTranslation": "Завтра нам нужно переезжать.",
+    "usage": "",
+    "association": "book"
+  },
+  {
+    "topic": "Готовые фразы",
+    "kind": "phrase",
+    "italian": "Vado in palestra",
+    "ipa": "/ˈvaːdo im paˈlɛstra/",
+    "translation": "Я хожу в спортзал",
+    "example": "Vado in palestra due volte alla settimana.",
+    "exampleTranslation": "Я хожу в спортзал два раза в неделю.",
+    "usage": "",
+    "association": "book"
+  },
+  {
+    "topic": "Существительные",
+    "kind": "word",
+    "italian": "il pesce",
+    "ipa": "/il ˈpeʃʃe/",
+    "translation": "рыба",
+    "example": "Mangio il pesce a cena.",
+    "exampleTranslation": "Я ем рыбу на ужин.",
+    "usage": "",
+    "association": "book"
+  },
+  {
+    "topic": "Существительные",
+    "kind": "word",
+    "italian": "la piscina",
+    "ipa": "/la piʃˈʃiːna/",
+    "translation": "бассейн",
+    "example": "Vado in piscina il sabato.",
+    "exampleTranslation": "Я хожу в бассейн по субботам.",
     "usage": "",
     "association": "book"
   }
