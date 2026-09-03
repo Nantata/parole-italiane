@@ -99,6 +99,16 @@ body{background:radial-gradient(circle at 12% 0,#f8faf9 0,transparent 30%),linea
 .flashcard.revealed.hasConjugation .answer em{font-size:11px}
 @media(max-width:370px){.flashcard.revealed.hasConjugation{min-height:455px;padding-top:53px}.conjugationBlock{padding-top:7px;padding-bottom:8px}.conjugationRow{min-height:24px}}
 
+/* Full card preview from the dictionary, without leaving the list. */
+.libraryCardModal{position:fixed;z-index:40;inset:0;display:flex;align-items:flex-start;justify-content:center;padding:18px 14px 110px;background:rgba(24,48,59,.48);backdrop-filter:blur(6px);overflow-y:auto}
+.libraryCardModalPanel{width:min(100%,470px);position:relative;padding-top:46px}
+.libraryCardModalClose{position:absolute;z-index:5;top:0;right:0;height:38px;padding:0 14px;border:1px solid rgba(255,255,255,.72);border-radius:14px;background:rgba(255,255,255,.96);color:#456f80;font-size:18px;font-weight:800;box-shadow:0 7px 20px rgba(20,50,62,.16)}
+.libraryCardModalClose span{margin-left:4px;font-size:11px;vertical-align:2px}
+.libraryPreviewCard{min-height:430px;cursor:pointer}
+.libraryModalMove{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-top:10px;padding:11px 13px;border-radius:15px;background:#fff;color:#547b8e;font-size:10px;font-weight:800;box-shadow:0 7px 20px rgba(20,50,62,.13)}
+.libraryModalMove select{max-width:235px;height:39px;border:1px solid #bfe1ef;border-radius:11px;background:#f7fcfe;padding:0 9px;color:var(--ink)}
+@media(max-width:520px){.libraryCardModal{padding-top:10px}.libraryCardModalPanel{padding-top:43px}.libraryPreviewCard{min-height:410px}}
+
 /* Warm paper redesign: scoped to the study setup screen only. */
 .studySetupTheme{
   --setup-navy:#123564;

@@ -1030,7 +1030,8 @@ export default function FlashcardsApp({
   const [libraryTopic, setLibraryTopic] = useState(ALL_TOPICS);
   const [renamingTopic, setRenamingTopic] = useState<string | null>(null);
   const [renameValue, setRenameValue] = useState("");
-  const [expandedCardId, setExpandedCardId] = useState<number | null>(null);
+  const [libraryPreviewId, setLibraryPreviewId] = useState<number | null>(null);
+  const [libraryPreviewRevealed, setLibraryPreviewRevealed] = useState(false);
   const [selectedIds, setSelectedIds] = useState<number[]>([]);
   const [libraryMessage, setLibraryMessage] = useState("");
 
@@ -1136,6 +1137,22 @@ export default function FlashcardsApp({
         a.topic.localeCompare(b.topic, "ru") ||
         a.italian.localeCompare(b.italian, "it"),
     );
+  const libraryPreviewCard = libraryPreviewId === null
+    ? null
+    : cards.find((card) => card.id === libraryPreviewId) || null;
+  const libraryPreviewConjugation = libraryPreviewCard
+    ? irregularPresentConjugations[libraryPreviewCard.italian.trim().toLocaleLowerCase("it")] ||
+      regularPresentConjugations[libraryPreviewCard.italian.trim().toLocaleLowerCase("it")]
+    : undefined;
+
+  useEffect(() => {
+    if (!libraryPreviewCard) return;
+    const closeOnEscape = (event: KeyboardEvent) => {
+      if (event.key === "Escape") setLibraryPreviewId(null);
+    };
+    window.addEventListener("keydown", closeOnEscape);
+    return () => window.removeEventListener("keydown", closeOnEscape);
+  }, [libraryPreviewCard]);
 
   async function mark(status: Status) {
     if (!current) return;
@@ -1595,6 +1612,112 @@ ${list.map((item, itemIndex) => `${itemIndex + 1}. ${item}`).join("\n")}
         {tab === "add" && AddView()}
         {tab === "progress" && ProgressView()}
       </section>
+      {tab === "library" && libraryPreviewCard && (
+        <div
+          className="libraryCardModal"
+          role="dialog"
+          aria-modal="true"
+          aria-label={`Карточка ${libraryPreviewCard.italian}`}
+          onMouseDown={(event) => {
+            if (event.target === event.currentTarget) setLibraryPreviewId(null);
+          }}
+        >
+          <div className="libraryCardModalPanel">
+            <button
+              type="button"
+              className="libraryCardModalClose"
+              onClick={() => setLibraryPreviewId(null)}
+              aria-label="Закрыть карточку"
+            >
+              × <span>Закрыть</span>
+            </button>
+            <div
+              className={`flashcard libraryPreviewCard ${libraryPreviewRevealed ? "revealed" : ""} ${libraryPreviewConjugation ? "hasConjugation" : ""}`}
+              onClick={() => setLibraryPreviewRevealed((value) => !value)}
+              onKeyDown={(event) => {
+                if (event.key === "Enter" || event.key === " ") {
+                  event.preventDefault();
+                  setLibraryPreviewRevealed((value) => !value);
+                }
+              }}
+              role="button"
+              tabIndex={0}
+              aria-label="Перевернуть карточку"
+            >
+              <button
+                type="button"
+                className={`cardSound ${speakingText === spokenCardText(libraryPreviewCard.italian) ? "speaking" : ""}`}
+                onClick={(event) => {
+                  event.stopPropagation();
+                  speakItalian(spokenCardText(libraryPreviewCard.italian));
+                }}
+                aria-label={`Прослушать: ${libraryPreviewCard.italian}`}
+              >
+                <span aria-hidden="true">🔊</span>
+              </button>
+              <span className="topicPill">
+                {libraryPreviewCard.kind === "word" ? "СЛОВО" : "ФРАЗА"} · {groupedTopic(libraryPreviewCard.topic)}
+              </span>
+              {!(libraryPreviewRevealed && libraryPreviewConjugation) && (
+                <Visual type={libraryPreviewCard.association} card={libraryPreviewCard} />
+              )}
+              <span
+                className={`italian ${normalizeItalian(libraryPreviewCard.italian).length > 26 ? "italianVeryLong" : normalizeItalian(libraryPreviewCard.italian).length > 16 ? "italianLong" : ""}`}
+              >
+                {libraryPreviewCard.italian}
+              </span>
+              <span className="ipa">{libraryPreviewCard.ipa}</span>
+              {!libraryPreviewRevealed ? (
+                <span className="tapHint">Коснись карточки, чтобы перевернуть</span>
+              ) : (
+                <span className="answer">
+                  <b>{libraryPreviewCard.translation}</b>
+                  {libraryPreviewConjugation && (
+                    <span className="conjugationBlock">
+                      <strong>Presente indicativo</strong>
+                      <span className="conjugationRows">
+                        {libraryPreviewConjugation.map(({ pronoun, form }) => (
+                          <span className="conjugationRow" key={pronoun}>
+                            <i>{pronoun}</i><b>{form}</b>
+                          </span>
+                        ))}
+                      </span>
+                    </span>
+                  )}
+                  {libraryPreviewCard.example && (
+                    <small>
+                      <span className="exampleItalian">
+                        {libraryPreviewCard.example}
+                        <button
+                          type="button"
+                          className="exampleSound"
+                          onClick={(event) => {
+                            event.stopPropagation();
+                            speakItalian(libraryPreviewCard.example);
+                          }}
+                          aria-label={`Прослушать пример: ${libraryPreviewCard.example}`}
+                        >🔊</button>
+                      </span>
+                      <em>{libraryPreviewCard.exampleTranslation}</em>
+                    </small>
+                  )}
+                </span>
+              )}
+            </div>
+            {isOwner && (
+              <label className="libraryModalMove">
+                Перенести в раздел
+                <select
+                  value={libraryPreviewCard.topic}
+                  onChange={(event) => moveCard(libraryPreviewCard, event.target.value)}
+                >
+                  {rawTopics.map((item) => <option key={item}>{item}</option>)}
+                </select>
+              </label>
+            )}
+          </div>
+        </div>
+      )}
       <nav className="bottomNav" aria-label="Основное меню">
         <NavButton name="study" icon="cards" label="Учить" />
         <NavButton
@@ -2139,12 +2262,16 @@ ${list.map((item, itemIndex) => `${itemIndex + 1}. ${item}`).join("\n")}
         )}
         <div className="wordList">
           {libraryCards.map((card) => {
-            const expanded = expandedCardId === card.id;
             const selected = selectedIds.includes(card.id);
             return (
               <article
-                className={`${expanded ? "expanded " : ""}${selected ? "selected" : ""}`}
+                className={selected ? "selected" : ""}
                 key={card.id}
+                onClick={(event) => {
+                  if ((event.target as HTMLElement).closest("button, input, select, label, a")) return;
+                  setLibraryPreviewId(card.id);
+                  setLibraryPreviewRevealed(false);
+                }}
               >
                 {isOwner && <label
                   className="selectCard"
@@ -2160,8 +2287,11 @@ ${list.map((item, itemIndex) => `${itemIndex + 1}. ${item}`).join("\n")}
                 <Visual type={card.association} card={card} small />
                 <button
                   className="wordMain"
-                  onClick={() => setExpandedCardId(expanded ? null : card.id)}
-                  aria-expanded={expanded}
+                  onClick={() => {
+                    setLibraryPreviewId(card.id);
+                    setLibraryPreviewRevealed(false);
+                  }}
+                  aria-haspopup="dialog"
                 >
                   <span>
                     {card.kind === "word" ? "Слово" : "Фраза"} · {groupedTopic(card.topic)}
@@ -2169,7 +2299,7 @@ ${list.map((item, itemIndex) => `${itemIndex + 1}. ${item}`).join("\n")}
                   <b>{card.italian}</b>
                   <i>{card.ipa}</i>
                   <p>{card.translation}</p>
-                  <em>{expanded ? "Свернуть" : "Подробнее"}</em>
+                  <em>Подробнее</em>
                 </button>
                 {isOwner && <div className="wordButtons">
                   <button
@@ -2185,32 +2315,6 @@ ${list.map((item, itemIndex) => `${itemIndex + 1}. ${item}`).join("\n")}
                     ×
                   </button>
                 </div>}
-                {expanded && (
-                  <div className="wordDetails">
-                    {card.example && (
-                      <p>
-                        <b>{card.example}</b>
-                        <span>{card.exampleTranslation}</span>
-                      </p>
-                    )}
-                    {card.usage && (
-                      <p>
-                        <span>{card.usage}</span>
-                      </p>
-                    )}
-                    {isOwner && <label>
-                      Перенести в раздел
-                      <select
-                        value={card.topic}
-                        onChange={(e) => moveCard(card, e.target.value)}
-                      >
-                        {rawTopics.map((item) => (
-                          <option key={item}>{item}</option>
-                        ))}
-                      </select>
-                    </label>}
-                  </div>
-                )}
               </article>
             );
           })}
