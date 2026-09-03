@@ -1373,7 +1373,8 @@ export default function FlashcardsApp({
   function openLibrary(selectedTopic: string) {
     setLibraryTopic(selectedTopic);
     setKindFilter("all");
-    setExpandedCardId(null);
+    setLibraryPreviewId(null);
+    setLibraryPreviewRevealed(false);
     setSelectedIds([]);
     setLibraryMessage("");
     setTab("library");
