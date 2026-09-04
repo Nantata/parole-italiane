@@ -8458,5 +8458,169 @@
   {
     "topic": "Глаголы", "kind": "word", "italian": "vestirsi", "ipa": "/veˈstirsi/", "translation": "одеваться",
     "example": "Lei si veste velocemente.", "exampleTranslation": "Она быстро одевается.", "usage": "Возвратный глагол: mi vesto, ti vesti, si veste, ci vestiamo, vi vestite, si vestono.", "association": "book"
+  },
+  {
+    "topic": "Готовые фразы", "kind": "phrase", "italian": "mi piace", "ipa": "/mi ˈpjatʃe/", "translation": "мне нравится",
+    "example": "Mi piace il gelato.", "exampleTranslation": "Мне нравится мороженое.", "usage": "Перед существительным в единственном числе или инфинитивом используется mi piace.", "association": "heart"
+  },
+  {
+    "topic": "Готовые фразы", "kind": "phrase", "italian": "non mi piace", "ipa": "/non mi ˈpjatʃe/", "translation": "мне не нравится",
+    "example": "Non mi piace il caffè amaro.", "exampleTranslation": "Мне не нравится горький кофе.", "usage": "Отрицательная форма конструкции mi piace.", "association": "heart"
+  },
+  {
+    "topic": "Готовые фразы", "kind": "word", "italian": "più", "ipa": "/pju/", "translation": "больше; более",
+    "example": "Vorrei più tempo.", "exampleTranslation": "Мне хотелось бы больше времени.", "usage": "Наречие количества или степени.", "association": "numbers"
+  },
+  {
+    "topic": "Готовые фразы", "kind": "word", "italian": "meno", "ipa": "/ˈmeno/", "translation": "меньше; менее",
+    "example": "Oggi lavoro meno.", "exampleTranslation": "Сегодня я работаю меньше.", "usage": "Наречие количества или степени.", "association": "numbers"
+  },
+  {
+    "topic": "Готовые фразы", "kind": "phrase", "italian": "ha un gusto intenso", "ipa": "/a un ˈɡusto inˈtɛnso/", "translation": "у него насыщенный вкус",
+    "example": "Questo formaggio ha un gusto intenso.", "exampleTranslation": "У этого сыра насыщенный вкус.", "usage": "О вкусе еды или напитка.", "association": "food"
+  },
+  {
+    "topic": "Готовые фразы", "kind": "phrase", "italian": "perché amo il processo", "ipa": "/perˈke ˈamo il proˈtʃɛsso/", "translation": "потому что я люблю сам процесс",
+    "example": "Cucino spesso perché amo il processo.", "exampleTranslation": "Я часто готовлю, потому что люблю сам процесс.", "usage": "Perché в ответе означает «потому что».", "association": "heart"
+  },
+  {
+    "topic": "Готовые фразы", "kind": "word", "italian": "troppo", "ipa": "/ˈtrɔppo/", "translation": "слишком; слишком много",
+    "example": "Questo caffè è troppo caldo.", "exampleTranslation": "Этот кофе слишком горячий.", "usage": "Наречие степени или количества.", "association": "numbers"
+  },
+  {
+    "topic": "Готовые фразы", "kind": "phrase", "italian": "cono o coppa?", "ipa": "/ˈkɔno o ˈkɔppa/", "translation": "рожок или стаканчик?",
+    "example": "Per il gelato, cono o coppa?", "exampleTranslation": "Для мороженого: рожок или стаканчик?", "usage": "Вопрос в кафе-мороженом.", "association": "food"
+  },
+  {
+    "topic": "Готовые фразы", "kind": "phrase", "italian": "quante palline?", "ipa": "/ˈkwante palˈline/", "translation": "сколько шариков?",
+    "example": "Quante palline di gelato vuoi?", "exampleTranslation": "Сколько шариков мороженого ты хочешь?", "usage": "Pallina — шарик мороженого.", "association": "food"
+  },
+  {
+    "topic": "Существительные", "kind": "word", "italian": "la fragola", "ipa": "/la ˈfraɡola/", "translation": "клубника",
+    "example": "La fragola è dolce.", "exampleTranslation": "Клубника сладкая.", "usage": "Множественное число: le fragole.", "association": "food"
+  },
+  {
+    "topic": "Прилагательные", "kind": "word", "italian": "alcolico", "ipa": "/alˈkɔliko/", "translation": "алкогольный",
+    "example": "Questo cocktail è alcolico.", "exampleTranslation": "Этот коктейль алкогольный.", "usage": "Формы: alcolico, alcolica, alcolici, alcoliche.", "association": "drink"
+  },
+  {
+    "topic": "Прилагательные", "kind": "word", "italian": "analcolico", "ipa": "/analkɔˈliko/", "translation": "безалкогольный",
+    "example": "Prendo una bevanda analcolica.", "exampleTranslation": "Я возьму безалкогольный напиток.", "usage": "Формы: analcolico, analcolica, analcolici, analcoliche.", "association": "drink"
+  },
+  {
+    "topic": "Готовые фразы", "kind": "phrase", "italian": "non bevo alcolici", "ipa": "/non ˈbevo alˈkɔlitʃi/", "translation": "я не пью алкоголь",
+    "example": "No, grazie, non bevo alcolici.", "exampleTranslation": "Нет, спасибо, я не пью алкоголь.", "usage": "Вежливый ответ при выборе напитка.", "association": "drink"
+  },
+  {
+    "topic": "Готовые фразы", "kind": "phrase", "italian": "una bottiglia di…", "ipa": "/ˈuna botˈtiʎʎa di/", "translation": "бутылка…",
+    "example": "Vorrei una bottiglia di acqua.", "exampleTranslation": "Я хотел бы бутылку воды.", "usage": "После di называется содержимое бутылки.", "association": "drink"
+  },
+  {
+    "topic": "Готовые фразы", "kind": "phrase", "italian": "una fetta di torta", "ipa": "/ˈuna ˈfetta di ˈtorta/", "translation": "кусочек торта",
+    "example": "Prendo una fetta di torta.", "exampleTranslation": "Я возьму кусочек торта.", "usage": "Fetta — ломтик или кусок, отрезанный от целого.", "association": "food"
+  },
+  {
+    "topic": "Глаголы", "kind": "word", "italian": "guidare", "ipa": "/ɡwiˈdare/", "translation": "водить машину; управлять",
+    "example": "Lei guida ogni giorno.", "exampleTranslation": "Она водит машину каждый день.", "usage": "Настоящее время: guido, guidi, guida, guidiamo, guidate, guidano.", "association": "transport"
+  },
+  {
+    "topic": "Существительные", "kind": "word", "italian": "il prezzo", "ipa": "/il ˈprɛttso/", "translation": "цена",
+    "example": "Qual è il prezzo?", "exampleTranslation": "Какова цена?", "usage": "Множественное число: i prezzi.", "association": "money"
+  },
+  {
+    "topic": "Готовые фразы", "kind": "phrase", "italian": "c’è un errore", "ipa": "/tʃɛ un erˈrore/", "translation": "здесь есть ошибка",
+    "example": "Mi scusi, c’è un errore nel conto.", "exampleTranslation": "Извините, в счёте ошибка.", "usage": "C’è означает «есть; имеется» в единственном числе.", "association": "money"
+  },
+  {
+    "topic": "Готовые фразы", "kind": "phrase", "italian": "quattro euro e cinquanta centesimi", "ipa": "/ˈkwattro ˈɛuro e tʃiŋˈkwanta tʃenˈtezimi/", "translation": "четыре евро пятьдесят центов",
+    "example": "Costa quattro euro e cinquanta centesimi.", "exampleTranslation": "Это стоит четыре евро пятьдесят центов.", "usage": "После cinquanta употребляется множественное число centesimi.", "association": "money"
+  },
+  {
+    "topic": "Готовые фразы", "kind": "phrase", "italian": "il resto è la mancia", "ipa": "/il ˈrɛsto ɛ la ˈmantʃa/", "translation": "сдача — это чаевые",
+    "example": "Grazie, il resto è la mancia.", "exampleTranslation": "Спасибо, сдача — это чаевые.", "usage": "Фраза при оплате в кафе или ресторане.", "association": "money"
+  },
+  {
+    "topic": "Существительные", "kind": "word", "italian": "l’ordine", "ipa": "/ˈordine/", "translation": "заказ",
+    "example": "Il suo ordine è pronto.", "exampleTranslation": "Ваш заказ готов.", "usage": "В этом значении: заказ в кафе, магазине или сервисе.", "association": "food"
+  },
+  {
+    "topic": "Прилагательные", "kind": "word", "italian": "altro", "ipa": "/ˈaltro/", "translation": "другой; ещё один",
+    "example": "Vorrei un altro caffè.", "exampleTranslation": "Я хотел бы ещё один кофе.", "usage": "Формы: altro, altra, altri, altre.", "association": "arrows"
+  },
+  {
+    "topic": "Прилагательные", "kind": "word", "italian": "divertente", "ipa": "/diverˈtɛnte/", "translation": "смешной; занимательный; развлекательный",
+    "example": "Il film è divertente.", "exampleTranslation": "Фильм смешной и занимательный.", "usage": "Одинаковая форма для мужского и женского рода.", "association": "smile"
+  },
+  {
+    "topic": "Готовые фразы", "kind": "word", "italian": "abbastanza", "ipa": "/abbasˈtantsa/", "translation": "достаточно; довольно",
+    "example": "La stanza è abbastanza grande.", "exampleTranslation": "Комната достаточно большая.", "usage": "Наречие степени.", "association": "numbers"
+  },
+  {
+    "topic": "Готовые фразы", "kind": "phrase", "italian": "al consolato", "ipa": "/al konsoˈlato/", "translation": "в консульство; в консульстве",
+    "example": "Domani vado al consolato.", "exampleTranslation": "Завтра я иду в консульство.", "usage": "Al = a + il; точный перевод зависит от глагола.", "association": "building"
+  },
+  {
+    "topic": "Готовые фразы", "kind": "phrase", "italian": "all’ambasciata", "ipa": "/allambaʃˈʃata/", "translation": "в посольство; в посольстве",
+    "example": "Lei lavora all’ambasciata.", "exampleTranslation": "Она работает в посольстве.", "usage": "All’ = a + l’; точный перевод зависит от глагола.", "association": "building"
+  },
+  {
+    "topic": "Готовые фразы", "kind": "phrase", "italian": "Vendi qualcosa oggi?", "ipa": "/ˈvendi kwalˈkɔza ˈɔddʒi/", "translation": "Ты сегодня что-нибудь продаёшь?",
+    "example": "Vendi qualcosa oggi al mercato?", "exampleTranslation": "Ты сегодня что-нибудь продаёшь на рынке?", "usage": "Вопрос во 2-м лице единственного числа от vendere.", "association": "market"
+  },
+  {
+    "topic": "Существительные", "kind": "word", "italian": "la cosa", "ipa": "/la ˈkɔza/", "translation": "вещь; предмет",
+    "example": "Questa cosa è importante.", "exampleTranslation": "Эта вещь важна.", "usage": "Множественное число: le cose.", "association": "box"
+  },
+  {
+    "topic": "Погода", "kind": "phrase", "italian": "tredici gradi", "ipa": "/ˈtreditʃi ˈɡradi/", "translation": "тринадцать градусов",
+    "example": "Oggi ci sono tredici gradi.", "exampleTranslation": "Сегодня тринадцать градусов.", "usage": "Температура с числом больше одного: gradi.", "association": "weather"
+  },
+  {
+    "topic": "Погода", "kind": "phrase", "italian": "è soleggiato", "ipa": "/ɛ soledˈdʒato/", "translation": "солнечно",
+    "example": "Oggi è soleggiato.", "exampleTranslation": "Сегодня солнечно.", "usage": "Описание солнечной погоды.", "association": "weather"
+  },
+  {
+    "topic": "Существительные", "kind": "word", "italian": "il sole", "ipa": "/il ˈsole/", "translation": "солнце",
+    "example": "Il sole splende.", "exampleTranslation": "Солнце светит.", "usage": "Существительное мужского рода.", "association": "weather"
+  },
+  {
+    "topic": "Погода", "kind": "phrase", "italian": "è nuvoloso", "ipa": "/ɛ nuvoˈlozo/", "translation": "облачно",
+    "example": "Stamattina è nuvoloso.", "exampleTranslation": "Сегодня утром облачно.", "usage": "Описание облачной погоды.", "association": "weather"
+  },
+  {
+    "topic": "Существительные", "kind": "word", "italian": "la nuvola", "ipa": "/la ˈnuvola/", "translation": "облако",
+    "example": "Vedo una nuvola bianca.", "exampleTranslation": "Я вижу белое облако.", "usage": "Множественное число: le nuvole.", "association": "weather"
+  },
+  {
+    "topic": "Погода", "kind": "phrase", "italian": "è ventoso", "ipa": "/ɛ venˈtozo/", "translation": "ветрено",
+    "example": "Oggi è molto ventoso.", "exampleTranslation": "Сегодня очень ветрено.", "usage": "Описание ветреной погоды.", "association": "weather"
+  },
+  {
+    "topic": "Существительные", "kind": "word", "italian": "il vento", "ipa": "/il ˈvɛnto/", "translation": "ветер",
+    "example": "Il vento è forte.", "exampleTranslation": "Ветер сильный.", "usage": "Существительное мужского рода.", "association": "weather"
+  },
+  {
+    "topic": "Погода", "kind": "phrase", "italian": "è piovoso", "ipa": "/ɛ pjoˈvozo/", "translation": "дождливо",
+    "example": "L’autunno qui è piovoso.", "exampleTranslation": "Осень здесь дождливая.", "usage": "Часто характеризует день, сезон или климат.", "association": "weather"
+  },
+  {
+    "topic": "Существительные", "kind": "word", "italian": "la pioggia", "ipa": "/la ˈpjɔddʒa/", "translation": "дождь",
+    "example": "La pioggia continua.", "exampleTranslation": "Дождь продолжается.", "usage": "Существительное женского рода.", "association": "weather"
+  },
+  {
+    "topic": "Погода", "kind": "phrase", "italian": "c’è il sole", "ipa": "/tʃɛ il ˈsole/", "translation": "солнечно; светит солнце",
+    "example": "Oggi c’è il sole.", "exampleTranslation": "Сегодня солнечно.", "usage": "Разговорное описание погоды.", "association": "weather"
+  },
+  {
+    "topic": "Погода", "kind": "phrase", "italian": "c’è vento", "ipa": "/tʃɛ ˈvɛnto/", "translation": "ветрено; есть ветер",
+    "example": "Fuori c’è molto vento.", "exampleTranslation": "На улице очень ветрено.", "usage": "Разговорное описание погоды.", "association": "weather"
+  },
+  {
+    "topic": "Погода", "kind": "phrase", "italian": "piove", "ipa": "/ˈpjɔve/", "translation": "идёт дождь",
+    "example": "Oggi piove tutto il giorno.", "exampleTranslation": "Сегодня дождь идёт весь день.", "usage": "Естественная итальянская фраза вместо c’è la pioggia.", "association": "weather"
+  },
+  {
+    "topic": "Погода", "kind": "phrase", "italian": "ci sono le nuvole", "ipa": "/tʃi ˈsono le ˈnuvole/", "translation": "на небе облака",
+    "example": "Oggi ci sono molte nuvole.", "exampleTranslation": "Сегодня на небе много облаков.", "usage": "Ci sono употребляется с существительным во множественном числе.", "association": "weather"
   }
 ]
