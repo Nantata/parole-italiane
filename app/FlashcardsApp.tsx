@@ -77,6 +77,13 @@ const LATEST_NEW_CARD_ITALIAN = new Set([
   "tredici gradi", "è soleggiato", "il sole", "è nuvoloso", "la nuvola",
   "è ventoso", "il vento", "è piovoso", "la pioggia", "c’è il sole",
   "c’è vento", "piove", "ci sono le nuvole",
+  "amare", "la cultura", "sperare", "arrivare", "presto", "la lezione",
+  "spesso", "lungo", "la lettera", "vicino a", "il lago", "ascoltare",
+  "volentieri", "il treno", "partire", "pulire", "sempre", "con cura",
+  "il libro", "leggere", "ogni anno", "ricevere", "la cartolina", "la cena",
+  "mangiare", "scrivere", "vivere", "chiudere", "dormire", "parlare",
+  "guardare", "capire", "sentire", "diverse lingue straniere", "il pesce",
+  "la carne", "mai", "quasi", "quasi mai", "il pacco", "all’estero",
 ].map((italian) => italian.toLocaleLowerCase("it")));
 
 const groupedTopicTitles: Record<number, string> = {
@@ -198,6 +205,8 @@ function presentForms(forms: string[]): VerbForm[] {
   return presentPronouns.map((pronoun, index) => ({ pronoun, form: forms[index] }));
 }
 const regularPresentConjugations: Record<string, VerbForm[]> = {
+  amare: presentForms(["amo", "ami", "ama", "amiamo", "amate", "amano"]),
+  sperare: presentForms(["spero", "speri", "spera", "speriamo", "sperate", "sperano"]),
   parlare: presentForms(["parlo", "parli", "parla", "parliamo", "parlate", "parlano"]),
   prendere: presentForms(["prendo", "prendi", "prende", "prendiamo", "prendete", "prendono"]),
   correre: presentForms(["corro", "corri", "corre", "corriamo", "correte", "corrono"]),

@@ -8622,5 +8622,192 @@
   {
     "topic": "Погода", "kind": "phrase", "italian": "ci sono le nuvole", "ipa": "/tʃi ˈsono le ˈnuvole/", "translation": "на небе облака",
     "example": "Oggi ci sono molte nuvole.", "exampleTranslation": "Сегодня на небе много облаков.", "usage": "Ci sono употребляется с существительным во множественном числе.", "association": "weather"
+  },
+  {
+    "topic": "Глаголы",
+    "kind": "word",
+    "italian": "amare",
+    "ipa": "/aˈmare/",
+    "translation": "любить",
+    "example": "Amo la mia famiglia.",
+    "exampleTranslation": "Я люблю свою семью.",
+    "usage": "Правильный глагол на -are.",
+    "association": "heart"
+  },
+  {
+    "topic": "Существительные",
+    "kind": "word",
+    "italian": "la cultura",
+    "ipa": "/la kulˈtura/",
+    "translation": "культура",
+    "example": "La cultura italiana è molto interessante.",
+    "exampleTranslation": "Итальянская культура очень интересная.",
+    "usage": "Женский род. Множественное число: le culture — культуры.",
+    "association": "italy"
+  },
+  {
+    "topic": "Глаголы",
+    "kind": "word",
+    "italian": "sperare",
+    "ipa": "/speˈrare/",
+    "translation": "надеяться",
+    "example": "Spero di vederti presto.",
+    "exampleTranslation": "Надеюсь скоро тебя увидеть.",
+    "usage": "Правильный глагол на -are.",
+    "association": "star"
+  },
+  {
+    "topic": "Готовые фразы",
+    "kind": "word",
+    "italian": "spesso",
+    "ipa": "/ˈspesso/",
+    "translation": "часто",
+    "example": "Vado spesso al lago.",
+    "exampleTranslation": "Я часто езжу на озеро.",
+    "usage": "Наречие частоты.",
+    "association": "calendar"
+  },
+  {
+    "topic": "Существительные",
+    "kind": "word",
+    "italian": "la lettera",
+    "ipa": "/la ˈlɛttera/",
+    "translation": "письмо",
+    "example": "Scrivo una lettera a mia nonna.",
+    "exampleTranslation": "Я пишу письмо своей бабушке.",
+    "usage": "Женский род. Множественное число: le lettere — письма.",
+    "association": "letter"
+  },
+  {
+    "topic": "Готовые фразы",
+    "kind": "phrase",
+    "italian": "vicino a",
+    "ipa": "/viˈtʃino a/",
+    "translation": "рядом с",
+    "example": "Abito vicino alla stazione.",
+    "exampleTranslation": "Я живу рядом со станцией.",
+    "usage": "После a артикль может сливаться с предлогом: alla, al, all’.",
+    "association": "house"
+  },
+  {
+    "topic": "Готовые фразы",
+    "kind": "word",
+    "italian": "volentieri",
+    "ipa": "/volenˈtjɛri/",
+    "translation": "охотно; с удовольствием",
+    "example": "Bevo volentieri un caffè.",
+    "exampleTranslation": "Я с удовольствием выпью кофе.",
+    "usage": "Наречие, выражающее желание или удовольствие.",
+    "association": "coffee"
+  },
+  {
+    "topic": "Готовые фразы",
+    "kind": "phrase",
+    "italian": "con cura",
+    "ipa": "/koŋ ˈkura/",
+    "translation": "аккуратно; тщательно",
+    "example": "Pulisco la cucina con cura.",
+    "exampleTranslation": "Я тщательно убираю кухню.",
+    "usage": "Устойчивое сочетание со значением «внимательно, тщательно».",
+    "association": "clean"
+  },
+  {
+    "topic": "Готовые фразы",
+    "kind": "phrase",
+    "italian": "ogni anno",
+    "ipa": "/ˈoɲɲi ˈanno/",
+    "translation": "каждый год",
+    "example": "Ogni anno visitiamo Roma.",
+    "exampleTranslation": "Каждый год мы посещаем Рим.",
+    "usage": "Выражение периодичности.",
+    "association": "calendar"
+  },
+  {
+    "topic": "Существительные",
+    "kind": "word",
+    "italian": "la cartolina",
+    "ipa": "/la kartoˈlina/",
+    "translation": "открытка",
+    "example": "Ricevo una cartolina da Roma.",
+    "exampleTranslation": "Я получаю открытку из Рима.",
+    "usage": "Женский род. Множественное число: le cartoline — открытки.",
+    "association": "letter"
+  },
+  {
+    "topic": "Существительные",
+    "kind": "word",
+    "italian": "la cena",
+    "ipa": "/la ˈtʃena/",
+    "translation": "ужин",
+    "example": "Preparo la cena per la famiglia.",
+    "exampleTranslation": "Я готовлю ужин для семьи.",
+    "usage": "Женский род. Множественное число: le cene — ужины.",
+    "association": "food"
+  },
+  {
+    "topic": "Готовые фразы",
+    "kind": "phrase",
+    "italian": "diverse lingue straniere",
+    "ipa": "/diˈvɛrse ˈliŋɡwe straˈnjɛre/",
+    "translation": "несколько разных иностранных языков",
+    "example": "Lei parla diverse lingue straniere.",
+    "exampleTranslation": "Она говорит на нескольких иностранных языках.",
+    "usage": "Цельное словосочетание во множественном числе.",
+    "association": "languages"
+  },
+  {
+    "topic": "Существительные",
+    "kind": "word",
+    "italian": "la carne",
+    "ipa": "/la ˈkarne/",
+    "translation": "мясо",
+    "example": "Non mangio la carne.",
+    "exampleTranslation": "Я не ем мясо.",
+    "usage": "Женский род. В значении продукта обычно употребляется как неисчисляемое существительное.",
+    "association": "food"
+  },
+  {
+    "topic": "Готовые фразы",
+    "kind": "word",
+    "italian": "quasi",
+    "ipa": "/ˈkwazi/",
+    "translation": "почти",
+    "example": "La cena è quasi pronta.",
+    "exampleTranslation": "Ужин почти готов.",
+    "usage": "Наречие степени.",
+    "association": "food"
+  },
+  {
+    "topic": "Готовые фразы",
+    "kind": "phrase",
+    "italian": "quasi mai",
+    "ipa": "/ˈkwazi ˈmai/",
+    "translation": "почти никогда",
+    "example": "Non mangio quasi mai la carne.",
+    "exampleTranslation": "Я почти никогда не ем мясо.",
+    "usage": "В отрицательном предложении обычно употребляется с non.",
+    "association": "calendar"
+  },
+  {
+    "topic": "Существительные",
+    "kind": "word",
+    "italian": "il pacco",
+    "ipa": "/il ˈpakko/",
+    "translation": "посылка",
+    "example": "Ricevo un pacco dall’Italia.",
+    "exampleTranslation": "Я получаю посылку из Италии.",
+    "usage": "Мужской род. Множественное число: i pacchi — посылки.",
+    "association": "box"
+  },
+  {
+    "topic": "Готовые фразы",
+    "kind": "phrase",
+    "italian": "all’estero",
+    "ipa": "/alˈlɛstero/",
+    "translation": "за границей; за границу",
+    "example": "Mio fratello vive all’estero.",
+    "exampleTranslation": "Мой брат живёт за границей.",
+    "usage": "Точный русский перевод зависит от глагола движения или нахождения.",
+    "association": "travel"
   }
 ]
