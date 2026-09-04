@@ -8270,5 +8270,193 @@
     "exampleTranslation": "Я хожу в бассейн по субботам.",
     "usage": "",
     "association": "book"
+  },
+  {
+    "topic": "Глаголы", "kind": "word", "italian": "aiutare", "ipa": "/ajuˈtare/", "translation": "помогать",
+    "example": "Ti aiutiamo con le valigie.", "exampleTranslation": "Мы помогаем тебе с чемоданами.", "usage": "", "association": "book"
+  },
+  {
+    "topic": "Глаголы", "kind": "word", "italian": "alzarsi", "ipa": "/alˈtsarsi/", "translation": "вставать; подниматься",
+    "example": "Mi alzo alle sette.", "exampleTranslation": "Я встаю в семь.", "usage": "Возвратный глагол: mi alzo, ti alzi, si alza, ci alziamo, vi alzate, si alzano.", "association": "book"
+  },
+  {
+    "topic": "Глаголы", "kind": "word", "italian": "aprire", "ipa": "/aˈprire/", "translation": "открывать",
+    "example": "Lei apre un barattolo.", "exampleTranslation": "Она открывает банку.", "usage": "", "association": "book"
+  },
+  {
+    "topic": "Глаголы", "kind": "word", "italian": "arrivare", "ipa": "/arriˈvare/", "translation": "прибывать; приходить",
+    "example": "Loro arrivano alle otto.", "exampleTranslation": "Они приходят в восемь.", "usage": "", "association": "book"
+  },
+  {
+    "topic": "Глаголы", "kind": "word", "italian": "bere", "ipa": "/ˈbere/", "translation": "пить",
+    "example": "Beviamo il caffè insieme.", "exampleTranslation": "Мы пьём кофе вместе.", "usage": "", "association": "book"
+  },
+  {
+    "topic": "Глаголы", "kind": "word", "italian": "cambiare", "ipa": "/kamˈbjare/", "translation": "менять; изменять",
+    "example": "Tu cambi spesso idea.", "exampleTranslation": "Ты часто меняешь мнение.", "usage": "", "association": "book"
+  },
+  {
+    "topic": "Глаголы", "kind": "word", "italian": "camminare", "ipa": "/kammiˈnare/", "translation": "ходить пешком",
+    "example": "Camminiamo nel parco.", "exampleTranslation": "Мы гуляем пешком в парке.", "usage": "", "association": "book"
+  },
+  {
+    "topic": "Глаголы", "kind": "word", "italian": "comprare", "ipa": "/komˈprare/", "translation": "покупать",
+    "example": "Lui compra il pane.", "exampleTranslation": "Он покупает хлеб.", "usage": "", "association": "book"
+  },
+  {
+    "topic": "Глаголы", "kind": "word", "italian": "continuare", "ipa": "/kontinuˈare/", "translation": "продолжать",
+    "example": "Continuate a studiare.", "exampleTranslation": "Вы продолжаете учиться.", "usage": "", "association": "book"
+  },
+  {
+    "topic": "Глаголы", "kind": "word", "italian": "costare", "ipa": "/koˈstare/", "translation": "стоить",
+    "example": "Quanto costa questa borsa?", "exampleTranslation": "Сколько стоит эта сумка?", "usage": "", "association": "book"
+  },
+  {
+    "topic": "Глаголы", "kind": "word", "italian": "cucinare", "ipa": "/kutʃiˈnare/", "translation": "готовить",
+    "example": "Stasera cucino la pasta.", "exampleTranslation": "Сегодня вечером я готовлю пасту.", "usage": "", "association": "book"
+  },
+  {
+    "topic": "Глаголы", "kind": "word", "italian": "dimenticare", "ipa": "/dimentiˈkare/", "translation": "забывать",
+    "example": "Lei dimentica sempre le chiavi.", "exampleTranslation": "Она всегда забывает ключи.", "usage": "", "association": "book"
+  },
+  {
+    "topic": "Глаголы", "kind": "word", "italian": "dire", "ipa": "/ˈdire/", "translation": "говорить; сказать",
+    "example": "Ti dico la verità.", "exampleTranslation": "Я говорю тебе правду.", "usage": "", "association": "book"
+  },
+  {
+    "topic": "Глаголы", "kind": "word", "italian": "divertirsi", "ipa": "/diverˈtirsi/", "translation": "развлекаться; веселиться",
+    "example": "I bambini si divertono al parco.", "exampleTranslation": "Дети веселятся в парке.", "usage": "Возвратный глагол: mi diverto, ti diverti, si diverte, ci divertiamo, vi divertite, si divertono.", "association": "book"
+  },
+  {
+    "topic": "Глаголы", "kind": "word", "italian": "dormire", "ipa": "/dorˈmire/", "translation": "спать",
+    "example": "Lui dorme otto ore.", "exampleTranslation": "Он спит восемь часов.", "usage": "", "association": "book"
+  },
+  {
+    "topic": "Глаголы", "kind": "word", "italian": "dovere", "ipa": "/doˈvere/", "translation": "быть должным; быть обязанным",
+    "example": "Dobbiamo andare al lavoro.", "exampleTranslation": "Нам нужно идти на работу.", "usage": "", "association": "book"
+  },
+  {
+    "topic": "Глаголы", "kind": "word", "italian": "entrare", "ipa": "/enˈtrare/", "translation": "входить",
+    "example": "Loro entrano in un bar.", "exampleTranslation": "Они заходят в бар.", "usage": "", "association": "book"
+  },
+  {
+    "topic": "Глаголы", "kind": "word", "italian": "finire", "ipa": "/fiˈnire/", "translation": "заканчивать; заканчиваться",
+    "example": "Finisco il lavoro alle sei.", "exampleTranslation": "Я заканчиваю работу в шесть.", "usage": "", "association": "book"
+  },
+  {
+    "topic": "Глаголы", "kind": "word", "italian": "imparare", "ipa": "/impaˈrare/", "translation": "учить; узнавать",
+    "example": "Impariamo nuove parole.", "exampleTranslation": "Мы учим новые слова.", "usage": "", "association": "book"
+  },
+  {
+    "topic": "Глаголы", "kind": "word", "italian": "incontrare", "ipa": "/inkonˈtrare/", "translation": "встречать",
+    "example": "Lei incontra un’amica al bar.", "exampleTranslation": "Она встречает подругу в кафе.", "usage": "", "association": "book"
+  },
+  {
+    "topic": "Глаголы", "kind": "word", "italian": "lasciare", "ipa": "/laʃˈʃare/", "translation": "оставлять; покидать",
+    "example": "Lascio le chiavi sul tavolo.", "exampleTranslation": "Я оставляю ключи на столе.", "usage": "", "association": "book"
+  },
+  {
+    "topic": "Глаголы", "kind": "word", "italian": "lavarsi", "ipa": "/laˈvarsi/", "translation": "мыться",
+    "example": "I bambini si lavano le mani.", "exampleTranslation": "Дети моют руки.", "usage": "Возвратный глагол: mi lavo, ti lavi, si lava, ci laviamo, vi lavate, si lavano.", "association": "book"
+  },
+  {
+    "topic": "Глаголы", "kind": "word", "italian": "mostrare", "ipa": "/moˈstrare/", "translation": "показывать",
+    "example": "Ti mostro una fotografia.", "exampleTranslation": "Я показываю тебе фотографию.", "usage": "", "association": "book"
+  },
+  {
+    "topic": "Глаголы", "kind": "word", "italian": "offrire", "ipa": "/ofˈfrire/", "translation": "предлагать; угощать",
+    "example": "Lui offre il caffè agli amici.", "exampleTranslation": "Он угощает друзей кофе.", "usage": "", "association": "book"
+  },
+  {
+    "topic": "Глаголы", "kind": "word", "italian": "ordinare", "ipa": "/ordiˈnare/", "translation": "заказывать; приводить в порядок",
+    "example": "Ordiniamo due pizze.", "exampleTranslation": "Мы заказываем две пиццы.", "usage": "", "association": "book"
+  },
+  {
+    "topic": "Глаголы", "kind": "word", "italian": "pagare", "ipa": "/paˈɡare/", "translation": "платить",
+    "example": "Paghi con la carta?", "exampleTranslation": "Ты платишь картой?", "usage": "", "association": "book"
+  },
+  {
+    "topic": "Глаголы", "kind": "word", "italian": "passare", "ipa": "/pasˈsare/", "translation": "проходить; проводить время",
+    "example": "Loro passano il fine settimana al mare.", "exampleTranslation": "Они проводят выходные у моря.", "usage": "", "association": "book"
+  },
+  {
+    "topic": "Глаголы", "kind": "word", "italian": "piacere", "ipa": "/pjaˈtʃere/", "translation": "нравиться",
+    "example": "Mi piace studiare l’italiano.", "exampleTranslation": "Мне нравится изучать итальянский.", "usage": "Обычно: mi piace + единственное число или инфинитив; mi piacciono + множественное число.", "association": "book"
+  },
+  {
+    "topic": "Глаголы", "kind": "word", "italian": "portare", "ipa": "/porˈtare/", "translation": "нести; приносить",
+    "example": "Portate una bottiglia d’acqua.", "exampleTranslation": "Вы приносите бутылку воды.", "usage": "", "association": "book"
+  },
+  {
+    "topic": "Глаголы", "kind": "word", "italian": "potere", "ipa": "/poˈtere/", "translation": "мочь",
+    "example": "Posso aprire la finestra?", "exampleTranslation": "Можно мне открыть окно?", "usage": "", "association": "book"
+  },
+  {
+    "topic": "Глаголы", "kind": "word", "italian": "preferire", "ipa": "/prefeˈrire/", "translation": "предпочитать",
+    "example": "Lei preferisce il tè.", "exampleTranslation": "Она предпочитает чай.", "usage": "", "association": "book"
+  },
+  {
+    "topic": "Глаголы", "kind": "word", "italian": "prenotare", "ipa": "/prenoˈtare/", "translation": "бронировать",
+    "example": "Prenotiamo un tavolo per quattro.", "exampleTranslation": "Мы бронируем столик на четверых.", "usage": "", "association": "book"
+  },
+  {
+    "topic": "Глаголы", "kind": "word", "italian": "preparare", "ipa": "/prepaˈrare/", "translation": "готовить; подготавливать",
+    "example": "Tu prepari la cena.", "exampleTranslation": "Ты готовишь ужин.", "usage": "", "association": "book"
+  },
+  {
+    "topic": "Глаголы", "kind": "word", "italian": "prepararsi", "ipa": "/prepaˈrarsi/", "translation": "готовиться",
+    "example": "Ci prepariamo per il lavoro.", "exampleTranslation": "Мы готовимся к работе.", "usage": "Возвратный глагол: mi preparo, ti prepari, si prepara, ci prepariamo, vi preparate, si preparano.", "association": "book"
+  },
+  {
+    "topic": "Глаголы", "kind": "word", "italian": "provare", "ipa": "/proˈvare/", "translation": "пробовать; пытаться",
+    "example": "Provate questo piatto.", "exampleTranslation": "Вы пробуете это блюдо.", "usage": "", "association": "book"
+  },
+  {
+    "topic": "Глаголы", "kind": "word", "italian": "pulire", "ipa": "/puˈlire/", "translation": "чистить; убирать",
+    "example": "Lui pulisce la cucina.", "exampleTranslation": "Он убирает кухню.", "usage": "", "association": "book"
+  },
+  {
+    "topic": "Глаголы", "kind": "word", "italian": "restare", "ipa": "/reˈstare/", "translation": "оставаться",
+    "example": "Restiamo a casa stasera.", "exampleTranslation": "Сегодня вечером мы остаёмся дома.", "usage": "", "association": "book"
+  },
+  {
+    "topic": "Глаголы", "kind": "word", "italian": "ricordare", "ipa": "/rikorˈdare/", "translation": "помнить; вспоминать",
+    "example": "Ricordi il suo nome?", "exampleTranslation": "Ты помнишь его имя?", "usage": "", "association": "book"
+  },
+  {
+    "topic": "Глаголы", "kind": "word", "italian": "rimanere", "ipa": "/rimaˈnere/", "translation": "оставаться",
+    "example": "Lei rimane a casa.", "exampleTranslation": "Она остаётся дома.", "usage": "", "association": "book"
+  },
+  {
+    "topic": "Глаголы", "kind": "word", "italian": "riposarsi", "ipa": "/ripoˈzarsi/", "translation": "отдыхать",
+    "example": "Dopo il lavoro mi riposo.", "exampleTranslation": "После работы я отдыхаю.", "usage": "Возвратный глагол: mi riposo, ti riposi, si riposa, ci riposiamo, vi riposate, si riposano.", "association": "book"
+  },
+  {
+    "topic": "Глаголы", "kind": "word", "italian": "sapere", "ipa": "/saˈpere/", "translation": "знать; уметь",
+    "example": "Loro sanno la risposta.", "exampleTranslation": "Они знают ответ.", "usage": "", "association": "book"
+  },
+  {
+    "topic": "Глаголы", "kind": "word", "italian": "seguire", "ipa": "/seˈɡwire/", "translation": "следовать; посещать",
+    "example": "Seguo un corso d’italiano.", "exampleTranslation": "Я посещаю курс итальянского языка.", "usage": "", "association": "book"
+  },
+  {
+    "topic": "Глаголы", "kind": "word", "italian": "servire", "ipa": "/serˈvire/", "translation": "служить; быть нужным",
+    "example": "Mi serve un taxi.", "exampleTranslation": "Мне нужно такси.", "usage": "", "association": "book"
+  },
+  {
+    "topic": "Глаголы", "kind": "word", "italian": "spedire", "ipa": "/speˈdire/", "translation": "отправлять",
+    "example": "Spediamo un pacco domani.", "exampleTranslation": "Завтра мы отправляем посылку.", "usage": "", "association": "book"
+  },
+  {
+    "topic": "Глаголы", "kind": "word", "italian": "spendere", "ipa": "/ˈspɛndere/", "translation": "тратить",
+    "example": "Spendete molto al supermercato.", "exampleTranslation": "Вы много тратите в супермаркете.", "usage": "", "association": "book"
+  },
+  {
+    "topic": "Глаголы", "kind": "word", "italian": "svegliarsi", "ipa": "/zveʎˈʎarsi/", "translation": "просыпаться",
+    "example": "Ti svegli presto ogni mattina.", "exampleTranslation": "Ты просыпаешься рано каждое утро.", "usage": "Возвратный глагол: mi sveglio, ti svegli, si sveglia, ci svegliamo, vi svegliate, si svegliano.", "association": "book"
+  },
+  {
+    "topic": "Глаголы", "kind": "word", "italian": "vestirsi", "ipa": "/veˈstirsi/", "translation": "одеваться",
+    "example": "Lei si veste velocemente.", "exampleTranslation": "Она быстро одевается.", "usage": "Возвратный глагол: mi vesto, ti vesti, si veste, ci vestiamo, vi vestite, si vestono.", "association": "book"
   }
 ]
