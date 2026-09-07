@@ -455,6 +455,10 @@ const calculationValues: Record<string, string> = {
 
 const cardImagePaths: Record<string, string> = {
   aiutare: "card-new/aiutare.webp",
+  spedire: "card-verbs/ricevere.webp?v=1",
+  spendere: "card-new/pagare.webp",
+  sperare: "card-new/restare.webp",
+  svegliarsi: "card-new/alzarsi.webp",
   alzarsi: "card-new/alzarsi.webp",
   aprire: "card-new/aprire.webp",
   arrivare: "card-new/arrivare.webp",
