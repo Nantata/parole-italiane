@@ -72,7 +72,7 @@ const LATEST_NEW_CARD_ITALIAN = new Set([
   "la fragola", "alcolico", "analcolico", "non bevo alcolici",
   "una bottiglia di…", "una fetta di torta", "guidare", "il prezzo",
   "c’è un errore", "quattro euro e cinquanta centesimi",
-  "il resto è la mancia", "l’ordine", "altro", "divertente", "abbastanza",
+  "il resto è la mancia", "l'ordine", "altro", "divertente", "abbastanza",
   "al consolato", "all’ambasciata", "vendi qualcosa oggi?", "la cosa",
   "tredici gradi", "è soleggiato", "il sole", "è nuvoloso", "la nuvola",
   "è ventoso", "il vento", "è piovoso", "la pioggia", "c’è il sole",
@@ -83,7 +83,7 @@ const LATEST_NEW_CARD_ITALIAN = new Set([
   "il libro", "leggere", "ogni anno", "ricevere", "la cartolina", "la cena",
   "mangiare", "scrivere", "vivere", "chiudere", "dormire", "parlare",
   "guardare", "capire", "sentire", "diverse lingue straniere", "il pesce",
-  "la carne", "mai", "quasi", "quasi mai", "il pacco", "all’estero",
+  "la carne", "mai", "quasi", "quasi mai", "il pacco", "all'estero",
 ].map((italian) => italian.toLocaleLowerCase("it")));
 
 const groupedTopicTitles: Record<number, string> = {
@@ -459,7 +459,7 @@ const cardImagePaths: Record<string, string> = {
   "il prezzo": "card-new/il-prezzo.webp",
   "il sole": "card-new/il-sole.webp",
   "il vento": "card-new/il-vento.webp",
-  "l’ordine": "card-new/l-ordine.webp",
+  "l'ordine": "card-new/l-ordine.webp",
   "la carne": "card-new/la-carne.webp",
   "la cartolina": "card-new/la-cartolina.webp",
   "la cena": "card-new/la-cena.webp",
@@ -468,7 +468,7 @@ const cardImagePaths: Record<string, string> = {
   "la lettera": "card-new/la-lettera.webp",
   "la nuvola": "card-new/la-nuvola.webp",
   "la pioggia": "card-new/la-pioggia.webp",
-  "all’estero": "card-new/all-estero.webp",
+  "all'estero": "card-new/all-estero.webp",
   "vicino a": "card-new/vicino-a.webp",
   volentieri: "card-new/volentieri.webp",
 
