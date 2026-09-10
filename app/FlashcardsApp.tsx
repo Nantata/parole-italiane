@@ -454,6 +454,24 @@ const calculationValues: Record<string, string> = {
 };
 
 const cardImagePaths: Record<string, string> = {
+    amare: "card-new/amare.webp",
+  "il pacco": "card-new/il-pacco.webp",
+  "il prezzo": "card-new/il-prezzo.webp",
+  "il sole": "card-new/il-sole.webp",
+  "il vento": "card-new/il-vento.webp",
+  "l’ordine": "card-new/l-ordine.webp",
+  "la carne": "card-new/la-carne.webp",
+  "la cartolina": "card-new/la-cartolina.webp",
+  "la cena": "card-new/la-cena.webp",
+  "la cosa": "card-new/la-cosa.webp",
+  "la cultura": "card-new/la-cultura.webp",
+  "la lettera": "card-new/la-lettera.webp",
+  "la nuvola": "card-new/la-nuvola.webp",
+  "la pioggia": "card-new/la-pioggia.webp",
+  "all’estero": "card-new/all-estero.webp",
+  "vicino a": "card-new/vicino-a.webp",
+  volentieri: "card-new/volentieri.webp",
+
   aiutare: "card-new/aiutare.webp",
   spedire: "card-verbs/ricevere.webp?v=1",
   spendere: "card-new/pagare.webp",
