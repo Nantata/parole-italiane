@@ -72,7 +72,7 @@ const LATEST_NEW_CARD_ITALIAN = new Set([
   "la fragola", "alcolico", "analcolico", "non bevo alcolici",
   "una bottiglia di…", "una fetta di torta", "guidare", "il prezzo",
   "c’è un errore", "quattro euro e cinquanta centesimi",
-  "il resto è la mancia", "l'ordine", "altro", "divertente", "abbastanza",
+  "il resto è la mancia", "l’ordine", "altro", "divertente", "abbastanza",
   "al consolato", "all’ambasciata", "vendi qualcosa oggi?", "la cosa",
   "tredici gradi", "è soleggiato", "il sole", "è nuvoloso", "la nuvola",
   "è ventoso", "il vento", "è piovoso", "la pioggia", "c’è il sole",
@@ -83,7 +83,7 @@ const LATEST_NEW_CARD_ITALIAN = new Set([
   "il libro", "leggere", "ogni anno", "ricevere", "la cartolina", "la cena",
   "mangiare", "scrivere", "vivere", "chiudere", "dormire", "parlare",
   "guardare", "capire", "sentire", "diverse lingue straniere", "il pesce",
-  "la carne", "mai", "quasi", "quasi mai", "il pacco", "all'estero",
+  "la carne", "mai", "quasi", "quasi mai", "il pacco", "all’estero",
 ].map((italian) => italian.toLocaleLowerCase("it")));
 
 const groupedTopicTitles: Record<number, string> = {
